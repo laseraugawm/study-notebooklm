@@ -64,7 +64,19 @@ audio,video{width:100%;max-width:100%}
 .vid{border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-bottom:14px}
 .vid summary{cursor:pointer;font-weight:500;font-size:14px}
 .vid video{margin-top:8px;max-height:56vh;background:#000;border-radius:4px}
-.pend{font-size:13px;color:var(--muted);margin:0 0 12px}
+.pend{font-size:13px;color:var(--muted);margin:8px 0 12px}
+.desc{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px 18px;margin-top:10px;font-size:14px}
+.desc .dsum,.desc .trans{grid-column:1/-1}
+.desc h4{font-size:12px;margin:0 0 4px;color:var(--muted);letter-spacing:.02em}
+.desc p{margin:4px 0}
+.desc ol,.desc ul{margin:0;padding-left:20px}
+.dmeta{font:12px 'IBM Plex Mono',monospace;color:var(--muted)}
+.chips2{display:flex;flex-wrap:wrap;gap:4px}
+.chips2 span{font-size:12.5px;border:1px solid var(--line);border-radius:3px;padding:1px 6px}
+.miss h4{color:var(--warn)}
+.miss{border-left:3px solid var(--warn);padding-left:10px}
+.trans summary{cursor:pointer;font-size:13px;color:var(--muted)}
+.trans p{white-space:pre-line;color:var(--muted);font-size:13.5px}
 .q{border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin-bottom:12px}
 .q p{margin:0 0 8px}
 .opt{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:4px;padding:6px 10px;margin:4px 0;cursor:pointer}
@@ -171,11 +183,24 @@ async function show(u,k){
   if(k==="flashcards"&&f.json){try{return cards(await (await fetch("data/"+f.json)).json(),p,meta)}catch{}}
   p.innerHTML=`<div class="md">${md(await (await fetch("data/"+f.file)).text())}</div>${meta}`;
 }
+async function loadDesc(f){if(!f?.desc)return null;try{return await (await fetch("data/"+f.desc)).json()}catch{return null}}
+function descHtml(d,label){
+  if(!d)return `<p class="pend">${label} 내용 설명은 아직 정리 중입니다.</p>`;
+  const li=a=>(a||[]).map(x=>`<li>${esc(x)}</li>`).join("");
+  const m=s=>`${Math.floor(s/60)}분 ${String(s%60).padStart(2,"0")}초`;
+  return `<div class="desc"><div class="dsum"><b>${label} 내용</b> <span class="dmeta">${m(d.duration||0)}</span><p>${esc(d.summary)}</p></div>
+  ${d.chapters?.length?`<div><h4>흐름</h4><ol>${li(d.chapters)}</ol></div>`:""}
+  ${d.concepts?.length?`<div><h4>다룬 개념</h4><div class="chips2">${d.concepts.map(x=>`<span>${esc(x)}</span>`).join("")}</div></div>`:""}
+  ${d.missing?.length?`<div class="miss"><h4>개념정리 대비 빠진 내용 ${d.missing.length}</h4><ul>${li(d.missing)}</ul></div>`:""}
+  ${d.errors?.length?`<div class="miss"><h4>확인이 필요한 진술</h4><ul>${li(d.errors)}</ul></div>`:""}
+  <details class="trans"><summary>전체 대본 (${(d.transcript||"").length}자)</summary><p>${esc(d.transcript)}</p></details></div>`;
+}
 async function study(u,p){
   const a=u.files.audio,v=u.files.video,r=u.files.report;
   const ok=f=>f?.file&&!f.local_only;
-  const media=(ok(a)?`<div class="mstrip"><span class="ml">오디오 요약</span><audio controls preload="metadata" src="data/${esc(a.file)}"></audio></div>`:"")+
-    (ok(v)?`<details class="vid" open><summary>영상 해설 (화이트보드)</summary><video controls preload="metadata" src="data/${esc(v.file)}"></video></details>`:"")+
+  const [ad,vd]=await Promise.all([loadDesc(a),loadDesc(v)]);
+  const media=(ok(a)?`<div class="mstrip"><span class="ml">오디오 요약</span><audio controls preload="metadata" src="data/${esc(a.file)}"></audio></div><details class="vid"><summary>오디오 내용 설명${ad?.missing?.length?` · 빠진 내용 ${ad.missing.length}`:""}</summary>${descHtml(ad,"오디오")}</details>`:"")+
+    (ok(v)?`<details class="vid" open><summary>영상 해설 (화이트보드)${vd?.missing?.length?` · 빠진 내용 ${vd.missing.length}`:""}</summary><video controls preload="metadata" src="data/${esc(v.file)}"></video>${descHtml(vd,"영상")}</details>`:"")+
     (!ok(a)||!ok(v)?`<p class="pend">${[!ok(a)?"오디오":"",!ok(v)?"영상":""].filter(Boolean).join("·")}은 아직 준비 중입니다. 달력에서 예정일을 볼 수 있습니다.</p>`:"");
   let body;
   if(r?.file)body=`<div class="md">${md(await (await fetch("data/"+r.file)).text())}</div><div class="meta">${esc(r.file)} · 생성 ${esc(r.secs)}초 · ${esc(r.at)}</div>`;

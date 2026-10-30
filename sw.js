@@ -1,4 +1,4 @@
-const CACHE = 'study-v5';
+const CACHE = 'study-v6';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
