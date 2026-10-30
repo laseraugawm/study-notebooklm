@@ -90,7 +90,7 @@ const KINDS=[["report","개념정리"],["quiz","퀴즈"],["flashcards","플래�
 let M,cur={u:0,k:"report"};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const md=t=>DOMPurify.sanitize(marked.parse(t));
+const md=t=>DOMPurify.sanitize(marked.parse(t.replace(/\*\*([^*\n]+?)\*\*/g,"<strong>$1</strong>")));
 async function boot(){
   M=await (await fetch("data/manifest.json",{cache:"no-store"})).json();
   $("#sub").textContent=`${M.subject} · ${M.chapter} · 갱신 ${M.updated}`;
