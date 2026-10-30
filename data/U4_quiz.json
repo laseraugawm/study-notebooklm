@@ -1,0 +1,317 @@
+{
+  "title": "IoT Quiz",
+  "questions": [
+    {
+      "question": "In the clap-controlled light experiment using the micro:bit, what is the valid numerical range for input sound detected by the built-in microphone, and what threshold value was set in the textbook algorithm to trigger a state change?",
+      "answerOptions": [
+        {
+          "text": "Range: $0$ to $255$; Threshold: $100$",
+          "rationale": "The microphone maps acoustic input to an 8-bit range ($0$ to $255$), and $100$ is designated as the default threshold level for detecting a clap.",
+          "isCorrect": true
+        },
+        {
+          "text": "Range: $-1024$ to $+1024$; Threshold: $100$",
+          "rationale": "The range $-1024$ to $+1024$ corresponds to accelerometer sensor readings, not sound intensity values.",
+          "isCorrect": false
+        },
+        {
+          "text": "Range: $0$ to $100$; Threshold: $50$",
+          "rationale": "Sound input is not scaled on a 0\u2013100 percentage scale; it uses the standard $0$ to $255$ range.",
+          "isCorrect": false
+        },
+        {
+          "text": "Range: $0$ to $1024$; Threshold: $500$",
+          "rationale": "The value $1024$ represents 10-bit analog ranges or accelerometer limits, not the 8-bit sound sensor range.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider the standard 8-bit integer range used for sound intensity input on the micro:bit."
+    },
+    {
+      "question": "In the clap-controlled light algorithm, why is a $0.5$-second ($500\\text{ ms}$) pause executed immediately after detecting a clap sound?",
+      "answerOptions": [
+        {
+          "text": "To prevent a single physical clap from being registered multiple times consecutively.",
+          "rationale": "Because code loops execute rapidly, a single physical clap creates acoustic reverberations that would trigger the toggle logic multiple times without a brief delay.",
+          "isCorrect": true
+        },
+        {
+          "text": "To give the LED display screen sufficient time to charge before turning on.",
+          "rationale": "LED screens respond instantly to microcontrollers and do not require power pre-charging pauses.",
+          "isCorrect": false
+        },
+        {
+          "text": "To automatically reset the internal state variable `tag` back to $0$.",
+          "rationale": "The variable `tag` is explicitly reassigned in code ($0 \\to 1$ or $1 \\to 0$), not automatically reset by a pause block.",
+          "isCorrect": false
+        },
+        {
+          "text": "To allow the micro:bit to switch from MakeCode block mode to Python text mode.",
+          "rationale": "Programming modes are selected during development and cannot be changed dynamically during script execution.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about how fast program loops execute relative to the duration of a sound wave in air."
+    },
+    {
+      "question": "In the restaurant calling system activity using multiple micro:bits, what rule must be followed regarding the radio group settings?",
+      "answerOptions": [
+        {
+          "text": "All table devices and the display device belonging to the same group must share the exact same radio group number.",
+          "rationale": "Micro:bits filter wireless radio signals by group ID, requiring communicating senders and receivers to share identical radio group settings.",
+          "isCorrect": true
+        },
+        {
+          "text": "Each table device must use a unique radio group number that is different from the display device.",
+          "rationale": "If devices use different radio group numbers, the display unit will ignore packets sent by the table devices.",
+          "isCorrect": false
+        },
+        {
+          "text": "The display device must cycle through radio group numbers every second to scan for tables.",
+          "rationale": "Scanning multiple groups dynamically is unnecessary and causes missed transmissions; static group matching is used instead.",
+          "isCorrect": false
+        },
+        {
+          "text": "Radio group numbers are fixed by hardware and cannot be customized in software.",
+          "rationale": "Radio group IDs are software parameters configured inside initialization blocks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider how devices filter wireless broadcasts so that signals from one table group do not interfere with adjacent groups."
+    },
+    {
+      "question": "In the pedestrian signal light activity, how does the mobile receiving device alter its acoustic warning when the remaining time drops to $5$ seconds or below ($5$ down to $1$)?",
+      "answerOptions": [
+        {
+          "text": "It changes the tone output from 'Mi' to a higher-pitched 'Sol' note.",
+          "rationale": "The algorithm plays 'Mi' for counts $10$ down to $6$, and switches to a higher 'Sol' note for $5$ down to $1$ to signal heightened urgency.",
+          "isCorrect": true
+        },
+        {
+          "text": "It switches the tone output from 'Sol' down to a lower-pitched 'Do' note.",
+          "rationale": "Higher urgency is indicated by switching to a higher pitch ('Sol'), not lowering pitch to 'Do'.",
+          "isCorrect": false
+        },
+        {
+          "text": "It increases the duration of the 'Mi' tone from $500\\text{ ms}$ to $1000\\text{ ms}$.",
+          "rationale": "The duration remains constant at $500\\text{ ms}$ ($0.5\\text{ seconds}$) per tone while the musical pitch changes.",
+          "isCorrect": false
+        },
+        {
+          "text": "It mutes all sound alerts and relies exclusively on visual LED numbers.",
+          "rationale": "Sound alerts remain active specifically to assist visually impaired individuals and draw attention.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Recall how musical pitch changes to indicate heightened urgency as time runs out."
+    },
+    {
+      "question": "In the safety monitoring device attached to a bathroom door, how is inactivity detected using x-axis acceleration readings $a$ and $b$ taken $100\\text{ ms}$ apart?",
+      "answerOptions": [
+        {
+          "text": "Inactivity is recorded if $a - b < 100$.",
+          "rationale": "When the door is stationary, consecutive acceleration readings are nearly equal, making their difference $a - b$ less than the motion threshold of $100$.",
+          "isCorrect": true
+        },
+        {
+          "text": "Inactivity is recorded if $a + b > 1024$.",
+          "rationale": "A large sum indicates raw acceleration magnitude rather than motion stability between two sampling points.",
+          "isCorrect": false
+        },
+        {
+          "text": "Inactivity is recorded if $a \\times b = 0$.",
+          "rationale": "Acceleration values depend on physical orientation and gravity; a product equal to zero does not reflect motionlessness.",
+          "isCorrect": false
+        },
+        {
+          "text": "Inactivity is recorded if $a - b > 500$.",
+          "rationale": "A large difference between sample points indicates rapid movement or shaking rather than stillness.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider whether movement creates a large difference or a small difference between two consecutive sensor readings."
+    },
+    {
+      "question": "In the bathroom door monitoring system, a `count` threshold of $100$ represents $10\\text{ seconds}$ of inactivity (with each check taking $100\\text{ ms}$). To extend this movement detection threshold to $5\\text{ hours}$, what must the target `count` value be?",
+      "answerOptions": [
+        {
+          "text": "$180,000$",
+          "rationale": "Since $1\\text{ second} = 10\\text{ counts}$, $1\\text{ hour} = 3600\\text{ seconds} \\times 10 = 36,000\\text{ counts}$. Multiplying by $5\\text{ hours}$ yields $180,000\\text{ counts}$.",
+          "isCorrect": true
+        },
+        {
+          "text": "$18,000$",
+          "rationale": "This value corresponds to $1800\\text{ seconds}$, which is $0.5\\text{ hours}$ ($30\\text{ minutes}$), not $5\\text{ hours}$.",
+          "isCorrect": false
+        },
+        {
+          "text": "$36,000$",
+          "rationale": "This represents $1\\text{ hour}$ worth of count checks rather than $5\\text{ hours}$.",
+          "isCorrect": false
+        },
+        {
+          "text": "$500,000$",
+          "rationale": "This miscalculates the unit conversion factor between milliseconds, seconds, and hours.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Calculate the total number of $100\\text{ ms}$ sampling intervals contained within $5\\text{ hours}$ ($5 \\times 3,600\\text{ seconds}$). "
+    },
+    {
+      "question": "According to the networking concepts presented in the material, which device is required to connect an internal private network to an external network like the Internet?",
+      "answerOptions": [
+        {
+          "text": "Router",
+          "rationale": "A router is specifically designed to route data traffic across different network boundaries, connecting internal local networks to external networks.",
+          "isCorrect": true
+        },
+        {
+          "text": "Switch",
+          "rationale": "A switch connects multiple devices within the same internal local area network using cables.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hub",
+          "rationale": "A hub operates at a basic level to interconnect multiple cables within a single local network.",
+          "isCorrect": false
+        },
+        {
+          "text": "Access Point (AP)",
+          "rationale": "An Access Point provides wireless Wi-Fi connectivity to local clients rather than routing traffic across external network frontiers.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about the device responsible for routing traffic between distinct, separate network boundaries."
+    },
+    {
+      "question": "Which short-range wireless communication technology operates typically within $10\\text{ meters}$ and is commonly used to connect devices like wireless earphones and AI speakers?",
+      "answerOptions": [
+        {
+          "text": "Bluetooth",
+          "rationale": "Bluetooth is a short-range ($10\\text{ meters}$ or less) wireless technology widely applied in personal audio devices and smart speakers.",
+          "isCorrect": true
+        },
+        {
+          "text": "Wi-Fi",
+          "rationale": "Wi-Fi is primarily used for broader local wireless internet access using access points (APs) rather than short-range personal device pairing.",
+          "isCorrect": false
+        },
+        {
+          "text": "NFC",
+          "rationale": "NFC (Near Field Communication) operates within very short touch distances (a few centimeters) for applications like payment tags.",
+          "isCorrect": false
+        },
+        {
+          "text": "Electronic Tag (RFID)",
+          "rationale": "Electronic tags are primarily used for automatic identification systems like transportation cards and highway toll passes.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Focus on the personal area network standard standardly used for low-power audio streaming over short distances."
+    },
+    {
+      "question": "What visual feedback appears on a table device's LED matrix immediately after a user presses Button A in the restaurant calling system?",
+      "answerOptions": [
+        {
+          "text": "A checkmark ('V') is displayed for 1 second.",
+          "rationale": "The table device algorithm displays 'V' for $1\\text{ second}$ to provide visual feedback confirming signal transmission before clearing the screen.",
+          "isCorrect": true
+        },
+        {
+          "text": "The assigned table number scrolls across the matrix.",
+          "rationale": "The table number is displayed on the receiver unit (display device), not on the sending table device itself.",
+          "isCorrect": false
+        },
+        {
+          "text": "All 25 LEDs remain continuously lit until serviced.",
+          "rationale": "The screen clears after $1\\text{ second}$ rather than staying fully illuminated continuously.",
+          "isCorrect": false
+        },
+        {
+          "text": "A bell icon flashes accompanied by a chime.",
+          "rationale": "The table device shows a 'V' symbol silently, while the display unit plays the audio chime.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Recall the single character used to give immediate visual feedback to the customer that their button press was registered."
+    },
+    {
+      "question": "According to the micro:bit v2 hardware layout, which component is located on the FRONT face of the board?",
+      "answerOptions": [
+        {
+          "text": "Built-in microphone",
+          "rationale": "The microphone component is positioned on the front side alongside the LED matrix and user buttons.",
+          "isCorrect": true
+        },
+        {
+          "text": "Radio antenna",
+          "rationale": "The antenna is located on the back face of the micro:bit board.",
+          "isCorrect": false
+        },
+        {
+          "text": "System speaker",
+          "rationale": "The speaker component is mounted on the back side of the board.",
+          "isCorrect": false
+        },
+        {
+          "text": "Accelerometer sensor",
+          "rationale": "The accelerometer sensor IC is situated on the rear face of the micro:bit.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about which component needs to receive user sound input directly from the front user perspective."
+    },
+    {
+      "question": "When running the clapping light program in the web browser simulator without a physical micro:bit connected, what issue occurs if the sound level slider remains above $100$ continuously?",
+      "answerOptions": [
+        {
+          "text": "The simulator continually registers loud sound, causing the LED to repeatedly flash ON and OFF.",
+          "rationale": "Without lowering sound input back below $100$, the conditional check re-triggers on every cycle, continuously toggling the light state.",
+          "isCorrect": true
+        },
+        {
+          "text": "The MakeCode editor crashes and automatically resets all declared variables.",
+          "rationale": "Continuous input triggers fast conditional evaluation loops, but does not crash the environment or clear variables.",
+          "isCorrect": false
+        },
+        {
+          "text": "The code execution automatically switches from Block coding to Python mode.",
+          "rationale": "Simulator execution behavior does not alter editor source code formats.",
+          "isCorrect": false
+        },
+        {
+          "text": "The virtual speaker emits an error beep and disables sound input.",
+          "rationale": "The simulator continues running normal logical checks without disabling sound capabilities or sounding hardware errors.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider how continuous detection of sound above threshold re-triggers the state toggle logic repeatedly."
+    },
+    {
+      "question": "In the pedestrian signal light algorithm, how long after displaying 'green' does the signal device wait before starting to broadcast countdown radio signals?",
+      "answerOptions": [
+        {
+          "text": "$10\\text{ seconds}$ ($10,000\\text{ ms}$)",
+          "rationale": "The green phase lasts $20\\text{ seconds}$ in total; after waiting $10,000\\text{ ms}$ ($10\\text{ seconds}$), it begins transmitting the final 10-second countdown.",
+          "isCorrect": true
+        },
+        {
+          "text": "$20\\text{ seconds}$ ($20,000\\text{ ms}$)",
+          "rationale": "Waiting $20,000\\text{ ms}$ is the delay used after displaying 'red', not during the green phase countdown initiation.",
+          "isCorrect": false
+        },
+        {
+          "text": "$5\\text{ seconds}$ ($5,000\\text{ ms}$)",
+          "rationale": "A 5-second delay would start the countdown too early during a 20-second signal cycle.",
+          "isCorrect": false
+        },
+        {
+          "text": "$1\\text{ second}$ ($1,000\\text{ ms}$)",
+          "rationale": "$1,000\\text{ ms}$ is the interval between each countdown number decrementation, not the initial waiting delay.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "The signal stays green for 20 seconds total, and the countdown warns pedestrians during the last 10 seconds."
+    }
+  ]
+}
