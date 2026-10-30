@@ -130,9 +130,9 @@ async function boot(){
 }
 function renderStatus(){
   const st=C.status,pct=st.total?Math.round(st.done/st.total*100):0;
-  const blk=Object.entries(st.blocked||{}).map(([g,v])=>`${g} 한도 → ${v}까지 쉼`).join(" · ");
+  const blk=Object.entries(st.blocked||{}).map(([g,v])=>`${KO[g]||g} 한도 → ${v}까지 쉼`).join(" · ");
   $("#upd").textContent=`갱신 ${st.updated}`;
-  $("#status").innerHTML=`<div class="status"><span>완료 <b>${st.done}</b> / ${st.total} (${pct}%)</span><span>대기 <b>${st.remaining}</b></span><span>마지막 실행 <b>${esc(st.last_run||"-")}</b></span><span>오늘 텍스트 ${st.today.text||0}/${st.budget.text} · 오디오 ${st.today.audio||0}/${st.budget.audio} · 비디오 ${st.today.video||0}/${st.budget.video}</span><span>현재 목록 완료 예상 <b>${esc(st.finish)}</b></span></div><div class="bar"><i style="width:${pct}%"></i></div>${st.stale?`<div class="alert">하루 넘게 실행 기록이 없습니다. 로그인 만료나 서버 상태를 확인해야 합니다.</div>`:""}${blk?`<div class="alert">${esc(blk)}</div>`:""}`;
+  $("#status").innerHTML=`<div class="status"><span>완료 <b>${st.done}</b> / ${st.total} (${pct}%)</span><span>대기 <b>${st.remaining}</b></span><span>마지막 실행 <b>${esc(st.last_run||"-")}</b></span><span>오늘 ${KINDS.map(([k,l])=>`${l} ${st.today[k]||0}/${st.budget[k]??"-"}`).join(" · ")}</span><span>현재 목록 완료 예상 <b>${esc(st.finish)}</b></span></div><div class="bar"><i style="width:${pct}%"></i></div>${st.stale?`<div class="alert">하루 넘게 실행 기록이 없습니다. 로그인 만료나 서버 상태를 확인해야 합니다.</div>`:""}${blk?`<div class="alert">${esc(blk)}</div>`:""}`;
 }
 function count(s){let d=0,t=0;s.units.forEach(u=>KINDS.forEach(([k])=>{t++;if(u.files[k]?.file)d++}));return `${d}/${t}`}
 function renderSubjects(){
