@@ -1,10 +1,13 @@
-import datetime as dt, json, os, shutil, subprocess
+import datetime as dt, json, os, shutil, subprocess, urllib.request
 
 W = "/var/lib/docker/volumes/advisor-data/_data/study"
 REPO = "/root/study-notebooklm"
 DATA = os.path.join(REPO, "data")
 KST = dt.timezone(dt.timedelta(hours=9))
-MEDIA_BUDGET = 850 * 1024 * 1024
+OWNER = "laseraugawm"
+SHARD_BYTES = 900 * 1024 * 1024
+MEDIA_STATE = "/root/study-media.json"
+TOKEN = open("/root/.gh-laseraugawm").read().strip()
 GROUP = {"report": "report", "quiz": "quiz", "flashcards": "flashcards", "audio": "audio", "video": "video"}
 KIND_KO = {"report": "개념정리", "quiz": "퀴즈", "flashcards": "플래시카드", "audio": "오디오", "video": "비디오"}
 
@@ -49,7 +52,59 @@ today = now.strftime("%Y-%m-%d")
 
 os.makedirs(DATA, exist_ok=True)
 shutil.copytree(os.path.join(W, "site"), REPO, dirs_exist_ok=True)
-media_used = sum(os.path.getsize(os.path.join(dp, f)) for dp, _, fs in os.walk(DATA) for f in fs if f.endswith((".mp4", ".m4a")))
+ms = jload(MEDIA_STATE, {"shards": [], "files": {}})
+dirty = set()
+
+
+def save_ms():
+    json.dump(ms, open(MEDIA_STATE, "w"), ensure_ascii=False, indent=1)
+
+
+def gh(method, path, body=None):
+    req = urllib.request.Request("https://api.github.com" + path, method=method, data=json.dumps(body).encode() if body else None,
+                                 headers={"Authorization": f"Bearer {TOKEN}", "Accept": "application/vnd.github+json", "content-type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read() or b"{}")
+    except urllib.error.HTTPError as e:
+        return {"error": e.code, "body": e.read()[:300].decode("utf-8", "replace")}
+
+
+def new_shard():
+    name = f"study-media-{len(ms['shards']) + 1}"
+    gh("POST", "/user/repos", {"name": name, "description": "소단원 학습자료 실험실 미디어 저장소", "private": False, "auto_init": True})
+    path = f"/root/{name}"
+    if not os.path.exists(path):
+        subprocess.run(["git", "clone", "-q", f"https://x-access-token:{TOKEN}@github.com/{OWNER}/{name}.git", path], check=True)
+    open(os.path.join(path, ".nojekyll"), "w").close()
+    open(os.path.join(path, "index.html"), "w", encoding="utf-8").write(f'<!doctype html><meta charset="utf-8"><title>{name}</title><p>소단원 학습자료 실험실의 미디어 저장소입니다. <a href="https://{OWNER}.github.io/study-notebooklm/">본 사이트로</a></p>')
+    for a in (["config", "user.name", OWNER], ["config", "user.email", f"{OWNER}@users.noreply.github.com"]):
+        subprocess.run(["git", "-C", path, *a])
+    ms["shards"].append({"name": name, "used": 0})
+    dirty.add(name)
+    save_ms()
+    return ms["shards"][-1]
+
+
+def place_media(n):
+    if n not in ms["files"]:
+        src = os.path.join(W, "out", n)
+        size = os.path.getsize(src)
+        sh = ms["shards"][-1] if ms["shards"] and ms["shards"][-1]["used"] + size <= SHARD_BYTES else new_shard()
+        dst = os.path.join("/root", sh["name"], n)
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        shutil.copy(src, dst)
+        sh["used"] += size
+        ms["files"][n] = sh["name"]
+        dirty.add(sh["name"])
+        save_ms()
+    return f"https://{OWNER}.github.io/{ms['files'][n]}/{n}"
+
+
+for dp, _, fs in os.walk(DATA):
+    for f in fs:
+        if f.endswith((".mp4", ".m4a")):
+            os.remove(os.path.join(dp, f))
 
 order = {s: i for i, s in enumerate(cfg["order"])}
 subjects, queue = [], {k: [] for k in GROUP}
@@ -65,21 +120,18 @@ for s in sorted(cat["subjects"], key=lambda s: order.get(s["id"], 99)):
             r = done.get(key)
             if r:
                 names = [f["file"] for f in r["files"] if f["ok"]]
-                local_only = False
+                url = None
                 for n in names:
+                    if n.endswith((".mp4", ".m4a")):
+                        url = place_media(n)
+                        continue
                     src, dst = os.path.join(W, "out", n), os.path.join(DATA, n)
                     os.makedirs(os.path.dirname(dst), exist_ok=True)
-                    if n.endswith((".mp4", ".m4a")) and not os.path.exists(dst):
-                        size = os.path.getsize(src)
-                        if media_used + size > MEDIA_BUDGET:
-                            local_only = True
-                            continue
-                        media_used += size
                     if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src):
                         shutil.copy(src, dst)
                 main = next((n for n in names if not n.endswith(".json")), names[0] if names else None)
                 files[kind] = {"file": main, "json": next((n for n in names if n.endswith(".json")), None),
-                               "secs": r["secs"], "at": r["at"][:16].replace("T", " "), "local_only": local_only}
+                               "secs": r["secs"], "at": r["at"][:16].replace("T", " "), "url": url}
                 if main and kind in ("audio", "video"):
                     dn = main.rsplit(".", 1)[0] + ".desc.json"
                     if os.path.exists(os.path.join(W, "out", dn)):
@@ -100,16 +152,8 @@ for s in sorted(cat["subjects"], key=lambda s: order.get(s["id"], 99)):
             if r:
                 main = next((f["file"] for f in r["files"] if f["ok"]), None)
                 if main:
-                    src, dst = os.path.join(W, "out", main), os.path.join(DATA, main)
-                    os.makedirs(os.path.dirname(dst), exist_ok=True)
-                    size = os.path.getsize(src)
-                    if os.path.exists(dst) or media_used + size <= MEDIA_BUDGET:
-                        if not os.path.exists(dst):
-                            media_used += size
-                            shutil.copy(src, dst)
-                        item["file"] = main
-                    else:
-                        item["local_only"] = True
+                    item["file"] = main
+                    item["url"] = place_media(main)
                     dn = main.rsplit(".", 1)[0] + ".desc.json"
                     if os.path.exists(os.path.join(W, "out", dn)):
                         shutil.copy(os.path.join(W, "out", dn), os.path.join(DATA, dn))
@@ -183,6 +227,17 @@ for day, items in sorted(days.items()):
 lines.append("END:VCALENDAR")
 open(os.path.join(REPO, "calendar.ics"), "w", encoding="utf-8", newline="").write("\r\n".join(lines) + "\r\n")
 
+for name in sorted(dirty):
+    path = f"/root/{name}"
+    gm = lambda *a: subprocess.run(["git", "-C", path, *a], capture_output=True, text=True)
+    gm("add", "-A")
+    if gm("diff", "--cached", "--quiet").returncode:
+        gm("commit", "-q", "-m", "media sync")
+        p = gm("push", "-q", "origin", "HEAD:main")
+        print("media push", name, p.returncode, p.stderr.strip()[-200:])
+    pages = gh("GET", f"/repos/{OWNER}/{name}/pages")
+    if pages.get("error") == 404:
+        print("pages enable", name, gh("POST", f"/repos/{OWNER}/{name}/pages", {"source": {"branch": "main", "path": "/"}}).get("html_url"))
 g = lambda *a: subprocess.run(["git", "-C", REPO, *a], capture_output=True, text=True)
 g("add", "-A")
 if g("diff", "--cached", "--quiet").returncode:
