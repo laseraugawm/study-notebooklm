@@ -96,6 +96,8 @@ def pending(cat, st, cfg):
                 key = f"{s['id']}/{u['id']}/{kind}"
                 if key in st["done"] or st["fails"].get(key, 0) >= cfg["max_fails"]:
                     continue
+                if kind in cfg.get("claude_kinds", []):
+                    continue
                 if not u.get("source") and not u.get("source_id"):
                     continue
                 out[group].append((s, u, kind, key))
@@ -182,6 +184,15 @@ def main():
     st = jload(STATE, {})
     for k in ("notebooks", "sources", "done", "fails", "blocked", "daily"):
         st.setdefault(k, {})
+    for s in cat["subjects"]:
+        for u in s["units"]:
+            for kind in cfg.get("claude_kinds", []):
+                key = f"{s['id']}/{u['id']}/{kind}"
+                path = os.path.join(W, "out", s["id"], f"{u['id']}_{kind}.md")
+                if key not in st["done"] and os.path.exists(path):
+                    st["done"][key] = {"artifact": None, "files": [{"file": f"{s['id']}/{u['id']}_{kind}.md", "ok": True, "bytes": os.path.getsize(path)}],
+                                       "secs": 0, "at": dt.datetime.fromtimestamp(os.path.getmtime(path), KST).isoformat(timespec="seconds"), "account": "claude"}
+                    log(event="imported", key=key, by="claude")
     redo_path = os.path.join(W, "redo.json")
     for r in jload(redo_path, []):
         import fnmatch
