@@ -13,43 +13,41 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-:root{
-  --bg:#f4f5f2; --panel:#ffffff; --ink:#1d2320; --muted:#5d6762; --line:#d9ddd8;
-  --accent:#1f6f5c; --accent-soft:#e2efe9; --warn:#9a5b12; --code:#eef1ec;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#141816; --panel:#1b201d; --ink:#e4e9e5; --muted:#9aa59f; --line:#2c3430;
-    --accent:#6cc4a8; --accent-soft:#1f3a31; --warn:#e0a85a; --code:#222925;
-  }
-}
-:root[data-theme="dark"]{
-  --bg:#141816; --panel:#1b201d; --ink:#e4e9e5; --muted:#9aa59f; --line:#2c3430;
-  --accent:#6cc4a8; --accent-soft:#1f3a31; --warn:#e0a85a; --code:#222925;
-}
+:root{--bg:#f4f5f2;--panel:#fff;--ink:#1d2320;--muted:#5d6762;--line:#d9ddd8;--accent:#1f6f5c;--accent-soft:#e2efe9;--warn:#9a5b12;--warn-soft:#f6ead9;--code:#eef1ec}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141816;--panel:#1b201d;--ink:#e4e9e5;--muted:#9aa59f;--line:#2c3430;--accent:#6cc4a8;--accent-soft:#1f3a31;--warn:#e0a85a;--warn-soft:#3a2d1b;--code:#222925}}
+:root[data-theme="dark"]{--bg:#141816;--panel:#1b201d;--ink:#e4e9e5;--muted:#9aa59f;--line:#2c3430;--accent:#6cc4a8;--accent-soft:#1f3a31;--warn:#e0a85a;--warn-soft:#3a2d1b;--code:#222925}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 'IBM Plex Sans KR','Malgun Gothic',sans-serif;padding-inline:16px}
-.wrap{max-width:1120px;margin:0 auto;padding-block:28px 60px}
-header{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:12px}
-h1{font-size:24px;margin:0;text-wrap:balance}
-.sub{color:var(--muted);font-size:13px}
-.layout{display:grid;grid-template-columns:260px 1fr;gap:24px;margin-top:20px}
-@media (max-width:760px){.layout{grid-template-columns:1fr}}
-nav.units{display:flex;flex-direction:column;gap:6px}
-.unit{all:unset;cursor:pointer;display:block;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
-.unit:focus-visible,.tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding-block:24px 60px}
+header{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:10px}
+h1{font-size:23px;margin:0}
+.status{display:flex;flex-wrap:wrap;gap:6px 16px;font:13px/1.5 'IBM Plex Mono',monospace;color:var(--muted);margin-top:10px}
+.status b{color:var(--ink);font-weight:500}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.alert{margin-top:8px;padding:6px 10px;border:1px solid var(--warn);background:var(--warn-soft);color:var(--warn);border-radius:4px;font-size:13px}
+.subjects{display:flex;gap:6px;flex-wrap:wrap;margin-top:16px}
+.sbtn{all:unset;cursor:pointer;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-weight:500;font-size:14px}
+.sbtn small{font:11px 'IBM Plex Mono',monospace;color:var(--muted);margin-left:6px}
+.sbtn[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.sbtn:focus-visible,.unit:focus-visible,.tab:focus-visible,.cday:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.layout{display:grid;grid-template-columns:290px 1fr;gap:22px;margin-top:16px}
+@media (max-width:780px){.layout{grid-template-columns:1fr}}
+nav.units{display:flex;flex-direction:column;gap:5px;max-height:78vh;overflow:auto;padding-right:4px}
+.chap{font-size:12px;font-weight:700;color:var(--muted);margin:10px 2px 2px}
+.unit{all:unset;cursor:pointer;display:block;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
 .unit[aria-current="true"]{border-color:var(--accent);background:var(--accent-soft)}
-.unit b{display:block;font-size:14px}
-.unit span{font-size:12px;color:var(--muted)}
-.chips{display:flex;gap:4px;margin-top:6px;flex-wrap:wrap}
-.chip{font:500 11px/1 'IBM Plex Mono',monospace;padding:3px 6px;border-radius:3px;border:1px solid var(--line);color:var(--muted)}
-.chip.on{border-color:var(--accent);color:var(--accent)}
+.unit b{display:block;font-size:13.5px;font-weight:500}
+.unit span{font-size:11.5px;color:var(--muted)}
+.dots{display:flex;gap:3px;margin-top:5px}
+.dot{width:16px;height:5px;border-radius:2px;background:var(--line)}
+.dot.on{background:var(--accent)}.dot.bad{background:var(--warn)}
 main{min-width:0}
-.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
-.tab{all:unset;cursor:pointer;padding:8px 14px;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs{display:flex;gap:2px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tab{all:unset;cursor:pointer;padding:8px 13px;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
 .tab[disabled]{opacity:.4;cursor:default}
-.pane{background:var(--panel);border:1px solid var(--line);border-top:0;padding:20px 24px;min-height:300px;overflow-x:auto}
+.pane{background:var(--panel);border:1px solid var(--line);border-top:0;padding:20px 24px;min-height:320px;overflow-x:auto}
 .md{max-width:78ch}
 .md h1{font-size:21px}.md h2{font-size:18px;border-bottom:1px solid var(--line);padding-bottom:4px}.md h3{font-size:16px}
 .md table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}
@@ -63,13 +61,25 @@ audio,video{width:100%;max-width:100%;margin-top:8px}
 .q{border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin-bottom:12px}
 .q p{margin:0 0 8px}
 .opt{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:4px;padding:6px 10px;margin:4px 0;cursor:pointer}
-.opt.ok{border-color:var(--accent);background:var(--accent-soft)}
-.opt.no{border-color:var(--warn)}
+.opt.ok{border-color:var(--accent);background:var(--accent-soft)}.opt.no{border-color:var(--warn)}
 .why{font-size:13px;color:var(--muted);margin-top:6px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .card{all:unset;cursor:pointer;border:1px solid var(--line);border-radius:6px;padding:14px;min-height:96px;background:var(--panel)}
-.card .back{display:none;color:var(--accent);margin-top:8px}
-.card.flip .back{display:block}
+.card .back{display:none;color:var(--accent);margin-top:8px}.card.flip .back{display:block}
+.cal{display:none;margin-top:16px}
+.calhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.calhead h2{font-size:18px;margin:0 8px 0 0}
+.nb{all:unset;cursor:pointer;border:1px solid var(--line);border-radius:4px;padding:2px 10px;background:var(--panel)}
+.ics{font:12px 'IBM Plex Mono',monospace;color:var(--muted);word-break:break-all}
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:10px}
+.wd{font-size:12px;color:var(--muted);text-align:center}
+.cday{all:unset;cursor:pointer;min-height:68px;border:1px solid var(--line);border-radius:4px;background:var(--panel);padding:4px 6px;font:12px/1.4 'IBM Plex Mono',monospace;display:flex;flex-direction:column;gap:2px}
+.cday.out{opacity:.35}.cday.today{border-color:var(--accent);border-width:2px}
+.cday .n{font-weight:500;color:var(--ink)}
+.pill{border-radius:3px;padding:0 4px;font-size:11px}
+.pill.d{background:var(--accent-soft);color:var(--accent)}.pill.p{background:var(--code);color:var(--muted)}
+.daylist{margin-top:12px;background:var(--panel);border:1px solid var(--line);padding:12px 16px;border-radius:6px;font-size:14px}
+.daylist li{margin:2px 0}
 footer{margin-top:28px;font-size:12px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -78,46 +88,71 @@ footer{margin-top:28px;font-size:12px;color:var(--muted)}
 <div class="wrap">
 <header>
   <h1>소단원 학습자료 실험실</h1>
-  <div class="sub" id="sub">고1 정보 · Ⅰ. 컴퓨팅 시스템 · NotebookLM 생성</div>
+  <span class="ics" id="upd"></span>
 </header>
-<div class="layout">
+<div id="status"></div>
+<div class="subjects" id="subjects" role="toolbar" aria-label="과목"></div>
+<section class="layout" id="browse">
   <nav class="units" id="units" aria-label="소단원"></nav>
   <main>
     <div class="tabs" role="tablist" id="tabs"></div>
     <div class="pane" id="pane" role="tabpanel"></div>
   </main>
-</div>
-<footer>교과서(천재교육, 김현철) 내용을 바탕으로 NotebookLM이 생성한 개인 학습용 시범 자료입니다. 교과서 원문은 포함하지 않습니다.</footer>
+</section>
+<section class="cal" id="cal"></section>
+<footer>고1 2학기 교과서를 바탕으로 NotebookLM이 생성한 개인 학습용 자료입니다. 교과서 원문은 포함하지 않습니다. 매일 조금씩 자동으로 추가됩니다.</footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
 <script>
 const KINDS=[["report","개념정리"],["quiz","퀴즈"],["flashcards","플래시카드"],["audio","오디오"],["video","비디오"]];
-let M,cur={u:0,k:"report"};
+const KO=Object.fromEntries(KINDS);
+let C,S,cur={s:null,u:0,k:"report",view:"browse",m:null};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const md=t=>DOMPurify.sanitize(marked.parse(t.replace(/\*\*([^*\n]+?)\*\*/g,"<strong>$1</strong>")));
+const subj=()=>C.subjects.find(s=>s.id===cur.s)||C.subjects[0];
 async function boot(){
-  M=await (await fetch("data/manifest.json",{cache:"no-store"})).json();
-  $("#sub").textContent=`${M.subject} · ${M.chapter} · 갱신 ${M.updated}`;
-  try{const h=new URLSearchParams(location.hash.slice(1));cur.u=Math.max(0,M.units.findIndex(x=>x.id===h.get("u")));cur.k=h.get("k")||"report";}catch{}
+  [C,S]=await Promise.all([fetch("data/catalog.json",{cache:"no-store"}).then(r=>r.json()),fetch("data/schedule.json",{cache:"no-store"}).then(r=>r.json())]);
+  const h=new URLSearchParams(location.hash.slice(1));
+  cur.view=h.get("v")==="cal"?"cal":"browse";cur.s=h.get("s")||C.subjects[0].id;cur.k=h.get("k")||"report";
+  const s=subj();cur.u=Math.max(0,s.units.findIndex(x=>x.id===h.get("u")));
+  renderStatus();renderSubjects();route();
+}
+function renderStatus(){
+  const st=C.status,pct=st.total?Math.round(st.done/st.total*100):0;
+  const blk=Object.entries(st.blocked||{}).map(([g,v])=>`${g} 한도 → ${v}까지 쉼`).join(" · ");
+  $("#upd").textContent=`갱신 ${st.updated}`;
+  $("#status").innerHTML=`<div class="status"><span>완료 <b>${st.done}</b> / ${st.total} (${pct}%)</span><span>대기 <b>${st.remaining}</b></span><span>마지막 실행 <b>${esc(st.last_run||"-")}</b></span><span>오늘 텍스트 ${st.today.text||0}/${st.budget.text} · 오디오 ${st.today.audio||0}/${st.budget.audio} · 비디오 ${st.today.video||0}/${st.budget.video}</span><span>현재 목록 완료 예상 <b>${esc(st.finish)}</b></span></div><div class="bar"><i style="width:${pct}%"></i></div>${st.stale?`<div class="alert">하루 넘게 실행 기록이 없습니다. 로그인 만료나 서버 상태를 확인해야 합니다.</div>`:""}${blk?`<div class="alert">${esc(blk)}</div>`:""}`;
+}
+function count(s){let d=0,t=0;s.units.forEach(u=>KINDS.forEach(([k])=>{t++;if(u.files[k]?.file)d++}));return `${d}/${t}`}
+function renderSubjects(){
+  $("#subjects").innerHTML=C.subjects.map(s=>`<button class="sbtn" aria-pressed="${cur.view==="browse"&&s.id===cur.s}" data-s="${s.id}">${esc(s.name)}<small>${count(s)}</small></button>`).join("")+`<button class="sbtn" aria-pressed="${cur.view==="cal"}" data-cal="1">달력</button>`;
+  document.querySelectorAll(".sbtn").forEach(b=>b.onclick=()=>{if(b.dataset.cal){cur.view="cal"}else{cur.view="browse";if(cur.s!==b.dataset.s){cur.s=b.dataset.s;cur.u=0}}renderSubjects();route();});
+}
+function route(){
+  $("#browse").style.display=cur.view==="browse"?"":"none";$("#cal").style.display=cur.view==="cal"?"block":"none";
+  if(cur.view==="cal"){history.replaceState(null,"","#v=cal");return calendar();}
   renderUnits();render();
 }
 function renderUnits(){
-  $("#units").innerHTML=M.units.map((u,i)=>`<button class="unit" aria-current="${i===cur.u}" data-i="${i}"><b>${esc(u.id)} ${esc(u.title)}</b><span>교과서 ${esc(u.pages)}쪽</span><div class="chips">${KINDS.map(([k,l])=>`<i class="chip ${u.files[k]?"on":""}">${l}</i>`).join("")}</div></button>`).join("");
+  const s=subj();let last="";
+  $("#units").innerHTML=s.units.map((u,i)=>{const ch=u.section||u.chapter||"";const head=ch&&ch!==last?`<div class="chap">${esc(ch)}</div>`:"";last=ch||last;
+    return head+`<button class="unit" aria-current="${i===cur.u}" data-i="${i}"><b>${esc(u.code)} ${esc(u.title)}</b><span>교과서 ${esc(u.pages)}쪽</span><div class="dots">${KINDS.map(([k,l])=>`<i class="dot ${u.files[k]?.file?"on":u.files[k]?.failed?"bad":""}" title="${l}"></i>`).join("")}</div></button>`}).join("");
   document.querySelectorAll(".unit").forEach(b=>b.onclick=()=>{cur.u=+b.dataset.i;renderUnits();render();});
 }
 function render(){
-  const u=M.units[cur.u];
-  $("#tabs").innerHTML=KINDS.map(([k,l])=>`<button class="tab" role="tab" aria-selected="${k===cur.k}" ${u.files[k]?"":"disabled"} data-k="${k}">${l}</button>`).join("");
+  const u=subj().units[cur.u];
+  $("#tabs").innerHTML=KINDS.map(([k,l])=>`<button class="tab" role="tab" aria-selected="${k===cur.k}" ${u.files[k]?.file?"":"disabled"} data-k="${k}">${l}</button>`).join("");
   document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{if(b.disabled)return;cur.k=b.dataset.k;render();});
-  history.replaceState(null,"",`#u=${u.id}&k=${cur.k}`);
+  history.replaceState(null,"",`#s=${cur.s}&u=${u.id}&k=${cur.k}`);
   show(u,cur.k);
 }
 async function show(u,k){
   const f=u.files[k],p=$("#pane");
-  if(!f){p.innerHTML=`<p class="empty">아직 생성되지 않았습니다.</p>`;return;}
+  if(!f?.file){p.innerHTML=`<p class="empty">${f?.failed?`생성 실패 ${f.failed}회 — 다음 실행에서 다시 시도합니다.`:"아직 생성되지 않았습니다. 달력에서 예정일을 확인할 수 있습니다."}</p>`;return;}
   const meta=`<div class="meta">${esc(f.file)} · 생성 ${esc(f.secs)}초 · ${esc(f.at)}</div>`;
+  if(f.local_only){p.innerHTML=`<p class="empty">생성은 끝났지만 용량 문제로 아직 사이트에 올리지 않았습니다.</p>${meta}`;return;}
   if(k==="audio"){p.innerHTML=`<audio controls preload="metadata" src="data/${esc(f.file)}"></audio>${meta}`;return;}
   if(k==="video"){p.innerHTML=`<video controls preload="metadata" src="data/${esc(f.file)}"></video>${meta}`;return;}
   if(k==="quiz"&&f.json){try{return quiz(await (await fetch("data/"+f.json)).json(),p,meta)}catch{}}
@@ -128,13 +163,32 @@ function list(j,keys){for(const k of keys){if(Array.isArray(j?.[k]))return j[k];
 function quiz(j,p,meta){
   const qs=list(j,["questions","quiz","items"]);if(!qs)throw 0;
   p.innerHTML=qs.map((q,i)=>{const opts=q.answerOptions||q.options||q.choices||[];
-    return `<div class="q" data-i="${i}"><p><b>${i+1}.</b> ${esc(q.question||q.text)}</p>${opts.map((o,j)=>`<button class="opt" data-ok="${o.isCorrect??(q.answer===j||q.correct===j)}" data-why="${esc(o.rationale||"")}">${esc(o.text??o)}</button>`).join("")}<div class="why"></div></div>`}).join("")+meta;
+    return `<div class="q"><p><b>${i+1}.</b> ${esc(q.question||q.text)}</p>${opts.map((o,j)=>`<button class="opt" data-ok="${o.isCorrect??(q.answer===j||q.correct===j)}" data-why="${esc(o.rationale||"")}">${esc(o.text??o)}</button>`).join("")}<div class="why"></div>${q.hint?`<div class="why">힌트: ${esc(q.hint)}</div>`:""}</div>`}).join("")+meta;
   p.querySelectorAll(".q").forEach(d=>d.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{d.querySelectorAll(".opt").forEach(o=>{if(o.dataset.ok==="true")o.classList.add("ok")});if(b.dataset.ok!=="true")b.classList.add("no");d.querySelector(".why").textContent=b.dataset.why||"";}));
 }
 function cards(j,p,meta){
   const cs=list(j,["cards","flashcards","items"]);if(!cs)throw 0;
   p.innerHTML=`<div class="cards">${cs.map(c=>`<button class="card"><div>${esc(c.front||c.f||c.term||c.question)}</div><div class="back">${esc(c.back||c.b||c.definition||c.answer)}</div></button>`).join("")}</div>${meta}`;
   p.querySelectorAll(".card").forEach(c=>c.onclick=()=>c.classList.toggle("flip"));
+}
+function calendar(){
+  const t=new Date(Date.now()+9*3600e3),todayS=t.toISOString().slice(0,10);
+  if(!cur.m)cur.m=todayS.slice(0,7);
+  const [y,mo]=cur.m.split("-").map(Number),first=new Date(Date.UTC(y,mo-1,1)),start=new Date(first-first.getUTCDay()*864e5);
+  const ics=new URL("calendar.ics",location.href).href;
+  let cells="";
+  for(let i=0;i<42;i++){const d=new Date(+start+i*864e5),ds=d.toISOString().slice(0,10),it=S[ds]||[],nd=it.filter(x=>x.st==="done").length,np=it.length-nd;
+    cells+=`<button class="cday ${ds.slice(0,7)!==cur.m?"out":""} ${ds===todayS?"today":""}" data-d="${ds}"><span class="n">${d.getUTCDate()}</span>${nd?`<span class="pill d">완료 ${nd}</span>`:""}${np?`<span class="pill p">예정 ${np}</span>`:""}</button>`;}
+  $("#cal").innerHTML=`<div class="calhead"><button class="nb" id="pm" aria-label="이전 달">‹</button><h2>${y}년 ${mo}월</h2><button class="nb" id="nm" aria-label="다음 달">›</button><span class="ics">캘린더 구독: ${esc(ics)}</span><button class="nb" id="cp">주소 복사</button></div><div class="grid">${"일월화수목금토".split("").map(w=>`<div class="wd">${w}</div>`).join("")}${cells}</div><div class="daylist" id="dl"></div>`;
+  const mv=n=>{const d=new Date(Date.UTC(y,mo-1+n,1));cur.m=d.toISOString().slice(0,7);calendar();};
+  $("#pm").onclick=()=>mv(-1);$("#nm").onclick=()=>mv(1);
+  $("#cp").onclick=()=>navigator.clipboard?.writeText(ics).then(()=>$("#cp").textContent="복사됨");
+  document.querySelectorAll(".cday").forEach(b=>b.onclick=()=>day(b.dataset.d));
+  day(todayS);
+}
+function day(ds){
+  const it=S[ds]||[];
+  $("#dl").innerHTML=`<b>${ds}</b> — ${it.length?`${it.length}건`:"일정 없음"}<ul>${it.map(x=>`<li>${x.st==="done"?"✔":"·"} ${esc(x.s)} ${esc(x.u)} ${esc(x.t)} — ${KO[x.k]}</li>`).join("")}</ul>`;
 }
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 boot().catch(e=>{$("#pane").innerHTML=`<p class="empty">목록을 불러오지 못했습니다: ${esc(e.message)}</p>`});
