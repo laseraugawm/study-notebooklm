@@ -188,7 +188,7 @@ function descHtml(d,label){
   if(!d)return `<p class="pend">${label} 내용 설명은 아직 정리 중입니다.</p>`;
   const li=a=>(a||[]).map(x=>`<li>${esc(x)}</li>`).join("");
   const m=s=>`${Math.floor(s/60)}분 ${String(s%60).padStart(2,"0")}초`;
-  return `<div class="desc"><div class="dsum"><b>${label} 내용</b> <span class="dmeta">${m(d.duration||0)}</span><p>${esc(d.summary)}</p></div>
+  return `<div class="desc"><div class="dsum"><b>${label} 내용</b> <span class="dmeta">${m(d.duration||0)}</span><p>${esc(d.summary).replace(/\*\*([^*]+?)\*\*/g,"<strong>$1</strong>")}</p></div>
   ${d.chapters?.length?`<div><h4>흐름</h4><ol>${li(d.chapters)}</ol></div>`:""}
   ${d.concepts?.length?`<div><h4>다룬 개념</h4><div class="chips2">${d.concepts.map(x=>`<span>${esc(x)}</span>`).join("")}</div></div>`:""}
   ${d.missing?.length?`<div class="miss"><h4>개념정리 대비 빠진 내용 ${d.missing.length}</h4><ul>${li(d.missing)}</ul></div>`:""}
