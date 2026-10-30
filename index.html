@@ -72,6 +72,7 @@ audio,video{width:100%;max-width:100%}
 .why{font-size:13px;color:var(--muted);margin-top:6px}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .card{all:unset;cursor:pointer;border:1px solid var(--line);border-radius:6px;padding:14px;min-height:96px;background:var(--panel)}
+.card{white-space:pre-line}
 .card .back{display:none;color:var(--accent);margin-top:8px}.card.flip .back{display:block}
 .cal{display:none;margin-top:16px}
 .calhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
@@ -190,7 +191,8 @@ function quiz(j,p,meta){
 }
 function cards(j,p,meta){
   const cs=list(j,["cards","flashcards","items"]);if(!cs)throw 0;
-  p.innerHTML=`<div class="cards">${cs.map(c=>`<button class="card"><div>${esc(c.front||c.f||c.term||c.question)}</div><div class="back">${esc(c.back||c.b||c.definition||c.answer)}</div></button>`).join("")}</div>${meta}`;
+  const txt=x=>typeof x==="string"?x:Array.isArray(x)?x.map(txt).join("\n"):x&&typeof x==="object"?(x.content??x.text??txt(x.flashcardContentBlock??x.blocks??Object.values(x))):String(x??"");
+  p.innerHTML=`<div class="cards">${cs.map(c=>`<button class="card"><div>${esc(txt(c.front??c.f??c.term??c.question))}</div><div class="back">${esc(txt(c.back??c.b??c.definition??c.answer))}</div></button>`).join("")}</div>${meta}`;
   p.querySelectorAll(".card").forEach(c=>c.onclick=()=>c.classList.toggle("flip"));
 }
 function calendar(){

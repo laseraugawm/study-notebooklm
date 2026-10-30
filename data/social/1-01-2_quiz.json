@@ -1,0 +1,265 @@
+{
+  "title": "Human Rights Quiz",
+  "questions": [
+    {
+      "question": "According to Karel Vasak's framework on human rights generations, which generation emphasizes collective rights on a global scale to address issues such as international wealth gaps and environmental crises?",
+      "answerOptions": [
+        {
+          "text": "Third-generation human rights (Solidarity rights)",
+          "isCorrect": true,
+          "rationale": "Third-generation rights extend beyond the relationship between a nation-state and an individual to focus on global solidarity and collective rights."
+        },
+        {
+          "text": "First-generation human rights (Liberty rights)",
+          "isCorrect": false,
+          "rationale": "First-generation rights emerged from modern civil revolutions to protect individual liberties by limiting state intervention."
+        },
+        {
+          "text": "Second-generation human rights (Social rights)",
+          "isCorrect": false,
+          "rationale": "Second-generation rights focus on state intervention to guarantee basic social welfare and a dignified life for vulnerable citizens within a nation."
+        },
+        {
+          "text": "Procedural human rights (Administrative rights)",
+          "isCorrect": false,
+          "rationale": "This category is not one of Karel Vasak's three classic generations of human rights."
+        }
+      ],
+      "hint": "Consider the rights that require international cooperation and apply to groups or nations as a whole."
+    },
+    {
+      "question": "Which of the following is correctly classified as a 1st generation human right (liberty right)?",
+      "answerOptions": [
+        {
+          "text": "Freedom of thought, conscience, and religion",
+          "isCorrect": true,
+          "rationale": "Freedom of thought, conscience, and religion protects personal liberty from state intrusion, making it a classic first-generation right."
+        },
+        {
+          "text": "The right to work and receive an education",
+          "isCorrect": false,
+          "rationale": "The rights to work and education require active state provision and fall under second-generation social rights."
+        },
+        {
+          "text": "The right to self-determination",
+          "isCorrect": false,
+          "rationale": "The right of a group or ethnic nation to determine its own affairs is categorized as a third-generation collective right."
+        },
+        {
+          "text": "The right to a sustainable environment",
+          "isCorrect": false,
+          "rationale": "Environmental sustainability involves global responsibility and long-term collective stewardship, placing it in the third generation."
+        }
+      ],
+      "hint": "Look for a right that shields personal choices and beliefs from state interference."
+    },
+    {
+      "question": "Rapid industrialization and urbanization in South Korea led to high population density in multi-family housing. Which issue is explicitly highlighted in the source text as a housing problem resulting from this density?",
+      "answerOptions": [
+        {
+          "text": "Inter-floor noise and conflicts over sunlight rights",
+          "isCorrect": true,
+          "rationale": "Concentrated living in apartments and townhouses creates conflicts between residents over noise transmission and blocked natural light."
+        },
+        {
+          "text": "Inability to access online government administrative services",
+          "isCorrect": false,
+          "rationale": "The source material addresses physical urban infrastructure and daily residential living conditions rather than online portal accessibility."
+        },
+        {
+          "text": "High property tax rates imposed on single-family houses",
+          "isCorrect": false,
+          "rationale": "Tax policies regarding single-family properties are not discussed as a cause of residential human rights issues in the provided text."
+        },
+        {
+          "text": "Mandatory government relocation of citizens to rural areas",
+          "isCorrect": false,
+          "rationale": "Urban migration occurred naturally due to industrial expansion, not through forced government relocation programs."
+        }
+      ],
+      "hint": "Think about common structural and living nuisances experienced by neighbors in high-rise apartments."
+    },
+    {
+      "question": "Which initiative is cited in the source text as a local government effort to uphold citizens' safety rights during late-night hours?",
+      "answerOptions": [
+        {
+          "text": "Operating the Safe Return Scout System",
+          "isCorrect": true,
+          "rationale": "Local governments manage the Safe Return Scout System to help citizens travel home safely at night amidst crime concerns."
+        },
+        {
+          "text": "Issuing standard operating manuals for fine dust alerts",
+          "isCorrect": false,
+          "rationale": "Fine dust alert manuals are created by environmental agencies to protect environmental rights rather than safety from urban crime."
+        },
+        {
+          "text": "Hosting 'Culture Day' events on the last week of every month",
+          "isCorrect": false,
+          "rationale": "Culture Day programs aim to broaden public access to cultural facilities and promote cultural rights."
+        },
+        {
+          "text": "Providing public rental housing to university students",
+          "isCorrect": false,
+          "rationale": "Public rental housing reduces financial burdens to guarantee housing rights for young adults."
+        }
+      ],
+      "hint": "Identify the policy designed specifically to protect pedestrians walking home late at night."
+    },
+    {
+      "question": "Cultural rights guarantee freedom to participate in cultural life. How does providing Halal or vegetarian food options at international sports events exemplify cultural rights?",
+      "answerOptions": [
+        {
+          "text": "It guarantees the right of individuals to maintain their unique religious and lifestyle practices.",
+          "isCorrect": true,
+          "rationale": "Cultural rights encompass respecting diverse dietary habits, languages, and religious traditions alongside general art access."
+        },
+        {
+          "text": "It minimizes the total cost of hosting international sporting events.",
+          "isCorrect": false,
+          "rationale": "Providing specialized dietary options is aimed at respecting human rights and diversity, not reducing hosting expenditures."
+        },
+        {
+          "text": "It imposes host nation culinary traditions on all visiting athletes.",
+          "isCorrect": false,
+          "rationale": "Forcing host nation traditions on visitors contradicts the principle of respecting minority cultural choices."
+        },
+        {
+          "text": "It classifies religious dietary requirements under modern safety rights.",
+          "isCorrect": false,
+          "rationale": "Accommodating religious food practices is explicitly presented as an illustration of cultural rights, not safety rights."
+        }
+      ],
+      "hint": "Focus on how respecting distinct religious or lifestyle habits relates to broader human rights."
+    },
+    {
+      "question": "In the context of the modern information society, what does the 'right to be forgotten' grant an individual?",
+      "answerOptions": [
+        {
+          "text": "The right to request the modification or permanent deletion of personal information on the internet",
+          "isCorrect": true,
+          "rationale": "The right to be forgotten allows individuals to strengthen control over their personal data online by requesting edits or deletion."
+        },
+        {
+          "text": "The right to block public agencies from disclosing official government records",
+          "isCorrect": false,
+          "rationale": "This relates to state secrecy or official information regulation rather than an individual's personal digital footprint."
+        },
+        {
+          "text": "The right to access public database information free of cost",
+          "isCorrect": false,
+          "rationale": "Requesting public agency documents pertains to the general right to access information (\uc54c\uad8c\ub9ac)."
+        },
+        {
+          "text": "The right to bypass identity verification when accessing commercial banking",
+          "isCorrect": false,
+          "rationale": "Identity checks for financial transactions are regulatory requirements and not governed by the right to be forgotten."
+        }
+      ],
+      "hint": "Consider how individuals manage and control personal data that was previously uploaded online."
+    },
+    {
+      "question": "Which specific law is noted in the source material as defining the duties of the state and local governments regarding environmental preservation?",
+      "answerOptions": [
+        {
+          "text": "Framework Act on Environmental Policy",
+          "isCorrect": true,
+          "rationale": "The Framework Act on Environmental Policy (\ud658\uacbd \uc815\ucc45 \uae30\ubcf8\ubc95) sets out state and local government obligations to protect the environment."
+        },
+        {
+          "text": "Housing Act",
+          "isCorrect": false,
+          "rationale": "The Housing Act (\uc8fc\uac70 \uae30\ubcf8\ubc95) outlines the right of citizens to live in stable, comfortable housing."
+        },
+        {
+          "text": "Act on Information Disclosure by Public Institutions",
+          "isCorrect": false,
+          "rationale": "This law guarantees citizens' access to government records to fulfill their right to know."
+        },
+        {
+          "text": "Personal Information Protection Act",
+          "isCorrect": false,
+          "rationale": "This statute protects personal data privacy and identity rights in the digital age."
+        }
+      ],
+      "hint": "Look for the legislation explicitly named for establishing governmental obligations toward environmental protection."
+    },
+    {
+      "question": "How is the 'right to self-determination' (\uc790\uacb0\uad8c) defined in the source material?",
+      "answerOptions": [
+        {
+          "text": "The right of each nation or collective group to independently resolve and decide its own affairs",
+          "isCorrect": true,
+          "rationale": "Self-determination means ethnic groups or nations have the authority to manage their own political and social affairs autonomously."
+        },
+        {
+          "text": "The right of individuals to choose whether to pay national taxes",
+          "isCorrect": false,
+          "rationale": "Taxation is a civic duty and not part of the collective right to self-determination."
+        },
+        {
+          "text": "The right of property owners to ignore local zoning regulations",
+          "isCorrect": false,
+          "rationale": "Property usage is legally regulated for the public interest and is distinct from national self-determination."
+        },
+        {
+          "text": "The right of socially vulnerable individuals to receive direct state welfare payments",
+          "isCorrect": false,
+          "rationale": "Receiving welfare support falls under second-generation social rights, not collective self-determination."
+        }
+      ],
+      "hint": "Think about national or group autonomy in deciding internal and external affairs."
+    },
+    {
+      "question": "Why is active state intervention deemed necessary for guaranteeing 2nd generation human rights (Social Rights)?",
+      "answerOptions": [
+        {
+          "text": "To secure baseline social and economic conditions that allow vulnerable groups to live with human dignity",
+          "isCorrect": true,
+          "rationale": "Second-generation rights recognize that state non-interference alone cannot ensure fair living conditions, requiring affirmative welfare actions."
+        },
+        {
+          "text": "To strictly prevent the government from interfering in private business transactions",
+          "isCorrect": false,
+          "rationale": "Limiting state intervention in private affairs is a core feature of 1st generation liberty rights."
+        },
+        {
+          "text": "To erase cultural differences and establish a single national lifestyle",
+          "isCorrect": false,
+          "rationale": "Human rights expansion aims to protect diversity rather than enforce cultural assimilation."
+        },
+        {
+          "text": "To draft global treaties addressing transboundary industrial pollution",
+          "isCorrect": false,
+          "rationale": "Global pollution treaties fall under 3rd generation solidarity rights rather than domestic social rights."
+        }
+      ],
+      "hint": "Focus on why state assistance is necessary for disadvantaged members of society to achieve basic living standards."
+    },
+    {
+      "question": "An apartment notice requesting residents not to place mobile phones in vibration mode on the floor early in the morning represents which concept from the text?",
+      "answerOptions": [
+        {
+          "text": "New types of residential friction stemming from dense shared living environments",
+          "isCorrect": true,
+          "rationale": "The notice highlights how close-quarters living in modern housing creates novel noise disputes affecting residents' housing rights."
+        },
+        {
+          "text": "An unconstitutional violation of citizens' freedom of speech and expression",
+          "isCorrect": false,
+          "rationale": "Residential requests regarding floor vibration address noise etiquette among neighbors, not government restriction of speech."
+        },
+        {
+          "text": "A statutory regulation mandated by the Personal Information Protection Act",
+          "isCorrect": false,
+          "rationale": "Apartment notices regarding vibration noise are community guidelines, not data privacy laws."
+        },
+        {
+          "text": "A crime prevention safety measure implemented by municipal scouts",
+          "isCorrect": false,
+          "rationale": "Municipal scouts focus on night escort safety, which is unrelated to indoor apartment noise etiquette."
+        }
+      ],
+      "hint": "Consider how high-density modern housing creates unexpected everyday disputes between neighbors."
+    }
+  ]
+}
