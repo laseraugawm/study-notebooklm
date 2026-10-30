@@ -3,7 +3,7 @@ import json, os, re, subprocess, sys, time, urllib.request
 W = "/var/lib/docker/volumes/advisor-data/_data/study"
 ADVISOR = "http://192.168.75.225:8765/ask"
 SECRET = open("/root/.advisor-secret").read().strip()
-PROVIDER = os.environ.get("DESC_PROVIDER", "deepseek")
+PROVIDERS = os.environ.get("DESC_PROVIDERS", "deepseek,qwen,grok,gemini_junghhco1").split(",")
 MAX_PER_RUN = int(os.environ.get("DESC_MAX", "3"))
 IMAGE = os.environ.get("DESC_IMAGE", "advisor-mcp:fw29")
 KIND_KO = {"audio": "오디오 요약", "video": "영상 해설"}
@@ -87,17 +87,26 @@ def transcribe(audio_host_path, title):
         nlm("source", "delete", sid, "-n", nb, "--yes")
 
 
-def ask(prompt):
-    body = json.dumps({"provider": PROVIDER, "prompt": prompt, "timeout_s": 300}).encode()
+def ask(prompt, provider):
+    body = json.dumps({"provider": provider, "prompt": prompt, "timeout_s": 300}).encode()
     req = urllib.request.Request(ADVISOR, data=body, headers={"content-type": "application/json", "x-advisor-secret": SECRET})
     with urllib.request.urlopen(req, timeout=420) as r:
         return json.loads(r.read())
 
 
 def parse(answer):
-    m = re.search(r"```(?:json)?\s*(\{.*\})\s*```", answer, re.S)
-    raw = m.group(1) if m else answer[answer.find("{"):answer.rfind("}") + 1]
-    return json.loads(raw)
+    a = answer.replace(" ", " ")
+    a = re.sub(r"^[ 	]*\d+[ 	]*$", "", a, flags=re.M)
+    a = re.sub(r"^[ 	]*(json|JSON|복사|Copy)[ 	]*$", "", a, flags=re.M)
+    cands = re.findall(r"```(?:json)?\s*(\{.*?\})\s*```", a, re.S)
+    if "{" in a:
+        cands.append(a[a.find("{"):a.rfind("}") + 1])
+    for c in cands:
+        try:
+            return json.loads(c)
+        except Exception:
+            continue
+    raise ValueError("no JSON object in answer")
 
 
 def describe(s, u, kind, rec, focus=None):
@@ -124,9 +133,23 @@ def describe(s, u, kind, rec, focus=None):
     try:
         fb = ("[보충 초점] 이 자료는 다음 개념을 채우라는 지시로 만든 보충 자료다:\n- " + "\n- ".join(focus) + "\n\n") if focus else ""
         sf = ',\n "still_missing": ["보충 초점 중 대본에서 실제로 다루지 않은 것"]' if focus else ""
-        r = ask(PROMPT.format(subject=s["name"], code=u["code"], title=u["title"], pages=u["pages"], kind=KIND_KO[base] + (" 보충" if focus else ""), dur=mmss(dur), transcript=text, report=report[:14000], focus_block=fb, still_field=sf))
-        d.update({k: v for k, v in parse(r.get("answer", "")).items() if k in ("chapters", "concepts", "missing", "errors", "still_missing")})
-        d["analyzer"] = r.get("provider", PROVIDER)
+        q = PROMPT.format(subject=s["name"], code=u["code"], title=u["title"], pages=u["pages"], kind=KIND_KO[base] + (" 보충" if focus else ""), dur=mmss(dur), transcript=text, report=report[:14000], focus_block=fb, still_field=sf)
+        errs = []
+        for prov in PROVIDERS:
+            try:
+                r = ask(q, prov)
+                j = parse(r.get("answer", ""))
+                if not isinstance(j, dict) or "missing" not in j:
+                    raise ValueError("no missing field")
+                d.update({k: v for k, v in j.items() if k in ("chapters", "concepts", "missing", "errors", "still_missing")})
+                d["analyzer"] = r.get("provider", prov)
+                break
+            except Exception as e:
+                errs.append(f"{prov}: {str(e)[:80]}")
+        else:
+            raise RuntimeError("; ".join(errs))
+        if errs:
+            d["analyzer_fallbacks"] = errs
     except Exception as e:
         d["analyzer_error"] = str(e)[:200]
     if focus:
