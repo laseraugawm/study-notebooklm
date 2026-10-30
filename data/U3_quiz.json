@@ -1,0 +1,265 @@
+{
+  "title": "Physical Computing Quiz",
+  "questions": [
+    {
+      "question": "In a physical computing system, which device receives signals from sensors, processes the information, and controls output devices?",
+      "answerOptions": [
+        {
+          "text": "Microcontroller",
+          "rationale": "This processing unit receives input signals from sensors and executes commands to control actuators.",
+          "isCorrect": true
+        },
+        {
+          "text": "Actuator",
+          "rationale": "This device acts as an output component that performs physical work rather than evaluating or processing data.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sensor",
+          "rationale": "This input device detects environmental conditions but does not process data or command other components.",
+          "isCorrect": false
+        },
+        {
+          "text": "Database",
+          "rationale": "This software structure stores and manages data logically rather than directly executing real-time hardware control tasks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider the processing hub in physical computing that acts as the decision-maker between inputs and outputs."
+    },
+    {
+      "question": "What is the correct sequence of steps involved in an IoT system operation, as demonstrated in a smart home security setup?",
+      "answerOptions": [
+        {
+          "text": "Data Collection $\\rightarrow$ Data Transmission $\\rightarrow$ Data Processing $\\rightarrow$ Service Provision",
+          "rationale": "Sensors first gather data, network devices send it, software analyzes the information, and the system delivers appropriate responses.",
+          "isCorrect": true
+        },
+        {
+          "text": "Data Transmission $\\rightarrow$ Data Collection $\\rightarrow$ Data Processing $\\rightarrow$ Service Provision",
+          "rationale": "Information must be captured by sensing hardware before it can be transmitted across a network.",
+          "isCorrect": false
+        },
+        {
+          "text": "Data Collection $\\rightarrow$ Data Processing $\\rightarrow$ Data Transmission $\\rightarrow$ Service Provision",
+          "rationale": "Sensor data must be sent across network infrastructure to reach processing systems before logical decisions lead to service delivery.",
+          "isCorrect": false
+        },
+        {
+          "text": "Data Processing $\\rightarrow$ Data Collection $\\rightarrow$ Service Provision $\\rightarrow$ Data Transmission",
+          "rationale": "Raw environmental data cannot be analyzed or processed prior to being sensed and gathered.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about how information flows logically from the surrounding environment to the final automated response."
+    },
+    {
+      "question": "Why is blockchain technology combined with IoT sensors in building safety management systems?",
+      "answerOptions": [
+        {
+          "text": "It prevents data tampering and enables transparent history management across distributed systems.",
+          "rationale": "Storing sensor readings in a blockchain network ensures data accuracy and immutability through shared, encrypted ledger verification.",
+          "isCorrect": true
+        },
+        {
+          "text": "It speeds up the physical response time of environmental tilt sensors.",
+          "rationale": "Blockchain provides data integrity and cryptographic security rather than enhancing the physical hardware sampling speeds of sensors.",
+          "isCorrect": false
+        },
+        {
+          "text": "It centralizes all structural data into a single master server for easier administration.",
+          "rationale": "Blockchain relies on a decentralized, distributed architecture where every node shares identical copies rather than using a single central server.",
+          "isCorrect": false
+        },
+        {
+          "text": "It eliminates the need to install physical sensors on old buildings.",
+          "rationale": "Physical IoT sensors are still required to capture physical measurements such as tilt and structural cracks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Reflect on the main security weakness of raw IoT sensor data when verifying data integrity."
+    },
+    {
+      "question": "What defines the primary operation of a Smart Grid in energy management?",
+      "answerOptions": [
+        {
+          "text": "Combining ICT with the electricity grid to exchange real-time power data between suppliers and consumers.",
+          "rationale": "Real-time information exchange allows both suppliers and consumers to optimize energy production and consumption efficiently.",
+          "isCorrect": true
+        },
+        {
+          "text": "Replacing all non-renewable power plants strictly with localized solar panels.",
+          "rationale": "Smart grids integrate diverse energy sources, including conventional power plants, into an interconnected communication network.",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatically shutting off industrial power lines during peak hours to protect residential users.",
+          "rationale": "Smart grids balance power distribution across all sectors through dynamic monitoring rather than imposing rigid cutoffs on specific users.",
+          "isCorrect": false
+        },
+        {
+          "text": "Storing all excess generated power exclusively in smart home appliances.",
+          "rationale": "Smart grid networks manage energy flow across the entire grid infrastructure rather than storing power inside household appliances.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Focus on how information technology changes the traditional one-way flow of electricity distribution into a two-way interaction."
+    },
+    {
+      "question": "Which pair of technologies is primarily used in IoT systems to safeguard stored and transmitted data against unauthorized access and hacking?",
+      "answerOptions": [
+        {
+          "text": "Encryption and Intrusion Detection Systems",
+          "rationale": "Encryption secures transmitted and stored data contents, while intrusion detection systems monitor and prevent unauthorized network breaches.",
+          "isCorrect": true
+        },
+        {
+          "text": "Actuators and microcontrollers",
+          "rationale": "Microcontrollers and actuators handle processing and physical outputs rather than providing data security functionality.",
+          "isCorrect": false
+        },
+        {
+          "text": "Relational databases and cloud computing",
+          "rationale": "Databases and cloud infrastructure provide data storage and management services rather than security defense mechanisms.",
+          "isCorrect": false
+        },
+        {
+          "text": "Motion sensors and light sensors",
+          "rationale": "Sensors capture physical environmental inputs but do not encrypt network traffic or monitor unauthorized intrusions.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about methods used to make data unreadable to unauthorized parties and to detect network intrusions."
+    },
+    {
+      "question": "How does an IoT-enabled Smart Farm automate crop cultivation?",
+      "answerOptions": [
+        {
+          "text": "By sensing environmental factors like temperature and humidity to automatically trigger watering and climate controls.",
+          "rationale": "Automated monitoring and control systems manage farming conditions directly, reducing the need for manual agricultural labor.",
+          "isCorrect": true
+        },
+        {
+          "text": "By altering the biological requirement of crops so they no longer need sunlight or water.",
+          "rationale": "Smart farms regulate and optimize resource delivery rather than changing the fundamental biological needs of plants.",
+          "isCorrect": false
+        },
+        {
+          "text": "By replacing physical fields entirely with virtual simulation software.",
+          "rationale": "Smart farms cultivate real physical crops using automated technology to sense and adjust ambient growth environments.",
+          "isCorrect": false
+        },
+        {
+          "text": "By forcing farmers to manually record sensor readings into daily logs.",
+          "rationale": "IoT technology automates both data collection and system actions, eliminating manual record-keeping tasks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider how sensors and control systems interact to maintain environmental factors like humidity and temperature."
+    },
+    {
+      "question": "Which statement accurately describes the structural framework of blockchain technology?",
+      "answerOptions": [
+        {
+          "text": "Data is grouped into blocks connected in a chain, with all connected computing systems maintaining identical copies.",
+          "rationale": "Decentralized ledger copies updated across multiple systems ensure high reliability, security, and transparent data history.",
+          "isCorrect": true
+        },
+        {
+          "text": "A single central server stores all blocks and dictates updates to connected clients.",
+          "rationale": "Blockchain operates without a central server by distributing identical ledger copies to all participating systems on the network.",
+          "isCorrect": false
+        },
+        {
+          "text": "Any user on the network can alter historical block data without authentication.",
+          "rationale": "Cryptographic authentication and network consensus prevent unauthorized modifications or tampering of stored block data.",
+          "isCorrect": false
+        },
+        {
+          "text": "Information is updated only when connected devices are completely disconnected from the network.",
+          "rationale": "Network devices simultaneously maintain and update shared information values in real time while connected.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Recall how data is grouped, chained together, and distributed among participants in a blockchain network."
+    },
+    {
+      "question": "What is the defining function of an actuator (driving device) within a physical computing environment?",
+      "answerOptions": [
+        {
+          "text": "Operating physically in response to control signals sent by a microcontroller.",
+          "rationale": "Actuators convert electrical commands from the microcontroller into mechanical motion or physical actions in the real world.",
+          "isCorrect": true
+        },
+        {
+          "text": "Gathering ambient information like light and temperature from the physical environment.",
+          "rationale": "Gathering environmental measurements is the role of input sensors rather than physical driving units.",
+          "isCorrect": false
+        },
+        {
+          "text": "Storing structured sensor data systematically for long-term database management.",
+          "rationale": "Structured data storage is handled by database and cloud storage technologies.",
+          "isCorrect": false
+        },
+        {
+          "text": "Transmitting encrypted network packets over the internet.",
+          "rationale": "Data transmission across networks is managed by communication devices and networking protocols.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about which component creates physical motion or state changes in the real world."
+    },
+    {
+      "question": "Which service represents a key application of IoT in Smart Healthcare?",
+      "answerOptions": [
+        {
+          "text": "Continuously monitoring personal metrics like heart rate to enable remote diagnosis and care.",
+          "rationale": "Wearables track vital signs in real time and sync with healthcare centers, allowing doctors to assess and prescribe remotely.",
+          "isCorrect": true
+        },
+        {
+          "text": "Automatically performing surgical operations without physician supervision.",
+          "rationale": "Smart healthcare supports monitoring, data collection, and remote consultations, but does not perform autonomous surgeries without doctors.",
+          "isCorrect": false
+        },
+        {
+          "text": "Preventing all genetic diseases through automated smart home lighting.",
+          "rationale": "IoT healthcare monitors physiological health metrics rather than altering genetic conditions through environmental lighting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Restricting patient data collection strictly to periodic annual hospital visits.",
+          "rationale": "Smart healthcare continuously gathers health metrics in real time during daily life rather than relying solely on hospital visits.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider how wearable devices communicate health status to medical professionals outside the clinic."
+    },
+    {
+      "question": "Which capability illustrates the practical implementation of IoT in a Smart Building?",
+      "answerOptions": [
+        {
+          "text": "Utilizing automated access control, sensor-based energy management, and real-time smart parking guidance.",
+          "rationale": "Smart buildings integrate security sensors, automated HVAC/lighting controls, and parking space tracking to maximize efficiency.",
+          "isCorrect": true
+        },
+        {
+          "text": "Requiring security guards to manually monitor and record available parking spots on paper.",
+          "rationale": "Sensors detect parking spot occupancy in real time and automatically notify drivers via digital displays or applications.",
+          "isCorrect": false
+        },
+        {
+          "text": "Turning off all security and fire detection systems during non-operational hours to save power.",
+          "rationale": "Automated intrusion and fire detection systems operate continuously to ensure building safety at all times.",
+          "isCorrect": false
+        },
+        {
+          "text": "Eliminating climate control systems in favor of manual window adjustments by occupants.",
+          "rationale": "Smart buildings use environmental sensors to automatically adjust heating, cooling, and carbon dioxide/gas levels.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about how building management automates parking guidance, security, and energy consumption."
+    }
+  ]
+}

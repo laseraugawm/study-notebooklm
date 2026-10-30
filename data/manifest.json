@@ -1,7 +1,7 @@
 {
  "subject": "고1 정보",
  "chapter": "Ⅰ. 컴퓨팅 시스템",
- "updated": "2026-10-30 12:40 KST",
+ "updated": "2026-10-30 12:50 KST",
  "units": [
   {
    "id": "U1",
@@ -32,6 +32,12 @@
      "json": null,
      "secs": 39,
      "at": "2026-10-30T03:24:15"
+    },
+    "quiz": {
+     "file": "U2_quiz.md",
+     "json": "U2_quiz.json",
+     "secs": 47,
+     "at": "2026-10-30T03:41:17"
     }
    }
   },
@@ -45,6 +51,12 @@
      "json": null,
      "secs": 58,
      "at": "2026-10-30T03:28:29"
+    },
+    "quiz": {
+     "file": "U3_quiz.md",
+     "json": "U3_quiz.json",
+     "secs": 69,
+     "at": "2026-10-30T03:45:48"
     }
    }
   },
