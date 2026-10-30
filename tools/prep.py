@@ -132,7 +132,7 @@ for s in ("social", "science", "info", "korean", "english", "math"):
     os.makedirs(os.path.join(SRC, s), exist_ok=True)
 subs = [social()]
 os.makedirs(os.path.join(SRC, "science"), exist_ok=True)
-subs.append(subject("science", "통합과학", "천재 통합과학2", pdf_list("science", f"{ROOT}/통합과학/천재_고등_통합과학2(신영준)_교과서.pdf", SCI)))
+subs.append(subject("science", "통합과학", "천재 통합과학2", pdf_list("science", f"{ROOT}/통합과학/천재_고등_통합과학2(신영준)_교과서_한쪽씩.pdf", SCI)))
 subs.append(info())
 os.makedirs(os.path.join(SRC, "korean"), exist_ok=True)
 subs.append(subject("korean", "국어", "지학사 공통국어2", pdf_list("korean", glob.glob(f"{ROOT}/국어/*지학사*교과서*.pdf")[0], KOR)))
