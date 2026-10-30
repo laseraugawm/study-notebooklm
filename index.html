@@ -137,6 +137,7 @@ let C,S,cur={s:null,u:0,k:"report",view:"browse",m:null};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const md=t=>DOMPurify.sanitize(marked.parse(t.replace(/\*\*([^*\n]+?)\*\*/g,"<strong>$1</strong>")));
+const murl=f=>f.url||("data/"+f.file);
 const subj=()=>C.subjects.find(s=>s.id===cur.s)||C.subjects[0];
 async function boot(){
   [C,S]=await Promise.all([fetch("data/catalog.json",{cache:"no-store"}).then(r=>r.json()),fetch("data/schedule.json",{cache:"no-store"}).then(r=>r.json())]);
@@ -182,8 +183,8 @@ async function show(u,k){
   if(!f?.file){p.innerHTML=`<p class="empty">${f?.failed?`생성 실패 ${f.failed}회 — 다음 실행에서 다시 시도합니다.`:"아직 생성되지 않았습니다. 달력에서 예정일을 확인할 수 있습니다."}</p>`;return;}
   const meta=`<div class="meta">${esc(f.file)} · 생성 ${esc(f.secs)}초 · ${esc(f.at)}</div>`;
   if(f.local_only){p.innerHTML=`<p class="empty">생성은 끝났지만 용량 문제로 아직 사이트에 올리지 않았습니다.</p>${meta}`;return;}
-  if(k==="audio"){p.innerHTML=`<audio controls preload="metadata" src="data/${esc(f.file)}"></audio>${meta}`;return;}
-  if(k==="video"){p.innerHTML=`<video controls preload="metadata" src="data/${esc(f.file)}"></video>${meta}`;return;}
+  if(k==="audio"){p.innerHTML=`<audio controls preload="metadata" src="${esc(murl(f))}"></audio>${meta}`;return;}
+  if(k==="video"){p.innerHTML=`<video controls preload="metadata" src="${esc(murl(f))}"></video>${meta}`;return;}
   if(k==="quiz"&&f.json){try{return quiz(await (await fetch("data/"+f.json)).json(),p,meta)}catch{}}
   if(k==="flashcards"&&f.json){try{return cards(await (await fetch("data/"+f.json)).json(),p,meta)}catch{}}
   p.innerHTML=`<div class="md">${md(await (await fetch("data/"+f.file)).text())}</div>${meta}`;
@@ -202,10 +203,10 @@ function descHtml(d,label){
 }
 async function study(u,p){
   const a=u.files.audio,v=u.files.video,r=u.files.report;
-  const ok=f=>f?.file&&!f.local_only;
+  const ok=f=>f?.file&&(f.url||!f.local_only);
   const [ad,vd]=await Promise.all([loadDesc(a),loadDesc(v)]);
-  const media=(ok(a)?`<div class="mstrip"><span class="ml">오디오 요약</span><audio controls preload="metadata" src="data/${esc(a.file)}"></audio></div><details class="vid"><summary>오디오 내용 설명${ad?.missing?.length?` · 빠진 내용 ${ad.missing.length}`:""}</summary>${descHtml(ad,"오디오")}</details>`:"")+
-    (ok(v)?`<details class="vid" open><summary>영상 해설 (화이트보드)${vd?.missing?.length?` · 빠진 내용 ${vd.missing.length}`:""}</summary><video controls preload="metadata" src="data/${esc(v.file)}"></video>${descHtml(vd,"영상")}</details>`:"")+
+  const media=(ok(a)?`<div class="mstrip"><span class="ml">오디오 요약</span><audio controls preload="metadata" src="${esc(murl(a))}"></audio></div><details class="vid"><summary>오디오 내용 설명${ad?.missing?.length?` · 빠진 내용 ${ad.missing.length}`:""}</summary>${descHtml(ad,"오디오")}</details>`:"")+
+    (ok(v)?`<details class="vid" open><summary>영상 해설 (화이트보드)${vd?.missing?.length?` · 빠진 내용 ${vd.missing.length}`:""}</summary><video controls preload="metadata" src="${esc(murl(v))}"></video>${descHtml(vd,"영상")}</details>`:"")+
     (!ok(a)||!ok(v)?`<p class="pend">${[!ok(a)?"오디오":"",!ok(v)?"영상":""].filter(Boolean).join("·")}은 아직 준비 중입니다. 달력에서 예정일을 볼 수 있습니다.</p>`:"");
   const sups=u.sups||[];
   let supHtml="";
@@ -214,7 +215,7 @@ async function study(u,p){
     supHtml=`<div class="sups"><h4>보충 자료 ${sups.length}</h4>${sups.map((x,i)=>{const d=descs[i],lab=`${x.kind==="video"?"영상":"오디오"} 보충 ${x.id.split("_s")[1]}`;
       const focus=`<div class="focus"><b>채우려는 내용</b><ul>${x.focus.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`;
       if(!x.file)return `<details class="vid"><summary>${lab} · ${x.failed?`실패 ${x.failed}회`:x.local_only?"생성됨·미게시":"예정"}</summary>${focus}</details>`;
-      const player=x.kind==="video"?`<video controls preload="metadata" src="data/${esc(x.file)}"></video>`:`<audio controls preload="metadata" src="data/${esc(x.file)}"></audio>`;
+      const player=x.kind==="video"?`<video controls preload="metadata" src="${esc(murl(x))}"></video>`:`<audio controls preload="metadata" src="${esc(murl(x))}"></audio>`;
       const still=d?.still_missing?.length?`<div class="miss"><h4>보충 후에도 남은 내용 ${d.still_missing.length}</h4><ul>${d.still_missing.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:"";
       return `<details class="vid"><summary>${lab}${d?.still_missing?` · 남은 내용 ${d.still_missing.length}`:""}</summary>${player}${focus}${still}${descHtml(d,lab)}</details>`}).join("")}</div>`;
   }
