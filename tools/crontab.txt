@@ -1,0 +1,3 @@
+*/10 * * * * python3 /root/study-sync2.py >> /root/study-sync.log 2>&1
+10 1,9,17 * * * docker run --rm --name study-loom --entrypoint sh -v advisor-data:/data -e NOTEBOOKLM_HOME=/data/notebooklm advisor-mcp:fw29 -c "cd /data/study && python3 -u loom.py >> loom.out 2>&1" >/dev/null 2>&1
+40 */3 * * * DESC_MAX=3 timeout 7000 python3 /root/study-describe.py >> /root/study-describe.log 2>&1
