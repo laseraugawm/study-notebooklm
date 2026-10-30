@@ -47,7 +47,7 @@ main{min-width:0}
 .tab{all:unset;cursor:pointer;padding:8px 13px;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
 .tab[disabled]{opacity:.4;cursor:default}
-.pane{background:var(--panel);border:1px solid var(--line);border-top:0;padding:20px 24px;min-height:320px;overflow-x:auto}
+.pane{background:var(--panel);border:1px solid var(--line);border-top:0;padding:20px 24px;min-height:320px;min-width:0}
 .md{max-width:78ch}
 .md h1{font-size:21px}.md h2{font-size:18px;border-bottom:1px solid var(--line);padding-bottom:4px}.md h3{font-size:16px}
 .md table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}
@@ -57,7 +57,14 @@ main{min-width:0}
 .md pre{background:var(--code);padding:12px;overflow-x:auto}
 .empty{color:var(--muted)}
 .meta{font:12px/1.5 'IBM Plex Mono',monospace;color:var(--muted);margin-top:16px}
-audio,video{width:100%;max-width:100%;margin-top:8px}
+audio,video{width:100%;max-width:100%}
+.mstrip{position:sticky;top:0;z-index:2;display:flex;align-items:center;gap:10px;background:var(--panel);border-bottom:1px solid var(--line);padding:8px 0;margin:-8px 0 12px}
+.mstrip audio{flex:1;min-width:0;height:36px}
+.ml{font-size:12px;font-weight:700;color:var(--accent);white-space:nowrap}
+.vid{border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-bottom:14px}
+.vid summary{cursor:pointer;font-weight:500;font-size:14px}
+.vid video{margin-top:8px;max-height:56vh;background:#000;border-radius:4px}
+.pend{font-size:13px;color:var(--muted);margin:0 0 12px}
 .q{border:1px solid var(--line);border-radius:6px;padding:12px 14px;margin-bottom:12px}
 .q p{margin:0 0 8px}
 .opt{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:4px;padding:6px 10px;margin:4px 0;cursor:pointer}
@@ -106,6 +113,7 @@ footer{margin-top:28px;font-size:12px;color:var(--muted)}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
 <script>
 const KINDS=[["report","개념정리"],["quiz","퀴즈"],["flashcards","플래시카드"],["audio","오디오"],["video","비디오"]];
+const TABS=[["report","개념정리 · 오디오 · 영상"],["quiz","퀴즈"],["flashcards","플래시카드"]];
 const KO=Object.fromEntries(KINDS);
 let C,S,cur={s:null,u:0,k:"report",view:"browse",m:null};
 const $=s=>document.querySelector(s);
@@ -143,13 +151,16 @@ function renderUnits(){
 }
 function render(){
   const u=subj().units[cur.u];
-  $("#tabs").innerHTML=KINDS.map(([k,l])=>`<button class="tab" role="tab" aria-selected="${k===cur.k}" ${u.files[k]?.file?"":"disabled"} data-k="${k}">${l}</button>`).join("");
+  if(!TABS.some(([k])=>k===cur.k))cur.k="report";
+  const has=k=>k==="report"?["report","audio","video"].some(x=>u.files[x]?.file):u.files[k]?.file;
+  $("#tabs").innerHTML=TABS.map(([k,l])=>`<button class="tab" role="tab" aria-selected="${k===cur.k}" ${has(k)?"":"disabled"} data-k="${k}">${l}</button>`).join("");
   document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{if(b.disabled)return;cur.k=b.dataset.k;render();});
   history.replaceState(null,"",`#s=${cur.s}&u=${u.id}&k=${cur.k}`);
   show(u,cur.k);
 }
 async function show(u,k){
   const f=u.files[k],p=$("#pane");
+  if(k==="report")return study(u,p);
   if(!f?.file){p.innerHTML=`<p class="empty">${f?.failed?`생성 실패 ${f.failed}회 — 다음 실행에서 다시 시도합니다.`:"아직 생성되지 않았습니다. 달력에서 예정일을 확인할 수 있습니다."}</p>`;return;}
   const meta=`<div class="meta">${esc(f.file)} · 생성 ${esc(f.secs)}초 · ${esc(f.at)}</div>`;
   if(f.local_only){p.innerHTML=`<p class="empty">생성은 끝났지만 용량 문제로 아직 사이트에 올리지 않았습니다.</p>${meta}`;return;}
@@ -158,6 +169,17 @@ async function show(u,k){
   if(k==="quiz"&&f.json){try{return quiz(await (await fetch("data/"+f.json)).json(),p,meta)}catch{}}
   if(k==="flashcards"&&f.json){try{return cards(await (await fetch("data/"+f.json)).json(),p,meta)}catch{}}
   p.innerHTML=`<div class="md">${md(await (await fetch("data/"+f.file)).text())}</div>${meta}`;
+}
+async function study(u,p){
+  const a=u.files.audio,v=u.files.video,r=u.files.report;
+  const ok=f=>f?.file&&!f.local_only;
+  const media=(ok(a)?`<div class="mstrip"><span class="ml">오디오 요약</span><audio controls preload="metadata" src="data/${esc(a.file)}"></audio></div>`:"")+
+    (ok(v)?`<details class="vid" open><summary>영상 해설 (화이트보드)</summary><video controls preload="metadata" src="data/${esc(v.file)}"></video></details>`:"")+
+    (!ok(a)||!ok(v)?`<p class="pend">${[!ok(a)?"오디오":"",!ok(v)?"영상":""].filter(Boolean).join("·")}은 아직 준비 중입니다. 달력에서 예정일을 볼 수 있습니다.</p>`:"");
+  let body;
+  if(r?.file)body=`<div class="md">${md(await (await fetch("data/"+r.file)).text())}</div><div class="meta">${esc(r.file)} · 생성 ${esc(r.secs)}초 · ${esc(r.at)}</div>`;
+  else body=`<p class="empty">${r?.failed?`개념정리 생성 실패 ${r.failed}회 — 다음 실행에서 다시 시도합니다.`:"개념정리는 아직 생성되지 않았습니다."}</p>`;
+  p.innerHTML=media+body;
 }
 function list(j,keys){for(const k of keys){if(Array.isArray(j?.[k]))return j[k];}return Array.isArray(j)?j:null;}
 function quiz(j,p,meta){
