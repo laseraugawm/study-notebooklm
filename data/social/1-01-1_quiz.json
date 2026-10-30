@@ -1,0 +1,265 @@
+{
+  "title": "Human Rights Quiz",
+  "questions": [
+    {
+      "question": "Which characteristic of human rights describes them as inherent rights granted naturally from birth, existing prior to being guaranteed by state laws or written constitutions?",
+      "answerOptions": [
+        {
+          "text": "Inherent / Natural rights (\ucc9c\ubd80\uc801 \uad8c\ub9ac)",
+          "isCorrect": true,
+          "rationale": "Human rights are considered naturally endowed at birth, preceding any formal legal or constitutional recognition by the state."
+        },
+        {
+          "text": "Universal rights (\ubcf4\ud3b8\uc801 \uad8c\ub9ac)",
+          "isCorrect": false,
+          "rationale": "Universality emphasizes that rights belong to all human beings regardless of race, gender, or religion, rather than their origin prior to state law."
+        },
+        {
+          "text": "Inviolable rights (\ubd88\uac00\uce68\uc758 \uad8c\ub9ac)",
+          "isCorrect": false,
+          "rationale": "Inviolability means that state power or other individuals cannot arbitrarily infringe upon or infringe these rights, rather than addressing their origin at birth."
+        },
+        {
+          "text": "Social rights (\uc0ac\ud68c\uad8c)",
+          "isCorrect": false,
+          "rationale": "Social rights developed later during the 20th century to ensure a basic, humane standard of living through state intervention."
+        }
+      ],
+      "hint": "Consider the term that literally means rights bestowed upon individuals by nature or heaven upon being born."
+    },
+    {
+      "question": "According to philosopher Hannah Arendt's analysis in 'The Origins of Totalitarianism,' what was the fundamental cause of the tragedy experienced by stateless persons and refugees during the World Wars?",
+      "answerOptions": [
+        {
+          "text": "Lacking membership in any recognized political community or state",
+          "isCorrect": true,
+          "rationale": "Arendt emphasized that without belonging to a political community, individuals lost the protection of law entirely, rendering them vulnerable to total rights deprivation."
+        },
+        {
+          "text": "Having lower economic status compared to host citizens",
+          "isCorrect": false,
+          "rationale": "While economic hardship was present, Arendt identified the lack of political belonging and legal existence as the primary catalyst for total loss of rights."
+        },
+        {
+          "text": "Refusing to adopt the local language and social customs of host nations",
+          "isCorrect": false,
+          "rationale": "Cultural assimilation was not the underlying cause of statelessness or the stripping of citizenship identified in her political philosophy."
+        },
+        {
+          "text": "Relying excessively on international peace treaties for legal protection",
+          "isCorrect": false,
+          "rationale": "The source material highlights that the absence of a sovereign national government to guarantee their legal standing left refugees without any enforceable rights."
+        }
+      ],
+      "hint": "Focus on what refugees lost when they left their home countries, leaving them without any legal framework to protect them."
+    },
+    {
+      "question": "Which document was approved following the British Glorious Revolution (1688) to restrict absolute monarchical rule and establish a parliamentary constitutional system?",
+      "answerOptions": [
+        {
+          "text": "Bill of Rights (1689)",
+          "isCorrect": true,
+          "rationale": "The British Bill of Rights set legislative limits on royal authority, such as prohibiting taxation without parliamentary consent, establishing parliament-centered constitutionalism."
+        },
+        {
+          "text": "Declaration of Independence (1776)",
+          "isCorrect": false,
+          "rationale": "The Declaration of Independence was proclaimed in the American colonies to break away from British rule nearly a century later."
+        },
+        {
+          "text": "Declaration of the Rights of Man and of the Citizen (1789)",
+          "isCorrect": false,
+          "rationale": "This declaration was adopted during the French Revolution to proclaim fundamental liberties and social equality."
+        },
+        {
+          "text": "Weimar Constitution (1919)",
+          "isCorrect": false,
+          "rationale": "The Weimar Constitution was created in 20th-century Germany and is famous for first establishing social rights."
+        }
+      ],
+      "hint": "Identify the late 17th-century legal document that curbed monarchical power regarding taxation and parliamentary consent."
+    },
+    {
+      "question": "Which set of principles was explicitly articulated in the American Declaration of Independence (1776) as described in the source text?",
+      "answerOptions": [
+        {
+          "text": "Popular sovereignty, the right to pursue happiness, and the right to resistance",
+          "isCorrect": true,
+          "rationale": "The 1776 Declaration explicitly embodied popular sovereignty, the right to pursue happiness, and the right of the people to resist oppressive government."
+        },
+        {
+          "text": "Absolute sanctity of private property and state-controlled economic planning",
+          "isCorrect": false,
+          "rationale": "The sanctity of property was a core emphasis of the French Declaration, whereas state-controlled planning reflects later socialist or welfare ideas."
+        },
+        {
+          "text": "Guaranteed minimum wage and state social security benefits",
+          "isCorrect": false,
+          "rationale": "Welfare protections and social security rights emerged much later in response to 19th and 20th-century industrialization."
+        },
+        {
+          "text": "Universal suffrage for all residents regardless of property, gender, or race",
+          "isCorrect": false,
+          "rationale": "Early civil revolution declarations still restricted voting rights based on gender, race, and economic property holdings."
+        }
+      ],
+      "hint": "Recall the key ideals declared by the American colonies when separating from colonial rule."
+    },
+    {
+      "question": "What was the primary goal of the Chartist Movement organized by British workers during the 19th century?",
+      "answerOptions": [
+        {
+          "text": "Securing political suffrage expansion and secret voting through the People's Charter",
+          "isCorrect": true,
+          "rationale": "British working-class activists drafted the People's Charter to demand extended voting rights and secret ballots, as civil revolutions had left working men disenfranchised."
+        },
+        {
+          "text": "Abolishing all private property rights and establishing collective ownership",
+          "isCorrect": false,
+          "rationale": "The Chartist movement focused on political franchise and democratic participation rather than complete communist restructuring."
+        },
+        {
+          "text": "Drafting an international treaty to end genocide and hate crimes",
+          "isCorrect": false,
+          "rationale": "Global human rights treaties targeting genocide and hate crimes developed in the mid-to-late 20th century under the United Nations."
+        },
+        {
+          "text": "Enforcing state regulation of environmental pollution and climate crisis",
+          "isCorrect": false,
+          "rationale": "Environmental rights and climate action solidarity represent modern, contemporary human rights issues."
+        }
+      ],
+      "hint": "Think about what excluded workers petitioned for in the 'People's Charter' to participate in politics."
+    },
+    {
+      "question": "Which socioeconomic development created the impetus for recognizing 'social rights' (\uc0ac\ud68c\uad8c) and demanding state intervention in economic life?",
+      "answerOptions": [
+        {
+          "text": "Widening rich-poor gaps, unemployment, and poor labor conditions following the Industrial Revolution",
+          "isCorrect": true,
+          "rationale": "Rapid capitalist development after the Industrial Revolution generated severe social inequality, prompting demands for state protection of vulnerable groups."
+        },
+        {
+          "text": "The immediate breakdown of constitutional monarchies during the Glorious Revolution",
+          "isCorrect": false,
+          "rationale": "The Glorious Revolution established constitutional monarchism and civil liberties, preceding industrial social rights demands."
+        },
+        {
+          "text": "The international adoption of the Universal Declaration of Human Rights in 1948",
+          "isCorrect": false,
+          "rationale": "The 1948 Declaration was an international response to totalitarian atrocities in World War II, whereas social rights emerged in national constitutions earlier."
+        },
+        {
+          "text": "The total elimination of property qualifications in 18th-century voting systems",
+          "isCorrect": false,
+          "rationale": "Property qualifications remained widespread throughout the 18th century and were only gradually challenged in the 19th and 20th centuries."
+        }
+      ],
+      "hint": "Consider the economic shift that created factory working conditions and severe wealth disparities."
+    },
+    {
+      "question": "What historical milestone makes the German Weimar Constitution (1919) significant in the evolution of human rights?",
+      "answerOptions": [
+        {
+          "text": "It was the first constitution to explicitly guarantee social rights for a humane living standard.",
+          "isCorrect": true,
+          "rationale": "The 1919 Weimar Constitution marked the transition to a welfare state model by officially stipulating social rights (Article 151) to ensure living worthy of human dignity."
+        },
+        {
+          "text": "It introduced the concept of resistance rights against government oppression for the first time.",
+          "isCorrect": false,
+          "rationale": "Resistance rights were already articulated in earlier documents like the American Declaration of Independence and the French Declaration."
+        },
+        {
+          "text": "It established the principle of parliamentary consent for taxation in 17th-century Europe.",
+          "isCorrect": false,
+          "rationale": "Taxation requiring parliamentary consent was a hallmark of the 1689 British Bill of Rights."
+        },
+        {
+          "text": "It created the United Nations General Assembly to enforce global human rights treaties.",
+          "isCorrect": false,
+          "rationale": "The United Nations and its General Assembly were established following the end of World War II, not by the 1919 German constitution."
+        }
+      ],
+      "hint": "Look for the constitutional document that first included provisions for state-backed social welfare and humane existence."
+    },
+    {
+      "question": "According to Article 153, Paragraph 3 of the Weimar Constitution featured in the text, how must private property rights be exercised?",
+      "answerOptions": [
+        {
+          "text": "In a manner that simultaneously serves the public welfare (\uacf5\uacf5\uc758 \ubcf5\ub9ac)",
+          "isCorrect": true,
+          "rationale": "The Weimar Constitution stipulated that ownership carries obligations and that the use of property must serve the public good alongside individual rights."
+        },
+        {
+          "text": "Without any legislative interference or public restrictions",
+          "isCorrect": false,
+          "rationale": "Unrestricted property rights reflect early classical liberal views, whereas the Weimar Constitution subjected property usage to public welfare needs."
+        },
+        {
+          "text": "Exclusively under the direction of monarchical decree",
+          "isCorrect": false,
+          "rationale": "The Weimar Constitution belonged to a democratic republic, eliminating monarchical authority."
+        },
+        {
+          "text": "Solely for the purpose of expanding international trade networks",
+          "isCorrect": false,
+          "rationale": "The focus of Article 153 was balancing individual ownership with domestic social responsibility and public welfare."
+        }
+      ],
+      "hint": "Think about the social responsibility tied to individual ownership rights in modern welfare constitutions."
+    },
+    {
+      "question": "What primary realization prompted the United Nations General Assembly to adopt the Universal Declaration of Human Rights in 1948?",
+      "answerOptions": [
+        {
+          "text": "Recognizing that totalitarian regimes violating human rights threaten global peace and human life",
+          "isCorrect": true,
+          "rationale": "The devastation and genocidal horrors committed by totalitarian states during WWII proved that universal human rights standards and international cooperation were imperative."
+        },
+        {
+          "text": "Determining that civil liberties should be subordinated to national economic growth",
+          "isCorrect": false,
+          "rationale": "The Declaration aimed to protect universal individual dignity and freedom against state overreach, not subordinate them."
+        },
+        {
+          "text": "Concluding that national governments alone can adequately protect stateless refugees without international treaties",
+          "isCorrect": false,
+          "rationale": "The text emphasizes that international solidarity and cooperation were necessary precisely because national borders often left refugees unprotected."
+        },
+        {
+          "text": "Deciding that property ownership should remain restricted to upper-class nobility",
+          "isCorrect": false,
+          "rationale": "Feudal social orders and class privileges were dismantled by earlier civil revolutions and rejected in modern human rights declarations."
+        }
+      ],
+      "hint": "Reflect on the global lessons learned from the destructive actions of totalitarian governments during World War II."
+    },
+    {
+      "question": "According to Article 2 of the French Declaration of the Rights of Man and of the Citizen (1789), what is the ultimate goal of all political associations?",
+      "answerOptions": [
+        {
+          "text": "Preserving natural and imprescriptible rights such as liberty, property, security, and resistance to oppression",
+          "isCorrect": true,
+          "rationale": "Article 2 explicitly states that political associations exist to protect natural human rights: liberty, property, security, and resistance to oppression."
+        },
+        {
+          "text": "Enforcing state religions and restricting individual freedom of expression",
+          "isCorrect": false,
+          "rationale": "The French Declaration championed freedom of opinion, religion, and speech while rejecting compulsory religious enforcement."
+        },
+        {
+          "text": "Ensuring equal economic distribution of wealth through state ownership",
+          "isCorrect": false,
+          "rationale": "The 1789 French Declaration protected private property as a sacred and inviolable right rather than mandating state distribution of wealth."
+        },
+        {
+          "text": "Establishing international conventions for refugee protection and asylum",
+          "isCorrect": false,
+          "rationale": "Provisions for international refugee protection and asylum rights were codified in later 20th-century declarations, such as the 1948 Universal Declaration."
+        }
+      ],
+      "hint": "Review the specific core natural rights\u2014including liberty and property\u2014listed in the 1789 French declaration."
+    }
+  ]
+}
