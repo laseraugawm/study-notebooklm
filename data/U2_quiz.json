@@ -1,0 +1,265 @@
+{
+  "title": "Network Computing Quiz",
+  "questions": [
+    {
+      "question": "In Windows operating systems, which command entered into the Command Prompt (`cmd`) displays the computer's current IP address configuration?",
+      "answerOptions": [
+        {
+          "text": "ipconfig",
+          "isCorrect": true,
+          "rationale": "Executing `ipconfig` displays active network adapter details, including IP addressing information."
+        },
+        {
+          "text": "ping",
+          "isCorrect": false,
+          "rationale": "The `ping` command checks connectivity and latency to a target host rather than displaying local adapter configurations."
+        },
+        {
+          "text": "netstat",
+          "isCorrect": false,
+          "rationale": "The `netstat` command lists active network connections and ports rather than device IP configurations."
+        },
+        {
+          "text": "traceroute",
+          "isCorrect": false,
+          "rationale": "The `traceroute` command tracks network path hops to a destination rather than printing local network interface properties."
+        }
+      ],
+      "hint": "Think about the command line tool specifically used to configure and view local IP properties in Windows."
+    },
+    {
+      "question": "Which two IP address standards are used for internet network addressing according to the textbook material?",
+      "answerOptions": [
+        {
+          "text": "IPv4 and IPv6",
+          "isCorrect": true,
+          "rationale": "IPv4 and IPv6 are the coexisting internet protocol addressing standards referenced in the text."
+        },
+        {
+          "text": "IPv2 and IPv4",
+          "isCorrect": false,
+          "rationale": "IPv2 was an early developmental protocol and is not a current internet addressing standard."
+        },
+        {
+          "text": "IPv4 and IPv5",
+          "isCorrect": false,
+          "rationale": "IPv5 was an experimental streaming protocol rather than a standard addressing format for internet hosts."
+        },
+        {
+          "text": "IPv6 and IPv8",
+          "isCorrect": false,
+          "rationale": "IPv8 is not an established addressing standard used on the global internet."
+        }
+      ],
+      "hint": "Identify the standard address system currently in wide use alongside its newer expanded version."
+    },
+    {
+      "question": "What is the correct navigation path within the Windows OS Settings app to check your computer's IP address and network properties?",
+      "answerOptions": [
+        {
+          "text": "Settings > Network & Internet > Ethernet > Properties",
+          "isCorrect": true,
+          "rationale": "Accessing Properties under Ethernet within Network & Internet displays active network parameters and IP address info."
+        },
+        {
+          "text": "Settings > System > Display > Advanced Settings",
+          "isCorrect": false,
+          "rationale": "Display settings manage monitor parameters rather than network adapter addresses."
+        },
+        {
+          "text": "Settings > Devices > Printers & Scanners > Hardware Properties",
+          "isCorrect": false,
+          "rationale": "Printers & Scanners settings handle peripheral device setup rather than local network adapter parameters."
+        },
+        {
+          "text": "Settings > Privacy & Security > Developer Mode > Network Logs",
+          "isCorrect": false,
+          "rationale": "Developer permissions do not serve as the primary location for viewing standard network adapter configuration properties."
+        }
+      ],
+      "hint": "Focus on the menu category directly responsible for wired network interface connections."
+    },
+    {
+      "question": "Which sensor should be selected for a physical computing project if the goal is to measure environmental brightness?",
+      "answerOptions": [
+        {
+          "text": "Illuminance sensor",
+          "isCorrect": true,
+          "rationale": "Illuminance (\uc870\ub3c4) sensors detect ambient light levels in the surrounding area."
+        },
+        {
+          "text": "Motion sensor",
+          "isCorrect": false,
+          "rationale": "Motion sensors detect physical movement of objects or living beings rather than light levels."
+        },
+        {
+          "text": "Tilt sensor",
+          "isCorrect": false,
+          "rationale": "Tilt sensors evaluate inclination or tilt angles relative to gravity."
+        },
+        {
+          "text": "Distance sensor",
+          "isCorrect": false,
+          "rationale": "Distance sensors calculate spatial separation rather than ambient light intensity."
+        }
+      ],
+      "hint": "Look for the sensor specifically named after detecting light levels."
+    },
+    {
+      "question": "Which sensor uses ultrasonic waves to determine how far away an object is located?",
+      "answerOptions": [
+        {
+          "text": "Distance sensor",
+          "isCorrect": true,
+          "rationale": "Ultrasonic distance sensors transmit and receive high-frequency sound waves to measure distance to targets."
+        },
+        {
+          "text": "Laser sensor",
+          "isCorrect": false,
+          "rationale": "Laser sensors measure range using light beams rather than sound waves."
+        },
+        {
+          "text": "Touch sensor",
+          "isCorrect": false,
+          "rationale": "Touch sensors register direct physical surface contact rather than measuring distant spatial intervals using sound."
+        },
+        {
+          "text": "Tilt sensor",
+          "isCorrect": false,
+          "rationale": "Tilt sensors monitor angular orientation rather than measuring linear proximity via acoustic signals."
+        }
+      ],
+      "hint": "Recall which sensor relies on reflected sound pulses to calculate spatial gaps."
+    },
+    {
+      "question": "How does resource sharing through cloud computing differ fundamentally from local personal computer sharing?",
+      "answerOptions": [
+        {
+          "text": "Cloud computing allows users to access software and data hosted on remote servers from any location via a network connection.",
+          "isCorrect": true,
+          "rationale": "Cloud computing centralizes software execution and storage on network servers, bypassing local hardware dependencies."
+        },
+        {
+          "text": "Local personal computer sharing allows remote users to access files even when the host PC is powered off.",
+          "isCorrect": false,
+          "rationale": "Local file sharing requires the physical host computer to remain turned on and connected."
+        },
+        {
+          "text": "Cloud computing requires direct physical cable connections between user devices and central storage drives.",
+          "isCorrect": false,
+          "rationale": "Cloud systems utilize internet connectivity rather than direct local cable attachments."
+        },
+        {
+          "text": "Local personal computer sharing automatically publishes files to the public internet without permission management.",
+          "isCorrect": false,
+          "rationale": "Local PC sharing relies on designated shared folders and local access permission settings."
+        }
+      ],
+      "hint": "Consider where the data is stored and software is run when using cloud resources compared to desktop setups."
+    },
+    {
+      "question": "Which sensor is best suited for registering when a person physically contacts or presses a specific control area on a device?",
+      "answerOptions": [
+        {
+          "text": "Touch sensor",
+          "isCorrect": true,
+          "rationale": "Touch sensors detect physical contact on a surface to send input signals to a computing system."
+        },
+        {
+          "text": "Motion sensor",
+          "isCorrect": false,
+          "rationale": "Motion sensors detect movement through a space rather than direct contact on a localized control surface."
+        },
+        {
+          "text": "Laser sensor",
+          "isCorrect": false,
+          "rationale": "Laser sensors project light to gauge range or velocity without requiring direct surface contact."
+        },
+        {
+          "text": "Temperature and humidity sensor",
+          "isCorrect": false,
+          "rationale": "Temperature and humidity sensors monitor atmospheric variables rather than direct contact interactions."
+        }
+      ],
+      "hint": "Identify the sensor designed specifically to respond to physical contact."
+    },
+    {
+      "question": "Which of the following best describes the core concept of the Internet of Things (IoT)?",
+      "answerOptions": [
+        {
+          "text": "A network environment where everyday physical objects equipped with sensors and communication hardware exchange data with other devices or humans.",
+          "isCorrect": true,
+          "rationale": "IoT integrates everyday items into network structures, enabling intelligent data exchange and physical computing interaction."
+        },
+        {
+          "text": "A local cable connection connecting personal computers and local printers within a single office room.",
+          "isCorrect": false,
+          "rationale": "Connecting computers and printers locally describes a conventional LAN, not the broader IoT paradigm."
+        },
+        {
+          "text": "A web browser search tool used exclusively to look up a device's public IP address.",
+          "isCorrect": false,
+          "rationale": "Searching for IP information is a general user diagnostic action, not an embedded IoT architecture."
+        },
+        {
+          "text": "A specialized wireless protocol used strictly to project audio from smartphones to speakers.",
+          "isCorrect": false,
+          "rationale": "Audio streaming is a specific media utility rather than the comprehensive concept of connected smart objects."
+        }
+      ],
+      "hint": "Look for the definition emphasizing everyday objects fitted with sensors and communication modules sharing data."
+    },
+    {
+      "question": "When screen mirroring a smartphone to a classroom TV screen, what display change occurs when rotating the smartphone from portrait to landscape mode?",
+      "answerOptions": [
+        {
+          "text": "The mirrored image on the TV changes its display size and allows full-screen viewing.",
+          "isCorrect": true,
+          "rationale": "Matching the horizontal aspect ratio of widescreen TVs enables full-screen projection."
+        },
+        {
+          "text": "The network connection terminates and prompts for a security password.",
+          "isCorrect": false,
+          "rationale": "Changing screen orientation does not disconnect active wireless networking sessions."
+        },
+        {
+          "text": "The underlying transmission method automatically switches from Wi-Fi to Bluetooth.",
+          "isCorrect": false,
+          "rationale": "Device rotation affects frame dimensions without changing active wireless protocols."
+        },
+        {
+          "text": "The screen resolution drops permanently to prevent audio-visual sync errors.",
+          "isCorrect": false,
+          "rationale": "Orientation adjustments reframe the content rather than forcing permanent degradation of output resolution."
+        }
+      ],
+      "hint": "Think about how aspect ratio adjustments impact widescreen TV displays."
+    },
+    {
+      "question": "In an IoT-based automated fire detection system, what is the role of the computer after a sensor detects smoke or heat?",
+      "answerOptions": [
+        {
+          "text": "It processes the input signal from the sensor, evaluates the condition, and triggers the alarm output.",
+          "isCorrect": true,
+          "rationale": "Physical computing workflow follows the cycle of sensor input $\\rightarrow$ computer processing/judgment $\\rightarrow$ actuator response."
+        },
+        {
+          "text": "It transforms heat energy directly into acoustic output power for the alarm siren.",
+          "isCorrect": false,
+          "rationale": "Computers process data signals; they do not perform physical energy conversion for speaker drivers."
+        },
+        {
+          "text": "It modifies the computer's network IP address to block incoming connections.",
+          "isCorrect": false,
+          "rationale": "Changing IP parameters is irrelevant to evaluating sensor input and executing emergency alerts."
+        },
+        {
+          "text": "It disconnects all wireless interfaces to isolate local smart devices.",
+          "isCorrect": false,
+          "rationale": "IoT systems require active network connectivity to transmit hazard notifications and alerts."
+        }
+      ],
+      "hint": "Recall the fundamental sequence of physical computing: sensing input, processing data, and producing an output response."
+    }
+  ]
+}
