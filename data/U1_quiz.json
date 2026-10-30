@@ -1,0 +1,265 @@
+{
+  "title": "Networking Quiz",
+  "questions": [
+    {
+      "question": "Which network device is responsible for connecting different networks, such as an internal local area network (LAN) and an external network, while determining the optimal path for data transmission?",
+      "answerOptions": [
+        {
+          "text": "Router",
+          "rationale": "Routers operate between distinct networks to direct data packets toward their destination across internal and external network boundaries.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hub and Switch",
+          "rationale": "Hubs and switches manage communication between multiple devices within the same local area network rather than routing between separate networks.",
+          "isCorrect": false
+        },
+        {
+          "text": "Wireless Access Point (AP)",
+          "rationale": "Wireless APs connect wired and wireless network segments using Wi-Fi rather than routing data across different network boundaries.",
+          "isCorrect": false
+        },
+        {
+          "text": "Firewall",
+          "rationale": "Firewalls serve as security barriers to block unauthorized access rather than managing routing paths between different networks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider the device that acts as a bridge between separate networks to guide data along its destination path."
+    },
+    {
+      "question": "What is a primary advantage of using Ethernet cables over optical cables when setting up a wired local area network (LAN)?",
+      "answerOptions": [
+        {
+          "text": "Lower deployment costs and higher physical flexibility",
+          "rationale": "Ethernet cables offer an affordable and flexible cabling solution, making them ideal for standard LAN installations.",
+          "isCorrect": true
+        },
+        {
+          "text": "Higher data transmission speeds over extremely long distances",
+          "rationale": "Long-distance high-speed transmission is the primary strength of optical cables rather than Ethernet cables.",
+          "isCorrect": false
+        },
+        {
+          "text": "Complete elimination of location constraints during device usage",
+          "rationale": "All wired connections impose physical location constraints because devices must remain tethered by cables.",
+          "isCorrect": false
+        },
+        {
+          "text": "Direct transmission of radio frequencies through open air",
+          "rationale": "Transmitting signals through open air using radio frequencies is a defining characteristic of wireless networks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about why Ethernet cables are widely chosen for budget-conscious and adaptable indoor network wiring."
+    },
+    {
+      "question": "Which feature distinguishes Near Field Communication (NFC) from standard RFID technology?",
+      "answerOptions": [
+        {
+          "text": "It operates without physical contact at a very close distance within 10 cm",
+          "rationale": "NFC is a specialized form of RFID designed specifically for non-contact data exchange at extremely short ranges under 10 cm.",
+          "isCorrect": true
+        },
+        {
+          "text": "It requires a complex device pairing process before data transfer",
+          "rationale": "Pairing is a connection procedure characteristic of Bluetooth technology rather than NFC.",
+          "isCorrect": false
+        },
+        {
+          "text": "It allows data transmission across distances of up to 10 meters",
+          "rationale": "A 10-meter operating range is typical for Bluetooth communication, whereas NFC is restricted to under 10 cm.",
+          "isCorrect": false
+        },
+        {
+          "text": "It converts wired LAN signals directly into Wi-Fi signals",
+          "rationale": "Converting wired network signals into Wi-Fi is the role of a Wireless Access Point.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Focus on the specific maximum operating distance required for contactless mobile payment systems."
+    },
+    {
+      "question": "Which wireless technology functions within a 10-meter range, uses a connection procedure known as 'pairing,' and is commonly used for wireless earphones and smart speakers?",
+      "answerOptions": [
+        {
+          "text": "Bluetooth",
+          "rationale": "Bluetooth connects short-range peripheral devices within 10 meters using a pairing process to establish a link.",
+          "isCorrect": true
+        },
+        {
+          "text": "Wi-Fi",
+          "rationale": "Wi-Fi is primarily used to connect devices to a wireless local area network for high-speed internet access.",
+          "isCorrect": false
+        },
+        {
+          "text": "RFID",
+          "rationale": "RFID uses radio waves to read information stored on embedded semiconductor tags or cards rather than pairing audio devices.",
+          "isCorrect": false
+        },
+        {
+          "text": "Miracast",
+          "rationale": "Miracast is a display sharing protocol used for screen mirroring rather than connecting audio peripherals.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Think about the protocol activated when syncing wireless earbuds to a mobile phone."
+    },
+    {
+      "question": "What is the primary security function of a firewall in a network environment?",
+      "answerOptions": [
+        {
+          "text": "To block unauthorized external access and malicious cyber attacks",
+          "rationale": "Firewalls safeguard network integrity by preventing illegal access and malicious intrusions from outside networks.",
+          "isCorrect": true
+        },
+        {
+          "text": "To assign physical IP addresses to all computing devices on a LAN",
+          "rationale": "Assigning network addresses and routing traffic are networking functions handled by routers and switches.",
+          "isCorrect": false
+        },
+        {
+          "text": "To duplicate screen displays across multiple student terminals",
+          "rationale": "Duplicating or sharing screen content across terminals relies on display sharing technologies.",
+          "isCorrect": false
+        },
+        {
+          "text": "To enable non-contact traffic payment processing via mobile devices",
+          "rationale": "Mobile traffic payments are facilitated by NFC or RFID technology rather than network firewalls.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Focus on the mechanism designed to protect an internal network from external threats."
+    },
+    {
+      "question": "In display sharing technologies like Miracast and DLNA, what is the term for sending an exact copy of one device's screen to another display in real time?",
+      "answerOptions": [
+        {
+          "text": "Mirroring",
+          "rationale": "Mirroring accurately replicates the display content of one information device onto another screen in real time.",
+          "isCorrect": true
+        },
+        {
+          "text": "Pairing",
+          "rationale": "Pairing refers to the initial handshake and connection setup between two Bluetooth devices.",
+          "isCorrect": false
+        },
+        {
+          "text": "Routing",
+          "rationale": "Routing is the process of selecting paths along which to send network data packets.",
+          "isCorrect": false
+        },
+        {
+          "text": "Authentication",
+          "rationale": "Authentication involves verifying personal identity, such as through biometric fingerprint scanning.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider the word that describes creating a direct visual reflection of a display."
+    },
+    {
+      "question": "Which statement accurately describes a major characteristic of wired networks compared to wireless networks?",
+      "answerOptions": [
+        {
+          "text": "They offer fast and stable data transmission despite location constraints",
+          "rationale": "Physical cable connections limit device mobility but deliver highly reliable and high-speed data transfers.",
+          "isCorrect": true
+        },
+        {
+          "text": "They eliminate the physical equipment needed to build a LAN",
+          "rationale": "Wired networks require physical infrastructure such as Ethernet cables, optical cables, and switches.",
+          "isCorrect": false
+        },
+        {
+          "text": "They allow devices to move freely without physical space restrictions",
+          "rationale": "Freedom of movement without location constraints is the main advantage of wireless networks.",
+          "isCorrect": false
+        },
+        {
+          "text": "They utilize radio frequency bands to transmit data through open air",
+          "rationale": "Radio frequency transmission through air is the core mechanism of wireless communication.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Weigh the trade-off between physical cable tethering and data reliability."
+    },
+    {
+      "question": "What role does a Wireless Access Point (AP) perform in a local network infrastructure?",
+      "answerOptions": [
+        {
+          "text": "It connects a wired LAN with a wireless LAN using Wi-Fi technology",
+          "rationale": "A Wireless AP acts as a bridge, allowing wireless client devices to access the wired local network via Wi-Fi.",
+          "isCorrect": true
+        },
+        {
+          "text": "It reads semiconductor chip data embedded in product labels",
+          "rationale": "Scanning semiconductor tags on products is performed by RFID readers.",
+          "isCorrect": false
+        },
+        {
+          "text": "It tracks real-time vehicle positions using communication satellites",
+          "rationale": "Vehicle position tracking relies on location information systems utilizing satellites.",
+          "isCorrect": false
+        },
+        {
+          "text": "It physically connects local computers using Ethernet cables",
+          "rationale": "Physical cable connections between multiple computers are handled by hubs and switches.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Identify the equipment that converts a wired local network into an accessible Wi-Fi zone."
+    },
+    {
+      "question": "According to the textbook material, what is a key advantage of Wi-Fi over mobile cellular internet?",
+      "answerOptions": [
+        {
+          "text": "Lower usage cost and faster transmission speed",
+          "rationale": "Wi-Fi generally provides higher data transfer speeds at a lower cost compared to cellular mobile internet.",
+          "isCorrect": true
+        },
+        {
+          "text": "Unlimited coverage area with zero spatial distance constraints",
+          "rationale": "Wi-Fi coverage is limited to a relatively small area surrounding the wireless access point.",
+          "isCorrect": false
+        },
+        {
+          "text": "Seamless data connection while traveling across long distances without local hubs",
+          "rationale": "Mobile internet is better suited for continuous connection while traveling over long distances.",
+          "isCorrect": false
+        },
+        {
+          "text": "Automatic identity verification through fingerprint recognition",
+          "rationale": "Fingerprint verification is a feature of biometric authentication systems, not Wi-Fi networks.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Consider why people often switch from mobile data to Wi-Fi when indoors."
+    },
+    {
+      "question": "What is the defining feature of the Internet of Things (IoT) system?",
+      "answerOptions": [
+        {
+          "text": "Everyday physical objects are connected to the internet to exchange data and enable remote control",
+          "rationale": "IoT links various everyday items to the internet so they can send and receive data for functions like remote management.",
+          "isCorrect": true
+        },
+        {
+          "text": "Devices communicate strictly over 10 cm non-contact distances for payment processing",
+          "rationale": "Short-range non-contact payment processing within 10 cm is characteristic of NFC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Display screens are linked exclusively between teacher and student computers in a classroom",
+          "rationale": "Connecting classroom monitors is an application of display sharing technology.",
+          "isCorrect": false
+        },
+        {
+          "text": "User identity is confirmed using individual biometric physical characteristics",
+          "rationale": "Identity confirmation using physical characteristics describes biometric authentication systems.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Focus on how physical household objects gain internet connectivity and remote control capabilities."
+    }
+  ]
+}
