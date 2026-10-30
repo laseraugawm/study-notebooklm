@@ -1,0 +1,23 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "deepseek",
+   "at": "2026-10-31T08:09:47+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "국제 사회의 분쟁 상황을 알리는 카드 뉴스 만들기 활동에서 분쟁 원인 보기(영토, 자원, 민족, 종교, 문화, 국경, 무역) 중 '무역'이 개념정리에 제시되지 않음",
+     "page": "108",
+     "add": "분쟁 발생 원인으로 영토, 자원, 민족, 종교, 문화, 국경, 무역 등이 제시되어 있다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "rewrite",
+   "review_secs": 99,
+   "reviser": "gemini_junghhco1"
+  }
+ ],
+ "done": true
+}
