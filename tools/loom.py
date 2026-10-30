@@ -53,9 +53,16 @@ def log(**kw):
         f.write(json.dumps(kw, ensure_ascii=False) + "\n")
 
 
+ACCT = ["default"]
+
+
+def ak(acct, k):
+    return k if acct == "default" else f"{acct}:{k}"
+
+
 def nlm(args, timeout=600):
     try:
-        p = subprocess.run(["notebooklm", *args], capture_output=True, text=True, timeout=timeout)
+        p = subprocess.run(["notebooklm", "-p", ACCT[0], *args], capture_output=True, text=True, timeout=timeout)
         return p.returncode, p.stdout, p.stderr
     except subprocess.TimeoutExpired:
         return 124, "", "timeout"
@@ -113,17 +120,18 @@ def pending(cat, st, cfg):
 
 
 def ensure_source(s, u, st):
-    nbk = u.get("notebook") or st["notebooks"].get(s["id"])
+    acct = ACCT[0]
+    nbk = (u.get("notebook") if acct == "default" else None) or st["notebooks"].get(ak(acct, s["id"]))
     if not nbk:
         rc, out, err = nlm(["create", f"고1 {s['name']} 소단원 학습자료", "--json"])
         j = jparse(out) or {}
         nbk = j.get("id") or (j.get("notebook") or {}).get("id")
         if not nbk:
             raise RuntimeError(f"create notebook failed: {(err or out)[-300:]}")
-        st["notebooks"][s["id"]] = nbk
-        log(event="notebook", subject=s["id"], notebook=nbk)
-    skey = f"{s['id']}/{u['id']}"
-    sid = u.get("source_id") or st["sources"].get(skey)
+        st["notebooks"][ak(acct, s["id"])] = nbk
+        log(event="notebook", subject=s["id"], account=acct, notebook=nbk)
+    skey = ak(acct, f"{s['id']}/{u['id']}")
+    sid = (u.get("source_id") if acct == "default" else None) or st["sources"].get(skey)
     if not sid:
         title = f"{u['code']} {u['title']} (p{u['pages']})"
         rc, out, err = nlm(["source", "add", os.path.join(W, u["source"]), "--type", "file", "--title", title, "-n", nbk, "--json"], 900)
@@ -194,39 +202,51 @@ def main():
     jsave(STATE, st)
     todo = pending(cat, st, cfg)
     per_slot = {g: max(1, -(-cfg["budget"][g] // cfg["slots_per_day"])) for g in todo}
+    accounts = cfg.get("accounts") or ["default"]
     did_any = False
     for g in KINDS:
-        if st["blocked"].get(g, "") > now().isoformat():
-            log(event="skip_blocked", group=g, until=st["blocked"][g])
-            continue
-        n_slot = 0
-        for s, u, kind, key in todo[g]:
-            used = st["daily"][d].get(g, 0)
-            if used >= cfg["budget"][g] or n_slot >= per_slot[g]:
-                break
-            if did_any:
-                time.sleep(cfg["gap_s"])
-            did_any = True
-            try:
-                r = run_one(s, u, kind, key, st)
-            except Exception as e:
-                r = {"ok": False, "limited": False, "secs": 0, "err": str(e)[-300:]}
-            st["daily"][d][g] = used + 1
-            n_slot += 1
-            if r["ok"]:
-                st["done"][key] = {"artifact": r["artifact"], "files": r["files"], "secs": r["secs"], "at": now().isoformat(timespec="seconds")}
-                st["fails"].pop(key, None)
-                log(event="done", key=key, secs=r["secs"], files=r["files"])
-            else:
-                st["fails"][key] = st["fails"].get(key, 0) + (0 if r["limited"] else 1)
-                log(event="limited" if r["limited"] else "failed", key=key, secs=r["secs"], err=r["err"])
-                if r["limited"]:
+        items = list(todo[g])
+        for acct in accounts:
+            bk = ak(acct, g)
+            if st["blocked"].get(bk, "") > now().isoformat():
+                log(event="skip_blocked", group=bk, until=st["blocked"][bk])
+                continue
+            ACCT[0] = acct
+            n_slot = 0
+            while True:
+                used = st["daily"][d].get(bk, 0)
+                if used >= cfg["budget"][g] or n_slot >= per_slot[g]:
+                    break
+                idx = next((i for i, it in enumerate(items) if acct == "default" or it[1].get("source")), None)
+                if idx is None:
+                    break
+                s, u, kind, key = items[idx]
+                if did_any:
+                    time.sleep(cfg["gap_s"])
+                did_any = True
+                try:
+                    r = run_one(s, u, kind, key, st)
+                except Exception as e:
+                    r = {"ok": False, "limited": False, "secs": 0, "err": str(e)[-300:]}
+                st["daily"][d][bk] = used + 1
+                n_slot += 1
+                if r["ok"]:
+                    items.pop(idx)
+                    st["done"][key] = {"artifact": r["artifact"], "files": r["files"], "secs": r["secs"], "at": now().isoformat(timespec="seconds"), "account": acct}
+                    st["fails"].pop(key, None)
+                    log(event="done", key=key, account=acct, secs=r["secs"], files=r["files"])
+                elif r["limited"]:
+                    log(event="limited", key=key, account=acct, secs=r["secs"], err=r["err"])
                     tomorrow = (now() + dt.timedelta(days=1)).replace(hour=0, minute=30, second=0, microsecond=0)
-                    st["blocked"][g] = tomorrow.isoformat()
-                    st["daily"][d][g] = used
+                    st["blocked"][bk] = tomorrow.isoformat()
+                    st["daily"][d][bk] = used
                     jsave(STATE, st)
                     break
-            jsave(STATE, st)
+                else:
+                    items.pop(idx)
+                    st["fails"][key] = st["fails"].get(key, 0) + 1
+                    log(event="failed", key=key, account=acct, secs=r["secs"], err=r["err"])
+                jsave(STATE, st)
     log(event="run_end", daily=st["daily"][d])
     jsave(STATE, st)
 

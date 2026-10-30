@@ -179,11 +179,16 @@ for g in queue:
         if extra:
             merged.append(extra.pop(0))
     queue[g] = merged
+ACCOUNTS = cfg.get("accounts") or ["default"]
+today_sum = {}
+for k, v in daily.get(today, {}).items():
+    today_sum[k.split(":")[-1]] = today_sum.get(k.split(":")[-1], 0) + v
 horizon = {}
 for g, items in queue.items():
-    per = max(1, cfg["budget"][g])
-    left_today = max(0, per - daily.get(today, {}).get(g, 0))
-    blocked = st.get("blocked", {}).get(g, "")
+    per = max(1, cfg["budget"][g]) * len(ACCOUNTS)
+    left_today = max(0, per - today_sum.get(g, 0))
+    bl = [st.get("blocked", {}).get(g if a == "default" else f"{a}:{g}", "") for a in ACCOUNTS]
+    blocked = min(bl) if bl else ""
     d = now.date()
     if blocked > now.isoformat() or left_today == 0:
         d += dt.timedelta(days=1)
@@ -205,8 +210,8 @@ finish = max(horizon) if horizon else today
 total = sum(len(s["units"]) * len(GROUP) for s in subjects) + len(sup_list)
 status = {"updated": now.strftime("%Y-%m-%d %H:%M KST"), "last_run": (st.get("last_run") or "")[:16].replace("T", " "),
           "done": len(done), "remaining": remaining, "total": total, "finish": finish,
-          "blocked": {g: v[:16].replace("T", " ") for g, v in st.get("blocked", {}).items() if v > now.isoformat()},
-          "today": daily.get(today, {}), "budget": cfg["budget"],
+          "blocked": {(KIND_KO.get(g.split(":")[-1], g) + (f" ({g.split(':')[0]})" if ":" in g else " (default)")): v[:16].replace("T", " ") for g, v in st.get("blocked", {}).items() if v > now.isoformat()},
+          "today": today_sum, "budget": {k: v * len(ACCOUNTS) for k, v in cfg["budget"].items()}, "accounts": ACCOUNTS,
           "stale": bool(st.get("last_run")) and (now - dt.datetime.fromisoformat(st["last_run"])).total_seconds() > 26 * 3600}
 
 json.dump({"status": status, "subjects": subjects}, open(os.path.join(DATA, "catalog.json"), "w", encoding="utf-8"), ensure_ascii=False)
