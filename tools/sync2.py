@@ -127,11 +127,17 @@ for s in sorted(cat["subjects"], key=lambda s: order.get(s["id"], 99)):
                         continue
                     src, dst = os.path.join(W, "out", n), os.path.join(DATA, n)
                     os.makedirs(os.path.dirname(dst), exist_ok=True)
-                    if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src):
-                        shutil.copy(src, dst)
+                    if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src) or os.path.getmtime(src) > os.path.getmtime(dst):
+                        shutil.copy2(src, dst)
                 main = next((n for n in names if not n.endswith(".json")), names[0] if names else None)
                 files[kind] = {"file": main, "json": next((n for n in names if n.endswith(".json")), None),
                                "secs": r["secs"], "at": r["at"][:16].replace("T", " "), "url": url}
+                if main and kind == "report":
+                    rv = main.rsplit("_report.md", 1)[0] + "_report.review.json"
+                    if os.path.exists(os.path.join(W, "out", rv)):
+                        shutil.copy2(os.path.join(W, "out", rv), os.path.join(DATA, rv))
+                        files[kind]["review"] = rv
+                    files[kind]["by"] = r.get("account")
                 if main and kind in ("audio", "video"):
                     dn = main.rsplit(".", 1)[0] + ".desc.json"
                     if os.path.exists(os.path.join(W, "out", dn)):

@@ -64,6 +64,12 @@ audio,video{width:100%;max-width:100%}
 .vid{border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-bottom:14px}
 .vid summary{cursor:pointer;font-weight:500;font-size:14px}
 .vid video{margin-top:8px;max-height:56vh;background:#000;border-radius:4px}
+.rvbar{font-size:13px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--code);margin:4px 0 6px}
+.rvlist{margin-bottom:14px}
+.rvround{font-size:13px;border-bottom:1px dashed var(--line);padding:4px 2px}
+.rvround summary{cursor:pointer;color:var(--muted)}
+.rvround h4{font-size:12px;margin:6px 0 2px;color:var(--warn)}
+.rvround ul{margin:0;padding-left:18px}
 .pend{font-size:13px;color:var(--muted);margin:8px 0 12px}
 .desc{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px 18px;margin-top:10px;font-size:14px}
 .desc .dsum,.desc .trans{grid-column:1/-1}
@@ -220,7 +226,18 @@ async function study(u,p){
       return `<details class="vid"><summary>${lab}${d?.still_missing?` · 남은 내용 ${d.still_missing.length}`:""}</summary>${player}${focus}${still}${descHtml(d,lab)}</details>`}).join("")}</div>`;
   }
   let body;
-  if(r?.file)body=`<div class="md">${md(await (await fetch("data/"+r.file)).text())}</div><div class="meta">${esc(r.file)} · 생성 ${esc(r.secs)}초 · ${esc(r.at)}</div>`;
+  if(r?.file){
+    let rv=null;if(r.review){try{rv=await (await fetch("data/"+r.review,{cache:"no-store"})).json()}catch{}}
+    const who=r.by==="claude"?"Claude 작성":"NotebookLM 생성";
+    let rvh=`<div class="rvbar"><b>${who}</b> · 외부 리뷰 대기 중</div>`;
+    if(rv?.rounds?.length){const last=rv.rounds[rv.rounds.length-1];
+      const items=rv.rounds.map(x=>`<details class="rvround"><summary>${x.n}차 · ${esc(x.reviewer)} · 점수 ${esc(x.score??"-")} · 빠진 내용 ${x.missing.length} · 오류 ${x.errors.length} · ${x.applied==="rewrite"?`보완 반영(${esc(x.reviser||"")})`:x.applied==="note"?"보완 노트로 추가":"수정 없음"} · ${esc((x.at||"").slice(0,16).replace("T"," "))}</summary>
+        ${x.missing.length?`<h4>빠진 내용</h4><ul>${x.missing.map(m=>`<li>${esc(m.point)} <span class="dmeta">p.${esc(m.page)}</span></li>`).join("")}</ul>`:""}
+        ${x.errors.length?`<h4>오류</h4><ul>${x.errors.map(e=>`<li>${esc(e.wrong)} → <b>${esc(e.right)}</b> <span class="dmeta">p.${esc(e.page)}</span></li>`).join("")}</ul>`:""}
+        ${x.unclear?.length?`<h4>모호한 설명</h4><ul>${x.unclear.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`:""}</details>`).join("");
+      rvh=`<div class="rvbar"><b>${who}</b> · 외부 리뷰 ${rv.rounds.length}차 · 최근 점수 <b>${esc(last.score??"-")}</b>/10 ${rv.done?"· 검토 완료":"· 계속 보완 중"}</div><div class="rvlist">${items}</div>`;}
+    body=`${rvh}<div class="md">${md(await (await fetch("data/"+r.file,{cache:"no-store"})).text())}</div><div class="meta">${esc(r.file)} · ${esc(r.at)}</div>`;
+  }
   else body=`<p class="empty">${r?.failed?`개념정리 생성 실패 ${r.failed}회 — 다음 실행에서 다시 시도합니다.`:"개념정리는 아직 생성되지 않았습니다."}</p>`;
   p.innerHTML=media+supHtml+body;
 }
