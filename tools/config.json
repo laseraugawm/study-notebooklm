@@ -1,0 +1,1 @@
+{"budget": {"report": 8, "quiz": 5, "flashcards": 4, "audio": 3, "video": 1}, "slots_per_day": 3, "gap_s": 180, "max_fails": 3, "order": ["social", "science", "info", "korean", "english", "math"]}
