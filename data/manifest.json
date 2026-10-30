@@ -1,7 +1,7 @@
 {
  "subject": "고1 정보",
  "chapter": "Ⅰ. 컴퓨팅 시스템",
- "updated": "2026-10-30 12:25 KST",
+ "updated": "2026-10-30 12:30 KST",
  "units": [
   {
    "id": "U1",
@@ -33,7 +33,14 @@
    "id": "U3",
    "title": "사물 인터넷의 구성·기술·사회 변화",
    "pages": "18~22",
-   "files": {}
+   "files": {
+    "report": {
+     "file": "U3_report.md",
+     "json": null,
+     "secs": 58,
+     "at": "2026-10-30T03:28:29"
+    }
+   }
   },
   {
    "id": "U4",
