@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>소단원 학습자료 실험실</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f6f5c">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="학습자료">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -130,6 +136,7 @@ function cards(j,p,meta){
   p.innerHTML=`<div class="cards">${cs.map(c=>`<button class="card"><div>${esc(c.front||c.f||c.term||c.question)}</div><div class="back">${esc(c.back||c.b||c.definition||c.answer)}</div></button>`).join("")}</div>${meta}`;
   p.querySelectorAll(".card").forEach(c=>c.onclick=()=>c.classList.toggle("flip"));
 }
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 boot().catch(e=>{$("#pane").innerHTML=`<p class="empty">목록을 불러오지 못했습니다: ${esc(e.message)}</p>`});
 </script>
 </body>
