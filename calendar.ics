@@ -7,7 +7,7 @@ X-WR-CALNAME:학습자료 생성 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:2026-10-30@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:학습자료 완료 138건
@@ -104,10 +104,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:학습자료 완료 32 · 예정 18건
+SUMMARY:학습자료 완료 34 · 예정 16건
 DESCRIPTION:✔ 통합사회 Ⅰ-02-2 시민 참여 방안에는 어떤 것
  들이 있을까? — 비디오\n✔ 통합사회 Ⅰ-03-1 국내 인권 
  문제의 양상과 해결 방안은 무엇일까? — 비디오\n✔ 통
@@ -149,47 +149,47 @@ DESCRIPTION:✔ 통합사회 Ⅰ-02-2 시민 참여 방안에는 어떤 것
  는 금융 의사 결정에 어떤 영향을 미칠까? — 퀴즈\n✔ 
  통합사회 Ⅲ-03-2 경제적·정치적 변화는 금융 의사 결정
  에 어떤 영향을 미칠까? — 플래시카드\n✔ 통합사회 Ⅲ-
- 04-1 무역은 왜 발생할까? — 퀴즈\n✔ 통합사회 Ⅲ-04-2 지
- 속가능발전에 기여할 수 있는 국제 무역의 방안은 무엇
- 일까? — 퀴즈\n✔ 통합사회 Ⅳ-01-1 세계화는 다양한 양
- 상으로 나타난다 — 퀴즈\n✔ 통합사회 Ⅳ-01-2 세계화에 
- 따른 문제점은 어떻게 해결해야 할까? — 퀴즈\n✔ 통합
- 사회 Ⅳ-02-1 평화가 소중한 이유는 무엇일까? — 퀴즈\n
- ✔ 통합사회 Ⅳ-02-2 국제 사회의 모습과 세계 평화를 위
- 한 행위 주체의 바람직한 역할은 무엇일까? — 퀴즈\n· 
- 통합사회 Ⅳ-03-1 남북 분단 상황을 평화적으로 해결하려
- 면 어떤 노력이 필요할까? — 퀴즈\n· 통합사회 Ⅳ-03-2 
- 동아시아 역사 갈등 상황의 해결 방안은 무엇일까? — 
- 퀴즈\n· 통합사회 Ⅳ-03-3 우리나라가 세계 평화에 기여
- 할 수 있는 방안에는 무엇이 있을까? — 퀴즈\n· 통합사
- 회 Ⅴ-01-1 세계의 인구는 어디에 분포하고 어떻게 변화
- 할까? — 퀴즈\n· 통합사회 Ⅲ-04-1 무역은 왜 발생할까? 
- — 플래시카드\n· 통합사회 Ⅲ-04-2 지속가능발전에 기여
- 할 수 있는 국제 무역의 방안은 무엇일까? — 플래시카
- 드\n· 통합사회 Ⅳ-01-1 세계화는 다양한 양상으로 나타
- 난다 — 플래시카드\n· 통합사회 Ⅳ-01-2 세계화에 따른 
- 문제점은 어떻게 해결해야 할까? — 플래시카드\n· 통합
- 사회 Ⅳ-02-1 평화가 소중한 이유는 무엇일까? — 플래시
- 카드\n· 통합사회 Ⅳ-02-2 국제 사회의 모습과 세계 평화
- 를 위한 행위 주체의 바람직한 역할은 무엇일까? — 플
- 래시카드\n· 통합사회 Ⅰ-03-1 국내 인권 문제의 양상과 
- 해결 방안은 무엇일까? — 오디오\n· 통합사회 Ⅱ-02-1 자
- 유주의적 정의관과 공동체주의적 정의관의 특징은 무엇
- 일까? — 오디오\n· 통합사회 Ⅱ-02-2 자유주의적 정의관
- 과 공동체주의적 정의관을 어떻게 적용해야 할까? — 오
- 디오\n· 통합사회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전
- 해 왔을까? — 오디오 보충 1\n· 통합사회 Ⅱ-03-1 사회 및
-  공간 불평등 현상은 다양한 양상으로 나타난다 — 오디
- 오\n· 통합사회 Ⅱ-03-2 정의로운 사회를 만들려면 어떤 
- 제도와 시민의 노력이 필요할까? — 오디오\n· 통합사회
-  Ⅲ-01-1 자본주의는 역사적으로 어떻게 전개되었을까? 
- — 오디오\n· 통합사회 Ⅰ-01-2 현대 사회에서 새롭게 등
- 장한 인권에는 무엇이 있을까? — 오디오 보충 1
+ 04-1 무역은 왜 발생할까? — 퀴즈\n✔ 통합사회 Ⅲ-04-1 무
+ 역은 왜 발생할까? — 플래시카드\n✔ 통합사회 Ⅲ-04-2 
+ 지속가능발전에 기여할 수 있는 국제 무역의 방안은 무
+ 엇일까? — 퀴즈\n✔ 통합사회 Ⅲ-04-2 지속가능발전에 기
+ 여할 수 있는 국제 무역의 방안은 무엇일까? — 플래시
+ 카드\n✔ 통합사회 Ⅳ-01-1 세계화는 다양한 양상으로 나
+ 타난다 — 퀴즈\n✔ 통합사회 Ⅳ-01-2 세계화에 따른 문제
+ 점은 어떻게 해결해야 할까? — 퀴즈\n✔ 통합사회 Ⅳ-02-
+ 1 평화가 소중한 이유는 무엇일까? — 퀴즈\n✔ 통합사회
+  Ⅳ-02-2 국제 사회의 모습과 세계 평화를 위한 행위 주체
+ 의 바람직한 역할은 무엇일까? — 퀴즈\n· 통합사회 Ⅳ-0
+ 3-1 남북 분단 상황을 평화적으로 해결하려면 어떤 노력
+ 이 필요할까? — 퀴즈\n· 통합사회 Ⅳ-03-2 동아시아 역사
+  갈등 상황의 해결 방안은 무엇일까? — 퀴즈\n· 통합사
+ 회 Ⅳ-03-3 우리나라가 세계 평화에 기여할 수 있는 방안
+ 에는 무엇이 있을까? — 퀴즈\n· 통합사회 Ⅴ-01-1 세계의
+  인구는 어디에 분포하고 어떻게 변화할까? — 퀴즈\n· 
+ 통합사회 Ⅳ-01-1 세계화는 다양한 양상으로 나타난다 —
+  플래시카드\n· 통합사회 Ⅳ-01-2 세계화에 따른 문제점
+ 은 어떻게 해결해야 할까? — 플래시카드\n· 통합사회 
+ Ⅳ-02-1 평화가 소중한 이유는 무엇일까? — 플래시카드\n
+ · 통합사회 Ⅳ-02-2 국제 사회의 모습과 세계 평화를 위
+ 한 행위 주체의 바람직한 역할은 무엇일까? — 플래시카
+ 드\n· 통합사회 Ⅰ-03-1 국내 인권 문제의 양상과 해결 방
+ 안은 무엇일까? — 오디오\n· 통합사회 Ⅱ-02-1 자유주의
+ 적 정의관과 공동체주의적 정의관의 특징은 무엇일까? 
+ — 오디오\n· 통합사회 Ⅱ-02-2 자유주의적 정의관과 공
+ 동체주의적 정의관을 어떻게 적용해야 할까? — 오디오\
+ n· 통합사회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전해 왔
+ 을까? — 오디오 보충 1\n· 통합사회 Ⅱ-03-1 사회 및 공간
+  불평등 현상은 다양한 양상으로 나타난다 — 오디오\n·
+  통합사회 Ⅱ-03-2 정의로운 사회를 만들려면 어떤 제도
+ 와 시민의 노력이 필요할까? — 오디오\n· 통합사회 Ⅲ-0
+ 1-1 자본주의는 역사적으로 어떻게 전개되었을까? — 오
+ 디오\n· 통합사회 Ⅰ-01-2 현대 사회에서 새롭게 등장한 
+ 인권에는 무엇이 있을까? — 오디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:학습자료 예정 52건
@@ -266,7 +266,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:학습자료 예정 52건
@@ -336,7 +336,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:학습자료 예정 52건
@@ -395,7 +395,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:학습자료 예정 49건
@@ -447,7 +447,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:학습자료 예정 29건
@@ -482,7 +482,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:학습자료 예정 16건
@@ -507,7 +507,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:학습자료 예정 16건
@@ -531,7 +531,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:학습자료 예정 16건
@@ -554,7 +554,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:학습자료 예정 5건
@@ -568,7 +568,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:학습자료 예정 4건
@@ -581,7 +581,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:학습자료 예정 4건
@@ -594,7 +594,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:학습자료 예정 4건
@@ -607,7 +607,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:학습자료 예정 4건
@@ -620,7 +620,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:학습자료 예정 4건
@@ -633,7 +633,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:학습자료 예정 4건
@@ -645,7 +645,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:학습자료 예정 4건
@@ -657,7 +657,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:학습자료 예정 4건
@@ -669,7 +669,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:학습자료 예정 4건
@@ -681,7 +681,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:학습자료 예정 4건
@@ -693,7 +693,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:학습자료 예정 4건
@@ -705,7 +705,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:학습자료 예정 4건
@@ -717,7 +717,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:학습자료 예정 4건
@@ -729,7 +729,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:학습자료 예정 4건
@@ -740,7 +740,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:학습자료 예정 4건
@@ -751,7 +751,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:학습자료 예정 4건
@@ -762,7 +762,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26@study-notebooklm
-DTSTAMP:20261031T010002Z
+DTSTAMP:20261031T011001Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:학습자료 예정 4건
