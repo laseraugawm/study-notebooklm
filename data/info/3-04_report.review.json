@@ -1,0 +1,27 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "qwen",
+   "at": "2026-11-01T11:50:55+09:00",
+   "score": 9,
+   "missing": [],
+   "errors": [
+    {
+     "wrong": "0. 생활 속 제어 구조 (p.124)의 '혈압 측정 상황' 및 '혈압 분류(정상, 주의, 고혈압 전 단계)' 내용",
+     "right": "해당 내용은 제공된 교과서 원문(124~137쪽)에 존재하지 않는 내용입니다.",
+     "page": "124"
+    }
+   ],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 109,
+   "rewrite_problems": [
+    "deepseek: ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문",
+    "grok: HTTP Error 500: Internal Server Error",
+    "gemini_junghhco1: HTTP Error 500: Internal Server Error"
+   ]
+  }
+ ],
+ "done": true
+}
