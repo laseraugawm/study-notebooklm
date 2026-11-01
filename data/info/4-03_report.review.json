@@ -1,0 +1,27 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-01T19:46:38+09:00",
+   "score": 9,
+   "missing": [],
+   "errors": [
+    {
+     "wrong": "학습 시간에 따른 성적 예시로 (12, 76), (15, 85), (20, 92), (25, 93) 등을 제시함",
+     "right": "교과서 184쪽의 표에 제시된 다중 특징(학습 시간, 수면 시간, 결석 횟수)에 따른 성적 데이터(예: 10/8/2/70, 8/8/1/85, 12/9/0/92)를 따름",
+     "page": "184쪽"
+    }
+   ],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 696,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 502: Bad Gateway",
+    "qwen: Remote end closed connection without response",
+    "grok: <urlopen error [Errno 111] Connection refused>"
+   ]
+  }
+ ],
+ "done": true
+}
