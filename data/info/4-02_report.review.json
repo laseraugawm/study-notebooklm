@@ -1,0 +1,16 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-01T17:59:53+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 388
+  }
+ ],
+ "done": true
+}
