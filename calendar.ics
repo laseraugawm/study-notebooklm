@@ -7,7 +7,7 @@ X-WR-CALNAME:학습자료 생성 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:2026-10-30@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:학습자료 완료 138건
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:학습자료 완료 49건
@@ -188,7 +188,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:학습자료 완료 44 · 예정 8건
@@ -266,7 +266,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:학습자료 예정 52건
@@ -334,7 +334,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:학습자료 예정 52건
@@ -393,7 +393,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:학습자료 예정 49건
@@ -447,7 +447,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:학습자료 예정 29건
@@ -484,7 +484,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:학습자료 예정 16건
@@ -512,7 +512,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:학습자료 예정 16건
@@ -526,82 +526,86 @@ DESCRIPTION:· 국어 1-(2) 주제 통합적 읽기와 논증하는 글 쓰
  ·정치적 변화는 금융 의사 결정에 어떤 영향을 미칠까? 
  — 오디오 보충 1\n· 국어 3-(2) 작문 관습을 고려한 글쓰
  기 — 오디오\n· 국어 4-(1) 국어가 걸어온 길 — 오디오\n
- · 국어 4-(2) 바르고 정확한 국어생활 — 오디오\n· 정보 
- Ⅰ-01a 유선·무선 네트워크의 특성과 무선 기술 — 오디
- 오 보충 1\n· 통합사회 Ⅳ-03-3 우리나라가 세계 평화에 
- 기여할 수 있는 방안에는 무엇이 있을까? — 비디오\n· 
- 통합사회 Ⅴ-01-1 세계의 인구는 어디에 분포하고 어떻게
-  변화할까? — 비디오\n· 통합사회 Ⅴ-01-2 인구 문제를 
- 해결하려면 어떤 노력을 해야 할까? — 비디오\n· 통합
- 사회 Ⅰ-03-2 세계 인권 문제의 양상과 해결 방안은 무엇
- 일까? — 비디오 보충 1
+ · 국어 4-(2) 바르고 정확한 국어생활 — 오디오\n· 통합
+ 사회 Ⅲ-04-1 무역은 왜 발생할까? — 오디오 보충 1\n· 통
+ 합사회 Ⅳ-03-3 우리나라가 세계 평화에 기여할 수 있는 
+ 방안에는 무엇이 있을까? — 비디오\n· 통합사회 Ⅴ-01-1 
+ 세계의 인구는 어디에 분포하고 어떻게 변화할까? — 비
+ 디오\n· 통합사회 Ⅴ-01-2 인구 문제를 해결하려면 어떤 
+ 노력을 해야 할까? — 비디오\n· 통합사회 Ⅰ-03-2 세계 
+ 인권 문제의 양상과 해결 방안은 무엇일까? — 비디오 
+ 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:학습자료 예정 16건
 DESCRIPTION:· 국어 4-(3) 매체와 함께하는 생활 — 오디오\n·
   국어 5-(1) 주체적이고 비판적인 매체 비평 — 오디오\n·
-  국어 5-(2) 복합양식의 글 읽기와 쓰기 — 오디오\n· 정
- 보 Ⅰ-01b 인터넷 네트워크 연결과 네트워크에서의 공유 
- — 오디오 보충 1\n· 영어 L1 Make Your World a Better Place — 
- 오디오\n· 영어 L2 From Tradition to Trend — 오디오\n· 영어 L
- 3 Beyond Barriers — 오디오\n· 정보 Ⅰ-02a 사물 인터넷의 구
- 성·기술·사회 변화 — 오디오 보충 1\n· 영어 L4 The Essenc
- e of Being Human — 오디오\n· 수학 Ⅰ-1-01 평면좌표 — 오디
- 오\n· 수학 Ⅰ-1-02 직선의방정식 — 오디오\n· 정보 Ⅰ-02
- b 마이크로비트로 사물 인터넷 실습과 문제 해결 — 오
- 디오 보충 1\n· 통합사회 Ⅴ-02-1 세계의 에너지 자원은 
- 어디에 분포하고\, 어떻게 소비될까? — 비디오\n· 통합
- 사회 Ⅴ-02-2 기후변화에 대응하고 지속가능한 발전을 하
- 려면 어떤 노력을 해야 할까? — 비디오\n· 통합사회 Ⅴ-
- 03-1 미래 사회의 모습은 어떠할까? — 비디오\n· 통합사
- 회 Ⅱ-01-2 정의의 실질적 기준은 무엇일까? — 비디오 보
- 충 1
+  국어 5-(2) 복합양식의 글 읽기와 쓰기 — 오디오\n· 통
+ 합사회 Ⅲ-04-2 지속가능발전에 기여할 수 있는 국제 무
+ 역의 방안은 무엇일까? — 오디오 보충 1\n· 영어 L1 Make Y
+ our World a Better Place — 오디오\n· 영어 L2 From Tradition to Tre
+ nd — 오디오\n· 영어 L3 Beyond Barriers — 오디오\n· 통합사
+ 회 Ⅳ-01-1 세계화는 다양한 양상으로 나타난다 — 오디
+ 오 보충 1\n· 영어 L4 The Essence of Being Human — 오디오\n· 
+ 수학 Ⅰ-1-01 평면좌표 — 오디오\n· 수학 Ⅰ-1-02 직선의
+ 방정식 — 오디오\n· 정보 Ⅰ-01a 유선·무선 네트워크의 
+ 특성과 무선 기술 — 오디오 보충 1\n· 통합사회 Ⅴ-02-1 
+ 세계의 에너지 자원은 어디에 분포하고\, 어떻게 소비될
+ 까? — 비디오\n· 통합사회 Ⅴ-02-2 기후변화에 대응하고 
+ 지속가능한 발전을 하려면 어떤 노력을 해야 할까? — 
+ 비디오\n· 통합사회 Ⅴ-03-1 미래 사회의 모습은 어떠할
+ 까? — 비디오\n· 통합사회 Ⅱ-01-2 정의의 실질적 기준은
+  무엇일까? — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:학습자료 예정 16건
 DESCRIPTION:· 수학 Ⅰ-2-01 원의방정식 — 오디오\n· 수학 Ⅰ
  -2-02 원과직선 — 오디오\n· 수학 Ⅰ-3-01 평행이동 — 오
- 디오\n· 수학 Ⅰ-3-02 대칭이동 — 오디오\n· 수학 Ⅱ-1-01 
- 집합의뜻과포함관계 — 오디오\n· 수학 Ⅱ-1-02 집합의연
- 산 — 오디오\n· 수학 Ⅱ-2-01 명제와조건 — 오디오\n· 
- 수학 Ⅱ-2-02 명제사이의관계 — 오디오\n· 수학 Ⅱ-2-03 
- 명제의증명 — 오디오\n· 수학 Ⅲ-1-01 함수의뜻과그래프
-  — 오디오\n· 수학 Ⅲ-1-02 합성함수와역함수 — 오디오\
- n· 수학 Ⅲ-2-01 유리함수 — 오디오\n· 통합사회 Ⅴ-03-2 
- 세계시민으로서 나는 어떤 삶을 살 것인가? — 비디오\n
- · 통합과학 Ⅰ-1-01 지질 시대의 환경과 생물의 변화 — 
- 비디오\n· 통합과학 Ⅰ-1-02 자연선택과 생물의 진화 — 
- 비디오\n· 통합사회 Ⅱ-02-1 자유주의적 정의관과 공동체
- 주의적 정의관의 특징은 무엇일까? — 비디오 보충 1
+ 디오\n· 정보 Ⅰ-01b 인터넷 네트워크 연결과 네트워크에
+ 서의 공유 — 오디오 보충 1\n· 수학 Ⅰ-3-02 대칭이동 — 
+ 오디오\n· 수학 Ⅱ-1-01 집합의뜻과포함관계 — 오디오\n
+ · 수학 Ⅱ-1-02 집합의연산 — 오디오\n· 정보 Ⅰ-02a 사물
+  인터넷의 구성·기술·사회 변화 — 오디오 보충 1\n· 수
+ 학 Ⅱ-2-01 명제와조건 — 오디오\n· 수학 Ⅱ-2-02 명제사
+ 이의관계 — 오디오\n· 수학 Ⅱ-2-03 명제의증명 — 오디
+ 오\n· 정보 Ⅰ-02b 마이크로비트로 사물 인터넷 실습과 
+ 문제 해결 — 오디오 보충 1\n· 통합사회 Ⅴ-03-2 세계시
+ 민으로서 나는 어떤 삶을 살 것인가? — 비디오\n· 통합
+ 과학 Ⅰ-1-01 지질 시대의 환경과 생물의 변화 — 비디오\
+ n· 통합과학 Ⅰ-1-02 자연선택과 생물의 진화 — 비디오\n
+ · 통합사회 Ⅱ-02-1 자유주의적 정의관과 공동체주의적 
+ 정의관의 특징은 무엇일까? — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-SUMMARY:학습자료 예정 5건
-DESCRIPTION:· 수학 Ⅲ-2-02 무리함수 — 오디오\n· 통합과학 
- Ⅰ-1-03 생물다양성과 보전 방안 — 비디오\n· 통합과학 
- Ⅰ-2-01 산화·환원 반응의 규칙성 — 비디오\n· 통합과학
-  Ⅰ-2-02 생활 주변의 산화·환원 반응 — 비디오\n· 통합
- 사회 Ⅱ-02-2 자유주의적 정의관과 공동체주의적 정의관
- 을 어떻게 적용해야 할까? — 비디오 보충 1
+SUMMARY:학습자료 예정 8건
+DESCRIPTION:· 수학 Ⅲ-1-01 함수의뜻과그래프 — 오디오\n· 
+ 수학 Ⅲ-1-02 합성함수와역함수 — 오디오\n· 수학 Ⅲ-2-01
+  유리함수 — 오디오\n· 수학 Ⅲ-2-02 무리함수 — 오디오
+ \n· 통합과학 Ⅰ-1-03 생물다양성과 보전 방안 — 비디오\
+ n· 통합과학 Ⅰ-2-01 산화·환원 반응의 규칙성 — 비디오
+ \n· 통합과학 Ⅰ-2-02 생활 주변의 산화·환원 반응 — 비
+ 디오\n· 통합사회 Ⅱ-02-2 자유주의적 정의관과 공동체주
+ 의적 정의관을 어떻게 적용해야 할까? — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:학습자료 예정 4건
@@ -614,7 +618,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:학습자료 예정 4건
@@ -627,7 +631,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:학습자료 예정 4건
@@ -640,7 +644,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:학습자료 예정 4건
@@ -653,7 +657,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:학습자료 예정 4건
@@ -666,7 +670,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:학습자료 예정 4건
@@ -678,7 +682,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:학습자료 예정 4건
@@ -690,7 +694,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:학습자료 예정 4건
@@ -702,7 +706,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:학습자료 예정 4건
@@ -714,7 +718,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:학습자료 예정 4건
@@ -726,7 +730,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:학습자료 예정 4건
@@ -738,7 +742,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:학습자료 예정 4건
@@ -750,7 +754,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:학습자료 예정 4건
@@ -762,7 +766,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:학습자료 예정 4건
@@ -773,7 +777,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:학습자료 예정 4건
@@ -784,7 +788,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:학습자료 예정 4건
@@ -795,7 +799,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27@study-notebooklm
-DTSTAMP:20261101T034001Z
+DTSTAMP:20261101T035001Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:학습자료 예정 4건
