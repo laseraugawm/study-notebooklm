@@ -7,7 +7,7 @@ X-WR-CALNAME:학습자료 생성 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:2026-10-30@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:학습자료 완료 138건
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:학습자료 완료 49건
@@ -188,7 +188,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:학습자료 완료 51건
@@ -264,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:학습자료 완료 43건
@@ -322,67 +322,67 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-SUMMARY:학습자료 완료 6 · 예정 46건
+SUMMARY:학습자료 완료 8 · 예정 44건
 DESCRIPTION:✔ 정보 Ⅰ-02a 사물 인터넷의 구성·기술·사회 
  변화 — 퀴즈\n✔ 정보 Ⅰ-02b 마이크로비트로 사물 인터
  넷 실습과 문제 해결 — 퀴즈\n✔ 정보 Ⅲ-06 객체지향 프
  로그래밍 — 퀴즈\n✔ 정보 Ⅲ-07 창의 융합 프로그래밍 
  — 퀴즈\n✔ 정보 Ⅳ-01 인공지능과 지능 에이전트 — 퀴
- 즈\n✔ 정보 Ⅳ-02 기계학습의 개념 — 퀴즈\n· 정보 Ⅳ-03
-  기계학습의 모델과 구현 — 퀴즈\n· 정보 Ⅴ-01 디지털 
- 사회와 진로 — 퀴즈\n· 정보 Ⅴ-02 정보 보호와 보안 — 
- 퀴즈\n· 국어 1-(1) 사회적 독서 활동에 참여하기 — 퀴즈
- \n· 국어 1-(2) 주제 통합적 읽기와 논증하는 글 쓰기 — 
- 퀴즈\n· 국어 2-(1) 옛 노래의 향기 — 퀴즈\n· 국어 2-(2) 
- 옛이야기의 즐거움 — 퀴즈\n· 국어 2-(3) 현대 시의 시선
-  — 퀴즈\n· 국어 2-(4) 현대 소설의 빛깔 — 퀴즈\n· 국어
-  3-(1) 함께 만족하는 협상 — 퀴즈\n· 국어 3-(2) 작문 관
- 습을 고려한 글쓰기 — 퀴즈\n· 국어 4-(1) 국어가 걸어온
-  길 — 퀴즈\n· 국어 4-(2) 바르고 정확한 국어생활 — 퀴
- 즈\n· 국어 4-(3) 매체와 함께하는 생활 — 퀴즈\n· 정보 
- Ⅱ-03 빅데이터 개념과 분석 — 플래시카드\n· 정보 Ⅲ-01
-  문제 분해와 모델링 — 플래시카드\n· 정보 Ⅲ-02 알고
- 리즘 — 플래시카드\n· 정보 Ⅲ-03 프로그래밍의 이해 —
-  플래시카드\n· 정보 Ⅲ-04 제어 구조의 응용 — 플래시
- 카드\n· 정보 Ⅲ-05 함수와 라이브러리 — 플래시카드\n·
-  정보 Ⅲ-06 객체지향 프로그래밍 — 플래시카드\n· 정보
-  Ⅲ-07 창의 융합 프로그래밍 — 플래시카드\n· 정보 Ⅳ-0
- 1 인공지능과 지능 에이전트 — 플래시카드\n· 정보 Ⅳ-0
- 2 기계학습의 개념 — 플래시카드\n· 정보 Ⅳ-03 기계학
- 습의 모델과 구현 — 플래시카드\n· 정보 Ⅴ-01 디지털 
- 사회와 진로 — 플래시카드\n· 정보 Ⅴ-02 정보 보호와 
- 보안 — 플래시카드\n· 국어 1-(1) 사회적 독서 활동에 참
- 여하기 — 플래시카드\n· 국어 1-(2) 주제 통합적 읽기와 
- 논증하는 글 쓰기 — 플래시카드\n· 국어 2-(1) 옛 노래의
-  향기 — 플래시카드\n· 통합과학 Ⅰ-1-01 지질 시대의 환
- 경과 생물의 변화 — 오디오\n· 통합과학 Ⅰ-1-02 자연선
- 택과 생물의 진화 — 오디오\n· 통합과학 Ⅰ-1-03 생물다
- 양성과 보전 방안 — 오디오\n· 통합사회 Ⅰ-01-1 인권은 
- 어떤 과정을 거쳐 발전해 왔을까? — 오디오 보충 1\n· 
- 통합과학 Ⅰ-2-01 산화·환원 반응의 규칙성 — 오디오\n·
-  통합과학 Ⅰ-2-02 생활 주변의 산화·환원 반응 — 오디
- 오\n· 통합과학 Ⅰ-2-03 산과 염기의 종류와 성질 — 오디
- 오\n· 통합사회 Ⅰ-01-2 현대 사회에서 새롭게 등장한 인
- 권에는 무엇이 있을까? — 오디오 보충 1\n· 통합과학 Ⅰ
- -2-04 중화 반응과 실생활 이용 — 오디오\n· 통합과학 Ⅰ
- -2-05 물질 변화에서 에너지 출입 — 오디오\n· 통합과학 
- Ⅱ-1-01 생태계 구성요소와 상호작용 — 오디오\n· 통합
- 사회 Ⅰ-02-1 인권 보장을 위한 헌법의 역할은 무엇일까? 
- — 오디오 보충 1\n· 통합사회 Ⅲ-01-1 자본주의는 역사적
- 으로 어떻게 전개되었을까? — 비디오\n· 통합사회 Ⅲ-02
- -2 지속가능발전을 위한 경제 주체의 바람직한 역할과 
- 책임은 무엇일까? — 비디오\n· 통합사회 Ⅲ-03-1 자산 관
- 리와 금융 생활 설계\, 어떻게 해야 할까? — 비디오\n· 
- 통합사회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전해 왔을
- 까? — 비디오 보충 1
+ 즈\n✔ 정보 Ⅳ-02 기계학습의 개념 — 퀴즈\n✔ 정보 Ⅳ-0
+ 3 기계학습의 모델과 구현 — 퀴즈\n✔ 정보 Ⅴ-01 디지털
+  사회와 진로 — 퀴즈\n· 정보 Ⅴ-02 정보 보호와 보안 —
+  퀴즈\n· 국어 1-(1) 사회적 독서 활동에 참여하기 — 퀴
+ 즈\n· 국어 1-(2) 주제 통합적 읽기와 논증하는 글 쓰기 
+ — 퀴즈\n· 국어 2-(1) 옛 노래의 향기 — 퀴즈\n· 국어 2-(
+ 2) 옛이야기의 즐거움 — 퀴즈\n· 국어 2-(3) 현대 시의 시
+ 선 — 퀴즈\n· 국어 2-(4) 현대 소설의 빛깔 — 퀴즈\n· 국
+ 어 3-(1) 함께 만족하는 협상 — 퀴즈\n· 국어 3-(2) 작문 
+ 관습을 고려한 글쓰기 — 퀴즈\n· 국어 4-(1) 국어가 걸어
+ 온 길 — 퀴즈\n· 국어 4-(2) 바르고 정확한 국어생활 — 
+ 퀴즈\n· 국어 4-(3) 매체와 함께하는 생활 — 퀴즈\n· 정
+ 보 Ⅱ-03 빅데이터 개념과 분석 — 플래시카드\n· 정보 
+ Ⅲ-01 문제 분해와 모델링 — 플래시카드\n· 정보 Ⅲ-02 
+ 알고리즘 — 플래시카드\n· 정보 Ⅲ-03 프로그래밍의 이
+ 해 — 플래시카드\n· 정보 Ⅲ-04 제어 구조의 응용 — 플
+ 래시카드\n· 정보 Ⅲ-05 함수와 라이브러리 — 플래시카
+ 드\n· 정보 Ⅲ-06 객체지향 프로그래밍 — 플래시카드\n·
+  정보 Ⅲ-07 창의 융합 프로그래밍 — 플래시카드\n· 정
+ 보 Ⅳ-01 인공지능과 지능 에이전트 — 플래시카드\n· 정
+ 보 Ⅳ-02 기계학습의 개념 — 플래시카드\n· 정보 Ⅳ-03 
+ 기계학습의 모델과 구현 — 플래시카드\n· 정보 Ⅴ-01 디
+ 지털 사회와 진로 — 플래시카드\n· 정보 Ⅴ-02 정보 보
+ 호와 보안 — 플래시카드\n· 국어 1-(1) 사회적 독서 활동
+ 에 참여하기 — 플래시카드\n· 국어 1-(2) 주제 통합적 읽
+ 기와 논증하는 글 쓰기 — 플래시카드\n· 국어 2-(1) 옛 
+ 노래의 향기 — 플래시카드\n· 통합과학 Ⅰ-1-01 지질 시
+ 대의 환경과 생물의 변화 — 오디오\n· 통합과학 Ⅰ-1-02 
+ 자연선택과 생물의 진화 — 오디오\n· 통합과학 Ⅰ-1-03 
+ 생물다양성과 보전 방안 — 오디오\n· 통합사회 Ⅰ-01-1 
+ 인권은 어떤 과정을 거쳐 발전해 왔을까? — 오디오 보
+ 충 1\n· 통합과학 Ⅰ-2-01 산화·환원 반응의 규칙성 — 오
+ 디오\n· 통합과학 Ⅰ-2-02 생활 주변의 산화·환원 반응 
+ — 오디오\n· 통합과학 Ⅰ-2-03 산과 염기의 종류와 성질 
+ — 오디오\n· 통합사회 Ⅰ-01-2 현대 사회에서 새롭게 등
+ 장한 인권에는 무엇이 있을까? — 오디오 보충 1\n· 통합
+ 과학 Ⅰ-2-04 중화 반응과 실생활 이용 — 오디오\n· 통합
+ 과학 Ⅰ-2-05 물질 변화에서 에너지 출입 — 오디오\n· 통
+ 합과학 Ⅱ-1-01 생태계 구성요소와 상호작용 — 오디오\n
+ · 통합사회 Ⅰ-02-1 인권 보장을 위한 헌법의 역할은 무
+ 엇일까? — 오디오 보충 1\n· 통합사회 Ⅲ-01-1 자본주의
+ 는 역사적으로 어떻게 전개되었을까? — 비디오\n· 통합
+ 사회 Ⅲ-02-2 지속가능발전을 위한 경제 주체의 바람직한
+  역할과 책임은 무엇일까? — 비디오\n· 통합사회 Ⅲ-03-1
+  자산 관리와 금융 생활 설계\, 어떻게 해야 할까? — 비
+ 디오\n· 통합사회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전
+ 해 왔을까? — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:학습자료 예정 52건
@@ -438,7 +438,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:학습자료 예정 30건
@@ -475,7 +475,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:학습자료 예정 16건
@@ -503,7 +503,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:학습자료 예정 16건
@@ -530,7 +530,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:학습자료 예정 16건
@@ -557,7 +557,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:학습자료 예정 16건
@@ -581,7 +581,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:학습자료 예정 16건
@@ -610,7 +610,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:학습자료 예정 12건
@@ -635,7 +635,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:학습자료 예정 4건
@@ -648,7 +648,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:학습자료 예정 4건
@@ -662,7 +662,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:학습자료 예정 4건
@@ -675,7 +675,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:학습자료 예정 4건
@@ -688,7 +688,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:학습자료 예정 4건
@@ -701,7 +701,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:학습자료 예정 4건
@@ -713,7 +713,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:학습자료 예정 4건
@@ -725,7 +725,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:학습자료 예정 4건
@@ -737,7 +737,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:학습자료 예정 4건
@@ -749,7 +749,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:학습자료 예정 4건
@@ -761,7 +761,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:학습자료 예정 4건
@@ -773,7 +773,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:학습자료 예정 4건
@@ -785,7 +785,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:학습자료 예정 4건
@@ -797,7 +797,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:학습자료 예정 4건
@@ -808,7 +808,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:학습자료 예정 4건
@@ -819,7 +819,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:학습자료 예정 4건
@@ -830,7 +830,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28@study-notebooklm
-DTSTAMP:20261102T164001Z
+DTSTAMP:20261102T165001Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:학습자료 예정 4건
