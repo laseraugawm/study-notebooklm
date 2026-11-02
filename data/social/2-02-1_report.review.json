@@ -26,7 +26,20 @@
    "applied": "rewrite",
    "review_secs": 25,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 2,
+   "reviewer": "deepseek",
+   "at": "2026-11-03T01:39:04+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [
+    "공동체주의적 정의관의 '개인' 설명에서 '~존재이고, 사회(국가)는 각 개인이 유기체적으로 결합하여 만들어진 집합체이다.'라고 한 문장 안에 개인과 사회 설명이 섞여 있어, 개인에 대한 설명인지 사회에 대한 설명인지 혼동될 수 있음"
+   ],
+   "applied": "none",
+   "review_secs": 243
   }
  ],
- "done": false
+ "done": true
 }
