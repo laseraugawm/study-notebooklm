@@ -1,0 +1,977 @@
+{
+  "title": "\ube45\ub370\uc774\ud130 \ud50c\ub798\uc2dc\uce74\ub4dc",
+  "cards": [
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube45\ub370\uc774\ud130(Big Data)\uc758 \uc815\uc758\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc2ed \ud14c\ub77c\ubc14\uc774\ud2b8 \uc774\uc0c1\uc758 \ub300\uaddc\ubaa8 \ub370\uc774\ud130\ub85c, \ub370\uc774\ud130\ub97c \ud6a8\uacfc\uc801\uc73c\ub85c \uc800\uc7a5\ud558\uace0 \ub370\uc774\ud130 \uacfc\ud559 \uae30\uc220\uc744 \ud1b5\ud574 \uac00\uce58\ub97c \ucd94\ucd9c\ud558\uc5ec \ud65c\uc6a9\ud558\ub294 \ud3ec\uad04\uc801 \uac1c\ub150\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube45\ub370\uc774\ud130\uc758 5\uac00\uc9c0 \ub300\ud45c\uc801 \ud2b9\uc9d5(5V)\uc5d0 \ud574\ub2f9\ud558\ub294 \uc18d\uc131\ub4e4\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uaddc\ubaa8(Volume), \uc18d\ub3c4(Velocity), \ub2e4\uc591\uc131(Variety), \uc815\ud655\uc131(Veracity), \uac00\uce58(Value)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube45\ub370\uc774\ud130\uc758 5V \ud2b9\uc9d5 \uc678\uc5d0 \ucd94\uac00\ub418\uae30\ub3c4 \ud558\ub294 2\uac00\uc9c0 \ud2b9\uc9d5\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uac00\ubcc0\uc131(Variability), \uc2dc\uac01\ud654(Visualization)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\ud615 \ub370\uc774\ud130(Structured Data)\uc758 \ud2b9\uc9d5\uacfc \ub300\ud45c\uc801 \uc608\uc2dc\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uace0\uc815\ub41c \ud615\uc2dd\uacfc \uad6c\uc870\uc5d0 \ub9de\uac8c \ud589\uacfc \uc5f4\ub85c \uc800\uc7a5\ub41c \ub370\uc774\ud130\uc774\uba70, \ub370\uc774\ud130\ubca0\uc774\uc2a4 \ud45c\ub098 CSV \ud30c\uc77c \ud615\uc2dd \ub4f1\uc774 \uc788\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube44\uc815\ud615 \ub370\uc774\ud130(Unstructured Data)\uc758 \ud2b9\uc9d5\uacfc \ub300\ud45c\uc801 \uc608\uc2dc\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uace0\uc815\ub41c \uad6c\uc870\ub098 \ud615\ud0dc\uac00 \uc5c6\ub294 \ub370\uc774\ud130\ub85c, \uc774\ubbf8\uc9c0, \uc18c\ub9ac, \ub3d9\uc601\uc0c1, \ubcf4\uace0\uc11c(\ubb38\uc11c) \ub4f1\uc774 \ud3ec\ud568\ub41c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ucc28\uc138\ub300 \uc9c0\ub2a5\ud615 \uad50\ud1b5 \uc2dc\uc2a4\ud15c(C-ITS)\uc758 \uc791\ub3d9 \ubc29\uc2dd\uacfc \ubaa9\uc801\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ucc28\ub7c9, \ub178\uba74, \uc0ac\uace0 \ub370\uc774\ud130\ub97c \uc2e4\uc2dc\uac04\uc73c\ub85c \uc218\uc9d1\u00b7\ubd84\uc11d\ud558\uc5ec \uad50\ud1b5 \uc2dc\uc124\uacfc \uc2e4\uc2dc\uac04 \uc0c1\ud638\uc791\uc6a9\ud568\uc73c\ub85c\uc368 \uc0ac\uace0\ub97c \uc608\ubc29\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubd80\uc0b0\uad11\uc5ed\uc2dc\uc758 '\uce68\uc218 \uc608\uce21 \uc2dc\uc2a4\ud15c'\uc774 \uc81c\uacf5\ud558\ub294 \uce68\uc218 \uc704\ud5d8 \uc815\ubcf4\uc758 4\ub2e8\uacc4\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc548\uc804, \uc8fc\uc758, \uacbd\uacc4, \uc704\ud5d8"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uad6d\ubbfc \uac74\uac15 \uc54c\ub78c \uc11c\ube44\uc2a4\ub294 \uc5b4\ub5a0\ud55c \uc815\ubcf4\ub97c \uc735\ud569\ud558\uc5ec \uc9c0\uc5ed\ubcc4 \uc9c8\ubcd1 \uc704\ud5d8\ub3c4\ub97c \uc81c\uacf5\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uad6d\ubbfc \uac74\uac15 \uc815\ubcf4, \uc2dd\ud488\uc758\uc57d\ud488\uc548\uc804\ucc98, \uae30\uc0c1\uccad, \ud658\uacbd\ubd80, SNS \uc815\ubcf4\ub97c \uc735\ud569\ud558\uc5ec \uc81c\uacf5\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uacf5\uacf5 \uae30\uad00\uc758 \ub370\uc774\ud130\ub97c \ud558\ub098\ub85c \ud1b5\ud569 \uad00\ub9ac\u00b7\uc6b4\uc601\ud558\uc5ec \uc81c\uacf5\ud558\ub294 \ub300\ud45c \uc0ac\uc774\ud2b8\uc758 \uba85\uce6d\uacfc \uc6f9 \uc8fc\uc18c\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uacf5\uacf5 \ub370\uc774\ud130 \ud3ec\ud138 (data.go.kr)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud0d0\uc0c9\uc801 \ub370\uc774\ud130 \ubd84\uc11d(EDA)\uc774\ub780 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130\ub97c \ub2e4\uc591\ud55c \uad00\uc810\uc5d0\uc11c \uad00\ucc30\ud558\uace0 \uc774\ud574\ud558\ub294 \ubd84\uc11d\ubc95\uc73c\ub85c, \ud1b5\uacc4\uc801 \ubc29\ubc95\uc774\ub098 \uadf8\ub798\ud504\ub97c \uc774\uc6a9\ud574 \ub370\uc774\ud130\uc758 \uad6c\uc870\uc801 \uad00\uacc4\ub97c \ucc3e\ub294\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube45\ub370\uc774\ud130 \ubd84\uc11d \uacfc\uc815\uc758 4\ub2e8\uacc4\ub97c \uc21c\uc11c\ub300\ub85c \ub098\uc5f4\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubb38\uc81c \uc815\uc758\ud558\uae30 $\\rightarrow$ \ub370\uc774\ud130 \uc218\uc9d1\ud558\uae30 $\\rightarrow$ \ub370\uc774\ud130 \ubd84\uc11d\ud558\uae30 $\\rightarrow$ \uacf5\uc720 \ubc0f \ud3c9\uac00\ud558\uae30"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube45\ub370\uc774\ud130 \ubd84\uc11d\uc758 \uccab \ubc88\uc9f8 \ub2e8\uacc4\uc778 '\ubb38\uc81c \uc815\uc758\ud558\uae30'\uc5d0\uc11c \uc218\ud589\ud558\ub294 \ud575\uc2ec \uc791\uc5c5\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubd84\uc11d\uc758 \ud544\uc694\uc131, \uc694\uad6c \uc0ac\ud56d, \ubd84\uc11d \ubc94\uc704 \ub4f1\uc744 \ud30c\uc545\ud558\uc5ec \uad6c\uccb4\uc801\uc778 \ubb38\uc81c\uc758 \ubd84\uc11d \ubaa9\uc801\uc744 \uc815\uc758\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc218\uc9d1 \uc2dc \uace0\ub824\ud574\uc57c \ud560 \uc911\uc694 \uc694\uc18c 4\uac00\uc9c0\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130\uc591\uc758 \uade0\ud615, \uac1c\uc778 \uc815\ubcf4 \ub178\ucd9c, \ub370\uc774\ud130 \ud3b8\ud5a5\uc131, \uc800\uc791\uad8c"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc218\uc9d1 \uc2dc \ubc1c\uc0dd\ud558\ub294 '\ub370\uc774\ud130 \ud3b8\ud5a5\uc131'\uc774\ub780 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130\uac00 \ud2b9\uc815 \uadf8\ub8f9\uc774\ub098 \uacb0\uacfc\uc5d0 \uce58\uc6b0\uce5c \uc0c1\ud0dc\ub85c, \uc218\uc9d1 \uacfc\uc815\uc5d0\uc11c \uc778\uc885, \uc131\ubcc4 \ub4f1\uc758 \ud3b8\uacac\uc774 \ubc18\uc601\ub41c \uac83\uc744 \ub9d0\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6f9 \ud398\uc774\uc9c0\ub97c \ubc29\ubb38\ud558\uc5ec \ub370\uc774\ud130\ub97c \uc790\ub3d9\uc73c\ub85c \uc218\uc9d1\ud558\ub294 \ud504\ub85c\uadf8\ub7a8\uc744 \ubb34\uc5c7\uc774\ub77c \ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6f9 \ud06c\ub864\ub7ec(Web Crawler)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9d1 \ub300\uc0c1 \ub370\uc774\ud130 \uc720\ud615\uc5d0 \ub530\ub978 \uc218\uc9d1 \ud504\ub85c\uadf8\ub7a8\uc758 \uc885\ub958(\ub85c\uadf8 \uc218\uc9d1\uae30 vs \ud06c\ub864\ub9c1)\ub97c \uad6c\ubd84\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub85c\uadf8 \uc218\uc9d1\uae30\ub294 \uc8fc\ub85c \uc815\ud615 \ub370\uc774\ud130\ub97c \uc218\uc9d1\ud558\uace0, \ud06c\ub864\ub9c1\uc740 \uc8fc\ub85c \ube44\uc815\ud615 \ub370\uc774\ud130\ub97c \uc218\uc9d1\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uad6d\ub0b4\uc678 AI \uacbd\uc9c4 \ub300\ud68c \ubc0f \ub370\uc774\ud130 \ubd84\uc11d\uc6a9 \ub370\uc774\ud130 \uacf5\uc720 \uc0ac\uc774\ud2b8 \ub300\ud45c 2\uacf3\uc740 \uc5b4\ub514\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uce90\uae00(Kaggle, \uad6d\uc678)\uacfc \ub370\uc774\ucf58(Dacon, \uad6d\ub0b4)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc804\ucc98\ub9ac(Data Preprocessing)\uc758 \ud575\uc2ec \uc5ed\ud560\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9d1\ub41c \ub370\uc774\ud130\ub97c \uc0b4\ud3b4\ubcf4\uace0 \ud1b5\uacc4 \uc9c0\ud45c \ud655\uc778 \ubc0f \uacb0\uce21\uce58, \uc911\ubcf5\uac12, \uc774\uc0c1\uce58\ub97c \uc81c\uac70\ud558\uac70\ub098 \uc815\uc81c\ud558\uc5ec \ubd84\uc11d\uc5d0 \uc801\ud569\ud55c \ud615\ud0dc\ub85c \uac00\uacf5\ud558\ub294 \uacfc\uc815\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc804\ucc98\ub9ac \ub300\uc0c1\uc778 \uacb0\uce21\uce58, \uc911\ubcf5\uac12, \uc774\uc0c1\uce58\uc758 \uc815\uc758\ub97c \uac01\uac01 \uae30\uc220\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2022 \uacb0\uce21\uce58: \ub204\ub77d\ub41c \uac12\n\u2022 \uc911\ubcf5\uac12: \uc911\ubcf5\ub41c \uac12\n\u2022 \uc774\uc0c1\uce58: \ub370\uc774\ud130 \ubd84\ud3ec \ubc94\uc704\uc5d0\uc11c \ud06c\uac8c \ubc97\uc5b4\ub09c \uac12"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub300\ud45c\uc801 \ub300\ud45c\uac12 \ud1b5\uacc4 \uc9c0\ud45c\uc778 \ud3c9\uade0, \uc911\uc559\uac12, \ucd5c\ube48\uac12\uc758 \uad6c\ud558\ub294 \ubc29\uc2dd \ucc28\uc774\ub97c \uc124\uba85\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2022 \ud3c9\uade0: \ubaa8\ub4e0 \ub370\uc774\ud130\uc758 \ud569\uc744 \ub370\uc774\ud130 \uac1c\uc218\ub85c \ub098\ub208 \uac12\n\u2022 \uc911\uc559\uac12: \ub370\uc774\ud130\ub97c \uc21c\uc11c\ub300\ub85c \ub098\uc5f4\ud588\uc744 \ub54c \uc815\uac00\uc6b4\ub370 \uac12\n\u2022 \ucd5c\ube48\uac12: \uac00\uc7a5 \uc790\uc8fc \ub098\ud0c0\ub09c \uac12"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130\uc14b $[4, 4, 5, 7, 10]$\uc758 \ud3c9\uade0, \uc911\uc559\uac12, \ucd5c\ube48\uac12\uc740 \uac01\uac01 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2022 \ud3c9\uade0: 6 (\uacc4\uc0b0: $(4+4+5+7+10) \\div 5 = 6$)\n\u2022 \uc911\uc559\uac12: 5\n\u2022 \ucd5c\ube48\uac12: 4"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubc15\uc2a4 \ud50c\ub86f(Box Plot) \uc2dc\uac01\ud654 \uae30\ubc95\uc758 \uc8fc\uc694 \ud2b9\uc9d5\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud1b5\uacc4\uc801 \uae30\uc900(Q1, Q2, Q3 \ub4f1)\uc73c\ub85c \ub370\uc774\ud130\uc758 \ub300\ub7b5\uc801\uc778 \ubd84\ud3ec\uc640 \uac1c\ubcc4 \uc774\uc0c1\uce58\ub97c \ub3d9\uc2dc\uc5d0 \ubcf4\uc5ec \uc900\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubc15\uc2a4 \ud50c\ub86f\uc5d0\uc11c \uc0ac\ubd84\uc704\uc218 \ubc94\uc704(IQR)\uc758 \uad6c\ud558\ub294 \uacf5\uc2dd\uacfc \uc774\uc0c1\uce58 \ud310\ub2e8 \uae30\uc900 \ubc94\uc704\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2022 $IQR = Q3 - Q1$ (\uc0c1\uc704 25%\uac12 - \ud558\uc704 25%\uac12)\n\u2022 \uc774\uc0c1\uce58 \ubc94\uc8fc: $Q1 - 1.5 \\times IQR$ \ubbf8\ub9cc\uc774\uac70\ub098 $Q3 + 1.5 \\times IQR$ \ucd08\uacfc\uc778 \uac12"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uacf5\uacf5 \uae30\uad00 \uc218\uc9d1 \uac15\uc218\ub7c9 \ub370\uc774\ud130 \ubd84\uc11d \uc2dc \ud1b5\uacc4\uc801 \uc774\uc0c1\uce58\uac00 \ubc1c\uacac\ub418\uc5b4\ub3c4 \uac12\uc744 \uc0ad\uc81c\ud558\uc9c0 \uc54a\uace0 \uc720\uc9c0\ud558\ub294 \uc774\uc720\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uacf5\uacf5 \uae30\uad00\uc5d0\uc11c \uc0ac\uc804 \ud488\uc9c8 \uac80\uc0ac\ub97c \uac70\uce5c \uc2e4\uc81c \uc790\uc5f0 \uad00\uce21\uac12\uc774\ubbc0\ub85c \ub2e8\uc21c \uc624\ub958\uac00 \uc544\ub2cc \uc2e4\uc81c \uae30\uc0c1 \ud604\uc0c1\uc73c\ub85c \ud310\ub2e8\ud558\uae30 \ub54c\ubb38\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2dc\uac04\uc5d0 \ub530\ub978 \ub370\uc774\ud130\uc758 \ucd94\uc774\ub97c \ud45c\ud604\ud558\ub294 '\uc2dc\uac04 \uc2dc\uac01\ud654'\uc5d0 \uc8fc\ub85c \uc0ac\uc6a9\ub418\ub294 \uadf8\ub798\ud504 \uc720\ud615 3\uac00\uc9c0\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc120\uadf8\ub798\ud504, \ub9c9\ub300\uadf8\ub798\ud504, \uc601\uc5ed\ud615 \ucc28\ud2b8"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uac04\uc758 \uc5f0\uad00\uc131\uc774\ub098 \uad00\uacc4\ub97c \ud45c\ud604\ud558\ub294 '\uad00\uacc4 \uc2dc\uac01\ud654'\uc758 \ub300\ud45c\uc801\uc778 \ucc28\ud2b8 3\uac00\uc9c0\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubc84\ube14 \ucc28\ud2b8, \ud788\uc2a4\ud1a0\uadf8\ub7a8, \uc0b0\uc810\ub3c4"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uac04\uc758 \ucc28\uc774\uc640 \uc720\uc0ac\uc131\uc744 \ud55c\ub208\uc5d0 \ube44\uad50\ud558\ub294 '\ube44\uad50 \uc2dc\uac01\ud654'\uc5d0 \uc8fc\ub85c \uc0ac\uc6a9\ub418\ub294 \uc720\ud615 3\uac00\uc9c0\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud788\ud2b8\ub9f5, \uc6cc\ub4dc \ud074\ub77c\uc6b0\ub4dc, \ubc29\uc0ac\ud615 \ucc28\ud2b8"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc13c\ud130\uc5d0\uc11c 24\uc2dc\uac04 \uc11c\ubc84 \uc791\ub3d9\uc73c\ub85c \uc778\ud574 \ubc1c\uc0dd\ud558\ub294 \uacfc\uc5f4\uc744 \ubc29\uc9c0\ud558\uae30 \uc704\ud55c \uc801\uc815 \uc628\u00b7\uc2b5\ub3c4 \uae30\uc900\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub0b4\ubd80 \uc628\ub3c4 20\u2103 \uc548\ud30e, \uc2b5\ub3c4 25% \uc548\ud30e"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "'\ub514\uc9c0\ud138 \ud0c4\uc18c \ubc1c\uc790\uad6d'\uc758 \uac1c\ub150\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc778\uac04\uc758 \ub514\uc9c0\ud138 \uae30\uae30 \uc0ac\uc6a9(\uc2a4\ud2b8\ub9ac\ubc0d, \uba54\uc77c \uc800\uc7a5, \ub370\uc774\ud130 \uc13c\ud130 \uad6c\ub3d9 \ub4f1)\uc73c\ub85c \uc778\ud574 \ubc30\ucd9c\ub418\ub294 \uc628\uc2e4\uac00\uc2a4\uc758 \uc591\uc744 \uc758\ubbf8\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc77c\uc0c1\uc0dd\ud65c\uc5d0\uc11c \ub514\uc9c0\ud138 \ud0c4\uc18c \ubc1c\uc790\uad6d\uc744 \uc904\uc77c \uc218 \uc788\ub294 \uc2e4\ucc9c \ubc29\uc548 3\uac00\uc9c0\ub97c \uc81c\uc2dc\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub3d9\uc601\uc0c1 \uc2a4\ud2b8\ub9ac\ubc0d \uc904\uc774\uae30, \uba54\uc77c\ud568 \uc790\uc8fc \ube44\uc6b0\uae30, \uc0ac\uc6a9\ud558\uc9c0 \uc54a\ub294 \ub178\ud2b8\ubd81 \uc804\uc6d0 \ub044\uae30 (\uc2a4\ub9c8\ud2b8\ud3f0 \uc790\uc8fc \ubc14\uafb8\uc9c0 \uc54a\uae30 \ub4f1)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ucf54\ub2f5(CODAP) \ub3c4\uad6c\uc758 \uc8fc\uc694 \ud2b9\uc9d5\uacfc \uc7a5\uc810\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ucf54\ub529 \uc5c6\uc774 \uc628\ub77c\uc778 \uc6f9 \uae30\ubc18 \ud658\uacbd\uc5d0\uc11c CSV \ud30c\uc77c \ub4f1\uc744 \ubd88\ub7ec\uc640 \ub370\uc774\ud130\ub97c \ud0d0\uc0c9\ud558\uace0 \uadf8\ub798\ud504, \uc9c0\ub3c4 \ub4f1\uc73c\ub85c \uc2dc\uac01\ud654\ud560 \uc218 \uc788\ub294 \uc624\ud508 \uc18c\uc2a4 \ub370\uc774\ud130 \ubd84\uc11d \ud50c\ub7ab\ud3fc\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6f9 \uae30\ubc18 \ubd84\uc11d \ud658\uacbd\uc5d0\uc11c \ud14d\uc2a4\ud2b8 \uae30\ubc18 \ub370\uc774\ud130\uc758 \ud55c\uae00 \uae68\uc9d0\uc744 \ubc29\uc9c0\ud558\uae30 \uc704\ud574 \uc0ac\uc6a9\ud574\uc57c \ud558\ub294 \uc778\ucf54\ub529 \ubc29\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "UTF-8"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \ubd84\uc11d \uc2dc \ud65c\uc6a9\ud558\ub294 '\ucd5c\uc18c \uc81c\uacf1\uc120'\uc758 \uc5ed\ud560\uacfc \uacb0\uc815\uacc4\uc218($r^2$)\uc758 \uc758\ubbf8\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \ucd94\uc138\ub97c \uc608\uce21\ud558\ub294 \uc120\uc73c\ub85c, \uacb0\uc815\uacc4\uc218 $r^2$ \uac12\uc774 1\uc5d0 \uac00\uae4c\uc6b8\uc218\ub85d \ucd94\uc138\uc120\uc774 \ub370\uc774\ud130\ub97c \uc798 \uc124\uba85\ud568\uc744 \ub098\ud0c0\ub0b8\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2e4\uc138\uacc4 \uad00\uce21 \ub370\uc774\ud130 \ubd84\uc11d \uc2dc \ucd5c\uc18c \uc81c\uacf1\uc120\uc758 \uacb0\uc815\uacc4\uc218($r^2$)\uac00 \uc5bc\ub9c8 \uc774\uc0c1\uc774\uba74 \uc720\uc758\ubbf8\ud55c \uad00\uacc4\uac00 \uc788\ub2e4\uace0 \ud310\ub2e8\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$r^2 \\ge 0.4$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uac80\uc0c9\uc5b4 \ud2b8\ub80c\ub4dc(Search Trend) \ube45\ub370\uc774\ud130 \ub3c4\uad6c\uac00 \ubd84\uc11d\ud558\uc5ec \ubcf4\uc5ec \uc8fc\ub294 \uc8fc\uc694 \uc815\ubcf4\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3ec\ud138 \uc0ac\uc774\ud2b8\uc5d0\uc11c \uac80\uc0c9\ub418\ub294 \uac80\uc0c9\uc5b4\uc758 \uc9c0\uc5ed, \uc2dc\uac04, \uc131\ubcc4 \ub4f1\uc5d0 \ub530\ub978 \uc0ac\uc6a9\uc790 \uad00\uc2ec\ub3c4 \ubcc0\ud654 \ucd94\uc774"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub9de\ucda4\ud615 \uad11\uace0 \ub4f1 \uc0ac\uc6a9\uc790 \uc628\ub77c\uc778 \ud589\uc801 \ucd94\uc801\uc73c\ub85c \ubc1c\uc0dd\ud558\ub294 \ube45\ub370\uc774\ud130 \ubd80\uc791\uc6a9 \ubb38\uc81c\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud504\ub77c\uc774\ubc84\uc2dc \uce68\ud574 \ubc0f \uac1c\uc778 \uc815\ubcf4 \uc790\uae30 \uacb0\uc815\uad8c \uce68\ud574"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc544\uc774\uc2a4\ud06c\ub9bc \ud310\ub9e4\ub7c9 \uc99d\uac00\uc640 \uc775\uc0ac \uc0ac\uace0 \uc99d\uac00 \uc0ac\uc774\uc758 \uad00\uacc4\ucc98\ub7fc, \ub370\uc774\ud130 \ud574\uc11d \uc2dc \uc8fc\uc758\ud574\uc57c \ud560 \uc624\ub958\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub2e8\uc21c\ud55c \ub450 \uc18d\uc131 \uac04\uc758 \uc0c1\uad00\uad00\uacc4\ub97c \uc6d0\uc778\uacfc \uacb0\uacfc\uc778 '\uc778\uacfc \uad00\uacc4'\ub85c \ud655\ub300 \ud574\uc11d\ud558\ub294 \uc624\ub958"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2e0\uc6a9\uce74\ub4dc \uacb0\uc81c \ub370\uc774\ud130 \ubd84\uc11d \uc2dc '\uad6c\ub9e4 \uc8fc\uccb4'\uc640 '\uacb0\uc81c \uc8fc\uccb4'\uac00 \ub2ec\ub77c \ubd84\uc11d \uc624\ub958\uac00 \ubc1c\uc0dd\ud558\ub294 \uc774\uc720\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud558\ub098\uc758 \ub370\uc774\ud130 \uc18d\uc131(\uce74\ub4dc \uc18c\uc720\uc790)\uc774 \uc2e4\uc81c \uc18c\ube44\uc790(\uc790\ub140)\uc640 \uacb0\uc81c\uc790(\ubd80\ubaa8)\ub77c\ub294 \ub2e4\uc911 \uc758\ubbf8\ub97c \ub0b4\ud3ec\ud558\uace0 \uc788\uae30 \ub54c\ubb38\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2a4\ub9c8\ud2b8\ud3f0\uc758 \ub9ac\ub2c8\uc5b4 \uac00\uc18d\ub3c4 \uc13c\uc11c(Linear Accelerometer)\uac00 \uce21\uc815\ud558\ub294 \uac12\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\ub825 \uac00\uc18d\ub3c4\ub97c \uc81c\uc678\ud55c \uc120\ud615($x, y, z$\ucd95 \ubc29\ud5a5) \uc774\ub3d9 \uac00\uc18d\ub3c4"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2a4\ub9c8\ud2b8\ud3f0 \uac00\uc18d\ub3c4 \uc13c\uc11c\uc758 \ucd1d \uac00\uc18d\ub3c4 \uac12 \ud06c\uae30\uc5d0 \ub530\ub978 \uc0ac\uc6a9\uc790 \uc6b4\ub3d9 \uc0c1\ud0dc \ud574\uc11d\uc744 \uc124\uba85\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2022 0\uc5d0 \uac00\uae4c\uc6c0: \uc6c0\uc9c1\uc784 \uc5c6\uc74c (\uc815\uc9c0 \uc0c1\ud0dc)\n\u2022 \uac12\uc774 \ub0ae\uc74c: \uac77\ub294 \uc0c1\ud0dc\n\u2022 \uac12\uc774 \ud07c: \ube60\ub974\uac8c \uc6c0\uc9c1\uc784 (\ub2ec\ub9ac\ub294 \uc0c1\ud0dc)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2a4\ub9c8\ud2b8\ud3f0 \ub0b4\uc7a5 \uc13c\uc11c \uc911 \ub192\uc774 \ubcc0\ud654(\uace0\ub3c4)\ub098 \uc624\ub974\ub0b4\ub9ac\uae30\ub97c \uce21\uc815\ud558\ub294 \uc13c\uc11c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uae30\uc555 \uc13c\uc11c(Barometer)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2a4\ub9c8\ud2b8\ud3f0\uc758 \ud68c\uc804 \uc0c1\ud0dc\uc640 \uae30\uc6b8\uae30\ub97c \uac10\uc9c0\ud558\ub294 \uc13c\uc11c\uc758 \uba85\uce6d\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc790\uc774\ub85c \uc13c\uc11c(Gyro Sensor)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub514\uc9c0\ud138 \ub370\uc774\ud130 \uc555\ucd95 \ubc29\uc2dd \uc911 '\uc190\uc2e4 \uc555\ucd95'\uacfc '\ube44\uc190\uc2e4 \uc555\ucd95'\uc758 \uadfc\ubcf8\uc801 \ucc28\uc774\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc555\ucd95 \ud574\uc81c \uc2dc \ub370\uc774\ud130\uc758 \uc720\uc2e4 \uc5ec\ubd80 (\uc190\uc2e4 \uc555\ucd95\uc740 \ub370\uc774\ud130 \uc77c\ubd80\ub97c \uc81c\uac70\ud558\uc5ec \ubcf5\uc6d0 \ubd88\uac00, \ube44\uc190\uc2e4 \uc555\ucd95\uc740 \uc6d0\ub798 \ub370\uc774\ud130\ub85c \uc644\ubcbd \ubcf5\uc6d0 \uac00\ub2a5)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubb38\uc790\uc5f4 \ub370\uc774\ud130 \uc555\ucd95\uc5d0 \uc8fc\ub85c \uc0ac\uc6a9\ub418\ub294 \ube44\uc190\uc2e4 \uc555\ucd95 \ubc29\uc2dd 2\uac00\uc9c0\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub7f0-\ub81d\uc2a4 \uc778\ucf54\ub529(Run-Length Encoding), \ub818\ud3a0-\uc9c0\ube0c \uc778\ucf54\ub529(Lempel-Ziv Encoding)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub300\ud45c\uc801 \uc624\ub514\uc624 \ud30c\uc77c \ud615\uc2dd\uc778 MP3\uc640 WAV/FLAC\uc758 \uc555\ucd95 \ubc29\uc2dd \ucc28\uc774\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "MP3\ub294 \uc0ac\ub78c \uccad\uac01 \ubc94\uc704\ub97c \ubc97\uc5b4\ub09c \uc18c\ub9ac\ub97c \uc81c\uac70\ud558\ub294 \uc190\uc2e4 \uc555\ucd95 \ud615\uc2dd\uc774\uba70, WAV/FLAC\uc740 \ube44\uc190\uc2e4(\ubb34\uc190\uc2e4) \ud30c\uc77c \ud615\uc2dd\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc774\ubbf8\uc9c0 \ud30c\uc77c \ud615\uc2dd \uc911 JPEG\uc640 PNG\uc758 \uc555\ucd95 \ubc29\uc2dd\uc740 \uc5b4\ub5bb\uac8c \ub2e4\ub978\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "JPEG\ub294 \uc778\uac04 \ub208\uc774 \uc778\uc2dd\ud558\uc9c0 \ubabb\ud558\ub294 \uc0c9\uc0c1 \uc815\ubcf4\ub97c \uc81c\uac70\ud558\ub294 \uc190\uc2e4 \uc555\ucd95 \ubc29\uc2dd\uc774\uace0, PNG\ub294 \ube44\uc190\uc2e4 \uc555\ucd95 \ubc29\uc2dd\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub514\uc9c0\ud138 \ub370\uc774\ud130 \uc554\ud638\ud654(Data Encryption)\uc758 \ubaa9\uc801\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\ub2f9\ud55c \uad8c\ud55c\uc774 \uc5c6\ub294 \uc0ac\ub78c\uc774 \ub370\uc774\ud130 \ub0b4\uc6a9\uc744 \uc54c\uc544\ubcfc \uc218 \uc5c6\ub3c4\ub85d \ub370\uc774\ud130\ub97c \uc548\uc804\ud558\uac8c \ubcc0\ud658\ud558\ub294 \uae30\uc220\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc554\ud638\ud654 \uccb4\uacc4\ub97c \uad6c\uc131\ud558\ub294 4\uac00\uc9c0 \uae30\ubcf8 \uc694\uc18c\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3c9\ubb38, \uc554\ud638\ubb38, \uc554\ud638 \uc54c\uace0\ub9ac\uc998, \ud0a4(Key)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3c9\ubb38\uc758 \uc54c\ud30c\ubcb3\uc744 \uc77c\uc815 \ud0a4\ub9cc\ud07c \ud3c9\ud589 \uc774\ub3d9\uc2dc\ucf1c \uce58\ud658\ud558\ub294 \uace0\ub300 \uc554\ud638 \ubc29\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uce74\uc774\uc0ac\ub974 \uc554\ud638(Caesar Cipher)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubcc4\ub3c4\uc758 \ud0a4 \uc5c6\uc774 \uc77c\uc815 \uaddc\uce59\uc758 \uac12\uc73c\ub85c \uc554\ud638\ud654\ud558\ub294 \ud604\ub300 \uc554\ud638 \uc54c\uace0\ub9ac\uc998\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud574\uc2dc \ud568\uc218(Hash Function)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub300\uce6d\ud0a4 \uc554\ud638 \uc54c\uace0\ub9ac\uc998\uacfc \uacf5\uac1c\ud0a4(\ube44\ub300\uce6d\ud0a4) \uc554\ud638 \uc54c\uace0\ub9ac\uc998\uc758 \ud0a4 \uc0ac\uc6a9 \ubc29\uc2dd\uc744 \ube44\uad50\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2022 \ub300\uce6d\ud0a4 \uc54c\uace0\ub9ac\uc998: \uc1a1\uc2e0\uc790\uc640 \uc218\uc2e0\uc790\uac00 \ub3d9\uc77c\ud55c \uac19\uc740 \ud0a4\ub97c \uc0ac\uc6a9\n\u2022 \uacf5\uac1c\ud0a4 \uc54c\uace0\ub9ac\uc998: \uacf5\uac1c\ub41c \ud0a4\ub85c \uc554\ud638\ud654\ud558\uace0, \uc790\uc2e0\ub9cc \uc544\ub294 \ube44\ubc00\ud0a4(\uac1c\uc778\ud0a4)\ub85c \ubcf5\ud638\ud654"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub2e4\uc74c \uc911 \uc815\ud615 \ub370\uc774\ud130\uc5d0 \ud574\ub2f9\ud558\ub294 \uac83\uc740?\n\u2460 \uc774\ubbf8\uc9c0 \ud30c\uc77c  \u2461 \ub3d9\uc601\uc0c1  \u2462 CSV \ud30c\uc77c  \u2463 PDF \ubb38\uc11c  \u2464 SNS \uac8c\uc2dc\uae00"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u2462 CSV \ud30c\uc77c (\uace0\uc815\ub41c \ud589\uacfc \uc5f4 \uad6c\ubd84 \uad6c\uc870\ub97c \uac00\uc9d0)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uc774\ud130 \uc555\ucd95\uc5d0\uc11c \ub370\uc774\ud130\ub97c \uc791\uc740 \ud06c\uae30\ub85c \ubcc0\ud658\ud558\ub294 \uacfc\uc815 \u3260\uacfc \uc6d0\ub798\ub300\ub85c \ub418\ub3cc\ub9ac\ub294 \uacfc\uc815 \u3261\uc758 \uc6a9\uc5b4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\u3260: \uc555\ucd95(Encoding) / \u3261: \ud574\uc81c \ub610\ub294 \ubcf5\uc6d0(Decoding)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uacf5\uacf5 \uc9c0\ud45c \ubc0f \uad6d\uac00 \ud1b5\uacc4 \uccb4\uacc4\ub97c \uacf5\uc720\ud558\ub294 \ud55c\uad6d \ud1b5\uacc4\uccad \uad00\ub9ac \uc0ac\uc774\ud2b8 2\uacf3\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uad6d\uac00\ud1b5\uacc4\ud3ec\ud138(KOSIS), \uc9c0\ud45c\ub204\ub9ac"
+          }
+        ]
+      }
+    }
+  ]
+}
