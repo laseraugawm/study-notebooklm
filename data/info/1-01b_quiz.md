@@ -1,101 +1,101 @@
-# Network Computing Quiz
+# 네트워크 퀴즈
 
 ## Question 1
-In Windows operating systems, which command entered into the Command Prompt (`cmd`) displays the computer's current IP address configuration?
+윈도 운영체제의 커맨드 창(cmd)에서 내 컴퓨터에 연결된 IP 주소를 직접 확인하기 위해 입력하는 명령어로 올바른 것은?
 
 - [x] ipconfig
-- [ ] ping
-- [ ] netstat
-- [ ] traceroute
+- [ ] configip
+- [ ] whatismyip
+- [ ] netcheck
 
-**Hint:** Think about the command line tool specifically used to configure and view local IP properties in Windows.
+**Hint:** 명령 프롬프트(cmd)에서 IP(Internet Protocol) 관련 환경 설정 정보를 보여주는 명령어를 생각해 보세요.
 
 ## Question 2
-Which two IP address standards are used for internet network addressing according to the textbook material?
+윈도 운영체제에서 내 컴퓨터의 네트워크 연결 상태와 IP 주소 등의 네트워킹 정보를 확인하기 위한 설정 경로로 올바른 것은?
 
-- [x] IPv4 and IPv6
-- [ ] IPv2 and IPv4
-- [ ] IPv4 and IPv5
-- [ ] IPv6 and IPv8
+- [x] [설정] - [네트워크 및 인터넷] - 이더넷의 [속성]
+- [ ] [제어판] - [장치 관리자] - [시스템 정보]
+- [ ] [설정] - [개인 정보] - [연결 기기]
+- [ ] [작업 표시줄] - [파일 탐색기] - [공유 폴더]
 
-**Hint:** Identify the standard address system currently in wide use alongside its newer expanded version.
+**Hint:** 윈도 [설정] 메뉴 내에서 네트워크 관련 항목을 찾아 이더넷 속성으로 들어가는 순서를 떠올려 보세요.
 
 ## Question 3
-What is the correct navigation path within the Windows OS Settings app to check your computer's IP address and network properties?
+클라우드 컴퓨팅(Cloud Computing) 기술의 주요 특징에 대한 설명으로 가장 적절한 것은?
 
-- [x] Settings > Network & Internet > Ethernet > Properties
-- [ ] Settings > System > Display > Advanced Settings
-- [ ] Settings > Devices > Printers & Scanners > Hardware Properties
-- [ ] Settings > Privacy & Security > Developer Mode > Network Logs
+- [x] 사용자가 시간과 장소에 상관없이 네트워크로 연결된 컴퓨팅 자원과 소프트웨어를 이용할 수 있다.
+- [ ] 물리적으로 직접 연결된 유선 랜 선을 통해서만 데이터와 소프트웨어에 접근할 수 있다.
+- [ ] 한 번 저장된 데이터는 보안을 위해 등록한 개인 단말기 이외의 공유가 엄격히 차단된다.
+- [ ] 모든 데이터 처리가 네트워크 접속 없이 개인 컴퓨터의 내장 단말기 내부에서만 독립적으로 이루어진다.
 
-**Hint:** Focus on the menu category directly responsible for wired network interface connections.
+**Hint:** 어디서나 원격 서버에 접속하여 데이터를 공유하거나 저장 장치 및 소프트웨어를 사용하는 이점을 고려해 보세요.
 
 ## Question 4
-Which sensor should be selected for a physical computing project if the goal is to measure environmental brightness?
+스마트폰이나 태블릿 등의 화면을 교실이나 거실의 TV 화면으로 전송하여 동일하게 출력하는 '미러링' 기능에 대한 설명 중 올바른 것은?
 
-- [x] Illuminance sensor
-- [ ] Motion sensor
-- [ ] Tilt sensor
-- [ ] Distance sensor
+- [x] 스마트폰을 가로 모드로 들었을 때 TV 화면에 전체 화면으로 크게 표시하는 것이 가능하다.
+- [ ] 스마트폰을 세로 모드로 들었을 때만 TV 화면에 좌우 여백 없이 전체 화면으로 표시된다.
+- [ ] 미러링 시 화면 출력 모드는 항상 화면 복제만 지원하며 확장 모드는 제공하지 않는다.
+- [ ] 미러링 기능은 무선 네트워크 기술을 사용할 수 없으며 반드시 유선 케이블을 연결해야만 한다.
 
-**Hint:** Look for the sensor specifically named after detecting light levels.
+**Hint:** 스마트폰을 잡는 방향(가로/세로) 변화가 디스플레이 화면 표시에 미치는 영향에 주목해 보세요.
 
 ## Question 5
-Which sensor uses ultrasonic waves to determine how far away an object is located?
+인터넷 네트워크에서 현재 기기 식별을 위해 사용되고 있는 대표적인 IP 주소 체계 두 가지는 무엇인가?
 
-- [x] Distance sensor
-- [ ] Laser sensor
-- [ ] Touch sensor
-- [ ] Tilt sensor
+- [x] IPv4, IPv6
+- [ ] IPv2, IPv4
+- [ ] IPv4, IPv8
+- [ ] TCP, UDP
 
-**Hint:** Recall which sensor relies on reflected sound pulses to calculate spatial gaps.
+**Hint:** 숫자 '4'와 '6'이 조합된 IP 주소 체계 명칭을 찾아보세요.
 
 ## Question 6
-How does resource sharing through cloud computing differ fundamentally from local personal computer sharing?
+사물 인터넷(IoT; Internet of Things)의 개념 및 특징에 대한 설명으로 가장 올바른 것은?
 
-- [x] Cloud computing allows users to access software and data hosted on remote servers from any location via a network connection.
-- [ ] Local personal computer sharing allows remote users to access files even when the host PC is powered off.
-- [ ] Cloud computing requires direct physical cable connections between user devices and central storage drives.
-- [ ] Local personal computer sharing automatically publishes files to the public internet without permission management.
+- [x] 일상생활 속 물건에 센서와 통신 장치가 부착되어 인터넷을 통해 데이터를 주고받는 환경이다.
+- [ ] 사물 인터넷의 '사물'은 컴퓨터나 태블릿 같은 전통적 컴퓨팅 기기만을 의미한다.
+- [ ] 센서는 사용자가 손으로 직접 누르거나 터치할 때만 정보를 수집하도록 제한된다.
+- [ ] 외부 인터넷 네트워크와의 연결 없이 내부 피지컬 장치만으로 단독 동작하는 시스템을 일컫는다.
 
-**Hint:** Consider where the data is stored and software is run when using cloud resources compared to desktop setups.
+**Hint:** 사물(Things)이 인터넷에 연결되기 위해 어떤 부품들(센서, 통신 장치)이 탑재되는지 생각해 보세요.
 
 ## Question 7
-Which sensor is best suited for registering when a person physically contacts or presses a specific control area on a device?
+피지컬 컴퓨팅 시스템에서 사용하는 센서 중 '초음파'를 이용하여 물체와의 거리를 측정하는 센서는?
 
-- [x] Touch sensor
-- [ ] Motion sensor
-- [ ] Laser sensor
-- [ ] Temperature and humidity sensor
+- [x] 거리 센서
+- [ ] 레이저 센서
+- [ ] 조도 센서
+- [ ] 기울기 센서
 
-**Hint:** Identify the sensor designed specifically to respond to physical contact.
+**Hint:** 거리 측정을 위해 '레이저'가 아닌 '초음파'를 신호 매개체로 사용하는 센서의 이름을 선택하세요.
 
 ## Question 8
-Which of the following best describes the core concept of the Internet of Things (IoT)?
+다음 피지컬 컴퓨팅 센서와 그 기능에 대한 연결 중 올바르지 않은 것은?
 
-- [x] A network environment where everyday physical objects equipped with sensors and communication hardware exchange data with other devices or humans.
-- [ ] A local cable connection connecting personal computers and local printers within a single office room.
-- [ ] A web browser search tool used exclusively to look up a device's public IP address.
-- [ ] A specialized wireless protocol used strictly to project audio from smartphones to speakers.
+- [x] 조도 센서 - 주변의 온도와 습도를 측정한다.
+- [ ] 동작 감지 센서 - 사람이나 동물 등의 움직임을 감지한다.
+- [ ] 터치 센서 - 장치에 접촉하는 여부를 감지한다.
+- [ ] 기울기 센서 - 물체의 기울어짐 정도를 감지한다.
 
-**Hint:** Look for the definition emphasizing everyday objects fitted with sensors and communication modules sharing data.
+**Hint:** '조도'라는 단어가 의미하는 대상(밝기)과 실제 제시된 기능(온도/습도)을 비교해 보세요.
 
 ## Question 9
-When screen mirroring a smartphone to a classroom TV screen, what display change occurs when rotating the smartphone from portrait to landscape mode?
+다음 중 교과서에서 다룬 무선 네트워크 기술을 이용한 파일 전송 또는 공유 방법의 예시로 적절하지 않은 것은?
 
-- [x] The mirrored image on the TV changes its display size and allows full-screen viewing.
-- [ ] The network connection terminates and prompts for a security password.
-- [ ] The underlying transmission method automatically switches from Wi-Fi to Bluetooth.
-- [ ] The screen resolution drops permanently to prevent audio-visual sync errors.
+- [x] 유선 LAN 케이블 직접 연결
+- [ ] 와이파이(Wi-Fi) 접속 활용
+- [ ] 블루투스(Bluetooth) 기능 활용
+- [ ] 모바일 기기의 공유 기능(에어드롭, 퀵셰어)
 
-**Hint:** Think about how aspect ratio adjustments impact widescreen TV displays.
+**Hint:** 물리적인 케이블 선을 직접 사용하는 유선 방식과 무선 신호를 통하는 방식을 구분해 보세요.
 
 ## Question 10
-In an IoT-based automated fire detection system, what is the role of the computer after a sensor detects smoke or heat?
+개인용 컴퓨터에서 지정된 폴더나 물리적 자원을 네트워크로 공유할 때 발생하는 특징으로 올바른 것은?
 
-- [x] It processes the input signal from the sensor, evaluates the condition, and triggers the alarm output.
-- [ ] It transforms heat energy directly into acoustic output power for the alarm siren.
-- [ ] It modifies the computer's network IP address to block incoming connections.
-- [ ] It disconnects all wireless interfaces to isolate local smart devices.
+- [x] 컴퓨터에 공유 설정을 하면 내 컴퓨터에 직접 연결된 프린터를 다른 사람이 사용할 수 있다.
+- [ ] 공유 설정을 진행하면 컴퓨터 내부 저장 장치 전체가 반드시 외부로 공개된다.
+- [ ] 네트워크로 공유된 데이터는 보안상 이유로 실시간 공동 편집이 절대 불가능하다.
+- [ ] 무선 네트워크로 연결된 노트를 사용하는 경우 공유 프린터를 이용할 수 없다.
 
-**Hint:** Recall the fundamental sequence of physical computing: sensing input, processing data, and producing an output response.
+**Hint:** 한 대의 프린터 장치를 네트워크에 연결된 여러 대의 컴퓨팅 시스템이 함께 활용하는 상황을 생각해 보세요.

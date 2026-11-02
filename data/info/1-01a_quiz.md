@@ -1,101 +1,101 @@
-# Networking Quiz
+# 네트워크 퀴즈
 
 ## Question 1
-Which network device is responsible for connecting different networks, such as an internal local area network (LAN) and an external network, while determining the optimal path for data transmission?
+유선 네트워크를 구축할 때 사용하는 케이블 중 고속 데이터 전송 및 원거리 전송이 가능하여 다양하게 활용되는 것은 무엇인가요?
 
-- [x] Router
-- [ ] Hub and Switch
-- [ ] Wireless Access Point (AP)
-- [ ] Firewall
+- [x] 광 케이블
+- [ ] 이더넷 케이블
+- [ ] 동축 케이블
+- [ ] 무선 AP 케이블
 
-**Hint:** Consider the device that acts as a bridge between separate networks to guide data along its destination path.
+**Hint:** 거리 제약을 극복하고 빛의 속도로 매우 빠른 전송을 지원하는 케이블 명칭을 떠올려 보세요.
 
 ## Question 2
-What is a primary advantage of using Ethernet cables over optical cables when setting up a wired local area network (LAN)?
+서로 다른 네트워크 사이(예: 내부 네트워크와 외부 네트워크)에 위치하며, 외부 네트워크로 데이터가 전송되는 경로를 지정해 주는 네트워크 장비는 무엇인가요?
 
-- [x] Lower deployment costs and higher physical flexibility
-- [ ] Higher data transmission speeds over extremely long distances
-- [ ] Complete elimination of location constraints during device usage
-- [ ] Direct transmission of radio frequencies through open air
+- [x] 라우터
+- [ ] 허브 및 스위치
+- [ ] 방화벽
+- [ ] 전자 태그
 
-**Hint:** Think about why Ethernet cables are widely chosen for budget-conscious and adaptable indoor network wiring.
+**Hint:** 데이터가 이동할 올바른 길(경로)을 찾아 안내해 주는 장비의 이름을 생각해 보세요.
 
 ## Question 3
-Which feature distinguishes Near Field Communication (NFC) from standard RFID technology?
+외부로부터의 불법 접근이나 악의적인 공격을 차단하여 네트워크 보안을 유지하는 장치 또는 기술은 무엇인가요?
 
-- [x] It operates without physical contact at a very close distance within 10 cm
-- [ ] It requires a complex device pairing process before data transfer
-- [ ] It allows data transmission across distances of up to 10 meters
-- [ ] It converts wired LAN signals directly into Wi-Fi signals
+- [x] 방화벽
+- [ ] 스위치
+- [ ] 라우터
+- [ ] 무선 AP
 
-**Hint:** Focus on the specific maximum operating distance required for contactless mobile payment systems.
+**Hint:** 화재가 다른 곳으로 번지는 것을 차단하는 벽의 이름에서 유래된 용어입니다.
 
 ## Question 4
-Which wireless technology functions within a 10-meter range, uses a connection procedure known as 'pairing,' and is commonly used for wireless earphones and smart speakers?
+근거리 무선 통신 기술인 NFC(Near Field Communication)의 주요 특징으로 올바른 설명은 무엇인가요?
 
-- [x] Bluetooth
-- [ ] Wi-Fi
-- [ ] RFID
-- [ ] Miracast
+- [x] 10cm 이내의 매우 가까운 거리에서 비접촉으로 데이터를 주고받는다.
+- [ ] 10m 이내 거리에서 두 기기 간 '페어링' 과정을 필수적으로 거친다.
+- [ ] 이동 통신 네트워크보다 넓은 범위의 랜을 무선화하여 높은 속도를 제공한다.
+- [ ] 통신 위성을 이용하여 실시간 이동 위치 정보를 모니터로 전송한다.
 
-**Hint:** Think about the protocol activated when syncing wireless earbuds to a mobile phone.
+**Hint:** 교통카드나 스마트폰 결제 단말기에 기기를 거의 접촉시킬 정도로 가져다 대는 거리를 고려하세요.
 
 ## Question 5
-What is the primary security function of a firewall in a network environment?
+블루투스(Bluetooth) 기술에 대한 설명으로 올바르지 않은 것은 무엇인가요?
 
-- [x] To block unauthorized external access and malicious cyber attacks
-- [ ] To assign physical IP addresses to all computing devices on a LAN
-- [ ] To duplicate screen displays across multiple student terminals
-- [ ] To enable non-contact traffic payment processing via mobile devices
+- [x] 와이파이에 비해 데이터 전송 속도가 빠르고 멀리 전송할 수 있다.
+- [ ] 10m 이내의 거리에서 무선으로 데이터를 주고받는 기술이다.
+- [ ] 무선 이어폰이나 인공지능 스피커 연결 등에 널리 쓰인다.
+- [ ] 두 장치를 상호 연결하기 위해서 '페어링'이라는 과정을 거친다.
 
-**Hint:** Focus on the mechanism designed to protect an internal network from external threats.
+**Hint:** 와이파이와 블루투스 간의 전송 속도 및 도달 거리 특성을 비교해 보세요.
 
 ## Question 6
-In display sharing technologies like Miracast and DLNA, what is the term for sending an exact copy of one device's screen to another display in real time?
+유선 네트워크와 무선 네트워크의 상대적 특성을 비교한 설명으로 가장 알맞은 것은 무엇인가요?
 
-- [x] Mirroring
-- [ ] Pairing
-- [ ] Routing
-- [ ] Authentication
+- [x] 무선 네트워크는 물리적 선이 없어 장소의 제약을 받지 않고 자유롭게 사용할 수 있다.
+- [ ] 유선 네트워크는 무선 네트워크에 비해 데이터 전송이 불안정하고 속도가 느리다.
+- [ ] 무선 네트워크는 기기를 연결하기 위해 이더넷 케이블을 필수로 배치해야 한다.
+- [ ] 유선 네트워크는 장소의 제약이 전혀 없어 이동 중에도 제한 없이 사용된다.
 
-**Hint:** Consider the word that describes creating a direct visual reflection of a display.
+**Hint:** 공간의 주파수를 사용하는 방식이 제공하는 물리적인 편리성이 무엇인지 생각해 보세요.
 
 ## Question 7
-Which statement accurately describes a major characteristic of wired networks compared to wireless networks?
+서로 다른 정보 기기의 화면을 그대로 전송하여 공유하는 '미러링'을 가능하게 해 주는 기술의 예로 올바르게 짝지어진 것은 무엇인가요?
 
-- [x] They offer fast and stable data transmission despite location constraints
-- [ ] They eliminate the physical equipment needed to build a LAN
-- [ ] They allow devices to move freely without physical space restrictions
-- [ ] They utilize radio frequency bands to transmit data through open air
+- [x] 미라캐스트(miracast), DLNA
+- [ ] RFID, NFC
+- [ ] 광 케이블, 이더넷 케이블
+- [ ] 와이파이(WiFi), 페어링(Pairing)
 
-**Hint:** Weigh the trade-off between physical cable tethering and data reliability.
+**Hint:** 교과서 본문에서 디스플레이 공유 기술의 사례로 언급된 두 가지 영어 명칭을 찾아보세요.
 
 ## Question 8
-What role does a Wireless Access Point (AP) perform in a local network infrastructure?
+소형 반도체 칩이 내장된 태그나 라벨 등에 저장된 데이터를 무선 주파수로 읽어 상품 정보 인식이나 하이패스 등에 활용하는 기술은 무엇인가요?
 
-- [x] It connects a wired LAN with a wireless LAN using Wi-Fi technology
-- [ ] It reads semiconductor chip data embedded in product labels
-- [ ] It tracks real-time vehicle positions using communication satellites
-- [ ] It physically connects local computers using Ethernet cables
+- [x] 전자 태그(RFID)
+- [ ] 미라캐스트(Miracast)
+- [ ] 위치 정보 시스템
+- [ ] 스위치(Switch)
 
-**Hint:** Identify the equipment that converts a wired local network into an accessible Wi-Fi zone.
+**Hint:** 약어로 RFID라고 불리는 무선 주파수 식별 기술의 우리말 명칭입니다.
 
 ## Question 9
-According to the textbook material, what is a key advantage of Wi-Fi over mobile cellular internet?
+유선 랜과 무선 랜을 연결하여 와이파이(WiFi) 기술을 통해 무선 인터넷을 사용할 수 있도록 돕는 장치는 무엇인가요?
 
-- [x] Lower usage cost and faster transmission speed
-- [ ] Unlimited coverage area with zero spatial distance constraints
-- [ ] Seamless data connection while traveling across long distances without local hubs
-- [ ] Automatic identity verification through fingerprint recognition
+- [x] 무선 AP(액세스 포인트)
+- [ ] 방화벽
+- [ ] 이더넷 케이블
+- [ ] 생체 인증 시스템
 
-**Hint:** Consider why people often switch from mobile data to Wi-Fi when indoors.
+**Hint:** 무선 기기들이 와이파이망에 접속할 수 있도록 유선 신호를 무선 신호로 중계해 주는 접속점(Access Point)입니다.
 
 ## Question 10
-What is the defining feature of the Internet of Things (IoT) system?
+생활 속 다양한 물건이 인터넷에 연결되어 데이터를 주고받으며 외부에서 가전제품 등을 원격 제어할 수 있게 해 주는 시스템은 무엇인가요?
 
-- [x] Everyday physical objects are connected to the internet to exchange data and enable remote control
-- [ ] Devices communicate strictly over 10 cm non-contact distances for payment processing
-- [ ] Display screens are linked exclusively between teacher and student computers in a classroom
-- [ ] User identity is confirmed using individual biometric physical characteristics
+- [x] 사물 인터넷(IoT)
+- [ ] 디스플레이 공유 시스템
+- [ ] 유선 LAN 시스템
+- [ ] 블루투스 페어링 시스템
 
-**Hint:** Focus on how physical household objects gain internet connectivity and remote control capabilities.
+**Hint:** '사물(Things)'들이 '인터넷(Internet)'에 연결되어 상호 작동한다는 개념을 나타냅니다.
