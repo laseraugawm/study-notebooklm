@@ -37,7 +37,27 @@
    "applied": "rewrite",
    "review_secs": 308,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 2,
+   "reviewer": "deepseek",
+   "at": "2026-11-03T00:13:53+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "인권 지수를 통해 파악한 세계 인권 문제의 양상과 해결 방안을 모색하는 탐구 목표",
+     "page": "29",
+     "add": "인권 지수를 통해 파악한 세계 인권 문제의 양상을 조사하고, 이에 대한 해결 방안을 모색할 수 있다."
+    }
+   ],
+   "errors": [],
+   "unclear": [
+    "'인권 지수'를 국제기구·비정부 기구가 발표하는 것으로만 서술하여, 교과서에 제시된 개별 지수(성 격차 지수는 세계 경제 포럼, 세계 언론 자유 지수는 국경 없는 기자회 등)의 발표 주체와의 관계가 모호할 수 있음"
+   ],
+   "applied": "rewrite",
+   "review_secs": 497,
+   "reviser": "gemini_junghhco1"
   }
  ],
- "done": false
+ "done": true
 }
