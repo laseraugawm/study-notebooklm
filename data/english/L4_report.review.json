@@ -1,0 +1,73 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "deepseek",
+   "at": "2026-11-02T09:46:18+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "Get Ready 2 듣기 빈칸의 구체적 어구(학습하고 ___할 수 있는, 컴퓨터 ___ 사용, ___ 지능)",
+     "page": "81",
+     "add": "교과서 81쪽 About AI 빈칸: computer systems that are capable of learning and adapting / uses computer algorithms to learn patterns and make predictions / performs tasks that require human intelligence"
+    },
+    {
+     "point": "Get Ready 1 T/F 문항의 정답 근거(Back to the Future의 시간 여행)",
+     "page": "80",
+     "add": "교과서 80쪽 T/F (2) In Back to the Future, the character travels back in time."
+    },
+    {
+     "point": "After Reading A 빈칸 문장의 완성형(각 빈칸에 들어갈 단어만 나열하고 문장 맥락 제시가 부족)",
+     "page": "90",
+     "add": "교과서 90쪽 A: Klara prayed to the Sun to save Josie's life / Klara, a solar-powered AF / procedure to enhance her cognitive abilities / Josie miraculously recovered and was sent to the Yard / plan to transfer Klara's consciousness to an AF replica"
+    },
+    {
+     "point": "WRAP UP Listening and Speaking 문항(여학생이 의견을 말하는 주제 듣기)",
+     "page": "101",
+     "add": "교과서 101쪽: Listen and say what topic the girl expresses her opinion about."
+    },
+    {
+     "point": "Culture — Robot Museums(마드리드·몬태나·이스탄불 로봇 박물관)",
+     "page": "101",
+     "add": "교과서 101쪽 Culture: The Robot Museum in Madrid / American Computer & Robotics Museum in Montana / Istanbul Robot Museum"
+    },
+    {
+     "point": "Debate Club 찬반 발언의 구체적 논거(자동화·생산성·오류 감소, 데이터 분석·머신러닝 새 일자리)",
+     "page": "96",
+     "add": "교과서 96쪽: AI is beneficial because it can automate repetitive tasks, increases productivity and reduces errors; AI can create new job opportunities in fields like data analysis and machine learning"
+    },
+    {
+     "point": "STEP 2 Drill의 나머지 연습 주제(유명인의 삶, 종이책 vs 전자책, 유전자 편집 합법화)",
+     "page": "97",
+     "add": "교과서 97쪽 연습 주제: Is life as a famous person good? / Are paper books better than digital books? / Should gene editing be legal?"
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "개념정리 표 3 '흔한 오류'에 'However you make well(×)'이라고만 제시",
+     "right": "교과서 92쪽의 however 양보 구문은 「however + 형용사/부사 + 주어 + 동사」 어순이며, 교과서 예는 However well you make the replica, ...이다.",
+     "page": "92"
+    },
+    {
+     "wrong": "개념정리 5장 POINT 2 Practice 3번 답을 '(should) take'로만 제시",
+     "right": "교과서 93쪽 밑줄 부분 'would take'를 고쳐 'recommended that we (should) take a guided tour'로 쓴다.",
+     "page": "93"
+    },
+    {
+     "wrong": "개념정리 10장에서 Paul Scott을 '아산의 영어 교사'로만 서술하고 구조 활동의 구체적 수치·기간의 출처 면을 명시하지 않음",
+     "right": "교과서 103쪽: He usually saves around 400 maengkkongi every day. He has been doing this by himself for three years.",
+     "page": "103"
+    }
+   ],
+   "unclear": [
+    "'Get Ready 2 듣기 빈칸'을 ____로만 남겨 두어 학생이 실제 빈칸 어구(adapting, algorithms, predictions, human)를 확인할 수 없다.",
+    "After Reading B Plot Chart 배열을 '예시 답'이라고만 하고 각 단계에 대응하는 A~E 문장을 명시하지 않아 학생이 근거를 확인하기 어렵다.",
+    "표 1에서 Klara(당시)의 입장을 '희망을 버리지 말아야'로만 적어, 이것이 복제 계획 자체에 대한 찬성이 아니라 Josie의 회복 가능성에 대한 발언임이 드러나지 않는다."
+   ],
+   "applied": "rewrite",
+   "review_secs": 76,
+   "reviser": "gemini_junghhco1"
+  }
+ ],
+ "done": false
+}
