@@ -278,3 +278,28 @@
 10. e-mail의 기본 구조 4가지는? — subject line, greeting, body, closing.
 11. 다바왈라가 정확성을 유지하는 방법은? — 색깔 코드 체계, 효율적 조직, 강한 직업의식, 협력과 소통.
 12. 커뮤니티 매핑의 두 사례가 보여준 영향은? — 도시 편의 향상(뉴욕 화장실 지도), 재난 대응 지원(아이티 지진 지도).
+
+## 보완 노트 (외부 리뷰 1차 · deepseek)
+- **빠진 내용** Get Ready 1 듣기 빈칸 채우기에서 냉면이 전통적으로 '추운 날씨'에도 즐긴다는 내용 — Traditionally, Koreans enjoy this dish, even in cold weather. (p.32)
+- **빠진 내용** Get Ready 2의 Listening Tip이 '화자 추론'이 아니라 '화자가 하는 일을 묘사하는 단어'에 주목하라는 구체적 안내 — To infer who the speaker is, listen for words describing what he or she does. (p.33)
+- **빠진 내용** Before Reading Topic Preview 광고의 실제 문구(배달 광고) — Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices. (p.34)
+- **빠진 내용** Word Preview에서 specialize의 예문 맥락(야생동물 사진으로 인기를 얻음) — He specializes in wildlife photography, which has helped him gain popularity. (p.34)
+- **빠진 내용** Reading 문단 1의 'literally at the tips of your fingers' 표현 — The speedy delivery of purchased items to your house is literally at the tips of your fingers. (p.35)
+- **빠진 내용** Reading Strategy Build-Up 표의 대상어와 단서 정리 활동 — Strategy Build-Up: upheaval, urbanization의 뜻을 주변 단어 단서와 배경지식으로 추측한다. (p.37)
+- **빠진 내용** Word Tip의 enable/encourage/endanger(en- 동사) 구분 — Word Tip: enable, encourage, endanger. (p.38)
+- **빠진 내용** After Reading A 시대별 빈칸 채우기 정답 항목(Letters, bikes, express, urbanization, honest, messengers, digital technology, drones) — Letters were delivered by jeonin; messengers used bikes; they were honest; taekbae is an express service; digital technology enabled growth; drones are tested. (p.40)
+- **빠진 내용** After Reading C의 건강·안전·환경 측면 배달 서비스 문제점 토론 — Considering Health, Safety, and Environment, what are some potential problems with delivery services? (p.41)
+- **빠진 내용** WRAP UP 문법 배열 문제의 정답 문장 — It was a diary that I wanted to buy the most at the gift shop. / The train was so fast that I arrived an hour earlier than I had expected. (p.50)
+- **빠진 내용** Culture Links의 각국 관광공사 링크와 도서 Korea and Her Neighbors 소개 — Korea and Her Neighbors provides insight into late 19th-century Korean history and culture through the perspective of an English woman, Isabella Bishop. (p.51)
+- **빠진 내용** PROJECT 1 ACTIVITY의 Barrier-free Map 예시 요소(경사로·화장실·엘리베이터·출입구)와 홍보 계획 — Barrier-free Map: accessible ramps, restrooms, elevators, entrances; share the link on the community center's online board. (p.54)
+- **빠진 내용** PROJECT 1 STEP 4의 자기점검 기준(시각화·필요 충족·참여) — Self-Check: clear and engaging data visualization; identified needs addressed; all members participated. (p.55)
+- **바로잡기** '학습 목표에서 Topic 1·2를 'p.30'으로, Before You Begin 질문을 'p.31'로 표기' → 교과서 32~33쪽의 Get Ready 1·2가 Various Ways of Life와 Modernizing Tradition에 해당하며, 단원 도입면 쪽수는 제시된 원문(32~55쪽)에 없다. (p.32~33)
+- **바로잡기** 'Listening Tip을 'Inferring who the speaker is(화자 추론하기)'로만 요약' → Listening Tip은 'To infer who the speaker is, listen for words describing what he or she does.'로, 하는 일을 묘사하는 단어에 주목하라는 내용이다. (p.33)
+- **바로잡기** 'Before Reading Topic Preview 광고 문구를 개념정리에 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술' → 광고는 'Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices.'이며 무엇에 관한 광고인지·누가 관심 가질지 묻는다. (p.34)
+- **바로잡기** 'Get Ready 1 냉면 설명에서 '전통적으로 ____에도 즐김'의 빈칸을 듣기로 채운다고만 하고 내용을 제시하지 않음' → 교과서 빈칸은 'even in ____'이며, 전통적으로 한국인은 추운 날씨에도 이 음식을 즐긴다. (p.32)
+- **바로잡기** 'Get Ready 2에서 Mr. Kim이 'K-pop 스타를 위한 한복 디자인'으로 알려졌다고 단정' → 듣기 선택지로 'designing hanbok for K-pop stars'가 제시되며, 한복에 현대적 요소를 더하고 한복이 역사와 현대 세계를 잇는다고 말한다. (p.33)
+- **바로잡기** 'Reading 문단 1에서 배달 앱 순위 기준을 '리뷰 점수, 인기, 가격, 배달비, 거리 등'으로만 제시하고 'to name a few'의 예시 성격을 살리지 않음' → Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few. (p.35)
+- **바로잡기** 'After Reading A에서 시대별 정리를 제시했으나 실제 빈칸 단어와 순서를 원문 그대로 반영하지 않음' → 빈칸 단어는 Letters, bikes, express, urbanization, honest, messengers, digital technology, drones이며 시대 순서(Joseon–Japanese Colonial–1960s~Early 1990s–1992~Present)로 배열된다. (p.40)
+- **바로잡기** 'WRAP UP 문법 배열 정답을 'It was a diary that I wanted to buy the most'로 제시했으나 어순 배열 문제의 원문 어구 순서와 다르게 설명' → 배열 어구는 (wanted, a diary, to buy, that, I, the most)이며 정답은 It was a diary that I wanted to buy the most at the gift shop. / (that, fast, so, an hour earlier, I, arrived) → The train was so fast that I arrived an hour earlier than I had expected. (p.50)
+- **바로잡기** 'PROJECT 1 사례 2에서 '위성 이미지로 48시간 이내 지도 제작'만 서술하고 지도 제작의 목적(피해 평가·대피소·응급 의료 센터)을 누락' → This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers. (p.53)
+- **바로잡기** 'PROJECT 1 ACTIVITY STEP 2의 예시 주제·프로젝트 목표·지도 제목(Barrier-free Map)을 제시하지 않음' → 예: Which buildings are accessible to people with disabilities? / Project goal: To provide information about accessibility in public spaces for people with disabilities. / Map title: Barrier-free Map. (p.54)

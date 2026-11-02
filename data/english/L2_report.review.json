@@ -1,0 +1,144 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "deepseek",
+   "at": "2026-11-02T09:35:44+09:00",
+   "score": null,
+   "missing": [
+    {
+     "point": "Get Ready 1 듣기 빈칸 채우기에서 냉면이 전통적으로 '추운 날씨'에도 즐긴다는 내용",
+     "page": "32",
+     "add": "Traditionally, Koreans enjoy this dish, even in cold weather."
+    },
+    {
+     "point": "Get Ready 2의 Listening Tip이 '화자 추론'이 아니라 '화자가 하는 일을 묘사하는 단어'에 주목하라는 구체적 안내",
+     "page": "33",
+     "add": "To infer who the speaker is, listen for words describing what he or she does."
+    },
+    {
+     "point": "Before Reading Topic Preview 광고의 실제 문구(배달 광고)",
+     "page": "34",
+     "add": "Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices."
+    },
+    {
+     "point": "Word Preview에서 specialize의 예문 맥락(야생동물 사진으로 인기를 얻음)",
+     "page": "34",
+     "add": "He specializes in wildlife photography, which has helped him gain popularity."
+    },
+    {
+     "point": "Reading 문단 1의 'literally at the tips of your fingers' 표현",
+     "page": "35",
+     "add": "The speedy delivery of purchased items to your house is literally at the tips of your fingers."
+    },
+    {
+     "point": "Reading Strategy Build-Up 표의 대상어와 단서 정리 활동",
+     "page": "37",
+     "add": "Strategy Build-Up: upheaval, urbanization의 뜻을 주변 단어 단서와 배경지식으로 추측한다."
+    },
+    {
+     "point": "Word Tip의 enable/encourage/endanger(en- 동사) 구분",
+     "page": "38",
+     "add": "Word Tip: enable, encourage, endanger."
+    },
+    {
+     "point": "After Reading A 시대별 빈칸 채우기 정답 항목(Letters, bikes, express, urbanization, honest, messengers, digital technology, drones)",
+     "page": "40",
+     "add": "Letters were delivered by jeonin; messengers used bikes; they were honest; taekbae is an express service; digital technology enabled growth; drones are tested."
+    },
+    {
+     "point": "After Reading C의 건강·안전·환경 측면 배달 서비스 문제점 토론",
+     "page": "41",
+     "add": "Considering Health, Safety, and Environment, what are some potential problems with delivery services?"
+    },
+    {
+     "point": "WRAP UP 문법 배열 문제의 정답 문장",
+     "page": "50",
+     "add": "It was a diary that I wanted to buy the most at the gift shop. / The train was so fast that I arrived an hour earlier than I had expected."
+    },
+    {
+     "point": "Culture Links의 각국 관광공사 링크와 도서 Korea and Her Neighbors 소개",
+     "page": "51",
+     "add": "Korea and Her Neighbors provides insight into late 19th-century Korean history and culture through the perspective of an English woman, Isabella Bishop."
+    },
+    {
+     "point": "PROJECT 1 ACTIVITY의 Barrier-free Map 예시 요소(경사로·화장실·엘리베이터·출입구)와 홍보 계획",
+     "page": "54",
+     "add": "Barrier-free Map: accessible ramps, restrooms, elevators, entrances; share the link on the community center's online board."
+    },
+    {
+     "point": "PROJECT 1 STEP 4의 자기점검 기준(시각화·필요 충족·참여)",
+     "page": "55",
+     "add": "Self-Check: clear and engaging data visualization; identified needs addressed; all members participated."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "학습 목표에서 Topic 1·2를 'p.30'으로, Before You Begin 질문을 'p.31'로 표기",
+     "right": "교과서 32~33쪽의 Get Ready 1·2가 Various Ways of Life와 Modernizing Tradition에 해당하며, 단원 도입면 쪽수는 제시된 원문(32~55쪽)에 없다.",
+     "page": "32~33"
+    },
+    {
+     "wrong": "Listening Tip을 'Inferring who the speaker is(화자 추론하기)'로만 요약",
+     "right": "Listening Tip은 'To infer who the speaker is, listen for words describing what he or she does.'로, 하는 일을 묘사하는 단어에 주목하라는 내용이다.",
+     "page": "33"
+    },
+    {
+     "wrong": "Before Reading Topic Preview 광고 문구를 개념정리에 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술",
+     "right": "광고는 'Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices.'이며 무엇에 관한 광고인지·누가 관심 가질지 묻는다.",
+     "page": "34"
+    },
+    {
+     "wrong": "Get Ready 1 냉면 설명에서 '전통적으로 ____에도 즐김'의 빈칸을 듣기로 채운다고만 하고 내용을 제시하지 않음",
+     "right": "교과서 빈칸은 'even in ____'이며, 전통적으로 한국인은 추운 날씨에도 이 음식을 즐긴다.",
+     "page": "32"
+    },
+    {
+     "wrong": "Get Ready 2에서 Mr. Kim이 'K-pop 스타를 위한 한복 디자인'으로 알려졌다고 단정",
+     "right": "듣기 선택지로 'designing hanbok for K-pop stars'가 제시되며, 한복에 현대적 요소를 더하고 한복이 역사와 현대 세계를 잇는다고 말한다.",
+     "page": "33"
+    },
+    {
+     "wrong": "Reading 문단 1에서 배달 앱 순위 기준을 '리뷰 점수, 인기, 가격, 배달비, 거리 등'으로만 제시하고 'to name a few'의 예시 성격을 살리지 않음",
+     "right": "Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few.",
+     "page": "35"
+    },
+    {
+     "wrong": "After Reading A에서 시대별 정리를 제시했으나 실제 빈칸 단어와 순서를 원문 그대로 반영하지 않음",
+     "right": "빈칸 단어는 Letters, bikes, express, urbanization, honest, messengers, digital technology, drones이며 시대 순서(Joseon–Japanese Colonial–1960s~Early 1990s–1992~Present)로 배열된다.",
+     "page": "40"
+    },
+    {
+     "wrong": "WRAP UP 문법 배열 정답을 'It was a diary that I wanted to buy the most'로 제시했으나 어순 배열 문제의 원문 어구 순서와 다르게 설명",
+     "right": "배열 어구는 (wanted, a diary, to buy, that, I, the most)이며 정답은 It was a diary that I wanted to buy the most at the gift shop. / (that, fast, so, an hour earlier, I, arrived) → The train was so fast that I arrived an hour earlier than I had expected.",
+     "page": "50"
+    },
+    {
+     "wrong": "PROJECT 1 사례 2에서 '위성 이미지로 48시간 이내 지도 제작'만 서술하고 지도 제작의 목적(피해 평가·대피소·응급 의료 센터)을 누락",
+     "right": "This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers.",
+     "page": "53"
+    },
+    {
+     "wrong": "PROJECT 1 ACTIVITY STEP 2의 예시 주제·프로젝트 목표·지도 제목(Barrier-free Map)을 제시하지 않음",
+     "right": "예: Which buildings are accessible to people with disabilities? / Project goal: To provide information about accessibility in public spaces for people with disabilities. / Map title: Barrier-free Map.",
+     "page": "54"
+    }
+   ],
+   "unclear": [
+    "Reading 문단 4~5에서 'messengers'와 'Yongdalsa'의 관계(회사 소속·자전거 사용)를 학생이 혼동할 수 있음",
+    "문단 6에서 '1980년대 후반~1990년대 caterers'의 배달 방식(천 가방 도시락, 빈 그릇 회수)과 1960년대 식당 직원의 쟁반 배달을 구분해 설명해야 함",
+    "POINT 1 강조구문에서 'It was 뒤에 강조 대상'이라는 설명과 함께 부사구( during the 1960s, near the lake, last Saturday )도 강조 대상이 될 수 있음을 명확히 해야 함",
+    "POINT 2 so ~ that에서 'so much that'처럼 부사 much가 오는 경우와 형용사/부사가 오는 경우를 구분해야 함",
+    "After Reading D 구독 경제에서 '정기 요금'과 '언제든 해지 가능'이 택배·꽃·과일·세탁물 배달 등 다양한 서비스에 적용됨을 명확히 해야 함"
+   ],
+   "applied": "note",
+   "review_secs": 43,
+   "rewrite_problems": [
+    "qwen: HTTP Error 409: Conflict",
+    "grok: HTTP Error 500: Internal Server Error",
+    "gemini_junghhco1: shorter 10867<16380"
+   ]
+  }
+ ],
+ "done": false
+}

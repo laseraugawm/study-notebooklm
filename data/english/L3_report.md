@@ -1,3 +1,4 @@
+Markdown
 # L3 Beyond Barriers
 교과서 56-79쪽 · 영어 (공통영어2, YBM 김은형) — Lesson 3 본문은 56~77쪽, 78~79쪽은 Lesson 4 도입면
 
@@ -25,11 +26,11 @@
 - 정의 빈칸(듣기): Hidden figures are people who made important ____ but are not widely ____ for what they did. — 중요한 일을 했지만 그 일로 널리 인정받지 못한 사람들. (p.58)
 - 언급되지 않은 것 고르기 선택지: 숨은 인물의 의미 / 영화 내용 / 과학·예술 분야 숨은 인물의 이름. (p.58)
 - **Listening Tip — Taking notes for details**: 세부 내용을 이해하려면 **핵심어를 메모**하라. (p.58)
-- Speak 예시 인물: **Mary Anning**(1799-1847) — 최초로 기록된 공룡 화석 발견, 그러나 여성이라는 이유로 기여에 대한 온전한 인정을 늘 받지는 못함. 그 외 Bayard Rustin(1912-1987), Dorothy Vaughan(1910-2008). (p.58)
+- Speak 예시 인물: **Mary Anning**(1799-1847) — 최초로 기록된 공룡 화석 발견, 그러나 여성이라는 이유로 기여에 대한 온전한 인정을 늘 받지 못함. 그 외 Bayard Rustin(1912-1987), Dorothy Vaughan(1910-2008). (p.58)
 
 **Get Ready 2 · Human Rights (p.59)**
 - 듣기 T/F: 소녀는 Rosa Parks에 대해 들어본 적이 없다 / Rosa Parks의 행동이 **Montgomery Bus Boycott**으로 이어졌다. 대화 후 할 일 선택지(버스 보이콧 다큐 보기 / 당시 버스 사진 더 찾기 / 인권 투쟁 관련 역사적 사건 더 검색). (p.59)
-- Help Note(주제 설명 표현): It focused on / dealt with / concerned ... / It occurred because / happened due to ... — 표 항목 Topic, What It Is About, Why It Occurred. (p.59)
+- Help Note: It focused on / dealt with / concerned ... / It occurred because / happened due to ... (Topic, What It Is About, Why It Occurred) (p.59)
 
 ### 2. Before Reading (p.60)
 - Topic Preview 문단: 그녀의 일은 **궤도(trajectories)**, 이상적 발사 시점, 비상 귀환 경로 계산 — 초기 우주 탐사와 **1969년 아폴로 11호** 달 착륙·귀환, **우주왕복선(Space Shuttle)** 프로그램 시작에 필수, **화성** 임무 계획에도 참여. 적은 기술과 인정 속에서 뛰어난 수학 능력으로 **"human computer"**라 불림. (p.60)
@@ -51,8 +52,8 @@
 
 **문단 2~3 · 분리 교육과 진로의 벽 (p.62)**
 - 고향은 **분리된(segregated) 교육 체계** → 흑인 학생은 고등학교 입학 불가. 아버지가 그녀의 고교 입학을 위해 가족을 **200km** 떨어진 곳으로 이사(Q1 답).
-- **1932년** 고교 졸업, **15세**에 흑인 대학 입학. **3학년(junior)** 때까지 대학의 수학 과목을 모두 수강. 멘토가 그녀만을 위한 특별 수업을 열어 줌.
-- 멘토와의 대화: "You would make a good research mathematician ... I'm going to prepare you for this career." — "Where will I find a job?" — "That will be your problem." 앞길은 불분명하고 장애물로 가득했지만 스스로 길을 개척할 힘이 있음을 앎.
+- **1932년** 고교 졸업, **15세**에 흑인 대학 입학. **3학년(junior)** 때까지 대학의 수학 과목을 모두 수강. Her mentor gladly offered special classes just for her, but he was not happy when he had to tell his outstanding student about her career opportunities. (p.62)
+- 멘토와의 대화: "You would make a good research mathematician," he told his seventeen-year-old student, "and I’m going to prepare you for this career." Katherine asked, "Where will I find a job?" "That," he replied, "will be your problem." 앞길은 불분명하고 장애물로 가득했지만 스스로 길을 개척할 힘이 있음을 앎.
 - Strategy Build-Up: 멘토의 말을 들은 뒤 그녀의 감정 → **determined**(결연한). (선택지 relieved / determined / surprised)
 - **1935년, 18세** 최우등 졸업 → 흑인 공립학교 **교사**로 경력 시작. 당시 그녀에게 가능한 **유일한 선택지**가 교직.
 - **Reading Strategy — Understanding the mood**: 분위기를 이해하려면 대화에 참여한 인물들의 **감정을 마음속으로 그려 보고** 상호작용의 **어조**를 파악한다. (p.62)
@@ -61,28 +62,28 @@
 **문단 4 · NASA의 "Black computers" (p.63)**
 - **1953년**이 되어서야 버지니아의 **NASA 현장 센터**에 취직(It was not until 1953 that ~).
 - **"Black computers"**의 일원: 백인 남성 엔지니어를 지원하기 위해 복잡한 계산을 **손으로(manually)** 수행(Q2 답).
-- 우주 프로젝트에 크게 기여했지만 **차별**을 견딤 — 사무실 내 분리, 전문직 여성임에도 "girl" 같은 호칭.
+- 우주 프로젝트에 크게 기여했지만 They endured discrimination, including segregation in the office and being referred to with terms like "girl" despite being professional women. (p.63)
 
 **문단 5 · 회의 참석과 차별 관행의 종식 (p.63)**
-- 입사 **2주** 만에 NASA의 **엘리트 우주 연구 부서**로 재배치 — **유일한 흑인 여성** 직원.
+- Two weeks into the job, Katherine was reassigned to NASA’s elite space research division. — **유일한 흑인 여성** 직원.
 - 중요한 연구 회의는 백인 직원끼리만. 참석 허락을 구하자 남자 동료들: "the girls" didn't usually go.
 - Katherine의 질문(Q3 답): **"Is there a law that says I can't go?"** → 당황한 남성 직원들은 참석시킬 수밖에 없었음. 아무도 하지 않은 질문으로 **차별적 관행을 끝냄**.
 - 노력이 결실(pay off) → 자부심과 용기. Strategy Build-Up: 회의에 참여했을 때 감정 → **encouraged**. (선택지 frustrated / stressed / encouraged)
-- **1960년** 다른 엔지니어와 우주선을 **궤도에 올리는 방법**에 관한 연구 논문 작성 → 그 부서에서 **여성이 처음으로** 연구 보고서 저자로 인정(credit)받음.
+- In 1960, she wrote a research paper with another engineer about how to place a spacecraft into orbit. That was the first time a woman in her division received credit as an author of a research report. (p.63)
 - 어휘: manually, reassign, colleague, discriminatory, custom, barrier, orbit, credit, pay off(성공으로 이어지다).
 
 **문단 6~7 · John Glenn과 아폴로 11호 (p.64)**
 - 그녀의 손 계산은 **디지털 컴퓨터보다 더 신뢰**받음.
-- **1962년 초**, 우주비행사 **John Glenn**이 미국 최초 지구 궤도 비행 준비. NASA는 **1년 전 도입한 전자 컴퓨터**로 궤적을 계산했으나 **사소한 오류**가 많았음.
+- **1962년 초**, 우주비행사 **John Glenn**이 미국 최초 지구 궤도 비행 준비. NASA used an electronic computer, first introduced into the space program a year earlier, to calculate the spaceship’s trajectory, but it made many minor errors. (p.64)
 - 정확성을 걱정한 Glenn이 Katherine에게 기계의 수치를 **손으로 재확인**해 달라고 요청(Q4 답): "If she says the numbers are good, I'm good to go."
-- **연필과 계산자(slide rule)**만으로 **하루 반** 동안 확인 → Glenn은 지구 궤도를 돈 **최초의 미국 우주비행사**가 됨.
-- **1969년 아폴로 11호**(최초로 세 사람을 달에 보냄) 계산 팀에도 참여, 지금도 진행 중인 **화성 유인 계획**에도 참여.
+- Using only a pencil and a slide rule, Katherine spent a day and a half checking the calculations and finally made sure of them. (p.64)
+- Eventually, Glenn became the first American astronaut to orbit the Earth. Katherine was also part of the team that performed calculations for the Apollo 11, which sent the first three men to the Moon in 1969, and even the plan to put people on Mars, which is still being worked on today. (p.64)
 - 핵심 구문: *Glenn asked Katherine Johnson to double-check the machine's figures* (POINT 1) / *the Apollo 11, which sent the first three men to the Moon in 1969* (POINT 2).
 - 사진 설명: Friendship 7 발사 시도(1962년 1월 27일). 어휘: pioneering, trajectory, concerned, figure(수치).
 
 **문단 8 · 은퇴 이후와 유산 (p.65)**
 - **1986년**, NASA에서 **33년** 근무 후 은퇴. 이후 **흑인 소녀들의 STEM 교육 접근**을 옹호(champion)하는 데 여생을 바침. (*STEM: science, technology, engineering, and mathematics)
-- **2015년** 버락 오바마 대통령에게 **대통령 자유 훈장(Presidential Medal of Freedom)** 수여. 오바마: "Katherine G. Johnson refused to be limited by society's expectations of her gender and race while expanding the boundaries of humanity's reach."
+- **2015년** 버락 오바마 대통령에게 **대통령 자유 훈장(Presidential Medal of Freedom)** 수여. Katherine G. Johnson refused to be limited by society's expectations of her gender and race while expanding the boundaries of humanity's reach. (p.65)
 - **2017년** NASA가 버지니아의 건물을 그녀에게 헌정, **Katherine G. Johnson Computational Research Facility**로 명명(Q5 답: 훈장 + 건물).
 - **2020년 2월 24일, 101세**로 별세. 그녀의 **선구적 유산(pioneering legacy)**은 잊히지 않을 것.
 - THINK CRITICALLY: Katherine의 "pioneering legacy"란 무엇인가? 어휘: champion, award, refuse, expectation, expand, legacy. 사진: 웨스트버지니아 주립대 기념비. (p.65)
@@ -170,7 +171,7 @@
 | 제한된 진로 | 연구 수학자 일자리 없음, 교직만 가능 | 교사로 시작, 1953년 NASA 취직 |
 | 사무실 내 차별 | 분리, "girl" 호칭 | 실력으로 엘리트 부서 재배치 |
 | 회의 배제 | 백인 직원만 참석 | "Is there a law that says I can't go?" |
-| 저자 불인정 | — | 1960년 부서 최초 여성 저자 인정 |
+| 저자 불인정 | 1960년 연구 논문 작성 | 그 부서에서 여성이 처음으로 연구 보고서 저자로 인정받음 (p.63) |
 
 ### 표 2. Katherine Johnson 연표
 | 연도 | 사건 |
@@ -178,7 +179,7 @@
 | 1918 | 웨스트버지니아 출생(8월 26일) |
 | 1932 | 고교 졸업, 15세에 흑인 대학 입학 |
 | 1935 | 18세 최우등 졸업, 흑인 공립학교 교사 |
-| 1953 | NASA 현장 센터 "Black computer", 2주 뒤 엘리트 부서 |
+| 1953 | NASA 현장 센터 입사(Two weeks into the job, 엘리트 부서로 재배치) (p.63) |
 | 1960 | 궤도 진입 연구 논문, 여성 최초 저자 인정 |
 | 1962 | John Glenn 궤도 비행 계산 손으로 재확인(하루 반) |
 | 1969 | 아폴로 11호 계산 팀 |
@@ -192,7 +193,7 @@
 |---|---|---|
 | 기능 | 목적어에게 행위를 요청·설득·허락 | 앞 명사·앞 절에 대한 추가 설명 |
 | 교과서 예 | Glenn asked Katherine Johnson to double-check ... | the Apollo 11 mission, which sent ... |
-| 주의 | 목적어 뒤 동사원형이 아니라 **to-v** (allow me to create) | 콤마 필수, 앞 절 전체도 선행사 가능 |
+| 주의 | allow, persuade, ask 모두 목적어 뒤에 동사원형이 아니라 **to-v**를 취함 | 콤마 필수, 앞 절 전체도 선행사 가능 |
 
 ### 표 4. 포용적 언어 바꾸기
 | 피할 표현 | 포용적 표현 | 원리 |
@@ -220,7 +221,7 @@
 - NASA 입사는 졸업 직후가 **아니라 1953년**("It was not until 1953 that ..."). (p.63)
 - 회의 참석 문제를 푼 방법은 상사에게 항의가 **아니라** "그런 법이 있느냐"는 **질문**이었다. (p.63)
 - Glenn의 궤도 비행을 위해 Katherine은 계산을 처음부터 한 것이 **아니라 전자 컴퓨터의 수치를 손으로 재확인**했다(연필·계산자, 하루 반). (p.64)
-- 전자 컴퓨터는 **1년 전에** 도입됐고 큰 오류가 아니라 **사소한 오류(minor errors)**가 많았다. (p.64)
+- 전자 컴퓨터는 우주 프로그램에 **처음 도입(first introduced into the space program a year earlier)**됐고 큰 오류가 아니라 **사소한 오류(minor errors)**가 많았다. (p.64)
 - 화성 유인 계획은 완료된 것이 **아니라 지금도 진행 중**이다. (p.64)
 - 훈장은 2015년 **오바마**에게서, 건물 명명은 **2017년**. 은퇴는 **1986년**, 33년 근무. (p.65)
 - ask/allow/persuade 뒤에는 목적어 + **to-v**: allowed me **to switch**(× switch). (p.68, p.76)

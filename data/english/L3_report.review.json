@@ -1,0 +1,70 @@
+{
+ "rounds": [
+  {
+   "n": 1,
+   "reviewer": "deepseek",
+   "at": "2026-11-02T09:41:05+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "본문 4문단에서 Black computers가 겪은 차별의 구체적 내용 중 '전문직 여성임에도 \"girl\" 같은 호칭으로 불린 것'이 개념정리에 있으나, 교과서 63쪽의 'segregation in the office' 표현이 '사무실 내 분리'로만 되어 있고 원문 표현이 충분히 반영되지 않음",
+     "page": "63",
+     "add": "They endured discrimination, including segregation in the office and being referred to with terms like \"girl\" despite being professional women."
+    },
+    {
+     "point": "문단 6에서 NASA가 전자 컴퓨터를 '1년 전에' 우주 프로그램에 도입했다는 사실이 개념정리에 '1년 전 도입한 전자 컴퓨터'로 반영되어 있으나, 원문 'first introduced into the space program a year earlier'의 '처음 도입' 의미가 빠짐",
+     "page": "64",
+     "add": "NASA used an electronic computer, first introduced into the space program a year earlier, to calculate the spaceship's trajectory."
+    },
+    {
+     "point": "문단 7에서 Katherine이 '연필과 계산자만을 사용하여' 확인했다는 도구 정보가 개념정리에 있으나, 원문 'Using only a pencil and a slide rule'의 'only' 강조가 빠짐",
+     "page": "64",
+     "add": "Using only a pencil and a slide rule, Katherine spent a day and a half checking the calculations."
+    },
+    {
+     "point": "문단 8에서 오바마 대통령의 발언 원문이 개념정리에 인용되어 있으나, 'expanding the boundaries of humanity's reach' 부분이 누락됨",
+     "page": "65",
+     "add": "Katherine G. Johnson refused to be limited by society's expectations of her gender and race while expanding the boundaries of humanity's reach."
+    },
+    {
+     "point": "Get Ready 2의 Help Note 표현 'It focused on / dealt with / concerned ...'와 'It occurred because / happened due to ...'가 개념정리에 있으나, 표 항목 Topic, What It Is About, Why It Occurred의 구조 설명이 부족함",
+     "page": "59",
+     "add": "Help Note: It focused on / dealt with / concerned ... / It occurred because / happened due to ... (Topic, What It Is About, Why It Occurred)"
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "개념정리 표 1에서 '저자 불인정' 장벽의 극복 방법을 '1960년 부서 최초 여성 저자 인정'으로만 서술",
+     "right": "교과서 63쪽에서는 1960년 연구 논문 작성이 '그 부서에서 여성이 처음으로 연구 보고서 저자로 인정받은 것'이라고 명시",
+     "page": "63"
+    },
+    {
+     "wrong": "개념정리 3문단에서 '멘토가 그녀만을 위한 특별 수업을 열어 줌'이라고 서술",
+     "right": "교과서 62쪽 원문은 'Her mentor gladly offered special classes just for her, but he was not happy when he had to tell his outstanding student about her career opportunities.'로, 멘토가 특별 수업을 '열어 준' 것과 진로 기회에 대해 알려주며 불편해한 점이 함께 서술됨",
+     "page": "62"
+    },
+    {
+     "wrong": "개념정리 6문단에서 'NASA는 1년 전 도입한 전자 컴퓨터로 궤적을 계산했으나 사소한 오류가 많았음'이라고 서술",
+     "right": "교과서 64쪽 원문은 'NASA used an electronic computer, first introduced into the space program a year earlier, to calculate the spaceship's trajectory, but it made many minor errors.'로, '처음 도입' 의미 포함",
+     "page": "64"
+    },
+    {
+     "wrong": "개념정리 시험 함정 포인트에서 '전자 컴퓨터는 1년 전에 도입됐고 큰 오류가 아니라 사소한 오류(minor errors)가 많았다'고 서술",
+     "right": "교과서 64쪽 원문은 'first introduced into the space program a year earlier'로 '처음 도입'을 명시",
+     "page": "64"
+    }
+   ],
+   "unclear": [
+    "표 1의 '저자 불인정' 장벽 항목에서 상황란이 '—'로 비어 있어 학생이 어떤 차별이 있었는지 오해할 수 있음",
+    "문단 5에서 '엘리트 우주 연구 부서로 재배치'라고만 되어 있어, 원문 'Two weeks into the job'의 '입사 2주 만에'라는 시간 정보가 표에서 명확히 드러나지 않음",
+    "문단 6에서 '1년 전 도입한 전자 컴퓨터'라고만 되어 있어 '우주 프로그램에 처음 도입'이라는 의미가 모호함",
+    "표 3의 '주의' 항목에서 '목적어 뒤 동사원형이 아니라 to-v'라고 되어 있으나, allow/persuade/ask 모두 to-v를 취한다는 점이 명확히 정리되지 않음",
+    "문단 8에서 '흑인 소녀들의 STEM 교육 접근을 옹호'라고 되어 있으나, 원문 'championing access to STEM education for Black girls'의 'access to' 의미가 충분히 드러나지 않음"
+   ],
+   "applied": "rewrite",
+   "review_secs": 33,
+   "reviser": "gemini_junghhco1"
+  }
+ ],
+ "done": false
+}
