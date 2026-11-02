@@ -1,317 +1,265 @@
 {
-  "title": "IoT Quiz",
+  "title": "\uc0ac\ubb3c\uc778\ud130\ub137 \ud034\uc988",
   "questions": [
     {
-      "question": "In the clap-controlled light experiment using the micro:bit, what is the valid numerical range for input sound detected by the built-in microphone, and what threshold value was set in the textbook algorithm to trigger a state change?",
+      "question": "\uc0dd\ud65c \uc18d \uc0ac\ubb3c \uc778\ud130\ub137(IoT) \uc2dc\uc2a4\ud15c\uc744 \uad6c\uc131\ud558\uae30 \uc704\ud55c \ud544\uc218 \uc694\uc18c\ub85c \uad50\uacfc\uc11c\uc5d0 \uc81c\uc2dc\ub41c 3\uac00\uc9c0 \uad6c\uc131 \uc7a5\uce58\uc5d0 \ud574\ub2f9\ud558\uc9c0 \uc54a\ub294 \uac83\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "Range: $0$ to $255$; Threshold: $100$",
-          "rationale": "The microphone maps acoustic input to an 8-bit range ($0$ to $255$), and $100$ is designated as the default threshold level for detecting a clap.",
+          "text": "\uc8fc\ubcc0 \uc0c1\ud0dc\ub098 \ubb3c\ub9ac\uc801 \ubcc0\ud654\ub97c \uc778\uc9c0\ud558\ub294 \uc13c\uc11c",
+          "rationale": "\uc13c\uc11c\ub294 \uc0ac\ubb3c \uc8fc\ubcc0 \ud658\uacbd\uc774\ub098 \uc790\uadf9\uc744 \uc778\uc9c0\ud558\uae30 \uc704\ud574 \ubc18\ub4dc\uc2dc \ud544\uc694\ud55c \uae30\ubcf8 \uad6c\uc131 \uc694\uc18c\uc774\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\uc0ac\ubb3c \uac04 \ub370\uc774\ud130\ub97c \uc8fc\uace0\ubc1b\uae30 \uc704\ud55c \ud1b5\uc2e0 \uc7a5\uce58",
+          "rationale": "\uc0ac\ubb3c\ub07c\ub9ac \uc5f0\uacb0\ub418\uac70\ub098 \uc81c\uc5b4 \uc2e0\ud638\ub97c \uc8fc\uace0\ubc1b\uae30 \uc704\ud574\uc11c\ub294 \ubb34\uc120 \ub4f1\uc758 \ud1b5\uc2e0 \uc7a5\uce58\uac00 \ud544\uc694\ud558\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\uc13c\uc11c \uc2e0\ud638\ub97c \ubc1b\uc544 \uc0ac\ubb3c\uc758 \ub3d9\uc791\uc744 \uc81c\uc5b4\ud558\ub294 \ucc98\ub9ac \uc7a5\uce58",
+          "rationale": "\uc785\ub825\ub41c \uc815\ubcf4\ub97c \ubc14\ud0d5\uc73c\ub85c \ub3d9\uc791\uc744 \uacb0\uc815\ud558\uace0 \uc81c\uc5b4\ud558\uae30 \uc704\ud574\uc11c\ub294 \ucc98\ub9ac \uc7a5\uce58\uac00 \uc694\uad6c\ub41c\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\ud654\uba74 \uadf8\ub798\ud53d\uc744 \uace0\uc18d\uc73c\ub85c \ucc98\ub9ac\ud558\ub294 \uc804\uc6a9 \uadf8\ub798\ud53d \uce74\ub4dc\uc758 \ucc98\ub9ac \uc7a5\uce58",
+          "rationale": "\uace0\uc131\ub2a5 \uadf8\ub798\ud53d \ucc98\ub9ac\ub294 \uc77c\ubc18\uc801\uc778 \uc0ac\ubb3c \uc778\ud130\ub137 \uc2dc\uc2a4\ud15c\uc744 \uad6c\uc131\ud558\ub294 \ud544\uc218 3\ub300 \uad6c\uc131 \uc7a5\uce58(\uc13c\uc11c, \ud1b5\uc2e0 \uc7a5\uce58, \uc81c\uc5b4/\ucc98\ub9ac \uc7a5\uce58)\uc5d0 \ud3ec\ud568\ub418\uc9c0 \uc54a\ub294\ub2e4.",
           "isCorrect": true
-        },
-        {
-          "text": "Range: $-1024$ to $+1024$; Threshold: $100$",
-          "rationale": "The range $-1024$ to $+1024$ corresponds to accelerometer sensor readings, not sound intensity values.",
-          "isCorrect": false
-        },
-        {
-          "text": "Range: $0$ to $100$; Threshold: $50$",
-          "rationale": "Sound input is not scaled on a 0\u2013100 percentage scale; it uses the standard $0$ to $255$ range.",
-          "isCorrect": false
-        },
-        {
-          "text": "Range: $0$ to $1024$; Threshold: $500$",
-          "rationale": "The value $1024$ represents 10-bit analog ranges or accelerometer limits, not the 8-bit sound sensor range.",
-          "isCorrect": false
         }
       ],
-      "hint": "Consider the standard 8-bit integer range used for sound intensity input on the micro:bit."
+      "hint": "\uc0ac\ubb3c\uc774 \uc8fc\ubcc0\uc744 \uc778\uc9c0\ud558\uace0, \uc2e0\ud638\ub97c \uc804\ub2ec\ud558\uba70, \ud574\ub2f9 \ub3d9\uc791\uc744 \uacb0\uc815\ud574 \uad6c\ub3d9\ud558\ub294 \uae30\ubcf8 \ud750\ub984\uc744 \uc0dd\uac01\ud574 \ubcf4\uc138\uc694."
     },
     {
-      "question": "In the clap-controlled light algorithm, why is a $0.5$-second ($500\\text{ ms}$) pause executed immediately after detecting a clap sound?",
+      "question": "\ub9c8\uc774\ud06c\ub85c\ube44\ud2b8\uc758 \ub0b4\uc7a5 \ub9c8\uc774\ud06c\ub97c \uc774\uc6a9\ud558\uc5ec \uc190\ubf09 \uc18c\ub9ac\ub85c LED(\uc804\ub4f1)\ub97c \ucf1c\uace0 \ub044\ub294 \uc2e4\uc2b5 \uc911, \ud070 \uc18c\ub9ac\ub97c \uac10\uc9c0\ud55c \uc9c1\ud6c4 0.5\ucd08 \ub3d9\uc548 \uc77c\uc2dc \uc911\uc9c0\ud558\ub294 \ucf54\ub4dc\ub97c \ud3ec\ud568\ud558\ub294 \uc8fc\uc694 \uc774\uc720\ub294 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "To prevent a single physical clap from being registered multiple times consecutively.",
-          "rationale": "Because code loops execute rapidly, a single physical clap creates acoustic reverberations that would trigger the toggle logic multiple times without a brief delay.",
+          "text": "\ub9c8\uc774\ud06c \uc13c\uc11c\uc758 \uc804\ub825 \uc18c\ube44\ub97c \uc904\uc774\uae30 \uc704\ud574",
+          "rationale": "0.5\ucd08 \ub300\uae30 \ucf54\ub4dc\ub294 \uc804\ub825 \uc808\uac10 \ud6a8\uacfc\uc640 \uc9c1\uc811\uc801\uc778 \uad00\ub828\uc774 \uc5c6\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\uc190\ubf09\uc744 \ud55c \ubc88 \ucce4\uc744 \ub54c \uc5ec\ub7ec \ubc88 \uce5c \uac83\uc73c\ub85c \uc911\ubcf5 \uc778\uc2dd\ub418\ub294 \uac83\uc744 \ubc29\uc9c0\ud558\uae30 \uc704\ud574",
+          "rationale": "\uc190\ubf09\uc744 \uce60 \ub54c \ubc1c\uc0dd\ud55c \uc785\ub825 \uc2e0\ud638\uac00 \uc5f0\uc1c4\uc801\uc73c\ub85c \uc5ec\ub7ec \ubc88 \uc778\uc2dd\ub418\uc5b4 \uc804\ub4f1\uc774 \ub73b\ud558\uc9c0 \uc54a\uac8c \uacc4\uc18d \ucf1c\uc9c0\uace0 \uaebc\uc9c0\ub294 \ubb38\uc81c\ub97c \ub9c9\uc544\uc900\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "To give the LED display screen sufficient time to charge before turning on.",
-          "rationale": "LED screens respond instantly to microcontrollers and do not require power pre-charging pauses.",
+          "text": "\uc18c\ub9ac \uac10\uc9c0 \uae30\uc900 \uac12(100)\uc744 \uc8fc\ubcc0 \ud658\uacbd\uc5d0 \ub9de\uac8c \uc790\ub3d9 \uc7ac\uc124\uc815\ud558\uae30 \uc704\ud574",
+          "rationale": "\uc18c\ub9ac \uac10\uc9c0 \uae30\uc900\uac12\uc740 \uc0ac\uc6a9\uc790\uac00 \uc9c1\uc811 \uc124\uc815\ud558\ub294 \uac12\uc774\uba70, \uc77c\uc2dc \uc911\uc9c0 \ub3d9\uc791\uc774 \uae30\uc900\uac12\uc744 \uc7ac\uc124\uc815\ud574\uc8fc\uc9c0 \uc54a\ub294\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "To automatically reset the internal state variable `tag` back to $0$.",
-          "rationale": "The variable `tag` is explicitly reassigned in code ($0 \\to 1$ or $1 \\to 0$), not automatically reset by a pause block.",
-          "isCorrect": false
-        },
-        {
-          "text": "To allow the micro:bit to switch from MakeCode block mode to Python text mode.",
-          "rationale": "Programming modes are selected during development and cannot be changed dynamically during script execution.",
+          "text": "LED\uc758 \ubc1d\uae30\ub97c \ucd5c\ub300 \ub2e8\uacc4\ub85c \uc77c\uc815\ud558\uac8c \uc720\uc9c0\ud558\uae30 \uc704\ud574",
+          "rationale": "\uc77c\uc2dc \uc911\uc9c0\ub294 \uc785\ub825 \uc2e0\ud638\uc758 \uc624\uc778\uc2dd\uc744 \ubc29\uc9c0\ud558\ub294 \ud750\ub984 \uc81c\uc5b4 \uc5ed\ud560\uc774\uba70 LED \ubc1d\uae30\uc640\ub294 \ubb34\uad00\ud558\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Think about how fast program loops execute relative to the duration of a sound wave in air."
+      "hint": "\ubc15\uc218\ub97c \ud55c \ubc88\ub9cc \ucce4\uc744 \ub54c \ubc1c\uc0dd\ud560 \uc218 \uc788\ub294 \uc785\ub825\uc758 \uc911\ubcf5 \ucc98\ub9ac \ubb38\uc81c\ub97c \ub5a0\uc62c\ub824 \ubcf4\uc138\uc694."
     },
     {
-      "question": "In the restaurant calling system activity using multiple micro:bits, what rule must be followed regarding the radio group settings?",
+      "question": "\uc190\ubf09\uc744 \uccd0\uc11c LED\ub97c \uc81c\uc5b4\ud558\ub294 \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8 \ud504\ub85c\uadf8\ub7a8\uc744 \ucef4\ud4e8\ud130 \ud654\uba74\uc758 \uc2dc\ubbac\ub808\uc774\ud130\ub85c \ud14c\uc2a4\ud2b8\ud560 \ub54c \uc8fc\uc758\ud574\uc57c \ud560 \uc810\uc73c\ub85c \uc62c\ubc14\ub978 \uc124\uba85\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "All table devices and the display device belonging to the same group must share the exact same radio group number.",
-          "rationale": "Micro:bits filter wireless radio signals by group ID, requiring communicating senders and receivers to share identical radio group settings.",
+          "text": "\uc18c\ub9ac \ud06c\uae30 \uac12\uc744 100 \uc774\uc0c1\uc73c\ub85c \uc7a0\uc2dc \uc62c\ub838\ub2e4\uac00 \ube60\ub974\uac8c 100 \uc774\ud558\ub85c \ub0b4\ub824\uc57c \ud55c\ub2e4.",
+          "rationale": "\uc2dc\ubbac\ub808\uc774\ud130\uc5d0\uc11c 100 \uc774\uc0c1\uc758 \ud070 \uc18c\ub9ac\uac00 \uc9c0\uc18d\ud574\uc11c \uc720\uc9c0\ub418\uba74 \ud070 \uc18c\ub9ac\ub85c \uacc4\uc18d \uc778\uc2dd\ub418\uc5b4 LED\uac00 \uba48\ucd94\uc9c0 \uc54a\uace0 \ubc18\ubcf5\ud574\uc11c \uae5c\ube61\uc774\uac8c \ub41c\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "Each table device must use a unique radio group number that is different from the display device.",
-          "rationale": "If devices use different radio group numbers, the display unit will ignore packets sent by the table devices.",
+          "text": "\uc2dc\ubbac\ub808\uc774\ud130\uc5d0\uc11c\ub294 \ub9c8\uc774\ud06c \uc785\ub825\uc744 \ud14c\uc2a4\ud2b8\ud560 \uc218 \uc5c6\uc73c\ubbc0\ub85c \ubc18\ub4dc\uc2dc \ub77c\ub514\uc624 \uc2e0\ud638\ub85c \ub300\uccb4\ud574\uc57c \ud55c\ub2e4.",
+          "rationale": "\ub9c8\uc774\ud06c\ub85c\ube44\ud2b8 \uc6f9 \uc5d0\ub514\ud130\uc758 \uc2dc\ubbac\ub808\uc774\ud130\uc5d0\uc11c\ub294 \uc18c\ub9ac \ud06c\uae30 \uc870\uc808\uae30\ub97c \ud1b5\ud574 \ub9c8\uc774\ud06c \uc785\ub825 \ud14c\uc2a4\ud2b8\uac00 \uac00\ub2a5\ud558\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "The display device must cycle through radio group numbers every second to scan for tables.",
-          "rationale": "Scanning multiple groups dynamically is unnecessary and causes missed transmissions; static group matching is used instead.",
+          "text": "\uc18c\ub9ac \ud06c\uae30 \ubc94\uc704\ub97c \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8 \ud55c\uacc4\uce58\uc778 -1024\ubd80\ud130 +1024 \uc0ac\uc774\ub85c \uc124\uc815\ud574\uc57c \ud55c\ub2e4.",
+          "rationale": "\ub9c8\uc774\ud06c\ub85c\ube44\ud2b8\uc5d0 \uc785\ub825\ub418\ub294 \uc18c\ub9ac \ud06c\uae30\uc758 \ubc94\uc704\ub294 -1024~+1024\uac00 \uc544\ub2cc 0~255 \ubc94\uc704\uc774\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "Radio group numbers are fixed by hardware and cannot be customized in software.",
-          "rationale": "Radio group IDs are software parameters configured inside initialization blocks.",
+          "text": "\ubaa8\ub2c8\ud130 \ud654\uba74 \ud14c\uc2a4\ud2b8 \uc2dc\uc5d0\ub294 \ubcc0\uc218 tag\uc758 \ucd08\uae43\uac12\uc744 \ud56d\uc0c1 1\ub85c \uc9c0\uc815\ud574\uc57c \ub3d9\uc791\ud55c\ub2e4.",
+          "rationale": "\ubcc0\uc218 tag\uc758 \ucd08\uae43\uac12\uc740 \uaebc\uc9c4 \uc0c1\ud0dc\ub97c \uc758\ubbf8\ud558\ub294 0\uc73c\ub85c \uc120\uc5b8\ud558\ub294 \uac83\uc774 \uae30\ubcf8 \uc54c\uace0\ub9ac\uc998 \uc124\uacc4\uc774\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Consider how devices filter wireless broadcasts so that signals from one table group do not interfere with adjacent groups."
+      "hint": "\uc18c\ub9ac \ud06c\uae30 \uac12\uc774 100 \uc774\uc0c1\uc778 \uc0c1\ud0dc\ub85c \uacc4\uc18d \uc720\uc9c0\ub420 \ub54c \ubc1c\uc0dd\ud558\ub294 \ub3d9\uc791\uc744 \uc0dd\uac01\ud574 \ubcf4\uc138\uc694."
     },
     {
-      "question": "In the pedestrian signal light activity, how does the mobile receiving device alter its acoustic warning when the remaining time drops to $5$ seconds or below ($5$ down to $1$)?",
+      "question": "\uc74c\uc2dd\uc810 \ud638\ucd9c \uc7a5\uce58 \ub9cc\ub4e4\uae30 \uc2e4\uc2b5\uc5d0\uc11c \uc5ec\ub7ec \ubaa8\ub460\uc774 \ub3d9\uc2dc\uc5d0 \uc2e4\uc2b5\uc744 \uc9c4\ud589\ud560 \ub54c, \uc790\uc2e0\uc758 \ubaa8\ub460 \uae30\uae30\ub07c\ub9ac\ub9cc \uc62c\ubc14\ub974\uac8c \ud1b5\uc2e0\ud558\uae30 \uc704\ud574 \ub9de\ucdb0\uc57c \ud558\ub294 \ud544\uc218 \uc124\uc815\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "It changes the tone output from 'Mi' to a higher-pitched 'Sol' note.",
-          "rationale": "The algorithm plays 'Mi' for counts $10$ down to $6$, and switches to a higher 'Sol' note for $5$ down to $1$ to signal heightened urgency.",
+          "text": "\ubaa8\ub4e0 \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8\uc758 \ub77c\ub514\uc624 \uadf8\ub8f9\uc744 \ub3d9\uc77c\ud55c \ubc88\ud638\ub85c \uc124\uc815\ud55c\ub2e4.",
+          "rationale": "\ub9c8\uc774\ud06c\ub85c\ube44\ud2b8 \ub77c\ub514\uc624 \uc7a5\uce58\ub294 \ub3d9\uc77c\ud55c \uadf8\ub8f9\uc73c\ub85c \uc124\uc815\ub41c \uae30\uae30\ub4e4\ub07c\ub9ac\ub9cc \uc2e0\ud638\ub97c \uc804\uc1a1\ud558\uace0 \uc218\uc2e0\ud560 \uc218 \uc788\uc73c\ubbc0\ub85c \ubaa8\ub460\ubcc4\ub85c \uace0\uc720\ud55c \uadf8\ub8f9 \ubc88\ud638\ub97c \uc9c0\uc815\ud574\uc57c \ud55c\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "It switches the tone output from 'Sol' down to a lower-pitched 'Do' note.",
-          "rationale": "Higher urgency is indicated by switching to a higher pitch ('Sol'), not lowering pitch to 'Do'.",
+          "text": "\ubaa8\ub4e0 \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8\uc5d0 \ud14c\uc774\ube14 \ubc88\ud638\ub97c 1\ubc88\uc73c\ub85c \ud1b5\uc77c\ud558\uc5ec \uc124\uc815\ud55c\ub2e4.",
+          "rationale": "\ud14c\uc774\ube14 \ubc88\ud638\ub294 \uc218\uc2e0\uae30\uc5d0\uc11c \uc5b4\ub290 \ud14c\uc774\ube14\uc774 \ubd88\ub800\ub294\uc9c0 \uad6c\ubd84\ud574\uc57c \ud558\ubbc0\ub85c \ud14c\uc774\ube14\ub9c8\ub2e4 \ub2e4\ub978 \uc218(1, 2, 3 \ub4f1)\ub97c \uc1a1\ucd9c\ud574\uc57c \ud55c\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "It increases the duration of the 'Mi' tone from $500\\text{ ms}$ to $1000\\text{ ms}$.",
-          "rationale": "The duration remains constant at $500\\text{ ms}$ ($0.5\\text{ seconds}$) per tone while the musical pitch changes.",
+          "text": "\uac00\uc18d\ub3c4 \uc13c\uc11c\uc758 x\ucd95 \uce21\uc815 \ubc94\uc704\ub97c \uc11c\ub85c \ub2e4\ub974\uac8c \ucf54\ub529\ud55c\ub2e4.",
+          "rationale": "\uc74c\uc2dd\uc810 \ud638\ucd9c \uc7a5\uce58\ub294 \uac00\uc18d\ub3c4 \uc13c\uc11c\uac00 \uc544\ub2cc \ubc84\ud2bc \uc785\ub825\uacfc \ub77c\ub514\uc624 \ubb34\uc120 \ud1b5\uc2e0\uc744 \ud65c\uc6a9\ud55c\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "It mutes all sound alerts and relies exclusively on visual LED numbers.",
-          "rationale": "Sound alerts remain active specifically to assist visually impaired individuals and draw attention.",
+          "text": "\ubaa8\ub460\uc6d0 \uc804\uccb4\uc758 \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8 \uc218\uc2e0 \uae30\ub2a5\uc744 \uaebc\ub450\uace0 \uc1a1\uc2e0 \uc804\uc6a9\uc73c\ub85c \uc9c0\uc815\ud55c\ub2e4.",
+          "rationale": "\ud45c\uc2dc\uc6a9 \uc7a5\uce58 \uc5ed\ud560\uc744 \ub9e1\uc740 \ubaa8\ub460\uc6d0\uc740 \ud14c\uc774\ube14\uc6a9 \uc7a5\uce58\uac00 \ubcf4\ub0b8 \uc2e0\ud638\ub97c \ubc1b\uc544\uc57c \ud558\ubbc0\ub85c \uc218\uc2e0 \uae30\ub2a5\uc774 \uc791\ub3d9\ud574\uc57c \ud55c\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Recall how musical pitch changes to indicate heightened urgency as time runs out."
+      "hint": "\uc11c\ub85c \ub2e4\ub978 \ubb34\uc120 \ucc44\ub110\uc774\ub098 \uad6c\uc5ed\uc744 \ub098\ub204\uc5b4 \ud63c\uc120\uc744 \ubc29\uc9c0\ud558\ub294 \ud1b5\uc2e0 \uc124\uc815 \ud56d\ubaa9\uc785\ub2c8\ub2e4."
     },
     {
-      "question": "In the safety monitoring device attached to a bathroom door, how is inactivity detected using x-axis acceleration readings $a$ and $b$ taken $100\\text{ ms}$ apart?",
+      "question": "\uc74c\uc2dd\uc810 \ud638\ucd9c \uc7a5\uce58 \uc2e4\uc2b5\uc5d0\uc11c \ud14c\uc774\ube14\uc6a9 \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8\uc758 A \ubc84\ud2bc\uc744 \ub20c\ub800\uc744 \ub54c, \ud638\ucd9c\uc744 \ud655\uc778\ud558\uae30 \uc704\ud574 \ud14c\uc774\ube14\uc6a9 \uc7a5\uce58 \uc790\uccb4\uc5d0 \ud45c\uc2dc\ub418\ub294 \ud654\uba74 \ub3d9\uc791\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "Inactivity is recorded if $a - b < 100$.",
-          "rationale": "When the door is stationary, consecutive acceleration readings are nearly equal, making their difference $a - b$ less than the motion threshold of $100$.",
+          "text": "LED \ud654\uba74\uc5d0 1\ucd08 \ub3d9\uc548 'V'\uac00 \ud45c\uc2dc\ub41c \ud6c4 \uc0ac\ub77c\uc9c4\ub2e4.",
+          "rationale": "\ubc84\ud2bc \ub204\ub984\uc744 \ud655\uc778\ud558\uae30 \uc704\ud574 \ud14c\uc774\ube14\uc6a9 LED\uc5d0 'V' \ud45c\uc2dc\uac00 \ub098\ud0c0\ub098\uace0 1\ucd08 \ud6c4\uc5d0 \uc9c0\uc6cc\uc9c4\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "Inactivity is recorded if $a + b > 1024$.",
-          "rationale": "A large sum indicates raw acceleration magnitude rather than motion stability between two sampling points.",
+          "text": "LED \ud654\uba74\uc5d0 \uc124\uc815\ub41c \ub77c\ub514\uc624 \uadf8\ub8f9 \ubc88\ud638\uac00 5\ucd08\uac04 \uc2a4\ud06c\ub864\ub41c\ub2e4.",
+          "rationale": "\ubc84\ud2bc\uc744 \ub20c\ub800\uc744 \ub54c \ub098\ud0c0\ub098\ub294 \ud45c\uc2dc\ub294 \ub77c\ub514\uc624 \uadf8\ub8f9 \ubc88\ud638\uac00 \uc544\ub2cc \uccb4\ud06c \ubaa8\uc591\uc778 'V' \ud45c\uc2dc\uc774\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "Inactivity is recorded if $a \\times b = 0$.",
-          "rationale": "Acceleration values depend on physical orientation and gravity; a product equal to zero does not reflect motionlessness.",
+          "text": "\uc2a4\ud53c\ucee4\uc5d0\uc11c '\uc194'\uacfc '\ubbf8' \uc74c\uc774 0.5\ucd08\uc529 \ucd9c\ub825\ub41c\ub2e4.",
+          "rationale": "'\uc194'\uacfc '\ubbf8' \uc18c\ub9ac\ub97c \uc54c\ub9ac\ub294 \uae30\ub2a5\uc740 \uc2e0\ud638\ub97c \ubc1b\uc740 '\ud45c\uc2dc\uc6a9 \uc7a5\uce58(\uc218\uc2e0\uae30)'\uc758 \ub3d9\uc791\uc774\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "Inactivity is recorded if $a - b > 500$.",
-          "rationale": "A large difference between sample points indicates rapid movement or shaking rather than stillness.",
+          "text": "LED \ud654\uba74 \uc804\uccb4\uac00 0.5\ucd08 \uac04\uaca9\uc73c\ub85c 3\ubc88 \uae5c\ube61\uc778 \ud6c4 \uaebc\uc9c4\ub2e4.",
+          "rationale": "\ud14c\uc774\ube14\uc6a9 \uc7a5\uce58\ub294 \uc804\uccb4 LED\ub97c \uae5c\ube61\uc774\uc9c0 \uc54a\uace0 'V' \ubaa8\uc591 \ucd9c\ub825\uc744 1\ucd08\uac04 \uc720\uc9c0\ud55c\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Consider whether movement creates a large difference or a small difference between two consecutive sensor readings."
+      "hint": "\ud14c\uc774\ube14\uc744 \uc774\uc6a9\ud558\ub294 \uc190\ub2d8\uc774 \ubc84\ud2bc\uc774 \uc81c\ub300\ub85c \ub20c\ub838\ub294\uc9c0 \ub208\uc73c\ub85c \ud655\uc778\ud560 \uc218 \uc788\ub294 \uc54c\ud30c\ubcb3 \ud615\ud0dc\uc758 \uccb4\ud06c \ud45c\uc2dc\uc785\ub2c8\ub2e4."
     },
     {
-      "question": "In the bathroom door monitoring system, a `count` threshold of $100$ represents $10\\text{ seconds}$ of inactivity (with each check taking $100\\text{ ms}$). To extend this movement detection threshold to $5\\text{ hours}$, what must the target `count` value be?",
+      "question": "\ubcf4\ud589 \uc2e0\ud638\ub4f1 \uc54c\ub9bc \uc2e4\uc2b5\uc5d0\uc11c \ucd08\ub85d\uc0c9 \uc2e0\ud638\uac00 \ucf1c\uc9c4 \ub4a4 10\ucd08 \ud6c4\uc5d0 \ud734\ub300 \uc804\ud654 \uc7a5\uce58\ub85c \ub77c\ub514\uc624 \uce74\uc6b4\ud2b8\ub2e4\uc6b4 \uc2e0\ud638(10~1)\ub97c \ubcf4\ub0b8\ub2e4. \ud734\ub300 \uc804\ud654 \uc7a5\uce58\uac00 10\ubd80\ud130 6\uae4c\uc9c0\uc758 \uc2e0\ud638\ub97c \ubc1b\uc744 \ub54c\uc640 5\ubd80\ud130 1\uae4c\uc9c0\uc758 \uc2e0\ud638\ub97c \ubc1b\uc744 \ub54c \ub0b4\ub294 \uc18c\ub9ac\uc758 \ucc28\uc774\ub85c \uc62c\ubc14\ub978 \uac83\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "$180,000$",
-          "rationale": "Since $1\\text{ second} = 10\\text{ counts}$, $1\\text{ hour} = 3600\\text{ seconds} \\times 10 = 36,000\\text{ counts}$. Multiplying by $5\\text{ hours}$ yields $180,000\\text{ counts}$.",
+          "text": "10~6\uc744 \ubc1b\uc744 \ub54c\ub294 \ub192\uc740 '\uc194'\uc74c, 5~1\uc744 \ubc1b\uc744 \ub54c\ub294 \ub0ae\uc740 '\ubbf8'\uc74c\uc744 500ms \ub3d9\uc548 \ucd9c\ub825\ud55c\ub2e4.",
+          "rationale": "10~6 \uad6c\uac04\uc774 \uc0c1\ub300\uc801\uc73c\ub85c \ub0ae\uc740 '\ubbf8'\uc74c\uc774\uace0, \ube68\uac04\ubd88\uc774 \uc784\ubc15\ud55c 5~1 \uad6c\uac04\uc774 \ub354 \ub192\uc740 '\uc194'\uc74c\uc774\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "10~6\uc744 \ubc1b\uc744 \ub54c\ub294 '\ubbf8'\uc74c, 5~1\uc744 \ubc1b\uc744 \ub54c\ub294 \uc774\ubcf4\ub2e4 \ub192\uc740 '\uc194'\uc74c\uc744 500ms \ub3d9\uc548 \ucd9c\ub825\ud55c\ub2e4.",
+          "rationale": "\uc704\ud5d8\uc774\ub098 \uc2e0\ud638 \ubcc0\uacbd\uc758 \uc784\ubc15\ud568\uc744 \uc18c\ub9ac\ub85c \ub354\uc6b1 \uba85\ud655\ud788 \uc54c\ub9ac\uae30 \uc704\ud574 \ub098\uc911 5\ucd08 \ub3d9\uc548\uc740 \ub354 \ub192\uc740 \uc74c\uc778 '\uc194'\uc744 \ucd9c\ub825\ud55c\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "$18,000$",
-          "rationale": "This value corresponds to $1800\\text{ seconds}$, which is $0.5\\text{ hours}$ ($30\\text{ minutes}$), not $5\\text{ hours}$.",
+          "text": "10~6\uc744 \ubc1b\uc744 \ub54c\ub294 \uc18c\ub9ac\ub97c \ub0b4\uc9c0 \uc54a\uace0, 5~1\uc744 \ubc1b\uc744 \ub54c\ub9cc 1\ucd08\ub9c8\ub2e4 \uacbd\uace0\uc74c\uc744 \ub0b8\ub2e4.",
+          "rationale": "10\ubd80\ud130 1\uae4c\uc9c0 \ubaa8\ub4e0 \uce74\uc6b4\ud2b8\ub2e4\uc6b4 \uc22b\uc790\ub9c8\ub2e4 500ms \ub3d9\uc548 \uc18c\ub9ac\uac00 \ud568\uaed8 \ucd9c\ub825\ub41c\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "$36,000$",
-          "rationale": "This represents $1\\text{ hour}$ worth of count checks rather than $5\\text{ hours}$.",
-          "isCorrect": false
-        },
-        {
-          "text": "$500,000$",
-          "rationale": "This miscalculates the unit conversion factor between milliseconds, seconds, and hours.",
+          "text": "10~6\uc744 \ubc1b\uc744 \ub54c\ub294 '\ub3c4'\uc74c, 5~1\uc744 \ubc1b\uc744 \ub54c\ub294 '\ub808'\uc74c\uc744 100ms \ub3d9\uc548 \uc9e7\uac8c \ucd9c\ub825\ud55c\ub2e4.",
+          "rationale": "\uc2e4\uc2b5 \uc870\uac74\uc5d0\uc11c \uc9c0\uc815\ud55c \uc74c\uc740 '\ubbf8'\uc640 '\uc194'\uc774\uba70 \ucd9c\ub825 \uc2dc\uac04\uc740 500ms\uc774\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Calculate the total number of $100\\text{ ms}$ sampling intervals contained within $5\\text{ hours}$ ($5 \\times 3,600\\text{ seconds}$). "
+      "hint": "\uc2e0\ud638\uac00 \ubc14\ub00c\uae30 \uc9c1\uc804 \ub9c8\uc9c0\ub9c9 5\ucd08 \ub3d9\uc548 \ubcf4\ud589\uc790\uc5d0\uac8c \uacbd\uace0\ub97c \uac15\ud654\ud558\uae30 \uc704\ud574 \uc74c\ub192\uc774\uac00 \uc5b4\ub5bb\uac8c \ubcc0\ud558\ub294\uc9c0 \uc0dd\uac01\ud574 \ubcf4\uc138\uc694."
     },
     {
-      "question": "According to the networking concepts presented in the material, which device is required to connect an internal private network to an external network like the Internet?",
+      "question": "\uc704\ud5d8 \ubc29\uc9c0 \uc7a5\uce58(\ud654\uc7a5\uc2e4 \ubb38 \ubd80\ucc29 \uc7a5\uce58) \uc2e4\uc2b5\uc5d0\uc11c \ubb38\uc774 \uc624\ub7ab\ub3d9\uc548 \uc6c0\uc9c1\uc774\uc9c0 \uc54a\ub294 \uc774\uc0c1 \uc9d5\ud6c4\ub97c \uac10\uc9c0\ud558\uae30 \uc704\ud574 \uc0ac\uc6a9\ud55c \ub9c8\uc774\ud06c\ub85c\ube44\ud2b8 \ub0b4\uc7a5 \uc13c\uc11c\uc640 \uce21\uc815 \uc870\uac74\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "Router",
-          "rationale": "A router is specifically designed to route data traffic across different network boundaries, connecting internal local networks to external networks.",
+          "text": "\ube5b \uc13c\uc11c\ub97c \uc774\uc6a9\ud574 \ud654\uc7a5\uc2e4 \uc870\uba85\uc758 \ubc1d\uae30 \ubcc0\ud654\ub97c \uce21\uc815\ud55c\ub2e4.",
+          "rationale": "\uc774 \uc2e4\uc2b5\uc5d0\uc11c\ub294 \uc870\uba85 \ubcc0\ud654\uac00 \uc544\ub2cc \ubb38 \uc5ec\ub2eb\ud798\uc5d0 \ub530\ub978 \uc6c0\uc9c1\uc784\uc744 \uac10\uc9c0\ud55c\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\uac00\uc18d\ub3c4 \uc13c\uc11c\uc758 x\ucd95 \uac12 \ucc28\uc774\ub97c 100ms \uac04\uaca9\uc73c\ub85c \uce21\uc815\ud55c\ub2e4.",
+          "rationale": "\uac00\uc18d\ub3c4 \uc13c\uc11c\uc758 x\ucd95 \uac12\uc744 100ms \uac04\uaca9\uc73c\ub85c \ubcc0\uc218 a, b\uc5d0 \uc800\uc7a5\ud558\uc5ec \uadf8 \ucc28\uc774\uc778 $a - b$ \uac12\uc744 \ubc14\ud0d5\uc73c\ub85c \uc6c0\uc9c1\uc784 \uc5ec\ubd80\ub97c \ud310\ub2e8\ud55c\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "Switch",
-          "rationale": "A switch connects multiple devices within the same internal local area network using cables.",
+          "text": "\uc628\ub3c4 \uc13c\uc11c\ub97c \uc774\uc6a9\ud558\uc5ec 10\ucd08 \ub3d9\uc548\uc758 \uc628\ub3c4 \uc800\ud558\ub97c \uce21\uc815\ud55c\ub2e4.",
+          "rationale": "\uc628\ub3c4 \uce21\uc815\uc740 \uc0ac\ub78c\uc758 \ud65c\ub3d9 \uc0c1\ud0dc\ub098 \ubb38 \uc5ec\ub2eb\ud798\uc744 \uac10\uc9c0\ud558\ub294 \uc54c\uace0\ub9ac\uc998 \uc694\uc18c\uac00 \uc544\ub2c8\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "Hub",
-          "rationale": "A hub operates at a basic level to interconnect multiple cables within a single local network.",
-          "isCorrect": false
-        },
-        {
-          "text": "Access Point (AP)",
-          "rationale": "An Access Point provides wireless Wi-Fi connectivity to local clients rather than routing traffic across external network frontiers.",
+          "text": "\uc18c\ub9ac \uac10\uc9c0 \uc13c\uc11c\ub97c \uc774\uc6a9\ud574 \uc5f0\uc18d 10\ucd08\uac04 \uc18c\uc74c \uc720\ubb34\ub97c \ud310\ub2e8\ud55c\ub2e4.",
+          "rationale": "\ubcf8 \uc2e4\uc2b5\uc5d0\uc11c \ubb38\uc5d0 \ubd80\ucc29\ud558\uc5ec \ubb3c\ub9ac\uc801 \uc6c0\uc9c1\uc784\uc744 \uac10\uc9c0\ud558\ub294 \uc8fc \uc13c\uc11c\ub294 \uac00\uc18d\ub3c4 \uc13c\uc11c\uc774\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Think about the device responsible for routing traffic between distinct, separate network boundaries."
+      "hint": "\ubb3c\uccb4\uc758 \uae30\uc6b8\uc5b4\uc9d0\uc774\ub098 \ud754\ub4e4\ub9bc, \uac00\uc18d \ubcc0\ud654\ub97c \uac10\uc9c0\ud558\ub294 \uc13c\uc11c\uc640 \ucd95 \uc124\uc815\uc744 \ud655\uc778\ud574 \ubcf4\uc138\uc694."
     },
     {
-      "question": "Which short-range wireless communication technology operates typically within $10\\text{ meters}$ and is commonly used to connect devices like wireless earphones and AI speakers?",
+      "question": "\ud654\uc7a5\uc2e4 \ubb38 \ubd80\ucc29 \uc7a5\uce58 \uc54c\uace0\ub9ac\uc998\uc5d0\uc11c 100ms\ub9c8\ub2e4 \uc6c0\uc9c1\uc784\uc744 \ud655\uc778\ud558\uc5ec $a - b < 100$\uc77c \ub54c count\ub97c 1\uc529 \uc99d\uac00\uc2dc\ud0a8\ub2e4. count\uac00 100\uc774 \ub418\uba74 10\ucd08 \ub3d9\uc548 \uc6c0\uc9c1\uc784\uc774 \uc5c6\ub2e4\uace0 \ud310\ub2e8\ud558\uc5ec 'danger' \uc2e0\ud638\ub97c \uc804\uc1a1\ud55c\ub2e4. \uc774 \uc704\ud5d8 \uac10\uc9c0 \uae30\uc900 \uc2dc\uac04\uc744 10\ucd08\uc5d0\uc11c '5\uc2dc\uac04'\uc73c\ub85c \ub298\ub9ac\uace0\uc790 \ud560 \ub54c, \uc54c\uace0\ub9ac\uc998 \uc870\uac74\ubb38\uc5d0\uc11c \ube44\uad50\ud574\uc57c \ud558\ub294 count \uac12\uc740 \uc5bc\ub9c8\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "Bluetooth",
-          "rationale": "Bluetooth is a short-range ($10\\text{ meters}$ or less) wireless technology widely applied in personal audio devices and smart speakers.",
+          "text": "1,800",
+          "rationale": "1,800\uc740 3\ucd08\uc5d0 \ud574\ub2f9\ud558\ub294 count \uacc4\uc0b0 \uc624\ub958\uc774\uac70\ub098 \ub2e8\uc704 \uacc4\uc0b0\uc774 \uc798\ubabb\ub41c \uac12\uc774\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "18,000",
+          "rationale": "18,000\uc740 30\ubd84(1,800\ucd08) \ub3d9\uc548 \uc313\uc774\ub294 count \uac12\uc774\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "180,000",
+          "rationale": "100ms(0.1\ucd08)\ub9c8\ub2e4 count\uac00 1\uc529 \uc99d\uac00\ud558\ubbc0\ub85c 1\ucd08\ub2f9 count\ub294 10\uc774\ub2e4. 5\uc2dc\uac04\uc740 18,000\ucd08($5 \\times 3600$)\uc774\ubbc0\ub85c, \ud544\uc694\ud55c count \uac12\uc740 $18,000 \\times 10 = 180,000$\uc774\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "Wi-Fi",
-          "rationale": "Wi-Fi is primarily used for broader local wireless internet access using access points (APs) rather than short-range personal device pairing.",
-          "isCorrect": false
-        },
-        {
-          "text": "NFC",
-          "rationale": "NFC (Near Field Communication) operates within very short touch distances (a few centimeters) for applications like payment tags.",
-          "isCorrect": false
-        },
-        {
-          "text": "Electronic Tag (RFID)",
-          "rationale": "Electronic tags are primarily used for automatic identification systems like transportation cards and highway toll passes.",
+          "text": "1,800,000",
+          "rationale": "1,800,000\uc740 50\uc2dc\uac04\uc5d0 \ud574\ub2f9\ud558\ub294 count \uac12\uc774\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Focus on the personal area network standard standardly used for low-power audio streaming over short distances."
+      "hint": "1\ucd08 \ub3d9\uc548 \uc99d\uac00\ud558\ub294 count \uac12\uc740 10\uc785\ub2c8\ub2e4. 5\uc2dc\uac04\uc744 \ucd08(s) \ub2e8\uc704\ub85c \ud658\uc0b0\ud55c \ud6c4 10\uc744 \uacf1\ud574 \ubcf4\uc138\uc694."
     },
     {
-      "question": "What visual feedback appears on a table device's LED matrix immediately after a user presses Button A in the restaurant calling system?",
+      "question": "\ucef4\ud4e8\ud130 \ub124\ud2b8\uc6cc\ud06c \uad6c\uc131 \uc2dc \ub0b4\ubd80 \ub124\ud2b8\uc6cc\ud06c\uc640 \uc678\ubd80 \ub124\ud2b8\uc6cc\ud06c(\uc778\ud130\ub137)\ub97c \uc11c\ub85c \uc5f0\uacb0\ud574 \uc8fc\uace0 \ucd5c\uc801\uc758 \uacbd\ub85c\ub97c \uc124\uc815\ud574 \uc8fc\ub294 \uc7a5\ube44\ub294 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "A checkmark ('V') is displayed for 1 second.",
-          "rationale": "The table device algorithm displays 'V' for $1\\text{ second}$ to provide visual feedback confirming signal transmission before clearing the screen.",
+          "text": "\ud5c8\ube0c (Hub)",
+          "rationale": "\ud5c8\ube0c\ub294 \ud558\ub098\uc758 \uc120\uc73c\ub85c \uc5ec\ub7ec \ub300\uc758 \uc7a5\ube44\ub97c \ub2e8\uc21c \uc5f0\uacb0\ud558\ub294 \ub0b4\ubd80 \ub124\ud2b8\uc6cc\ud06c\uc6a9 \uc7a5\ube44\uc774\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\ub77c\uc6b0\ud130 (Router)",
+          "rationale": "\ub77c\uc6b0\ud130\ub294 \uc11c\ub85c \ub2e4\ub978 \ub0b4\ubd80 \ub124\ud2b8\uc6cc\ud06c\uc640 \uc678\ubd80 \ub124\ud2b8\uc6cc\ud06c\ub97c \uc5f0\uacb0\ud574 \uc8fc\ub294 \uc5ed\ud560\uc744 \ud55c\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "The assigned table number scrolls across the matrix.",
-          "rationale": "The table number is displayed on the receiver unit (display device), not on the sending table device itself.",
+          "text": "\uc2a4\uc704\uce58 (Switch)",
+          "rationale": "\uc2a4\uc704\uce58\ub294 \ub0b4\ubd80 \ub124\ud2b8\uc6cc\ud06c \uc548\uc5d0\uc11c \uc5ec\ub7ec \uc7a5\ube44\ub97c \ud6a8\uc728\uc801\uc73c\ub85c \uc5f0\uacb0\ud574 \uc8fc\ub294 \uc7a5\ube44\uc774\ub2e4.",
           "isCorrect": false
         },
         {
-          "text": "All 25 LEDs remain continuously lit until serviced.",
-          "rationale": "The screen clears after $1\\text{ second}$ rather than staying fully illuminated continuously.",
-          "isCorrect": false
-        },
-        {
-          "text": "A bell icon flashes accompanied by a chime.",
-          "rationale": "The table device shows a 'V' symbol silently, while the display unit plays the audio chime.",
+          "text": "\uc561\uc138\uc2a4 \ud3ec\uc778\ud2b8 (Access Point)",
+          "rationale": "\uc561\uc138\uc2a4 \ud3ec\uc778\ud2b8(AP)\ub294 \ubb34\uc120 \uae30\uae30\ub4e4\uc774 \uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\uc5d0 \uc811\uc18d\ud560 \uc218 \uc788\ub3c4\ub85d \ubb34\uc120 \uc2e0\ud638\ub97c \uc81c\uacf5\ud558\ub294 \uc7a5\uce58\uc774\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Recall the single character used to give immediate visual feedback to the customer that their button press was registered."
+      "hint": "\uc11c\ub85c \ub2e4\ub978 \ub124\ud2b8\uc6cc\ud06c \uac04\uc5d0 \ub370\uc774\ud130\ub97c \uc804\uc1a1\ud560 \uc218 \uc788\ub3c4\ub85d \ud1b5\ub85c\ub97c \uc5f0\uacb0\ud558\ub294 \uc7a5\ube44\uc785\ub2c8\ub2e4."
     },
     {
-      "question": "According to the micro:bit v2 hardware layout, which component is located on the FRONT face of the board?",
+      "question": "\uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\uc640 \ubb34\uc120 \ub124\ud2b8\uc6cc\ud06c\uc758 \ud2b9\uc9d5\uc744 \ube44\uad50\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc9c0 \uc54a\uc740 \uac83\uc740 \ubb34\uc5c7\uc778\uac00?",
       "answerOptions": [
         {
-          "text": "Built-in microphone",
-          "rationale": "The microphone component is positioned on the front side alongside the LED matrix and user buttons.",
+          "text": "\uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\ub294 \ubb3c\ub9ac\uc801\uc778 \uc5f0\uacb0 \uc120\uc744 \uc0ac\uc6a9\ud574\uc57c \ud558\ub294 \ub2e8\uc810\uc774 \uc788\ub2e4.",
+          "rationale": "\uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\ub294 \ub79c\uc120 \ub4f1 \ubb3c\ub9ac\uc801 \ucf00\uc774\ube14\uc744 \uc9c1\uc811 \uc5f0\uacb0\ud574\uc57c \ud558\ubbc0\ub85c \uc774\ub3d9\uc131\uc5d0 \uc81c\ud55c\uc774 \uc788\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\ubb34\uc120 \ub124\ud2b8\uc6cc\ud06c\ub294 \uc120\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\uc544 \uacf5\uac04 \uc774\ub3d9\uc774 \uc790\uc720\ub86d\ub2e4.",
+          "rationale": "\ubb3c\ub9ac\uc801 \uc5f0\uacb0\uc120\uc774 \uc5c6\uc5b4 \ub178\ud2b8\ubd81, \uc2a4\ub9c8\ud2b8\ud3f0 \ub4f1 \uc774\ub3d9 \uae30\uae30 \uc0ac\uc6a9\uc5d0 \ub9e4\uc6b0 \uc6a9\uc774\ud558\ub2e4.",
+          "isCorrect": false
+        },
+        {
+          "text": "\uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\ub294 \ubb34\uc120 \ub124\ud2b8\uc6cc\ud06c\uc5d0 \ube44\ud574 \uc0c1\ub300\uc801\uc73c\ub85c \ubcf4\uc548\uc5d0 \ucde8\uc57d\ud558\ub2e4.",
+          "rationale": "\uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\ub294 \ubb3c\ub9ac\uc801 \uc811\uc18d\uc774 \ud544\uc694\ud558\ubbc0\ub85c \ubb34\uc120 \ub370\uc774\ud130 \uc804\ud30c \uc804\uc1a1 \ubc29\uc2dd\uc5d0 \ube44\ud574 \uc0c1\ub300\uc801\uc73c\ub85c \uc548\uc815\uc801\uc774\uace0 \ubcf4\uc548\uc131\uc774 \ub192\ub2e4.",
           "isCorrect": true
         },
         {
-          "text": "Radio antenna",
-          "rationale": "The antenna is located on the back face of the micro:bit board.",
-          "isCorrect": false
-        },
-        {
-          "text": "System speaker",
-          "rationale": "The speaker component is mounted on the back side of the board.",
-          "isCorrect": false
-        },
-        {
-          "text": "Accelerometer sensor",
-          "rationale": "The accelerometer sensor IC is situated on the rear face of the micro:bit.",
+          "text": "\ubb34\uc120 \ub124\ud2b8\uc6cc\ud06c\ub294 \uc720\uc120 \ub124\ud2b8\uc6cc\ud06c\uc5d0 \ube44\ud574 \ub370\uc774\ud130 \uc804\uc1a1 \uc2dc \uc2e0\ud638 \uac04\uc12d\uc758 \uc601\ud5a5\uc744 \ubc1b\uc744 \uc218 \uc788\ub2e4.",
+          "rationale": "\ubb34\uc120 \uc2e0\ud638\ub294 \uc7a5\uc560\ubb3c\uc774\ub098 \ud0c0 \ubb34\uc120 \uc8fc\ud30c\uc218\uc640\uc758 \uac04\uc12d\uc73c\ub85c \uc778\ud574 \uc720\uc120\ubcf4\ub2e4 \uc804\uc1a1\uc758 \uc548\uc815\uc131\uc774 \ub5a8\uc5b4\uc9c8 \uc218 \uc788\ub2e4.",
           "isCorrect": false
         }
       ],
-      "hint": "Think about which component needs to receive user sound input directly from the front user perspective."
-    },
-    {
-      "question": "When running the clapping light program in the web browser simulator without a physical micro:bit connected, what issue occurs if the sound level slider remains above $100$ continuously?",
-      "answerOptions": [
-        {
-          "text": "The simulator continually registers loud sound, causing the LED to repeatedly flash ON and OFF.",
-          "rationale": "Without lowering sound input back below $100$, the conditional check re-triggers on every cycle, continuously toggling the light state.",
-          "isCorrect": true
-        },
-        {
-          "text": "The MakeCode editor crashes and automatically resets all declared variables.",
-          "rationale": "Continuous input triggers fast conditional evaluation loops, but does not crash the environment or clear variables.",
-          "isCorrect": false
-        },
-        {
-          "text": "The code execution automatically switches from Block coding to Python mode.",
-          "rationale": "Simulator execution behavior does not alter editor source code formats.",
-          "isCorrect": false
-        },
-        {
-          "text": "The virtual speaker emits an error beep and disables sound input.",
-          "rationale": "The simulator continues running normal logical checks without disabling sound capabilities or sounding hardware errors.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "Consider how continuous detection of sound above threshold re-triggers the state toggle logic repeatedly."
-    },
-    {
-      "question": "In the pedestrian signal light algorithm, how long after displaying 'green' does the signal device wait before starting to broadcast countdown radio signals?",
-      "answerOptions": [
-        {
-          "text": "$10\\text{ seconds}$ ($10,000\\text{ ms}$)",
-          "rationale": "The green phase lasts $20\\text{ seconds}$ in total; after waiting $10,000\\text{ ms}$ ($10\\text{ seconds}$), it begins transmitting the final 10-second countdown.",
-          "isCorrect": true
-        },
-        {
-          "text": "$20\\text{ seconds}$ ($20,000\\text{ ms}$)",
-          "rationale": "Waiting $20,000\\text{ ms}$ is the delay used after displaying 'red', not during the green phase countdown initiation.",
-          "isCorrect": false
-        },
-        {
-          "text": "$5\\text{ seconds}$ ($5,000\\text{ ms}$)",
-          "rationale": "A 5-second delay would start the countdown too early during a 20-second signal cycle.",
-          "isCorrect": false
-        },
-        {
-          "text": "$1\\text{ second}$ ($1,000\\text{ ms}$)",
-          "rationale": "$1,000\\text{ ms}$ is the interval between each countdown number decrementation, not the initial waiting delay.",
-          "isCorrect": false
-        }
-      ],
-      "hint": "The signal stays green for 20 seconds total, and the countdown warns pedestrians during the last 10 seconds."
+      "hint": "\ubb3c\ub9ac \ucf00\uc774\ube14 \uc9c1\uc811 \uc5f0\uacb0 \ubc29\uc2dd\uacfc \uacf5\uae30 \uc911 \uc2e0\ud638 \uc804\ud30c \ubc29\uc2dd\uc758 \ubcf4\uc548\uc131 \ucc28\uc774\ub97c \ube44\uad50\ud574 \ubcf4\uc138\uc694."
     }
   ]
 }

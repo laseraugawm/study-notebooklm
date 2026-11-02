@@ -1,121 +1,101 @@
-# IoT Quiz
+# 사물인터넷 퀴즈
 
 ## Question 1
-In the clap-controlled light experiment using the micro:bit, what is the valid numerical range for input sound detected by the built-in microphone, and what threshold value was set in the textbook algorithm to trigger a state change?
+생활 속 사물 인터넷(IoT) 시스템을 구성하기 위한 필수 요소로 교과서에 제시된 3가지 구성 장치에 해당하지 않는 것은 무엇인가?
 
-- [x] Range: $0$ to $255$; Threshold: $100$
-- [ ] Range: $-1024$ to $+1024$; Threshold: $100$
-- [ ] Range: $0$ to $100$; Threshold: $50$
-- [ ] Range: $0$ to $1024$; Threshold: $500$
+- [ ] 주변 상태나 물리적 변화를 인지하는 센서
+- [ ] 사물 간 데이터를 주고받기 위한 통신 장치
+- [ ] 센서 신호를 받아 사물의 동작을 제어하는 처리 장치
+- [x] 화면 그래픽을 고속으로 처리하는 전용 그래픽 카드의 처리 장치
 
-**Hint:** Consider the standard 8-bit integer range used for sound intensity input on the micro:bit.
+**Hint:** 사물이 주변을 인지하고, 신호를 전달하며, 해당 동작을 결정해 구동하는 기본 흐름을 생각해 보세요.
 
 ## Question 2
-In the clap-controlled light algorithm, why is a $0.5$-second ($500\text{ ms}$) pause executed immediately after detecting a clap sound?
+마이크로비트의 내장 마이크를 이용하여 손뼉 소리로 LED(전등)를 켜고 끄는 실습 중, 큰 소리를 감지한 직후 0.5초 동안 일시 중지하는 코드를 포함하는 주요 이유는 무엇인가?
 
-- [x] To prevent a single physical clap from being registered multiple times consecutively.
-- [ ] To give the LED display screen sufficient time to charge before turning on.
-- [ ] To automatically reset the internal state variable `tag` back to $0$.
-- [ ] To allow the micro:bit to switch from MakeCode block mode to Python text mode.
+- [ ] 마이크 센서의 전력 소비를 줄이기 위해
+- [x] 손뼉을 한 번 쳤을 때 여러 번 친 것으로 중복 인식되는 것을 방지하기 위해
+- [ ] 소리 감지 기준 값(100)을 주변 환경에 맞게 자동 재설정하기 위해
+- [ ] LED의 밝기를 최대 단계로 일정하게 유지하기 위해
 
-**Hint:** Think about how fast program loops execute relative to the duration of a sound wave in air.
+**Hint:** 박수를 한 번만 쳤을 때 발생할 수 있는 입력의 중복 처리 문제를 떠올려 보세요.
 
 ## Question 3
-In the restaurant calling system activity using multiple micro:bits, what rule must be followed regarding the radio group settings?
+손뼉을 쳐서 LED를 제어하는 마이크로비트 프로그램을 컴퓨터 화면의 시뮬레이터로 테스트할 때 주의해야 할 점으로 올바른 설명은 무엇인가?
 
-- [x] All table devices and the display device belonging to the same group must share the exact same radio group number.
-- [ ] Each table device must use a unique radio group number that is different from the display device.
-- [ ] The display device must cycle through radio group numbers every second to scan for tables.
-- [ ] Radio group numbers are fixed by hardware and cannot be customized in software.
+- [x] 소리 크기 값을 100 이상으로 잠시 올렸다가 빠르게 100 이하로 내려야 한다.
+- [ ] 시뮬레이터에서는 마이크 입력을 테스트할 수 없으므로 반드시 라디오 신호로 대체해야 한다.
+- [ ] 소리 크기 범위를 마이크로비트 한계치인 -1024부터 +1024 사이로 설정해야 한다.
+- [ ] 모니터 화면 테스트 시에는 변수 tag의 초깃값을 항상 1로 지정해야 동작한다.
 
-**Hint:** Consider how devices filter wireless broadcasts so that signals from one table group do not interfere with adjacent groups.
+**Hint:** 소리 크기 값이 100 이상인 상태로 계속 유지될 때 발생하는 동작을 생각해 보세요.
 
 ## Question 4
-In the pedestrian signal light activity, how does the mobile receiving device alter its acoustic warning when the remaining time drops to $5$ seconds or below ($5$ down to $1$)?
+음식점 호출 장치 만들기 실습에서 여러 모둠이 동시에 실습을 진행할 때, 자신의 모둠 기기끼리만 올바르게 통신하기 위해 맞춰야 하는 필수 설정은 무엇인가?
 
-- [x] It changes the tone output from 'Mi' to a higher-pitched 'Sol' note.
-- [ ] It switches the tone output from 'Sol' down to a lower-pitched 'Do' note.
-- [ ] It increases the duration of the 'Mi' tone from $500\text{ ms}$ to $1000\text{ ms}$.
-- [ ] It mutes all sound alerts and relies exclusively on visual LED numbers.
+- [x] 모든 마이크로비트의 라디오 그룹을 동일한 번호로 설정한다.
+- [ ] 모든 마이크로비트에 테이블 번호를 1번으로 통일하여 설정한다.
+- [ ] 가속도 센서의 x축 측정 범위를 서로 다르게 코딩한다.
+- [ ] 모둠원 전체의 마이크로비트 수신 기능을 꺼두고 송신 전용으로 지정한다.
 
-**Hint:** Recall how musical pitch changes to indicate heightened urgency as time runs out.
+**Hint:** 서로 다른 무선 채널이나 구역을 나누어 혼선을 방지하는 통신 설정 항목입니다.
 
 ## Question 5
-In the safety monitoring device attached to a bathroom door, how is inactivity detected using x-axis acceleration readings $a$ and $b$ taken $100\text{ ms}$ apart?
+음식점 호출 장치 실습에서 테이블용 마이크로비트의 A 버튼을 눌렀을 때, 호출을 확인하기 위해 테이블용 장치 자체에 표시되는 화면 동작은 무엇인가?
 
-- [x] Inactivity is recorded if $a - b < 100$.
-- [ ] Inactivity is recorded if $a + b > 1024$.
-- [ ] Inactivity is recorded if $a \times b = 0$.
-- [ ] Inactivity is recorded if $a - b > 500$.
+- [x] LED 화면에 1초 동안 'V'가 표시된 후 사라진다.
+- [ ] LED 화면에 설정된 라디오 그룹 번호가 5초간 스크롤된다.
+- [ ] 스피커에서 '솔'과 '미' 음이 0.5초씩 출력된다.
+- [ ] LED 화면 전체가 0.5초 간격으로 3번 깜빡인 후 꺼진다.
 
-**Hint:** Consider whether movement creates a large difference or a small difference between two consecutive sensor readings.
+**Hint:** 테이블을 이용하는 손님이 버튼이 제대로 눌렸는지 눈으로 확인할 수 있는 알파벳 형태의 체크 표시입니다.
 
 ## Question 6
-In the bathroom door monitoring system, a `count` threshold of $100$ represents $10\text{ seconds}$ of inactivity (with each check taking $100\text{ ms}$). To extend this movement detection threshold to $5\text{ hours}$, what must the target `count` value be?
+보행 신호등 알림 실습에서 초록색 신호가 켜진 뒤 10초 후에 휴대 전화 장치로 라디오 카운트다운 신호(10~1)를 보낸다. 휴대 전화 장치가 10부터 6까지의 신호를 받을 때와 5부터 1까지의 신호를 받을 때 내는 소리의 차이로 올바른 것은 무엇인가?
 
-- [x] $180,000$
-- [ ] $18,000$
-- [ ] $36,000$
-- [ ] $500,000$
+- [ ] 10~6을 받을 때는 높은 '솔'음, 5~1을 받을 때는 낮은 '미'음을 500ms 동안 출력한다.
+- [x] 10~6을 받을 때는 '미'음, 5~1을 받을 때는 이보다 높은 '솔'음을 500ms 동안 출력한다.
+- [ ] 10~6을 받을 때는 소리를 내지 않고, 5~1을 받을 때만 1초마다 경고음을 낸다.
+- [ ] 10~6을 받을 때는 '도'음, 5~1을 받을 때는 '레'음을 100ms 동안 짧게 출력한다.
 
-**Hint:** Calculate the total number of $100\text{ ms}$ sampling intervals contained within $5\text{ hours}$ ($5 \times 3,600\text{ seconds}$). 
+**Hint:** 신호가 바뀌기 직전 마지막 5초 동안 보행자에게 경고를 강화하기 위해 음높이가 어떻게 변하는지 생각해 보세요.
 
 ## Question 7
-According to the networking concepts presented in the material, which device is required to connect an internal private network to an external network like the Internet?
+위험 방지 장치(화장실 문 부착 장치) 실습에서 문이 오랫동안 움직이지 않는 이상 징후를 감지하기 위해 사용한 마이크로비트 내장 센서와 측정 조건은 무엇인가?
 
-- [x] Router
-- [ ] Switch
-- [ ] Hub
-- [ ] Access Point (AP)
+- [ ] 빛 센서를 이용해 화장실 조명의 밝기 변화를 측정한다.
+- [x] 가속도 센서의 x축 값 차이를 100ms 간격으로 측정한다.
+- [ ] 온도 센서를 이용하여 10초 동안의 온도 저하를 측정한다.
+- [ ] 소리 감지 센서를 이용해 연속 10초간 소음 유무를 판단한다.
 
-**Hint:** Think about the device responsible for routing traffic between distinct, separate network boundaries.
+**Hint:** 물체의 기울어짐이나 흔들림, 가속 변화를 감지하는 센서와 축 설정을 확인해 보세요.
 
 ## Question 8
-Which short-range wireless communication technology operates typically within $10\text{ meters}$ and is commonly used to connect devices like wireless earphones and AI speakers?
+화장실 문 부착 장치 알고리즘에서 100ms마다 움직임을 확인하여 $a - b < 100$일 때 count를 1씩 증가시킨다. count가 100이 되면 10초 동안 움직임이 없다고 판단하여 'danger' 신호를 전송한다. 이 위험 감지 기준 시간을 10초에서 '5시간'으로 늘리고자 할 때, 알고리즘 조건문에서 비교해야 하는 count 값은 얼마인가?
 
-- [x] Bluetooth
-- [ ] Wi-Fi
-- [ ] NFC
-- [ ] Electronic Tag (RFID)
+- [ ] 1,800
+- [ ] 18,000
+- [x] 180,000
+- [ ] 1,800,000
 
-**Hint:** Focus on the personal area network standard standardly used for low-power audio streaming over short distances.
+**Hint:** 1초 동안 증가하는 count 값은 10입니다. 5시간을 초(s) 단위로 환산한 후 10을 곱해 보세요.
 
 ## Question 9
-What visual feedback appears on a table device's LED matrix immediately after a user presses Button A in the restaurant calling system?
+컴퓨터 네트워크 구성 시 내부 네트워크와 외부 네트워크(인터넷)를 서로 연결해 주고 최적의 경로를 설정해 주는 장비는 무엇인가?
 
-- [x] A checkmark ('V') is displayed for 1 second.
-- [ ] The assigned table number scrolls across the matrix.
-- [ ] All 25 LEDs remain continuously lit until serviced.
-- [ ] A bell icon flashes accompanied by a chime.
+- [ ] 허브 (Hub)
+- [x] 라우터 (Router)
+- [ ] 스위치 (Switch)
+- [ ] 액세스 포인트 (Access Point)
 
-**Hint:** Recall the single character used to give immediate visual feedback to the customer that their button press was registered.
+**Hint:** 서로 다른 네트워크 간에 데이터를 전송할 수 있도록 통로를 연결하는 장비입니다.
 
 ## Question 10
-According to the micro:bit v2 hardware layout, which component is located on the FRONT face of the board?
+유선 네트워크와 무선 네트워크의 특징을 비교한 설명으로 옳지 않은 것은 무엇인가?
 
-- [x] Built-in microphone
-- [ ] Radio antenna
-- [ ] System speaker
-- [ ] Accelerometer sensor
+- [ ] 유선 네트워크는 물리적인 연결 선을 사용해야 하는 단점이 있다.
+- [ ] 무선 네트워크는 선을 사용하지 않아 공간 이동이 자유롭다.
+- [x] 유선 네트워크는 무선 네트워크에 비해 상대적으로 보안에 취약하다.
+- [ ] 무선 네트워크는 유선 네트워크에 비해 데이터 전송 시 신호 간섭의 영향을 받을 수 있다.
 
-**Hint:** Think about which component needs to receive user sound input directly from the front user perspective.
-
-## Question 11
-When running the clapping light program in the web browser simulator without a physical micro:bit connected, what issue occurs if the sound level slider remains above $100$ continuously?
-
-- [x] The simulator continually registers loud sound, causing the LED to repeatedly flash ON and OFF.
-- [ ] The MakeCode editor crashes and automatically resets all declared variables.
-- [ ] The code execution automatically switches from Block coding to Python mode.
-- [ ] The virtual speaker emits an error beep and disables sound input.
-
-**Hint:** Consider how continuous detection of sound above threshold re-triggers the state toggle logic repeatedly.
-
-## Question 12
-In the pedestrian signal light algorithm, how long after displaying 'green' does the signal device wait before starting to broadcast countdown radio signals?
-
-- [x] $10\text{ seconds}$ ($10,000\text{ ms}$)
-- [ ] $20\text{ seconds}$ ($20,000\text{ ms}$)
-- [ ] $5\text{ seconds}$ ($5,000\text{ ms}$)
-- [ ] $1\text{ second}$ ($1,000\text{ ms}$)
-
-**Hint:** The signal stays green for 20 seconds total, and the countdown warns pedestrians during the last 10 seconds.
+**Hint:** 물리 케이블 직접 연결 방식과 공기 중 신호 전파 방식의 보안성 차이를 비교해 보세요.

@@ -1,101 +1,101 @@
-# Physical Computing Quiz
+# 사물인터넷 퀴즈
 
 ## Question 1
-In a physical computing system, which device receives signals from sensors, processes the information, and controls output devices?
+피지컬 컴퓨팅을 구성하는 주요 장치 중 '센서'의 역할에 관한 설명으로 가장 올바른 것은?
 
-- [x] Microcontroller
-- [ ] Actuator
-- [ ] Sensor
-- [ ] Database
+- [ ] 센서로 얻은 정보를 분석하고 액추에이터를 제어하는 처리 장치이다.
+- [ ] 마이크로컨트롤러의 제어를 받아 물리적으로 구동하는 출력 장치이다.
+- [x] 온도, 밝기 등 주변의 환경과 상황을 인식하는 입력 장치이다.
+- [ ] 수집된 데이터를 암호화하여 외부 침입을 탐지하는 보안 기술이다.
 
-**Hint:** Consider the processing hub in physical computing that acts as the decision-maker between inputs and outputs.
+**Hint:** 주변의 물리적 변화나 상황을 처음으로 받아들이는 '입력' 기능에 주목해 보세요.
 
 ## Question 2
-What is the correct sequence of steps involved in an IoT system operation, as demonstrated in a smart home security setup?
+사물 인터넷(IoT) 기반 스마트 홈 보안 시스템의 동작 단계 중, '동작 센서로 문 열림 감지 신호가 발생'하는 단계는 어디에 해당하는가?
 
-- [x] Data Collection $\rightarrow$ Data Transmission $\rightarrow$ Data Processing $\rightarrow$ Service Provision
-- [ ] Data Transmission $\rightarrow$ Data Collection $\rightarrow$ Data Processing $\rightarrow$ Service Provision
-- [ ] Data Collection $\rightarrow$ Data Processing $\rightarrow$ Data Transmission $\rightarrow$ Service Provision
-- [ ] Data Processing $\rightarrow$ Data Collection $\rightarrow$ Service Provision $\rightarrow$ Data Transmission
+- [ ] 서비스 제공 단계
+- [x] 데이터 수집 단계
+- [ ] 데이터 처리 단계
+- [ ] 데이터 저장 단계
 
-**Hint:** Think about how information flows logically from the surrounding environment to the final automated response.
+**Hint:** 센서가 현실 세계의 변화를 인식하여 첫 신호를 만드는 단계를 생각해 보세요.
 
 ## Question 3
-Why is blockchain technology combined with IoT sensors in building safety management systems?
+노후 건축물 안전 관리에 사물 인터넷(IoT)과 블록체인 기술을 융합하여 적용했을 때 얻을 수 있는 핵심 이점은 무엇인가?
 
-- [x] It prevents data tampering and enables transparent history management across distributed systems.
-- [ ] It speeds up the physical response time of environmental tilt sensors.
-- [ ] It centralizes all structural data into a single master server for easier administration.
-- [ ] It eliminates the need to install physical sensors on old buildings.
+- [x] 실시간 수집된 데이터의 위변조가 차단되어 데이터의 신뢰성과 보안성이 크게 향상된다.
+- [ ] 단일 중앙 서버에 전 데이터가 집중 보관되어 데이터 관리 비용이 줄어든다.
+- [ ] 건물의 수명을 인위적으로 연장하여 구조적 균열 발생 자체를 물리적으로 방지한다.
+- [ ] 사람이 현장에서 일일이 점검한 서면 보고서의 작성 과정을 자동화한다.
 
-**Hint:** Reflect on the main security weakness of raw IoT sensor data when verifying data integrity.
+**Hint:** 기존 IoT 데이터의 한계였던 '보안 위험'과 '데이터 위변조 검증 불가'를 해결하는 블록체인의 특성을 떠올려 보세요.
 
 ## Question 4
-What defines the primary operation of a Smart Grid in energy management?
+교과서에서 설명하는 '블록체인(Blockchain)' 기술의 특성으로 옳지 않은 것은?
 
-- [x] Combining ICT with the electricity grid to exchange real-time power data between suppliers and consumers.
-- [ ] Replacing all non-renewable power plants strictly with localized solar panels.
-- [ ] Automatically shutting off industrial power lines during peak hours to protect residential users.
-- [ ] Storing all excess generated power exclusively in smart home appliances.
+- [ ] 데이터를 '블록'이라는 작은 단위로 나누어 체인 형태로 연결하여 저장한다.
+- [x] 네트워크 중심에 있는 단 하나의 대형 서버가 모든 정보값을 전담하여 유지·갱신한다.
+- [ ] 네트워크에 연결된 다수의 컴퓨팅 시스템이 동시에 정보값을 유지하고 갱신한다.
+- [ ] 암호화된 인증을 사용하고 공유 복사본을 보유하여 보안성과 신뢰성이 뛰어나다.
 
-**Hint:** Focus on how information technology changes the traditional one-way flow of electricity distribution into a two-way interaction.
+**Hint:** 데이터가 중앙 관리 기관 한 곳에만 집중되는 구조인지, 여러 기기에 나누어져 관리되는 구조인지 확인하세요.
 
 ## Question 5
-Which pair of technologies is primarily used in IoT systems to safeguard stored and transmitted data against unauthorized access and hacking?
+기존의 전력망에 정보 통신 기술(ICT)을 융합하여 전기 공급자와 소비자가 실시간으로 전력 정보를 교환함으로써 에너지를 효율적으로 사용할 수 있게 하는 시스템은?
 
-- [x] Encryption and Intrusion Detection Systems
-- [ ] Actuators and microcontrollers
-- [ ] Relational databases and cloud computing
-- [ ] Motion sensors and light sensors
+- [x] 스마트 그리드
+- [ ] 스마트 헬스케어
+- [ ] 스마트 공장
+- [ ] 스마트 빌딩
 
-**Hint:** Think about methods used to make data unreadable to unauthorized parties and to detect network intrusions.
+**Hint:** '전력망(Grid)'에 정보 기술이 접목되어 에너지 효율성을 높이는 용어입니다.
 
 ## Question 6
-How does an IoT-enabled Smart Farm automate crop cultivation?
+사물 인터넷 구현에 필요한 기술 중 '저장 기술'에 대한 설명으로 가장 적절한 것은?
 
-- [x] By sensing environmental factors like temperature and humidity to automatically trigger watering and climate controls.
-- [ ] By altering the biological requirement of crops so they no longer need sunlight or water.
-- [ ] By replacing physical fields entirely with virtual simulation software.
-- [ ] By forcing farmers to manually record sensor readings into daily logs.
+- [ ] 온도, 가속도 등 주변 환경 신호를 감지하고 측정하는 기술이다.
+- [x] 데이터베이스 기술이나 클라우드 컴퓨팅 기술 등을 활용하여 모인 데이터를 관리한다.
+- [ ] 해킹을 방지하기 위해 데이터를 암호화하고 침입 탐지 시스템을 도입하는 기술이다.
+- [ ] 소프트웨어를 통해 데이터를 분석하고 사용자에게 필요한 맞춤형 서비스를 제공한다.
 
-**Hint:** Consider how sensors and control systems interact to maintain environmental factors like humidity and temperature.
+**Hint:** 대용량의 사물 인터넷 데이터를 효과적으로 관리·보관하는 컴퓨팅 인프라 기술을 선택하세요.
 
 ## Question 7
-Which statement accurately describes the structural framework of blockchain technology?
+사물 인터넷이 적용된 분야와 그 주요 사용 사례가 올바르게 짝지어진 것은?
 
-- [x] Data is grouped into blocks connected in a chain, with all connected computing systems maintaining identical copies.
-- [ ] A single central server stores all blocks and dictates updates to connected clients.
-- [ ] Any user on the network can alter historical block data without authentication.
-- [ ] Information is updated only when connected devices are completely disconnected from the network.
+- [x] 스마트 빌딩 - 스마트 주차 시스템 및 출입문 자동 제어 시스템
+- [ ] 스마트팜 - 자율주행 자동차의 제어 및 교통 신호 체계 자동 조정
+- [ ] 스마트 헬스케어 - 생산 라인 관리 자동화를 통한 제품 제조 비용 절감
+- [ ] 스마트 공장 - 환자의 심전도 및 혈압을 실시간 모니터링하여 원격 진료 제공
 
-**Hint:** Recall how data is grouped, chained together, and distributed among participants in a blockchain network.
+**Hint:** 건물 자체의 공간 활용과 관리 효율성을 높이는 사례를 연결해 보세요.
 
 ## Question 8
-What is the defining function of an actuator (driving device) within a physical computing environment?
+피지컬 컴퓨팅 시스템에서 마이크로컨트롤러의 제어 명령에 따라 실제 물리적인 동작을 수행하는 장치는?
 
-- [x] Operating physically in response to control signals sent by a microcontroller.
-- [ ] Gathering ambient information like light and temperature from the physical environment.
-- [ ] Storing structured sensor data systematically for long-term database management.
-- [ ] Transmitting encrypted network packets over the internet.
+- [x] 액추에이터(Actuator)
+- [ ] 마이크로컨트롤러(Microcontroller)
+- [ ] 센서(Sensor)
+- [ ] 데이터베이스(Database)
 
-**Hint:** Think about which component creates physical motion or state changes in the real world.
+**Hint:** 모터나 스위치처럼 실제 물리적 운동이나 동작을 일으키는 '구동기'의 명칭을 생각해 보세요.
 
 ## Question 9
-Which service represents a key application of IoT in Smart Healthcare?
+사물 인터넷 기술 요소 중 '전송 및 저장되는 데이터의 보안 및 해킹 방지를 위해 암호화, 침입 탐지 시스템 등의 기술을 적용하는 분야'는 무엇인가?
 
-- [x] Continuously monitoring personal metrics like heart rate to enable remote diagnosis and care.
-- [ ] Automatically performing surgical operations without physician supervision.
-- [ ] Preventing all genetic diseases through automated smart home lighting.
-- [ ] Restricting patient data collection strictly to periodic annual hospital visits.
+- [x] 데이터 보안 기술
+- [ ] 센서 기술
+- [ ] 저장 기술
+- [ ] 분석 기술
 
-**Hint:** Consider how wearable devices communicate health status to medical professionals outside the clinic.
+**Hint:** 정보 유출 및 위변조 방지를 위해 암호화를 수행하는 기술 영역입니다.
 
 ## Question 10
-Which capability illustrates the practical implementation of IoT in a Smart Building?
+사물 인터넷으로 인한 사회 변화 설명 중 교과서 내용과 일치하지 않는 것은?
 
-- [x] Utilizing automated access control, sensor-based energy management, and real-time smart parking guidance.
-- [ ] Requiring security guards to manually monitor and record available parking spots on paper.
-- [ ] Turning off all security and fire detection systems during non-operational hours to save power.
-- [ ] Eliminating climate control systems in favor of manual window adjustments by occupants.
+- [ ] 스마트 교육: 교실이나 집 등 장소에 상관없이 학습자 수준에 맞는 교육 자료와 피드백을 제공받을 수 있다.
+- [x] 스마트 공장: 작업자가 현장에서 모든 제어를 수동으로 수행하여 생산 라인의 제어 권한을 보장한다.
+- [ ] 스마트 헬스케어: 심박수, 혈압 등을 실시간 모니터링하고 원격 진료로 병원에 직접 가지 않고도 진단받을 수 있다.
+- [ ] 스마트 홈: 집 밖에서도 스마트폰으로 집 안의 조명, 냉난방기 등을 상태 파악하고 제어할 수 있다.
 
-**Hint:** Think about how building management automates parking guidance, security, and energy consumption.
+**Hint:** 스마트 공장이 지향하는 '자동화' 및 '비용 절감'의 개념과 대립되는 설명이 있는지 확인하세요.
