@@ -42,7 +42,18 @@
    "applied": "rewrite",
    "review_secs": 31,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 2,
+   "reviewer": "deepseek",
+   "at": "2026-11-03T11:44:51+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 197
   }
  ],
- "done": false
+ "done": true
 }
