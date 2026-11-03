@@ -30,6 +30,36 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: HTTP Error 502: Bad Gateway"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "deepseek",
+   "at": "2026-11-03T15:36:01+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "산성과 염기성의 정의 서술",
+     "page": "49",
+     "add": "산의 공통적인 성질을 산성이라고 하고, 염기의 공통적인 성질을 염기성이라고 한다."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "표 1에서 두부(단백질)에 대한 산의 결과를 '변화 없음'으로 단정함",
+     "right": "교과서는 염기가 단백질을 녹인다고만 서술할 뿐, 산과 두부의 반응 결과는 명시하지 않는다.",
+     "page": "49"
+    }
+   ],
+   "unclear": [
+    "표 1에서 산의 두부(단백질) 결과를 '변화 없음'으로 제시하여, 교과서에 없는 결과를 실험 결과인 것처럼 오해할 수 있음"
+   ],
+   "applied": "note",
+   "review_secs": 60,
+   "rewrite_problems": [
+    "qwen: HTTP Error 409: Conflict",
+    "grok: HTTP Error 500: Internal Server Error",
+    "gemini_junghhco1: ## 보완 노트 (외부 리뷰 1차 · deepseek)"
+   ]
   }
  ],
  "done": false
