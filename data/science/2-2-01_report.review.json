@@ -20,7 +20,20 @@
    "applied": "rewrite",
    "review_secs": 29,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 2,
+   "reviewer": "deepseek",
+   "at": "2026-11-03T15:43:23+09:00",
+   "score": 9,
+   "missing": [],
+   "errors": [],
+   "unclear": [
+    "도입 만화 설명에서 '빛 에너지, 운동 에너지, 전기 에너지' 옷을 고르는 장면이라고 서술했으나, 교과서 원문에는 만화의 대사('오늘은 어떤 에너지로 변신해 볼까?')만 제시되어 있을 뿐 구체적으로 어떤 에너지 옷이 등장하는지는 확인할 수 없다. 학생이 교과서 그림에 없는 에너지 종류를 실제 내용으로 오해할 수 있다."
+   ],
+   "applied": "none",
+   "review_secs": 44
   }
  ],
- "done": false
+ "done": true
 }
