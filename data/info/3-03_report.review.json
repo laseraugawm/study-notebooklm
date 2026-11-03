@@ -231,6 +231,51 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-04T01:46:54+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "프로그래밍의 정의",
+     "page": "108",
+     "add": "프로그래밍은 프로그래밍 언어를 이용해서 프로그램을 만드는 과정이다."
+    },
+    {
+     "point": "파이썬의 특징 및 활용 분야",
+     "page": "108",
+     "add": "파이썬은 이해가 쉽고 활용도가 높으며, 다양한 라이브러리를 제공해 데이터 분석·인공지능 작업도 할 수 있다."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "구글 코랩 파일 생성 절차를 p.109로 서술",
+     "right": "구글 코랩 파일 생성 절차는 교과서 108쪽에 제시되어 있다.",
+     "page": "108"
+    },
+    {
+     "wrong": "변수 설명 및 지정 규칙을 p.110으로 서술",
+     "right": "변수의 정의와 변수명 지정 규칙은 교과서 109쪽에 제시되어 있다.",
+     "page": "109"
+    },
+    {
+     "wrong": "자료형의 정의와 종류를 p.111로 서술",
+     "right": "자료형의 정의와 종류는 교과서 110쪽에 제시되어 있다.",
+     "page": "110"
+    }
+   ],
+   "unclear": [
+    "개념정리의 일부 페이지 번호가 교과서 원문 실제 쪽수와 다르게 기재되어 있음"
+   ],
+   "applied": "note",
+   "review_secs": 713,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 409: Conflict",
+    "qwen: HTTP Error 502: Bad Gateway",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
