@@ -31,7 +31,20 @@
    "applied": "rewrite",
    "review_secs": 27,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 2,
+   "reviewer": "deepseek",
+   "at": "2026-11-03T09:57:41+09:00",
+   "score": 9,
+   "missing": [],
+   "errors": [],
+   "unclear": [
+    "'생각 발전소' 항목의 학교·식당·회사 그림 활동 설명에서 교과서 141쪽에는 구체적 실천 예시(자전거 통학, 분리배출, 계단 이용 등)가 명시되어 있지 않으나, 개념정리가 이를 교과서 내용인 것처럼 단정적으로 서술한 부분은 교과서 근거 범위를 벗어날 소지가 있어 학생이 오해할 수 있음"
+   ],
+   "applied": "none",
+   "review_secs": 229
   }
  ],
- "done": false
+ "done": true
 }
