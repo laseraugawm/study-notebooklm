@@ -1,0 +1,275 @@
+{
+  "title": "\uc9c1\uc120\ubc29\uc815\uc2dd \ud034\uc988",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "\uc810 $(x_1, y_1)$\uc744 \uc9c0\ub098\uace0 \uae30\uc6b8\uae30\uac00 $m$\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd \ubc0f \uc9c1\uc120\uc758 \uc131\uc9c8\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "\uae30\uc6b8\uae30\uac00 $0$\uc774\uace0 \uc810 $(x_1, y_1)$\uc744 \uc9c0\ub098\ub294 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc740 $y = y_1$\uc774\ub2e4.",
+          "isCorrect": true,
+          "rationale": "$x$\ucd95\uc5d0 \ud3c9\ud589\ud558\uac70\ub098 \uc77c\uce58\ud558\ub294 \uc9c1\uc120\uc740 \uae30\uc6b8\uae30\uac00 $0$\uc774\ubbc0\ub85c $y - y_1 = 0(x - x_1)$, \uc989 $y = y_1$\uc774 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$x_1 = x_2$\uc778 \uc11c\ub85c \ub2e4\ub978 \ub450 \uc810 $(x_1, y_1), (x_2, y_2)$\ub97c \uc9c0\ub098\ub294 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\ub294 $0$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$x_1 = x_2$\uc77c \ub54c\ub294 \ubd84\ubaa8 $x_2 - x_1 = 0$\uc774 \ub418\ubbc0\ub85c \uae30\uc6b8\uae30\ub97c \uc815\uc758\ud560 \uc218 \uc5c6\uc73c\uba70, $y$\ucd95\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120 $x = x_1$\uc774 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$x$\ucd95\uc5d0 \ud3c9\ud589\ud558\uac70\ub098 $x$\ucd95\uacfc \uc77c\uce58\ud558\ub294 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\ub294 $1$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$x$\ucd95\uc5d0 \ud3c9\ud589\ud558\uac70\ub098 $x$\ucd95\uacfc \uc77c\uce58\ud558\ub294 \uc9c1\uc120\uc740 $x$\uc758 \uac12\uc758 \ubcc0\ud654\uc5d0 \ub530\ub978 $y$\uc758 \uac12\uc758 \ubcc0\ud654\ub7c9\uc774 $0$\uc774\ubbc0\ub85c \uae30\uc6b8\uae30\uac00 $0$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y$\ucd95\uc5d0 \ud3c9\ud589\ud558\uace0 \uc810 $(x_1, y_1)$\uc744 \uc9c0\ub098\ub294 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc740 $y = x_1$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$y$\ucd95\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120 \uc704\uc5d0 \uc788\ub294 \ubaa8\ub4e0 \uc810\uc758 $x$\uc88c\ud45c\ub294 $x_1$\uc73c\ub85c \uc77c\uc815\ud558\ubbc0\ub85c \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc740 $x = x_1$\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "$x$\ucd95\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\uc640 \uc810\uc758 \uc88c\ud45c \ubcc0\ud654\uc5d0 \ub530\ub978 \uc9c1\uc120 \ud615\ud0dc\ub97c \ub5a0\uc62c\ub824 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "$x$\uc808\ud3b8\uc774 $a$, $y$\uc808\ud3b8\uc774 $b$ (\ub2e8, $ab \\neq 0$)\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \ubc14\ub974\uac8c \ub098\ud0c0\ub0b8 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$\\frac{x}{a} + \\frac{y}{b} = 1$",
+          "isCorrect": true,
+          "rationale": "\ub450 \uc808\ud3b8\uc758 \uc88c\ud45c $(a, 0)$\uacfc $(0, b)$\ub97c \uc9c0\ub098\ub294 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd \uacf5\uc2dd\uc5d0 \ub530\ub77c $\\frac{x}{a} + \\frac{y}{b} = 1$\uc774 \uc131\ub9bd\ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "$ax + by = 1$",
+          "isCorrect": false,
+          "rationale": "\uc774 \uc2dd\uc5d0 $x=a, y=0$\uc744 \ub300\uc785\ud558\uba74 $a^2=1$\uc774 \ub418\uc5b4 \uc77c\ubc18\uc801\uc778 \uc808\ud3b8 \uc870\uac74 $(a, 0)$\uc744 \ub9cc\uc871\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{x}{b} + \\frac{y}{a} = 1$",
+          "isCorrect": false,
+          "rationale": "$x$\uc808\ud3b8\uacfc $y$\uc808\ud3b8\uc758 \ubd84\ubaa8 \uc704\uce58\uac00 \uc11c\ub85c \ubc14\ub00c\uc5c8\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{x}{a} - \\frac{y}{b} = 1$",
+          "isCorrect": false,
+          "rationale": "\uc808\ud3b8 \uacf5\uc2dd\uc758 \uc911\uac04 \uc5f0\uc0b0 \ubd80\ud638\ub294 \uc74c\uc218\uac00 \uc544\ub2cc \uc591\uc218 \uacb0\ud569\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ub450 \uc810 $(a, 0)$\uacfc $(0, b)$\ub97c \uc9c0\ub098\ub294 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\ub294 \uc2dd\uc744 \uc0dd\uac01\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\ub450 \uc77c\ucc28\ubc29\uc815\uc2dd $ax + by + c = 0$\uacfc $a'x + b'y + c' = 0$ ($abc \\neq 0, a'b'c' \\neq 0$)\uc774 \ub098\ud0c0\ub0b4\ub294 \ub450 \uc9c1\uc120\uc774 \uc11c\ub85c \ud3c9\ud589\ud558\uae30 \uc704\ud55c \uc870\uac74\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$\\frac{a}{a'} = \\frac{b}{b'} \\neq \\frac{c}{c'}$",
+          "isCorrect": true,
+          "rationale": "\ub450 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30($-\\frac{a}{b} = -\\frac{a'}{b'}$)\ub294 \uc11c\ub85c \uac19\uace0 $y$\uc808\ud3b8($-\\frac{c}{b} \\neq -\\frac{c'}{b'}$)\uc740 \ub2ec\ub77c\uc57c \ud558\ubbc0\ub85c \uacc4\uc218\uc758 \ube44\uac00 $\\frac{a}{a'} = \\frac{b}{b'} \\neq \\frac{c}{c'}$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{a}{a'} = \\frac{b}{b'} = \\frac{c}{c'}$",
+          "isCorrect": false,
+          "rationale": "\uc0c1\uc218\ud56d\uc758 \ube44\uae4c\uc9c0 \ubaa8\ub450 \uac19\uc740 \uacbd\uc6b0\ub294 \ub450 \uc9c1\uc120\uc774 \ud3c9\ud589\ud55c \uac83\uc774 \uc544\ub2c8\ub77c \uc644\uc804\ud788 \uc77c\uce58\ud558\ub294 \uc870\uac74\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$aa' + bb' = 0$",
+          "isCorrect": false,
+          "rationale": "$aa' + bb' = 0$\uc740 \ub450 \uc9c1\uc120\uc774 \uc11c\ub85c \ud3c9\ud589\uc774 \uc544\ub2c8\ub77c \uc218\uc9c1\uc77c \uc870\uac74\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{a}{a'} \\neq \\frac{b}{b'}$",
+          "isCorrect": false,
+          "rationale": "$\\frac{a}{a'} \\neq \\frac{b}{b'}$\ub294 \ub450 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\uac00 \ub2ec\ub77c\uc11c \ud55c \uc810\uc5d0\uc11c \ub9cc\ub098\ub294 \uc870\uac74\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ud3c9\ud589 \uc870\uac74\uc740 \ub450 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\uac00 \uac19\uace0 $y$\uc808\ud3b8\uc740 \ub2ec\ub77c\uc57c \ud55c\ub2e4\ub294 \uc810\uc744 \uacc4\uc218\uc758 \ube44\ub85c \ub098\ud0c0\ub0b4 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\ub450 \uc9c1\uc120 $ax + by + c = 0$\uacfc $a'x + b'y + c' = 0$ ($ab \\neq 0, a'b' \\neq 0$)\uc774 \uc11c\ub85c \uc218\uc9c1\uc77c \ub54c, \uacc4\uc218 \uc0ac\uc774\uc758 \uad00\uacc4\uc2dd\uc73c\ub85c \ud56d\uc0c1 \uc131\ub9bd\ud558\ub294 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$aa' + bb' = 0$",
+          "isCorrect": true,
+          "rationale": "\ub450 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\uc758 \uacf1 $(-\\frac{a}{b}) \\times (-\\frac{a'}{b'}) = -1$\uc744 \uc815\ub9ac\ud558\uba74 $\\frac{aa'}{bb'} = -1 \\implies aa' + bb' = 0$\uc774 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$aa' - bb' = 0$",
+          "isCorrect": false,
+          "rationale": "\uae30\uc6b8\uae30\uc758 \uacf1\uc774 $-1$\uc774 \ub418\ub294 \uc2dd\uc744 \uc815\ub9ac\ud560 \ub54c \uc5f0\uc0b0 \ubd80\ud638 \uc624\ub958\uac00 \ubc1c\uc0dd\ud55c \uc2dd\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$ab' + a'b = 0$",
+          "isCorrect": false,
+          "rationale": "\uc774 \uc2dd\uc740 $aa' + bb' = 0$\uacfc \ub2e4\ub978 \uacc4\uc218\uc758 \uc870\ud569\uc73c\ub85c \uc218\uc9c1 \uc870\uac74\uacfc \ubb34\uad00\ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "$aa' + bb' = -1$",
+          "isCorrect": false,
+          "rationale": "\ud45c\uc900\ud615\uc5d0\uc11c\uc758 \uae30\uc6b8\uae30\uc758 \uacf1 $mm' = -1$\uacfc \uc77c\ubc18\ud615 \uacc4\uc218\uc758 \ud569 $aa' + bb' = 0$\uc744 \ud63c\ub3d9\ud55c \ud45c\ud604\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ub450 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\uc758 \uacf1\uc774 $-1$\uc784\uc744 \uc774\uc6a9\ud558\uc5ec \uc2dd\uc744 \uc815\ub9ac\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc810 $(3, -2)$\ub97c \uc9c0\ub098\uace0 \uc9c1\uc120 $y = \\frac{1}{2}x + 5$\uc5d0 \uc218\uc9c1\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc740?",
+      "answerOptions": [
+        {
+          "text": "$y = -2x + 4$",
+          "isCorrect": true,
+          "rationale": "\uc8fc\uc5b4\uc9c4 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\uac00 $\\frac{1}{2}$\uc774\ubbc0\ub85c \uc218\uc9c1\uc778 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30 $m$\uc740 $-2$\uc785\ub2c8\ub2e4. \uae30\uc6b8\uae30\uac00 $-2$\uc774\uace0 $(3, -2)$\ub97c \uc9c0\ub098\ub294 \uc9c1\uc120\uc740 $y - (-2) = -2(x - 3) \\implies y = -2x + 4$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y = 2x - 8$",
+          "isCorrect": false,
+          "rationale": "\uc218\uc9c1\uc778 \uae30\uc6b8\uae30\ub97c \uad6c\ud560 \ub54c \ubd80\ud638\ub97c \ubc14\uafb8\uc9c0 \uc54a\uace0 $m = 2$\ub85c \uc798\ubabb \uc801\uc6a9\ud55c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y = -\\frac{1}{2}x - \\frac{1}{2}$",
+          "isCorrect": false,
+          "rationale": "\uae30\uc6b8\uae30\uc758 \uc5ed\uc218\ub97c \ucde8\ud558\uc9c0 \uc54a\uace0 \ubd80\ud638\ub9cc \ubc14\uafbc \uc798\ubabb\ub41c \uae30\uc6b8\uae30\ub97c \uc801\uc6a9\ud588\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y = -2x - 2$",
+          "isCorrect": false,
+          "rationale": "\uc810 $(3, -2)$\ub97c \ub300\uc785\ud558\ub294 \uacfc\uc815\uc5d0\uc11c $y - (-2)$\uc758 \ubd80\ud638 \uacc4\uc0b0 \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ub450 \uc9c1\uc120\uc774 \uc218\uc9c1\uc774\uba74 \ub450 \uae30\uc6b8\uae30\uc758 \uacf1\uc774 $-1$\uc785\ub2c8\ub2e4."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\ud3c9\ud589\ud55c \ub450 \uc9c1\uc120 $3x + 4y - 2 = 0$\uacfc $3x + 4y + 8 = 0$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294?",
+      "answerOptions": [
+        {
+          "text": "$2$",
+          "isCorrect": true,
+          "rationale": "\ud55c \uc9c1\uc120 \uc704\uc758 \uc810 $(2, -1)$\uacfc \ub2e4\ub978 \uc9c1\uc120 $3x + 4y + 8 = 0$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c \uad6c\ud558\uba74 $d = \\frac{|3(2) + 4(-1) + 8|}{\\sqrt{3^2 + 4^2}} = \\frac{10}{5} = 2$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{6}{5}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790\uc5d0\uc11c \ub450 \uc0c1\uc218\ud56d\uc758 \ucc28 $|8 - (-2)| = 10$ \ub300\uc2e0 \ub450 \uc0c1\uc218\ud56d\uc758 \ud569 $8 + (-2) = 6$\uc73c\ub85c \uc798\ubabb \uacc4\uc0b0\ud588\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$10$",
+          "isCorrect": false,
+          "rationale": "\uc810\uacfc \uc9c1\uc120 \uc0ac\uc774 \uac70\ub9ac \uacf5\uc2dd\uc758 \ubd84\ubaa8 $\\sqrt{a^2 + b^2}$\ub97c \ub098\ub204\uc9c0 \uc54a\uace0 \ubd84\uc790\uac12\ub9cc \ucde8\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{10}{\\sqrt{7}}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8 \ud53c\ud0c0\uace0\ub77c\uc2a4 \uc815\ub9ac \uacc4\uc0b0\uc5d0\uc11c $a^2 + b^2$ \ub300\uc2e0 $a^2 - b^2 = 16 - 9 = 7$\uc744 \uc798\ubabb \uc0ac\uc6a9\ud588\uc2b5\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ud55c \uc9c1\uc120 \uc704\uc758 \uc784\uc758\uc758 \ud55c \uc810\uc744 \uc7a1\uace0, \uadf8 \uc810\uc5d0\uc11c \ub2e4\ub978 \uc9c1\uc120\uae4c\uc9c0\uc758 \uac70\ub9ac\ub97c \uad6c\ud558\ub294 \uacf5\uc2dd\uc744 \uc801\uc6a9\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc810 $(1, -2)$\uc640 \uc9c1\uc120 $2x - y + 5 = 0$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294?",
+      "answerOptions": [
+        {
+          "text": "$\\frac{9\\sqrt{5}}{5}$",
+          "isCorrect": true,
+          "rationale": "\uc810\uacfc \uc9c1\uc120 \uc0ac\uc774 \uac70\ub9ac \uacf5\uc2dd $d = \\frac{|a x_1 + b y_1 + c|}{\\sqrt{a^2 + b^2}}$\uc5d0 \ub300\uc785\ud558\uba74 $\\frac{|2(1) - (-2) + 5|}{\\sqrt{2^2 + (-1)^2}} = \\frac{9}{\\sqrt{5}} = \\frac{9\\sqrt{5}}{5}$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\sqrt{5}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790 \ub300\uc785 \uacfc\uc815\uc5d0\uc11c $y_1 = -2$ \ub300\uc785 \uc2dc $-(-2)$\uc758 \ubd80\ud638\ub97c $+2$\uac00 \uc544\ub2cc $-2$\ub85c \uc798\ubabb \uacc4\uc0b0\ud558\uc5ec \ubd84\uc790\uac00 $5$\uac00 \ub41c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{9}{5}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8 $\\sqrt{a^2 + b^2}$\uc5d0 \uc81c\uacf1\uadfc\uc744 \uc50c\uc6b0\uc9c0 \uc54a\uace0 $a^2 + b^2 = 5$\ub85c \ub098\ub208 \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$3$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8 \uacc4\uc218 \uacc4\uc0b0 \uc2dc \uc81c\uacf1\uc758 \ud569\uc774 \uc544\ub2cc \uc808\ub313\uac12\uc758 \ud569 $|2| + |-1| = 3$\uc73c\ub85c \uacc4\uc0b0\ud55c \uc798\ubabb\ub41c \uc811\uadfc\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uc810 $(x_1, y_1)$\uacfc \uc9c1\uc120 $ax + by + c = 0$ \uc0ac\uc774\uc758 \uac70\ub9ac \uacf5\uc2dd $d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$\ub97c \ud65c\uc6a9\ud558\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc2e4\uc218 $k$\uc758 \uac12\uc5d0 \uad00\uacc4\uc5c6\uc774 \uc77c\ucc28\ubc29\uc815\uc2dd $3x - y - 5 + k(x + y - 3) = 0$\uc774 \ub098\ud0c0\ub0b4\ub294 \uc9c1\uc120\uc774 \ud56d\uc0c1 \uc9c0\ub098\ub294 \uc815\uc810\uc758 \uc88c\ud45c\ub294?",
+      "answerOptions": [
+        {
+          "text": "$(2, 1)$",
+          "isCorrect": true,
+          "rationale": "$k$\uc5d0 \ub300\ud55c \ud56d\ub4f1\uc2dd\uc774 \ub418\ub824\uba74 $3x - y - 5 = 0$\uacfc $x + y - 3 = 0$\uc744 \ub3d9\uc2dc\uc5d0 \ub9cc\uc871\ud574\uc57c \ud569\ub2c8\ub2e4. \ub450 \uc5f0\ub9bd\ubc29\uc815\uc2dd\uc744 \ud480\uba74 $x = 2, y = 1$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$(1, 2)$",
+          "isCorrect": false,
+          "rationale": "\uc5f0\ub9bd\ubc29\uc815\uc2dd\uc744 \ud47c \ud6c4 $x$\uc88c\ud45c\uc640 $y$\uc88c\ud45c\uc758 \uc704\uce58\ub97c \uc11c\ub85c \ubc14\uafb8\uc5b4 \uc801\uc740 \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$(3, -5)$",
+          "isCorrect": false,
+          "rationale": "$k=0$\uc77c \ub54c\uc758 \uacc4\uc218\uc640 \uc0c1\uc218\ud56d\uc73c\ub85c\ub9cc \uc810\uc758 \uc88c\ud45c\ub97c \uc798\ubabb \ucd94\uc815\ud55c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$(2, -1)$",
+          "isCorrect": false,
+          "rationale": "$x=2$\ub97c $x+y-3=0$\uc5d0 \ub300\uc785\ud558\uc5ec $y$\ub97c \uad6c\ud558\ub294 \uacfc\uc815\uc5d0\uc11c \ubd80\ud638 \uacc4\uc0b0 \uc2e4\uc218\ub97c \ud55c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uc2e4\uc218 $k$\uc758 \uac12\uc5d0 \uad00\uacc4\uc5c6\uc774 \ud56d\uc0c1 \uc131\ub9bd\ud558\ub3c4\ub85d \ud558\ub294 $k$\uc5d0 \ub300\ud55c \ud56d\ub4f1\uc2dd \uac1c\ub150\uc744 \uc801\uc6a9\ud558\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc6d0\uc810 $O(0, 0)$\uacfc \ub450 \uc810 $A(x_1, y_1)$, $B(x_2, y_2)$\ub97c \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $OAB$\uc758 \ub113\uc774 $S$\ub97c \ub098\ud0c0\ub0b4\ub294 \uacf5\uc2dd\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$S = \\frac{1}{2}|x_1 y_2 - x_2 y_1|$",
+          "isCorrect": true,
+          "rationale": "\uc9c1\uc120 $OA$\uc758 \ubc29\uc815\uc2dd\uacfc \uc810 $B$ \uc0ac\uc774\uc758 \uac70\ub9ac, \uadf8\ub9ac\uace0 \uc120\ubd84 $OA$\uc758 \uae38\uc774\ub97c \uc774\uc6a9\ud558\uc5ec \ub113\uc774\ub97c \uacc4\uc0b0\ud558\uba74 $S = \\frac{1}{2}|x_1 y_2 - x_2 y_1|$\uc774 \uc720\ub3c4\ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$S = \\frac{1}{2}|x_1 y_1 - x_2 y_2|$",
+          "isCorrect": false,
+          "rationale": "\uc11c\ub85c \ub2e4\ub978 \uc810\uc758 $x$\uc88c\ud45c\uc640 $y$\uc88c\ud45c\ub97c \uad50\ucc28\ud574\uc11c \uacf1\ud558\uc9c0 \uc54a\uace0 \ub3d9\uc77c\ud55c \uc810\uc758 \uc88c\ud45c\ub07c\ub9ac \uacf1\ud55c \uc798\ubabb\ub41c \uacf5\uc2dd\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$S = |x_1 y_2 - x_2 y_1|$",
+          "isCorrect": false,
+          "rationale": "\uc0bc\uac01\ud615 \ub113\uc774 \uacf5\uc2dd\uc758 \uacc4\uc218\uc778 $\\frac{1}{2}$\uc744 \ub204\ub77d\ud55c \uc2dd\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$S = \\frac{1}{2}(x_1 y_2 + x_2 y_1)$",
+          "isCorrect": false,
+          "rationale": "\uc808\ub313\uac12 \uae30\ud638\uc640 \ub0b4\ubd80 \ube7c\uae30 \uc5f0\uc0b0\uc744 \ub367\uc148\uc73c\ub85c \uc798\ubabb \ud45c\uae30\ud55c \uc2dd\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uc6d0\uc810\uc744 \ud55c \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 \ub113\uc774\ub294 \ub450 \uc810 \uc88c\ud45c\uc758 \uc5c7\uac08\ub9b0 \uacf1\uc758 \ucc28\uc5d0 \uc808\ub313\uac12\uc744 \uc50c\uc6b0\uace0 $2$\ub85c \ub098\ub215\ub2c8\ub2e4."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc810 $(a, 2)$\ub97c \uc9c0\ub098\uace0 \uc9c1\uc120 $3x - y + 4 = 0$\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120\uc774 \uc810 $(2, 5)$\ub97c \uc9c0\ub0a0 \ub54c, \uc2e4\uc218 $a$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "$1$",
+          "isCorrect": true,
+          "rationale": "$3x - y + 4 = 0$\uacfc \ud3c9\ud589\ud558\ubbc0\ub85c \uae30\uc6b8\uae30\ub294 $3$\uc785\ub2c8\ub2e4. \uc810 $(2, 5)$\ub97c \uc9c0\ub098\ub294 \uc9c1\uc120\uc740 $y - 5 = 3(x - 2) \\implies y = 3x - 1$\uc785\ub2c8\ub2e4. \uc774 \uc9c1\uc120\uc774 $(a, 2)$\ub97c \uc9c0\ub098\ubbc0\ub85c $2 = 3a - 1 \\implies a = 1$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$-1$",
+          "isCorrect": false,
+          "rationale": "$3a = 3$\uc744 \uacc4\uc0b0\ud558\ub294 \uacfc\uc815\uc5d0\uc11c \ubd80\ud638\ub97c \uc624\uc778\ud558\uc5ec $-1$\ub85c \ub2f5\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$3$",
+          "isCorrect": false,
+          "rationale": "\uc9c1\uc120\uc758 \uae30\uc6b8\uae30 \uac12 $3$\uc744 \uadf8\ub300\ub85c $a$\uc758 \uac12\uc73c\ub85c \ucc29\uac01\ud55c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{5}{3}$",
+          "isCorrect": false,
+          "rationale": "\uc9c1\uc120\uc758 \ubc29\uc815\uc2dd $y = 3x - 1$ \ub300\uc2e0 $3x - y + 4 = 0$\uc5d0 \uc9c1\uc811 \ub300\uc785\ud558\uc5ec \uacc4\uc0b0\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ud3c9\ud589\ud55c \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\ub97c \ud30c\uc545\ud55c \ub4a4, \uc810 $(2, 5)$\ub97c \uc9c0\ub098\ub294 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uba3c\uc800 \uc644\uc131\ud574 \ubcf4\uc138\uc694."
+    }
+  ]
+}
