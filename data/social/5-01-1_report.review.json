@@ -63,7 +63,25 @@
    "applied": "rewrite",
    "review_secs": 36,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 2,
+   "reviewer": "qwen",
+   "at": "2026-11-03T09:38:38+09:00",
+   "score": 9,
+   "missing": [],
+   "errors": [
+    {
+     "wrong": "대륙별 인구 유입과 유출에서 아시아의 인구 유출을 '약 −2,300만 명'으로 서술함",
+     "right": "교과서 p.128의 '대륙별 인구 유입과 인구 유출' 그래프에서 아시아의 인구 유출은 약 -2,500만 명(2,500만 명 유출)임",
+     "page": "128"
+    }
+   ],
+   "unclear": [],
+   "applied": "rewrite",
+   "review_secs": 217,
+   "reviser": "deepseek"
   }
  ],
- "done": false
+ "done": true
 }
