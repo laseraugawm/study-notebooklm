@@ -30,7 +30,18 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-03T21:48:54+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 337
   }
  ],
- "done": false
+ "done": true
 }
