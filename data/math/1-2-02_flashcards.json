@@ -1,0 +1,1031 @@
+{
+  "title": "\uc6d0\uacfc\uc9c1\uc120 \ud50c\ub798\uc2dc\uce74\ub4dc",
+  "cards": [
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uc758 \uc911\uc2ec\uacfc \uc9c1\uc120 \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c $d$, \uc6d0\uc758 \ubc18\uc9c0\ub984\uc758 \uae38\uc774\ub97c $r$\uc774\ub77c \ud560 \ub54c, \uc6d0\uacfc \uc9c1\uc120\uc774 \uc11c\ub85c \ub2e4\ub978 \ub450 \uc810\uc5d0\uc11c \ub9cc\ub0a0 \uc870\uac74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$d < r$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uc758 \uc911\uc2ec\uacfc \uc9c1\uc120 \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c $d$, \uc6d0\uc758 \ubc18\uc9c0\ub984\uc758 \uae38\uc774\ub97c $r$\uc774\ub77c \ud560 \ub54c, \uc6d0\uacfc \uc9c1\uc120\uc774 \ud55c \uc810\uc5d0\uc11c \ub9cc\ub0a0(\uc811\ud560) \uc870\uac74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$d = r$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uc758 \uc911\uc2ec\uacfc \uc9c1\uc120 \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c $d$, \uc6d0\uc758 \ubc18\uc9c0\ub984\uc758 \uae38\uc774\ub97c $r$\uc774\ub77c \ud560 \ub54c, \uc6d0\uacfc \uc9c1\uc120\uc774 \ub9cc\ub098\uc9c0 \uc54a\uc744 \uc870\uac74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$d > r$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $l$\uc774 \uc6d0 $O$\uc640 \ud55c \uc810\uc5d0\uc11c \ub9cc\ub0a0 \ub54c, \uc774 \uc9c1\uc120 $l$\uc744 \uc6d0 $O$\uc758 \ubb34\uc5c7\uc774\ub77c\uace0 \ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc811\uc120"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uacfc \uc811\uc120\uc774 \ub9cc\ub098\ub294 \ub2e8 \ud558\ub098\uc758 \uc810\uc744 \ubb34\uc5c7\uc774\ub77c\uace0 \ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc811\uc810"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(2, -1)$\uacfc \uc9c1\uc120 $5x-12y+4=0$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $(x+1)^2+(y-2)^2=8$\uc758 \uc911\uc2ec\uc758 \uc88c\ud45c\uc640 \ubc18\uc9c0\ub984\uc758 \uae38\uc774\ub294 \uac01\uac01 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc2ec: $(-1, 2)$, \ubc18\uc9c0\ub984: $2\\sqrt{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $(x+1)^2+(y-2)^2=8$\uc758 \uc911\uc2ec $(-1, 2)$\uc640 \uc9c1\uc120 $y=x-1$($x-y-1=0$) \uc0ac\uc774\uc758 \uac70\ub9ac $d$\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$d = 2\\sqrt{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $(x+1)^2+(y-2)^2=8$\uacfc \uc9c1\uc120 $y=x-1$\uc758 \uc704\uce58 \uad00\uacc4\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud55c \uc810\uc5d0\uc11c \ub9cc\ub09c\ub2e4. (\uc811\ud55c\ub2e4.)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=r^2$\uacfc \uc9c1\uc120 $y=mx+n$\uc744 \uc5f0\ub9bd\ud558\uc5ec $y$\ub97c \uc18c\uac70\ud560 \ub54c \uc5bb\uc5b4\uc9c0\ub294 $x$\uc5d0 \ub300\ud55c \uc774\ucc28\ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(m^2+1)x^2 + 2mnx + n^2 - r^2 = 0$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uacfc \uc9c1\uc120\uc758 \uad50\uc810\uc758 \uac1c\uc218\ub294 \uc5f0\ub9bd\ud558\uc5ec \ub9cc\ub4e0 \uc774\ucc28\ubc29\uc815\uc2dd\uc758 \uc5b4\ub5a4 \uac1c\uc218\uc640 \uc77c\uce58\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc774\ucc28\ubc29\uc815\uc2dd\uc758 \uc2e4\uadfc\uc758 \uac1c\uc218"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uacfc \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uc5f0\ub9bd\ud55c \uc774\ucc28\ubc29\uc815\uc2dd\uc758 \ud310\ubcc4\uc2dd\uc744 $D$\ub77c \ud560 \ub54c, $D > 0$\uc774\uba74 \uc704\uce58 \uad00\uacc4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc11c\ub85c \ub2e4\ub978 \ub450 \uc810\uc5d0\uc11c \ub9cc\ub09c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uacfc \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uc5f0\ub9bd\ud55c \uc774\ucc28\ubc29\uc815\uc2dd\uc758 \ud310\ubcc4\uc2dd\uc744 $D$\ub77c \ud560 \ub54c, $D = 0$\uc774\uba74 \uc704\uce58 \uad00\uacc4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud55c \uc810\uc5d0\uc11c \ub9cc\ub09c\ub2e4. (\uc811\ud55c\ub2e4.)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uacfc \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uc5f0\ub9bd\ud55c \uc774\ucc28\ubc29\uc815\uc2dd\uc758 \ud310\ubcc4\uc2dd\uc744 $D$\ub77c \ud560 \ub54c, $D < 0$\uc774\uba74 \uc704\uce58 \uad00\uacc4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub9cc\ub098\uc9c0 \uc54a\ub294\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=5$\uc640 \uc9c1\uc120 $y=2x+k$\ub97c \uc5f0\ub9bd\ud558\uc5ec \uc815\ub9ac\ud55c $x$\uc5d0 \ub300\ud55c \uc774\ucc28\ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$5x^2 + 4kx + k^2 - 5 = 0$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc774\ucc28\ubc29\uc815\uc2dd $5x^2+4kx+k^2-5=0$\uc758 \ud310\ubcc4\uc2dd $D$\ub97c $k$\uc5d0 \ub300\ud55c \uc2dd\uc73c\ub85c \uc815\ub9ac\ud558\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$D = -4k^2 + 100$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=5$\uc640 \uc9c1\uc120 $y=2x+k$\uac00 \uc11c\ub85c \ub2e4\ub978 \ub450 \uc810\uc5d0\uc11c \ub9cc\ub0a0 \ub54c, \uc2e4\uc218 $k$\uc758 \uac12\uc758 \ubc94\uc704\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-5 < k < 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=5$\uc640 \uc9c1\uc120 $y=2x+k$\uac00 \ud55c \uc810\uc5d0\uc11c \ub9cc\ub0a0(\uc811\ud560) \ub54c, \uc2e4\uc218 $k$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$k = \\pm 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=5$\uc640 \uc9c1\uc120 $y=2x+k$\uac00 \ub9cc\ub098\uc9c0 \uc54a\uc744 \ub54c, \uc2e4\uc218 $k$\uc758 \uac12\uc758 \ubc94\uc704\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$k < -5$ \ub610\ub294 $k > 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=5$\uc640 \uc9c1\uc120 $2x+y=4$\uc758 \uc704\uce58 \uad00\uacc4\ub97c \ud310\ub2e8\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc11c\ub85c \ub2e4\ub978 \ub450 \uc810\uc5d0\uc11c \ub9cc\ub09c\ub2e4. (\uc911\uc2ec\uacfc \uac70\ub9ac $d = \\frac{4\\sqrt{5}}{5} < \\sqrt{5}$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2-2y=1$\uc758 \uc911\uc2ec\uc758 \uc88c\ud45c\uc640 \ubc18\uc9c0\ub984\uc758 \uae38\uc774\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc2ec: $(0, 1)$, \ubc18\uc9c0\ub984: $\\sqrt{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2-2y=1$\uacfc \uc9c1\uc120 $y=x+3$\uc758 \uc704\uce58 \uad00\uacc4\ub97c \ud310\ub2e8\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud55c \uc810\uc5d0\uc11c \ub9cc\ub09c\ub2e4. (\uc811\ud55c\ub2e4.)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2+2x-4y-4=0$\uc744 \ud45c\uc900\ud615 \ubc29\uc815\uc2dd\uc73c\ub85c \ubcc0\ud615\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(x+1)^2 + (y-2)^2 = 9$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2+2x-4y-4=0$\uacfc \uc9c1\uc120 $x-3y-3=0$\uc758 \uc704\uce58 \uad00\uacc4\ub97c \ud310\ub2e8\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub9cc\ub098\uc9c0 \uc54a\ub294\ub2e4. (\uc911\uc2ec\uacfc \uac70\ub9ac $d = \\sqrt{10} > 3$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=8$\uacfc \uc9c1\uc120 $y=-x+k$\uac00 \uc11c\ub85c \ub2e4\ub978 \ub450 \uc810\uc5d0\uc11c \ub9cc\ub0a0 \ub54c, \uc2e4\uc218 $k$\uc758 \ubc94\uc704\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-4 < k < 4$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=8$\uacfc \uc9c1\uc120 $y=-x+k$\uac00 \ud55c \uc810\uc5d0\uc11c \ub9cc\ub0a0(\uc811\ud560) \ub54c, \uc2e4\uc218 $k$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$k = \\pm 4$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=8$\uacfc \uc9c1\uc120 $y=-x+k$\uac00 \ub9cc\ub098\uc9c0 \uc54a\uc744 \ub54c, \uc2e4\uc218 $k$\uc758 \ubc94\uc704\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$k < -4$ \ub610\ub294 $k > 4$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $(x+4)^2+(y+1)^2=5$\uc640 \uc9c1\uc120 $2x-11y+k=0$\uc774 \uc11c\ub85c \ub2e4\ub978 \ub450 \uc810\uc5d0\uc11c \ub9cc\ub0a0 \ub54c, \uc2e4\uc218 $k$\uc758 \ubc94\uc704\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-28 < k < 22$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc2ec\uc758 \uc88c\ud45c\uac00 $(2, 3)$\uc774\uace0 \uc9c1\uc120 $x+3y-1=0$\uc5d0 \uc811\ud558\ub294 \uc6d0\uc758 \ubc18\uc9c0\ub984 $r$\uc758 \uae38\uc774\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$r = \\sqrt{10}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc2ec\uc758 \uc88c\ud45c\uac00 $(2, 3)$\uc774\uace0 \uc9c1\uc120 $x+3y-1=0$\uc5d0 \uc811\ud558\ub294 \uc6d0\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(x-2)^2 + (y-3)^2 = 10$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \uc6d0\uc758 \uc911\uc2ec\uc774 \uac01\uac01 $(0, 0)$, $(3, 0)$\uc774\uace0 \ubc18\uc9c0\ub984\uc774 \uac01\uac01 $1$, $2$\uc77c \ub54c, \uacf5\ud1b5 \uc811\uc120 $ax+by=3$ ($a<0, b>0$)\uc758 \uc0c1\uc218 $a, b$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$a = -1$, $b = 2\\sqrt{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=r^2$\uc5d0 \uc811\ud558\uace0 \uae30\uc6b8\uae30\uac00 $m$\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd \uacf5\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = mx \\pm r\\sqrt{m^2+1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud55c \uc6d0\uc5d0 \ub300\ud558\uc5ec \uae30\uc6b8\uae30\uac00 $m$\uc73c\ub85c \uc77c\uce58\ud558\ub294 \uc811\uc120\uc740 \uba87 \uac1c \uc874\uc7ac\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2$\uac1c"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uae30\uc6b8\uae30\uac00 $m$\uc778 \uc9c1\uc120 $mx-y+n=0$\uc774 \uc6d0 $x^2+y^2=r^2$\uc5d0 \uc811\ud560 \uc870\uac74\uc778 $n$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$n = \\pm r\\sqrt{m^2+1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=4$\uc5d0 \uc811\ud558\uace0 \uae30\uc6b8\uae30\uac00 $-1$\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = -x \\pm 2\\sqrt{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=5$\uc5d0 \uc811\ud558\uace0 \uae30\uc6b8\uae30\uac00 $2$\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = 2x \\pm 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=25$\uc5d0 \uc811\ud558\uace0 \uc9c1\uc120 $y=-3x+2$\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = -3x \\pm 5\\sqrt{10}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $x+4y+2=0$\uc5d0 \uc218\uc9c1\uc778 \uc9c1\uc120\uc758 \uae30\uc6b8\uae30\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$4$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=1$\uc5d0 \uc811\ud558\uace0 \uc9c1\uc120 $x+4y+2=0$\uc5d0 \uc218\uc9c1\uc778 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = 4x \\pm \\sqrt{17}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=10$\uc5d0 \uc811\ud558\uace0 \uae30\uc6b8\uae30\uac00 $-3$\uc778 \ub450 \uc9c1\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = -3x \\pm 10$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=10$\uc5d0 \uc811\ud558\uace0 \uae30\uc6b8\uae30\uac00 $-3$\uc778 \ub450 \ud3c9\ud589\ud55c \uc811\uc120 \uc0ac\uc774\uc758 \uac70\ub9ac\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2\\sqrt{10}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=r^2$ \uc704\uc758 \uc810 $P(x_1, y_1)$\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \ubc29\uc815\uc2dd \uacf5\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x_1x + y_1y = r^2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uc810 $O(0,0)$\uacfc \uc6d0 \uc704\uc758 \uc810 $P(x_1, y_1)$ ($x_1 \\neq 0, y_1 \\neq 0$)\uc744 \uc787\ub294 \uc120\ubd84 $OP$\uc758 \uae30\uc6b8\uae30\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{y_1}{x_1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 \uc704\uc758 \uc810 $P(x_1, y_1)$\uc5d0\uc11c\uc758 \uc811\uc120\uacfc \uc911\uc2ec\uacfc $P$\ub97c \uc787\ub294 \ubc18\uc9c0\ub984 \uc120\ubd84 $OP$ \uc0ac\uc774\uc758 \uc704\uce58 \uad00\uacc4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=r^2$ \uc704\uc758 \uc810 $P(x_1, y_1)$ ($x_1 \\neq 0, y_1 \\neq 0$)\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \uae30\uc6b8\uae30\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-\\frac{x_1}{y_1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=r^2$ \uc704\uc758 \uc810 $P$\uac00 \uc88c\ud45c\ucd95 \uc704\uc758 \uc810($(0, \\pm r)$ \ub610\ub294 $(\\pm r, 0)$)\uc77c \ub54c \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc740 $x_1x+y_1y=r^2$ \uacf5\uc2dd\uc774 \uc131\ub9bd\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc131\ub9bd\ud55c\ub2e4. ($y=\\pm r$ \ub610\ub294 $x=\\pm r$ \ud615\ud0dc\uac00 \ub41c\ub2e4.)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=25$ \uc704\uc758 \uc810 $(3, 4)$\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$3x + 4y = 25$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=25$ \uc704\uc758 \uc810 $(3, -4)$\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$3x - 4y = 25$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=25$ \uc704\uc758 \uc810 $(-1, 2\\sqrt{6})$\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-x + 2\\sqrt{6}y = 25$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=25$ \uc704\uc758 \uc810 $(5, 0)$\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x = 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 $x^2+y^2=25$ \uc704\uc758 \uc810 $(0, -5)$\uc5d0\uc11c\uc758 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = -5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0 \ubc16\uc758 \ud55c \uc810\uc5d0\uc11c \uc6d0\uc5d0 \uadf8\uc740 \uc811\uc120\uc740 \ud56d\uc0c1 \uba87 \uac1c \uc874\uc7ac\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2$\uac1c"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(5, 0)$\uc5d0\uc11c \uc6d0 $x^2+y^2=5$\uc5d0 \uadf8\uc740 \ub450 \uc811\uc810\uc758 \uc88c\ud45c\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(1, 2)$ \ubc0f $(1, -2)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(5, 0)$\uc5d0\uc11c \uc6d0 $x^2+y^2=5$\uc5d0 \uadf8\uc740 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x + 2y = 5$ \ub610\ub294 $x - 2y = 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(3, 1)$\uc5d0\uc11c \uc6d0 $x^2+y^2=5$\uc5d0 \uadf8\uc740 \uc811\uc120\uc758 \ubc29\uc815\uc2dd\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2x - y = 5$ \ub610\ub294 $x + 2y = 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(0, 10)$\uc5d0\uc11c \uc6d0 $x^2+y^2=10$\uc5d0 \uadf8\uc740 \uc811\uc120\uc758 \uae30\uc6b8\uae30 $m$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$m = \\pm 3$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(0, 10)$\uc5d0\uc11c \uc6d0 $x^2+y^2=10$\uc5d0 \uadf8\uc740 \ub450 \uc811\uc120\uc758 $x$\uc808\ud3b8\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x = \\pm \\frac{10}{3}$"
+          }
+        ]
+      }
+    }
+  ]
+}
