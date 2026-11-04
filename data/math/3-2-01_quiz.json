@@ -1,0 +1,275 @@
+{
+  "title": "\uc720\ub9ac\uc2dd\uacfc\uc720\ub9ac\ud568\uc218 \ud034\uc988",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\uc2dd\uacfc \ub2e4\ud56d\uc2dd\uc758 \uc815\uc758 \ubc0f \ud3ec\ud568 \uad00\uacc4\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "\ub2e4\ud56d\uc2dd\uc740 \ubd84\ubaa8\uac00 \uc0c1\uc218\uc778 \uc720\ub9ac\uc2dd\uc774\ubbc0\ub85c \ubaa8\ub4e0 \ub2e4\ud56d\uc2dd\uc740 \uc720\ub9ac\uc2dd\uc5d0 \ud3ec\ud568\ub41c\ub2e4.",
+          "isCorrect": true,
+          "rationale": "\ub450 \ub2e4\ud56d\uc2dd $A, B(B \\ne 0)$\uc5d0 \ub300\ud574 $\\frac{A}{B}$ \uaf34\ub85c \ub098\ud0c0\ub0b4\uc5b4\uc9c0\ub294 \uc2dd\uc5d0\uc11c \ubd84\ubaa8 $B$\uac00 \uc0c1\uc218\uc778 \uacbd\uc6b0\uac00 \ub2e4\ud56d\uc2dd\uc774\ubbc0\ub85c, \ubaa8\ub4e0 \ub2e4\ud56d\uc2dd\uc740 \uc720\ub9ac\uc2dd\uc758 \uc815\uc758\ub97c \ub9cc\uc871\ud55c\ub2e4."
+        },
+        {
+          "text": "\ubd84\ubaa8\uc5d0 \ubcc0\uc218 $x$\uac00 \ud3ec\ud568\ub418\uc5b4 \uc788\ub294 \uc2dd\ub9cc \uc720\ub9ac\uc2dd\uc774\ub77c\uace0 \uc815\uc758\ud55c\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc720\ub9ac\uc2dd\uc740 \ub450 \ub2e4\ud56d\uc2dd $A, B(B \\ne 0)$\uc5d0 \ub300\ud55c $\\frac{A}{B}$ \uaf34\uc744 \uc758\ubbf8\ud558\uba70, \ubd84\ubaa8 $B$\uac00 \uc0c1\uc218\ub97c \ud3ec\ud568\ud558\ubbc0\ub85c \ubd84\ubaa8\uc5d0 \ubcc0\uc218\uac00 \ubc18\ub4dc\uc2dc \uc788\uc744 \ud544\uc694\ub294 \uc5c6\ub2e4."
+        },
+        {
+          "text": "\uc720\ub9ac\uc2dd $\\frac{A}{B}$\uc5d0\uc11c \ubd84\uc790 $A$\ub294 \uc808\ub300\ub85c \uc0c1\uc218\uac00 \ub420 \uc218 \uc5c6\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc0c1\uc218\ub3c4 \ub2e4\ud56d\uc2dd\uc758 \uc77c\uc885\uc774\ubbc0\ub85c \ubd84\uc790 $A$\ub294 \uc0c1\uc218\uac00 \ub420 \uc218 \uc788\ub2e4."
+        },
+        {
+          "text": "\ubaa8\ub4e0 \uc720\ub9ac\uc2dd\uc740 \ub2e4\ud56d\uc2dd\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\uc5d0 \ubcc0\uc218\uac00 \uc874\uc7ac\ud558\ub294 \uc720\ub9ac\uc2dd(\uc608: $\\frac{3}{x-1}$)\uc740 \ub2e4\ud56d\uc2dd\uc774 \uc544\ub2c8\ubbc0\ub85c \uc5ed\uc740 \uc131\ub9bd\ud558\uc9c0 \uc54a\ub294\ub2e4."
+        }
+      ],
+      "hint": "\ub2e4\ud56d\uc2dd\uc5d0\uc11c \ubd84\ubaa8\uac00 \uc5b4\ub5a0\ud55c \ud615\ud0dc(\uc0c1\uc218)\ub97c \uac00\uc9c8 \uc218 \uc788\ub294\uc9c0 \uace0\ub824\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\ud568\uc218 $y = \\frac{2x+3}{3x-6}$\uc758 \uc815\uc758\uc5ed\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$\\{x \\mid x \\ne 2\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": true,
+          "rationale": "\uc720\ub9ac\ud568\uc218\uc758 \uc815\uc758\uc5ed\uc740 \ubd84\ubaa8\ub97c $0$\uc73c\ub85c \ub9cc\ub4dc\ub294 $x$\uc758 \uac12\uc744 \uc81c\uc678\ud55c \uc2e4\uc218 \uc804\uccb4\uc774\ubbc0\ub85c, $3x-6 = 0$\uc774 \ub418\ub294 $x = 2$\ub97c \uc81c\uc678\ud574\uc57c \ud55c\ub2e4."
+        },
+        {
+          "text": "$\\{x \\mid x \\ne -2\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8 $3x-6=0$\uc744 \ub9cc\uc871\ud558\ub294 $x$\uc758 \uac12\uc740 $-2$\uac00 \uc544\ub2c8\ub77c $2$\uc774\ub2e4."
+        },
+        {
+          "text": "$\\{x \\mid x \\ne 0\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\ub97c $0$\uc73c\ub85c \ub9cc\ub4dc\ub294 $x$\uc758 \uac12\uc740 $0$\uc774 \uc544\ub2c8\ub77c $2$\uc774\ub2e4."
+        },
+        {
+          "text": "\uc2e4\uc218 \uc804\uccb4\uc758 \uc9d1\ud569",
+          "isCorrect": false,
+          "rationale": "\uc720\ub9ac\ud568\uc218\uc5d0\uc11c \ubd84\ubaa8\uac00 $0$\uc774 \ub418\ub294 $x$\uc758 \uac12\uc740 \uc815\uc758\ud560 \uc218 \uc5c6\uc73c\ubbc0\ub85c \uc2e4\uc218 \uc804\uccb4\uac00 \ub420 \uc218 \uc5c6\ub2e4."
+        }
+      ],
+      "hint": "\uc720\ub9ac\ud568\uc218\uc5d0\uc11c \ud568\uc22b\uac12\uc774 \uc815\uc758\ub418\uc9c0 \uc54a\ub294 \ubd84\ubaa8\uc758 \uc870\uac74\uc744 \uc0dd\uac01\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\uc2dd $\\frac{x}{x+2} + \\frac{x-6}{x^2-4}$\ub97c \uac04\ub2e8\ud788 \uacc4\uc0b0\ud55c \uc2dd\uc740?",
+      "answerOptions": [
+        {
+          "text": "$\\frac{x-3}{x-2}$",
+          "isCorrect": true,
+          "rationale": "\ubd84\ubaa8\ub97c $(x+2)(x-2)$\ub85c \ud1b5\ubd84\ud558\uc5ec \ubd84\uc790\ub97c \uc815\ub9ac\ud558\uba74 $x(x-2) + (x-6) = x^2 - x - 6 = (x-3)(x+2)$\uac00 \ub418\uc5b4, \uc57d\ubd84 \ud6c4 $\\frac{x-3}{x-2}$\uc744 \uc5bb\ub294\ub2e4."
+        },
+        {
+          "text": "$\\frac{x+3}{x-2}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790\ub97c \uc778\uc218\ubd84\ud574\ud560 \ub54c \ubd80\ud638 \uacc4\uc0b0 \uc624\ub958\ub85c \uc778\ud574 \ubc1c\uc0dd\ud560 \uc218 \uc788\ub294 \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$\\frac{x-3}{x+2}$",
+          "isCorrect": false,
+          "rationale": "\uc57d\ubd84 \uacfc\uc815\uc5d0\uc11c \ubd84\ubaa8\uc758 \uc778\uc218\ub97c \uc798\ubabb \ub0a8\uae34 \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$\\frac{2x-6}{x^2-4}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\ub97c \ud1b5\ubd84\ud560 \ub54c \ubd84\uc790 $x$\uc5d0 $(x-2)$\ub97c \uacf1\ud558\ub294 \uacfc\uc815\uc744 \ub204\ub77d\ud558\uace0 \ub2e8\uc21c\ud788 \ubd84\uc790\ub07c\ub9ac \ub354\ud588\uc744 \ub54c \ubc1c\uc0dd\ud558\ub294 \uc624\ub958\uc774\ub2e4."
+        }
+      ],
+      "hint": "\ub450 \ubd84\uc218\uc758 \ubd84\ubaa8\ub97c \uc778\uc218\ubd84\ud574\ud55c \ub4a4 \uacf5\ud1b5\ubd84\ubaa8\ub85c \ud1b5\ubd84\ud558\uc5ec \uacc4\uc0b0\ud558\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\ud568\uc218 $y = \\frac{k}{x} (k \\ne 0)$\uc758 \uadf8\ub798\ud504\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$k$\uc758 \uc808\ub313\uac12\uc774 \ucee4\uc9c8\uc218\ub85d \uadf8\ub798\ud504\ub294 \uc6d0\uc810\uc73c\ub85c\ubd80\ud130 \uba40\uc5b4\uc9c4\ub2e4.",
+          "isCorrect": true,
+          "rationale": "$y = \\frac{k}{x}$ \uadf8\ub798\ud504\ub294 $\\vert k \\vert$\uc758 \uac12\uc774 \ucee4\uc9c8\uc218\ub85d \ucd95 \ubc0f \uc6d0\uc810\uacfc\uc758 \uac70\ub9ac\uac00 \uba40\uc5b4\uc9c0\ub294 \uc131\uc9c8\uc744 \uac00\uc9c4\ub2e4."
+        },
+        {
+          "text": "$k < 0$\uc774\uba74 \uadf8\ub798\ud504\ub294 \uc81c1\uc0ac\ubd84\uba74\uacfc \uc81c3\uc0ac\ubd84\uba74\uc5d0 \uc704\uce58\ud55c\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$k < 0$\uc77c \ub54c \uadf8\ub798\ud504\ub294 \uc81c2\uc0ac\ubd84\uba74\uacfc \uc81c4\uc0ac\ubd84\uba74\uc5d0 \uc704\uce58\ud558\uba70, \uc81c1\uc0ac\ubd84\uba74\uacfc \uc81c3\uc0ac\ubd84\uba74\uc5d0 \uc704\uce58\ud558\ub294 \uac83\uc740 $k > 0$\uc77c \ub54c\uc774\ub2e4."
+        },
+        {
+          "text": "\uadf8\ub798\ud504\uc758 \uc810\uadfc\uc120\uc740 \ub450 \uc9c1\uc120 $y=x$\uc640 $y=-x$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc720\ub9ac\ud568\uc218 $y = \\frac{k}{x}$\uc758 \uc810\uadfc\uc120\uc740 $x$\ucd95\uacfc $y$\ucd95(\uc989, $y=0$\uacfc $x=0$)\uc774\ub2e4."
+        },
+        {
+          "text": "\uadf8\ub798\ud504\ub294 $y$\ucd95\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc720\ub9ac\ud568\uc218 $y = \\frac{k}{x}$\uc758 \uadf8\ub798\ud504\ub294 $y$\ucd95\uc774 \uc544\ub2cc \uc6d0\uc810\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc774\ub2e4."
+        }
+      ],
+      "hint": "$k$\uc758 \uac12\uacfc \uc808\ub313\uac12\uc774 \uadf8\ub798\ud504\uc758 \uc704\uce58\uc640 \uc6d0\uc810\uacfc\uc758 \uac70\ub9ac\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5\uc744 \ub5a0\uc62c\ub824 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\ud568\uc218 $y = \\frac{-2}{x+4} - 1$\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uacfc \uce58\uc5ed\uc73c\ub85c \uc62c\ubc14\ub974\uac8c \uc9dd\uc9c0\uc5b4\uc9c4 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "\uc810\uadfc\uc120: $x = -4, y = -1$, \uce58\uc5ed: $\\{y \\mid y \\ne -1\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": true,
+          "rationale": "\uae30\ubcf8\ud615 $y = \\frac{-2}{x}$\ub97c $x$\ucd95 \ubc29\ud5a5\uc73c\ub85c $-4$, $y$\ucd95 \ubc29\ud5a5\uc73c\ub85c $-1$\ub9cc\ud07c \ud3c9\ud589\uc774\ub3d9\ud55c \uadf8\ub798\ud504\uc774\ubbc0\ub85c \uc810\uadfc\uc120\uc740 $x = -4, y = -1$\uc774\uace0 \uce58\uc5ed\uc740 $y \\ne -1$\uc778 \uc2e4\uc218 \uc804\uccb4\uc774\ub2e4."
+        },
+        {
+          "text": "\uc810\uadfc\uc120: $x = 4, y = -1$, \uce58\uc5ed: $\\{y \\mid y \\ne -1\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": false,
+          "rationale": "$x$\ucd95 \ubc29\ud5a5\uc758 \ud3c9\ud589\uc774\ub3d9 \ubd80\ud638\ub97c \uc798\ubabb \uc801\uc6a9\ud558\uc5ec \uc810\uadfc\uc120 $x$\uc758 \uac12\uc744 \ubd80\ud638 \ucc29\uc624\ud55c \uacb0\uacfc\uc774\ub2e4."
+        },
+        {
+          "text": "\uc810\uadfc\uc120: $x = -4, y = 1$, \uce58\uc5ed: $\\{y \\mid y \\ne 1\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": false,
+          "rationale": "$y$\ucd95 \ubc29\ud5a5\uc758 \ud3c9\ud589\uc774\ub3d9 \ubd80\ud638\ub97c \uc798\ubabb \uc801\uc6a9\ud558\uc5ec \uc810\uadfc\uc120 $y$\uc758 \uac12\uacfc \uce58\uc5ed \uc870\uac74\uc744 \ucc29\uc624\ud55c \uacb0\uacfc\uc774\ub2e4."
+        },
+        {
+          "text": "\uc810\uadfc\uc120: $x = 4, y = 1$, \uce58\uc5ed: $\\{y \\mid y \\ne 1\\text{\uc778 \uc2e4\uc218}\\}$",
+          "isCorrect": false,
+          "rationale": "$x$\ucd95\uacfc $y$\ucd95 \ubc29\ud5a5 \ud3c9\ud589\uc774\ub3d9 \ubd80\ud638\ub97c \ubaa8\ub450 \uc798\ubabb \uad6c\ud55c \uacb0\uacfc\uc774\ub2e4."
+        }
+      ],
+      "hint": "\ud45c\uc900\ud615 $y = \\frac{k}{x-p} + q$\uc5d0\uc11c $p$\uc640 $q$\uac00 \uc810\uadfc\uc120 \ubc0f \uce58\uc5ed\uc5d0 \uc8fc\ub294 \uc601\ud5a5\uc744 \ud30c\uc545\ud558\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\ud568\uc218 $y = \\frac{-3x-8}{x+2}$\uc758 \uadf8\ub798\ud504\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$x = -2, y = -3$",
+          "isCorrect": true,
+          "rationale": "\uc8fc\uc5b4\uc9c4 \ud568\uc218\ub97c \ubcc0\ud615\ud558\uba74 $y = \\frac{-3(x+2)-2}{x+2} = -\\frac{2}{x+2} - 3$\uc774 \ub418\ubbc0\ub85c, \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740 $x = -2, y = -3$\uc774\ub2e4."
+        },
+        {
+          "text": "$x = 2, y = -3$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\uac00 $0$\uc774 \ub418\ub294 $x$\uc758 \uac12\uc758 \ubd80\ud638\ub97c \uc798\ubabb \uacc4\uc0b0\ud558\uc5ec $x=2$\ub85c \uad6c\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$x = -2, y = 3$",
+          "isCorrect": false,
+          "rationale": "\ub2e4\ud56d\uc2dd\uc744 \ubaab\uacfc \ub098\ub217\uc148 \uaf34\ub85c \uc815\ub9ac\ud560 \ub54c $y$\ucd95 \ubc29\ud5a5 \ud3c9\ud589\uc774\ub3d9\ub7c9\uc758 \ubd80\ud638\ub97c \uc798\ubabb \uc801\uc6a9\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$x = -8, y = -3$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790\uc758 \uc0c1\uc218\ud56d\uc744 \uc810\uadfc\uc120\uc758 $x$\uac12\uc73c\ub85c \uc798\ubabb \ud574\uc11d\ud55c \uc624\ub2f5\uc774\ub2e4."
+        }
+      ],
+      "hint": "\uc77c\ubc18\ud615 $y = \\frac{ax+b}{cx+d}$\ub97c $y = \\frac{k}{x-p} + q$\uc758 \ud45c\uc900\ud615 \uaf34\ub85c \ubcc0\ud615\ud558\uc5ec \ubd84\uc11d\ud558\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc774\uc9d1\ud2b8 \ubd84\uc218\uc758 \uc131\uc9c8 $\\frac{1}{x} = \\frac{1}{x+1} + \\frac{1}{x(x+1)}$\uc744 \ud65c\uc6a9\ud558\uc5ec \ubd84\uc218 $\\frac{1}{5}$\uc744 \ub450 \uc774\uc9d1\ud2b8 \ubd84\uc218\uc758 \ud569\uc73c\ub85c \ub098\ud0c0\ub0bc \ub54c, \ube48\uce78\uc5d0 \ub4e4\uc5b4\uac08 \uc54c\ub9de\uc740 \ubd84\uc218\ub294?\n$$\\frac{1}{5} = \\frac{1}{6} + \\text{___}$$",
+      "answerOptions": [
+        {
+          "text": "$\\frac{1}{30}$",
+          "isCorrect": true,
+          "rationale": "\uc131\uc9c8 \uc2dd\uc5d0 $x=5$\ub97c \ub300\uc785\ud558\uba74 $\\frac{1}{5} = \\frac{1}{5+1} + \\frac{1}{5(5+1)} = \\frac{1}{6} + \\frac{1}{30}$\uc774 \ub41c\ub2e4."
+        },
+        {
+          "text": "$\\frac{1}{25}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\uc758 \uacf1 $x(x+1)$ \ub300\uc2e0 $x^2=25$\ub97c \uc801\uc6a9\ud558\ub294 \uc624\ub958\ub97c \ubc94\ud55c \uacb0\uacfc\uc774\ub2e4."
+        },
+        {
+          "text": "$\\frac{1}{20}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8 \uacc4\uc0b0 \uc2dc $x(x-1)=20$\uc73c\ub85c \ucc29\uac01\ud588\uc744 \ub54c \ubc1c\uc0dd\ud558\ub294 \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$\\frac{1}{15}$",
+          "isCorrect": false,
+          "rationale": "$5 \\times 3 = 15$\uc640 \uac19\uc774 \uc798\ubabb\ub41c \ubd84\ubaa8 \uacc4\uc0b0\uc5d0\uc11c \uae30\uc778\ud55c \uc624\ub2f5\uc774\ub2e4."
+        }
+      ],
+      "hint": "\uacf5\uc2dd $\\frac{1}{x} = \\frac{1}{x+1} + \\frac{1}{x(x+1)}$\uc5d0 $x=5$\ub97c \ub300\uc785\ud558\uc5ec \uacc4\uc0b0\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc218\uc2ec $x\\text{ m}$\uc5d0\uc11c \uad8c\uc7a5\ub418\ub294 \uc0b0\uc18c\ub7c9\uc758 \ubc31\ubd84\uc728 $f(x)\\%$\uac00 $f(x) = \\frac{1980}{x+99} (0 < x \\le 200)$\uc73c\ub85c \uad6c\ud574\uc9c8 \ub54c, \uad8c\uc7a5 \uc0b0\uc18c\ub7c9\uc758 \ubc31\ubd84\uc728\uc774 $10\\%$\uac00 \ub418\uae30 \uc704\ud55c \uc218\uc2ec $x$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "$99\\text{ m}$",
+          "isCorrect": true,
+          "rationale": "$f(x) = 10$\uc73c\ub85c \ub193\uc73c\uba74 $10 = \\frac{1980}{x+99}$\uc774 \ub418\uba70, \uc591\ubcc0\uc744 \uc815\ub9ac\ud558\uba74 $x + 99 = 198$\uc774 \ub418\uc5b4 $x = 99\\text{ m}$\uc774\ub2e4."
+        },
+        {
+          "text": "$45\\text{ m}$",
+          "isCorrect": false,
+          "rationale": "$x=45$\uc77c \ub54c $f(45)=13.5\\%$\uac00 \ub098\uc624\ub294 \uacc4\uc0b0 \uacb0\uacfc\ub97c \uc218\uc2ec \uac12\uacfc \ud63c\ub3d9\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$90\\text{ m}$",
+          "isCorrect": false,
+          "rationale": "\ubc29\uc815\uc2dd \ud480\uc774 \uacfc\uc815\uc5d0\uc11c \uc0b0\uc220 \uacc4\uc0b0 \uc624\ub958\ub85c \ubc1c\uc0dd\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$110\\text{ m}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790 $1980$\uc744 \uc798\ubabb \uc774\ud56d\ud558\uc5ec \uacc4\uc0b0\ud588\uc744 \ub54c \ubc1c\uc0dd\ud558\ub294 \uc624\ub2f5\uc774\ub2e4."
+        }
+      ],
+      "hint": "$f(x) = 10$\uc744 \ub9cc\uc871\ud558\ub294 \uc77c\ucc28\ubc29\uc815\uc2dd $10(x+99) = 1980$\uc744 \ud480\uc5b4\ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\ud568\uc218 $y = \\frac{2x-1}{x+1}$\uc758 \uadf8\ub798\ud504\ub294 \uc720\ub9ac\ud568\uc218 $y = -\\frac{3}{x}$\uc758 \uadf8\ub798\ud504\ub97c $x$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $p$\ub9cc\ud07c, $y$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $q$\ub9cc\ud07c \ud3c9\ud589\uc774\ub3d9\ud55c \uac83\uc774\ub2e4. \uc774\ub54c \uc0c1\uc218 $p + q$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "$1$",
+          "isCorrect": true,
+          "rationale": "$y = \\frac{2(x+1)-3}{x+1} = -\\frac{3}{x+1} + 2$\uc774\ubbc0\ub85c $y = -\\frac{3}{x}$\uc758 \uadf8\ub798\ud504\ub97c $x$\ucd95 \ubc29\ud5a5\uc73c\ub85c $-1$\ub9cc\ud07c, $y$\ucd95 \ubc29\ud5a5\uc73c\ub85c $2$\ub9cc\ud07c \uc774\ub3d9\ud55c \uac83\uc774\ub2e4. \ub530\ub77c\uc11c $p = -1, q = 2$\uac00 \ub418\uc5b4 $p + q = 1$\uc774\ub2e4."
+        },
+        {
+          "text": "$3$",
+          "isCorrect": false,
+          "rationale": "$x$\ucd95 \ud3c9\ud589\uc774\ub3d9\ub7c9 $p$\ub97c $+1$\ub85c \ubd80\ud638\ub97c \ucc29\uc624\ud558\uc5ec $1 + 2 = 3$\uc73c\ub85c \uacc4\uc0b0\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$-1$",
+          "isCorrect": false,
+          "rationale": "$y$\ucd95 \ud3c9\ud589\uc774\ub3d9\ub7c9 $q$\ub97c $-2$\ub85c \ubd80\ud638\ub97c \ucc29\uc624\ud558\uc5ec \uacc4\uc0b0\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$-3$",
+          "isCorrect": false,
+          "rationale": "$p$\uc640 $q$\uc758 \ubd80\ud638\ub97c \ubaa8\ub450 \ubc18\ub300\ub85c \uad6c\ud558\uc5ec \uacc4\uc0b0\ud55c \uc624\ub2f5\uc774\ub2e4."
+        }
+      ],
+      "hint": "\ud568\uc218\ub97c $y = -\\frac{3}{x-p} + q$ \uaf34\ub85c \ubc14\uafb8\uc5b4 $p$\uc640 $q$\uc758 \uac12\uc744 \ucc3e\uc544\ubcf4\uc138\uc694."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "\uc720\ub9ac\uc2dd $\\frac{x-1}{x-3} - \\frac{x+5}{x^2-2x-3}$\uc744 \ud1b5\ubd84\ud558\uc5ec \uac04\ub2e8\ud788 \uc815\ub9ac\ud55c \uacb0\uacfc\ub294?",
+      "answerOptions": [
+        {
+          "text": "$\\frac{x+2}{x+1}$",
+          "isCorrect": true,
+          "rationale": "$x^2-2x-3 = (x-3)(x+1)$\uc774\ubbc0\ub85c \ud1b5\ubd84\ud558\uba74 \ubd84\uc790\ub294 $(x-1)(x+1) - (x+5) = x^2 - x - 6 = (x-3)(x+2)$\uac00 \ub41c\ub2e4. \ubd84\ubaa8\uc758 $(x-3)$\uacfc \uc57d\ubd84\ud558\uba74 $\\frac{x+2}{x+1}$\uac00 \ub41c\ub2e4."
+        },
+        {
+          "text": "$\\frac{x-2}{x+1}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790 \uc778\uc218\ubd84\ud574 \uacfc\uc815\uc5d0\uc11c \ubd80\ud638\ub97c \uc798\ubabb \uc4f4 \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$\\frac{x+2}{x-1}$",
+          "isCorrect": false,
+          "rationale": "\uc57d\ubd84 \ud6c4 \ub0a8\ub294 \ubd84\ubaa8\uc758 \uc778\uc218\ub97c \uc798\ubabb \uae30\uc7ac\ud55c \uc624\ub2f5\uc774\ub2e4."
+        },
+        {
+          "text": "$\\frac{x-6}{x+1}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\uc790\uc758 \uc774\ucc28\ud56d \uc804\uac1c \ud6c4 \uc778\uc218\ubd84\ud574 \uacfc\uc815\uc744 \uac70\uce58\uc9c0 \uc54a\uace0 \uc77c\ucc28\ud56d\uc744 \uc804\uac1c\ud558\uc9c0 \uc54a\uc740 \uc624\ub2f5\uc774\ub2e4."
+        }
+      ],
+      "hint": "\ub450 \ubc88\uc9f8 \ubd84\uc218\uc758 \ubd84\ubaa8 $x^2-2x-3$\uc744 \uba3c\uc800 \uc778\uc218\ubd84\ud574\ud558\uc5ec \uacf5\ud1b5\ubd84\ubaa8\ub97c \uad6c\ud558\uc138\uc694."
+    }
+  ]
+}
