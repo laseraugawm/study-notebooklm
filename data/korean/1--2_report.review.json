@@ -116,6 +116,34 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-04T09:40:56+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "자신의 관점을 정리할 때 논증하는 글을 써 보는 것이 좋다는 점",
+     "page": "20쪽",
+     "add": "편견 없는 관점 정리를 위해 논증하는 글을 써 보는 것이 좋다."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "다(신상규)의 글이 '철학 분야, 주장 중심'의 글로 명시되어 있음",
+     "right": "교과서 31쪽 비교 활동에서 분야와 성격은 직접 명시된 내용이 아님",
+     "page": "31쪽"
+    }
+   ],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 355,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 409: Conflict",
+    "qwen: HTTP Error 409: Conflict",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
