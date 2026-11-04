@@ -297,3 +297,7 @@
 - **바로잡기** 'Warka Tower가 '바닥의 항아리(pot)에 빗물을 모으고' 안개를 포집한다고 서술' → 교과서는 'It gathers rainwater in a pot at its base. Additionally, the tower captures fog and changes it into water drops that collect on nets, and then the water drops fall into the pot.'라고 서술한다. 안개가 응결된 물방울은 그물에 맺힌 뒤 항아리로 떨어진다. (p.27)
 - **바로잡기** '문단 8 결론에서 세 사람이 보여준 힘을 '기술(technology), 헌신(commitment), 개인의 주도성(individual initiative)'으로 제시하며 Q6 답으로 표시' → 교과서 p.17은 'Their innovative efforts to solve social problems demonstrate the power of technology, commitment, and individual initiative.'라고 서술한다. 'innovative efforts to solve social problems'라는 한정이 빠져 있다. (p.17)
 - **바로잡기** 'Trisha 관련 '전 세계 학교·단체에서 사용'을 성과로 서술' → 교과서는 'ReThink has been used by schools and organizations worldwide and has successfully raised awareness on cyberbullying.'이라고 서술한다. '전 세계'라는 표현은 schools and organizations에 걸린다. (p.14)
+
+## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1)
+- **빠진 내용** Lesson 2 도입면(30~31쪽)의 학습 내용 (Topic 1 Various Ways of Life, Topic 2 Modernizing Tradition 등) — Lesson 2 From Tradition to Trend (TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition) (p.30-31)
+- **바로잡기** 'ReThink를 '혁신적인 앱'으로만 규정함' → ReThink는 교과서 원문에 따르면 'a virtual keyboard that uses artificial intelligence to detect potentially hurtful text messages before they are sent'임 (p.14)

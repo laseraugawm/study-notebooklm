@@ -139,6 +139,36 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-04T21:39:54+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "Lesson 2 도입면(30~31쪽)의 학습 내용 (Topic 1 Various Ways of Life, Topic 2 Modernizing Tradition 등)",
+     "page": "30-31",
+     "add": "Lesson 2 From Tradition to Trend (TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition)"
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "ReThink를 '혁신적인 앱'으로만 규정함",
+     "right": "ReThink는 교과서 원문에 따르면 'a virtual keyboard that uses artificial intelligence to detect potentially hurtful text messages before they are sent'임",
+     "page": "14"
+    }
+   ],
+   "unclear": [
+    "개념정리에서 문법 항목명(관계부사 when/where, 분사구문)을 교과서 본문 표제어처럼 서술하여 학생이 교과서에 직접 적힌 명칭으로 오해할 수 있음"
+   ],
+   "applied": "note",
+   "review_secs": 292,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
