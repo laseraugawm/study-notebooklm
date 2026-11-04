@@ -1,0 +1,265 @@
+{
+  "title": "\ubb34\ub9ac\uc2dd\uacfc\ubb34\ub9ac\ud568\uc218 \ud034\uc988",
+  "questions": [
+    {
+      "question": "\ub2e4\uc74c \uc911 \ubb34\ub9ac\uc2dd\uc5d0 \ub300\ud55c \uac1c\ub150 \uc124\uba85\uc73c\ub85c \uac00\uc7a5 \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "\uadfc\ud638 \uc548\uc5d0 \ubb38\uc790\uac00 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\uba74 \ud56d\uc0c1 \ubb34\ub9ac\uc2dd\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uadfc\ud638 \uc548\uc5d0 \ubb38\uc790\uac00 \uc788\uc5b4\ub3c4 $\\sqrt{x^2} = |x|$ \ucc98\ub7fc \uc720\ub9ac\uc2dd\uc73c\ub85c \ub098\ud0c0\ub0bc \uc218 \uc788\ub294 \uc2dd\uc740 \ubb34\ub9ac\uc2dd\uc774 \uc544\ub2d9\ub2c8\ub2e4."
+        },
+        {
+          "text": "\uadfc\ud638 \uc548\uc5d0 \ubb38\uc790\uac00 \ud3ec\ud568\ub41c \uc2dd \uc911\uc5d0\uc11c \uc720\ub9ac\uc2dd\uc73c\ub85c \ub098\ud0c0\ub0bc \uc218 \uc5c6\ub294 \uc2dd\uc744 \ubb34\ub9ac\uc2dd\uc774\ub77c\uace0 \ud55c\ub2e4.",
+          "isCorrect": true,
+          "rationale": "\ubb34\ub9ac\uc2dd\uc740 \uadfc\ud638 \uc548\uc5d0 \ubb38\uc790\uac00 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\uba74\uc11c \uc720\ub9ac\uc2dd\uc758 \ud615\ud0dc\ub85c \ubcc0\ud615\ud560 \uc218 \uc5c6\ub294 \uc2dd\uc744 \uc758\ubbf8\ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "\ubd84\ubaa8\uc5d0 \ubb34\ub9ac\uc218\uac00 \ub4e4\uc5b4\uc788\ub294 \ubaa8\ub4e0 \ubd84\uc218\uc2dd\uc744 \ubb34\ub9ac\uc2dd\uc774\ub77c\uace0 \ud55c\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\uc5d0 \ubb34\ub9ac\uc218\uc778 \uc0c1\uc218\uac00 \ud3ec\ud568\ub41c \uc2dd(\uc608: $\\frac{x}{\\sqrt{2}}$)\uc740 \ubb38\uc790\uac00 \uadfc\ud638 \uc548\uc5d0 \uc788\uc9c0 \uc54a\uc73c\ubbc0\ub85c \uc720\ub9ac\uc2dd\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "\ubb34\ub9ac\ud568\uc218\uc5d0\uc11c \uc815\uc758\uc5ed\uc774 \uc8fc\uc5b4\uc9c0\uc9c0 \uc54a\uc740 \uacbd\uc6b0 \uadfc\ud638 \uc548\uc758 \uc2dd\uc758 \uac12\uc774 $0$ \ucd08\uacfc\uac00 \ub418\ub294 \uc2e4\uc218 \uc9d1\ud569\uc744 \uc815\uc758\uc5ed\uc73c\ub85c \ud55c\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc815\uc758\uc5ed\uc740 \uadfc\ud638 \uc548\uc758 \uc2dd\uc758 \uac12\uc774 $0$ '\uc774\uc0c1'\uc774 \ub418\ub3c4\ub85d \ud558\ub294 \uc2e4\uc218 \uc804\uccb4\uc758 \uc9d1\ud569\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ubb34\ub9ac\uc2dd\uc758 \uc815\uc758\uc5d0\uc11c \uadfc\ud638 \uc548\uc758 \uc870\uac74\uacfc \uc720\ub9ac\uc2dd \ud45c\ud604 \uac00\ub2a5 \uc5ec\ubd80\ub97c \ub5a0\uc62c\ub824 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\ubb34\ub9ac\ud568\uc218 $y=\\sqrt{-3x-2}+1$\uc758 \uc815\uc758\uc5ed\uc744 \uad6c\ud558\uba74 \ubb34\uc5c7\uc785\ub2c8\uae4c?",
+      "answerOptions": [
+        {
+          "text": "$\\left\\{ x \\;\\middle|\\; x \\ge -\\frac{2}{3} \\right\\}$",
+          "isCorrect": false,
+          "rationale": "$x$\uc758 \uacc4\uc218\uac00 \uc74c\uc218\uc77c \ub54c \ubd80\ub4f1\ud638 \ubc29\ud5a5\uc744 \ubc14\uafb8\uc9c0 \uc54a\uace0 \uacc4\uc0b0\ud558\uba74 \ubc1c\uc0dd\ud558\ub294 \ud754\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\left\\{ x \\;\\middle|\\; x \\le -\\frac{2}{3} \\right\\}$",
+          "isCorrect": true,
+          "rationale": "\uadfc\ud638 \ub0b4\ubd80 \uc2dd $-3x-2 \\ge 0$\uc744 \ub9cc\uc871\ud574\uc57c \ud558\ubbc0\ub85c $-3x \\ge 2$\uc5d0\uc11c $x \\le -\\frac{2}{3}$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\left\\{ x \\;\\middle|\\; x \\ge \\frac{2}{3} \\right\\}$",
+          "isCorrect": false,
+          "rationale": "\ubd80\ud638 \uc774\ud56d \uacfc\uc815\uc5d0\uc11c \ubd80\ud638\ub97c \uc798\ubabb \ucc98\ub9ac\ud558\uba74 $x \\ge \\frac{2}{3}$\ub77c\ub294 \uc798\ubabb\ub41c \uacb0\uacfc\ub97c \uc5bb\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\left\\{ x \\;\\middle|\\; x \\le \\frac{2}{3} \\right\\}$",
+          "isCorrect": false,
+          "rationale": "\uc0c1\uc218\ud56d\uc744 \uc774\ud56d\ud560 \ub54c \ubd80\ud638\ub97c \ubc14\uafb8\uc9c0 \uc54a\uc73c\uba74 \uc798\ubabb\ub41c \uacc4\uc0b0 \uacb0\uacfc\ub85c \uc774\uc5b4\uc9d1\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uadfc\ud638 \uc548\uc5d0 \uc788\ub294 \uc2dd\uc758 \uac12\uc774 $0$ \uc774\uc0c1\uc774 \ub418\ub294 $x$\uc758 \ubc94\uc704\ub97c \ucc3e\uc544\ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\ubb34\ub9ac\ud568\uc218 $y=\\sqrt{ax}$ ($a \\neq 0$)\uc758 \uc5ed\ud568\uc218 \uc2dd\uacfc \uadf8 \uc815\uc758\uc5ed\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$y=\\frac{x^2}{a}$ ($x \\ge 0$)",
+          "isCorrect": true,
+          "rationale": "$y=\\sqrt{ax}$ ($y \\ge 0$)\uc5d0\uc11c $x$\uc640 $y$\ub97c \ubc14\uafb8\uc5b4 \uc815\ub9ac\ud558\uba74 $y=\\frac{x^2}{a}$\uc774\uba70, \uc6d0\ub798 \ud568\uc218\uc758 \uce58\uc5ed($y \\ge 0$)\uc774 \uc5ed\ud568\uc218\uc758 \uc815\uc758\uc5ed($x \\ge 0$)\uc774 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y=ax^2$ ($x \\ge 0$)",
+          "isCorrect": false,
+          "rationale": "$y^2 = ax$\ub97c $x$\uc5d0 \ub300\ud574 \uc815\ub9ac\ud560 \ub54c $a$\ub85c \ub098\ub204\uc9c0 \uc54a\uace0 \uacf1\ud558\ub294 \uc2dd\uc758 \uc624\ucc28\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y=\\frac{x^2}{a}$ (\uc2e4\uc218 \uc804\uccb4)",
+          "isCorrect": false,
+          "rationale": "\uc5ed\ud568\uc218\uac00 \uc874\uc7ac\ud558\uae30 \uc704\ud55c \uc77c\ub300\uc77c\ub300\uc751 \uc870\uac74 \ubc0f \uce58\uc5ed \ubc94\uc704\ub97c \uc81c\ud55c\ud558\uc9c0 \uc54a\uc740 \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y=-\\frac{x^2}{a}$ ($x \\le 0$)",
+          "isCorrect": false,
+          "rationale": "\ubb34\ub9ac\ud568\uc218 $y=\\sqrt{ax}$\uc758 \uce58\uc5ed\uc774 \uc591\uc218\uc774\ubbc0\ub85c \uc5ed\ud568\uc218\uc758 \uc815\uc758\uc5ed \ub610\ud55c $x \\ge 0$\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "$x$\uc640 $y$\uc758 \uc704\uce58\ub97c \ubc14\uafbc \ud6c4 \uce58\uc5ed\uc774 \uc815\uc758\uc5ed\uc73c\ub85c \ubcc0\ud558\ub294 \uacfc\uc815\uc5d0 \uc8fc\uc758\ud558\uc138\uc694."
+    },
+    {
+      "question": "\ubb34\ub9ac\ud568\uc218 $y=\\sqrt{ax}$ ($a \\neq 0$)\uc758 \uadf8\ub798\ud504 \uc131\uc9c8\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc9c0 \uc54a\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$a$\uc758 \uc808\ub313\uac12\uc774 \ucee4\uc9c8\uc218\ub85d \uadf8\ub798\ud504\ub294 $x$\ucd95\uc73c\ub85c\ubd80\ud130 \uba40\uc5b4\uc9c4\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$|a|$ \uac12\uc774 \ucee4\uc9c0\uba74 \ud568\uc22b\uac12\uc758 \ubcc0\ud654\uc728\uc774 \ucee4\uc9c0\ubbc0\ub85c \uadf8\ub798\ud504\uac00 $x$\ucd95\uc5d0\uc11c \uba40\uc5b4\uc9c0\ub294 \uac83\uc740 \uc62c\ubc14\ub978 \uc131\uc9c8\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a < 0$\uc77c \ub54c, \uce58\uc5ed\uc740 $\\{y \\mid y \\le 0\\}$\uc774\ub2e4.",
+          "isCorrect": true,
+          "rationale": "$y=\\sqrt{ax}$\uc5d0\uc11c \uadfc\ud638 \uc55e\uc758 \ubd80\ud638\uac00 \uc591\uc218\uc774\ubbc0\ub85c $a$\uc758 \ubd80\ud638\uc640 \uc0c1\uad00\uc5c6\uc774 \uce58\uc5ed\uc740 \ud56d\uc0c1 $\\{y \\mid y \\ge 0\\}$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "\ubb34\ub9ac\ud568\uc218 $y=-\\sqrt{ax}$\uc758 \uadf8\ub798\ud504\ub294 $y=\\sqrt{ax}$\uc758 \uadf8\ub798\ud504\uc640 $x$\ucd95\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$y$ \ub300\uc2e0 $-y$\ub97c \ub300\uc785\ud55c \uaf34\uc774\ubbc0\ub85c $x$\ucd95 \ub300\uce6d\uad00\uacc4\uac00 \uc131\ub9bd\ud558\ub294 \uac83\uc740 \uc62c\ubc14\ub978 \uc131\uc9c8\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y=\\sqrt{ax}$\uc758 \uadf8\ub798\ud504\uc640 \uadf8 \uc5ed\ud568\uc218\uc758 \uadf8\ub798\ud504\ub294 \uc9c1\uc120 $y=x$\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\ud568\uc218\uc640 \uadf8 \uc5ed\ud568\uc218\uc758 \uadf8\ub798\ud504\uac00 \uc9c1\uc120 $y=x$\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc778 \uac83\uc740 \uc77c\ubc18\uc801\uc778 \uc131\uc9c8\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uadfc\ud638 \uc55e\uc758 \ubd80\ud638\uac00 \uce58\uc5ed\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5\uacfc \uc808\ub313\uac12 $|a|$\uc758 \uc758\ubbf8\ub97c \ud30c\uc545\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\ubb34\ub9ac\ud568\uc218 $y=\\sqrt{a(x-p)}+q$ ($a \\neq 0$)\uc758 \uc815\uc758\uc5ed\uacfc \uce58\uc5ed\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$a > 0$\uc77c \ub54c, \uc815\uc758\uc5ed\uc740 $\\{x \\mid x \\ge p\\}$\uc774\uace0 \uce58\uc5ed\uc740 $\\{y \\mid y \\ge q\\}$\uc774\ub2e4.",
+          "isCorrect": true,
+          "rationale": "$a > 0$\uc774\uba74 $a(x-p) \\ge 0$\uc5d0\uc11c $x \\ge p$\uac00 \ub418\uace0, \uadfc\ud638 \ubd80\ubd84\uc774 $0$ \uc774\uc0c1\uc774\ubbc0\ub85c $y \\ge q$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a < 0$\uc77c \ub54c, \uc815\uc758\uc5ed\uc740 $\\{x \\mid x \\ge p\\}$\uc774\uace0 \uce58\uc5ed\uc740 $\\{y \\mid y \\ge q\\}$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$a < 0$\uc77c \ub54c\ub294 \ubd80\ub4f1\ud638 \ubc29\ud5a5\uc774 \ubc14\ub00c\uc5b4 \uc815\uc758\uc5ed\uc774 $\\{x \\mid x \\le p\\}$\uac00 \ub418\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a > 0$\uc77c \ub54c, \uc815\uc758\uc5ed\uc740 $\\{x \\mid x \\le p\\}$\uc774\uace0 \uce58\uc5ed\uc740 $\\{y \\mid y \\le q\\}$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$a > 0$ \uc870\uac74\uc5d0\uc11c\ub294 \uc815\uc758\uc5ed\uc774 $x \\ge p$, \uce58\uc5ed\uc774 $y \\ge q$ \ud615\ud0dc\ub97c \uac00\uc9d1\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a < 0$\uc77c \ub54c, \uce58\uc5ed\uc740 $\\{y \\mid y \\le q\\}$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uadfc\ud638 \ubc14\uae65\uc758 \ubd80\ud638\uac00 \uc591\uc218\uc774\ubbc0\ub85c $a$\uc758 \ubd80\ud638\uc640 \uc0c1\uad00\uc5c6\uc774 \uce58\uc5ed\uc740 $\\{y \\mid y \\ge q\\}$\uac00 \ub429\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "$a$\uc758 \ubd80\ud638\uac00 $x$\uc758 \ubc94\uc704\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5\uacfc $q$\uac00 $y$\uc758 \ubc94\uc704\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5\uc744 \uace0\ub824\ud558\uc138\uc694."
+    },
+    {
+      "question": "\ud568\uc218 $y=\\sqrt{ax}$\uc758 \uadf8\ub798\ud504\ub97c $x$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $-3$\ub9cc\ud07c, $y$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $1$\ub9cc\ud07c \ud3c9\ud589\uc774\ub3d9\ud558\uc600\ub354\ub2c8 \uc810 $(-1, 7)$\uc744 \uc9c0\ub0ac\ub2e4. \uc774\ub54c \uc0c1\uc218 $a$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "$a = 6$",
+          "isCorrect": false,
+          "rationale": "\uadfc\ud638 \uc548\uc758 \uc591\ubcc0\uc744 \uc81c\uacf1\ud558\ub294 \uacfc\uc815\uc5d0\uc11c 6\uc744 \uc81c\uacf1\ud558\uc9c0 \uc54a\uace0 \uadf8\ub300\ub85c \uc774\uc6a9\ud558\uba74 \uc0dd\uae30\ub294 \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a = 9$",
+          "isCorrect": false,
+          "rationale": "\ubc29\uc815\uc2dd $\\sqrt{2a}=6$ \uacc4\uc0b0 \uc2dc $\\sqrt{2a}=6 \\implies 2a=36$ \ub300\uc2e0 $2a=18$\ub85c \uc798\ubabb \uacc4\uc0b0\ud55c \uacbd\uc6b0\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a = 18$",
+          "isCorrect": true,
+          "rationale": "\ud3c9\ud589\uc774\ub3d9\ud55c \uc2dd $y=\\sqrt{a(x+3)}+1$\uc5d0 $(-1, 7)$\uc744 \ub300\uc785\ud558\uba74 $7=\\sqrt{2a}+1 \\implies \\sqrt{2a}=6 \\implies 2a=36 \\implies a=18$\uc774 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a = 36$",
+          "isCorrect": false,
+          "rationale": "$2a = 36$\uae4c\uc9c0 \uad6c\ud55c \ub4a4 $2$\ub85c \ub098\ub204\uc9c0 \uc54a\uace0 \ucd5c\uc885 \ub2f5\uc73c\ub85c \ud0dd\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ud3c9\ud589\uc774\ub3d9\ud55c \ubb34\ub9ac\ud568\uc218\uc2dd\uc744 \uba3c\uc800 \uad6c\ud55c \ub4a4 \ud574\ub2f9 \uc810\uc758 \uc88c\ud45c\ub97c \ub300\uc785\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\ubb34\ub9ac\ud568\uc218 $y=\\sqrt{2x+6}-2$\uc758 \uc815\uc758\uc5ed\uacfc \uce58\uc5ed\uc73c\ub85c \ubc14\ub974\uac8c \uc9dd\uc9c0\uc5b4\uc9c4 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "\uc815\uc758\uc5ed: $\\{x \\mid x \\ge -3\\}$, \uce58\uc5ed: $\\{y \\mid y \\ge -2\\}$",
+          "isCorrect": true,
+          "rationale": "$y=\\sqrt{2(x+3)}-2$\ub85c \ud45c\uc900\ud615 \ubcc0\ud615\uc744 \ud558\uba74 \uadfc\ud638 \ub0b4\ubd80 $2x+6 \\ge 0 \\implies x \\ge -3$\uc774\uba70, \uadfc\ud638 \ubd80\ubd84\uc774 $0$ \uc774\uc0c1\uc774\ubbc0\ub85c $y \\ge -2$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "\uc815\uc758\uc5ed: $\\{x \\mid x \\ge 3\\}$, \uce58\uc5ed: $\\{y \\mid y \\ge -2\\}$",
+          "isCorrect": false,
+          "rationale": "$2x+6=0$\uc5d0\uc11c $x=-3$\uc774 \uc544\ub2cc $x=3$\uc73c\ub85c \ud3c9\ud589\uc774\ub3d9 \uac12\uc744 \uc798\ubabb \uad6c\ud55c \uc624\ub2f5\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "\uc815\uc758\uc5ed: $\\{x \\mid x \\le -3\\}$, \uce58\uc5ed: $\\{y \\mid y \\ge 2\\}$",
+          "isCorrect": false,
+          "rationale": "$x$ \uacc4\uc218\uac00 \uc591\uc218\uc77c \ub54c \uc815\uc758\uc5ed \ubd80\ub4f1\ud638 \ubc29\ud5a5 \ubc0f \uce58\uc5ed \ubd80\ud638\ub97c \ucc29\uac01\ud55c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "\uc815\uc758\uc5ed: $\\{x \\mid x \\ge -3\\}$, \uce58\uc5ed: $\\{y \\mid y \\le -2\\}$",
+          "isCorrect": false,
+          "rationale": "\uadfc\ud638 \uc55e \ubd80\ud638\uac00 \uc591\uc218\uc778\ub370 \uce58\uc5ed\uc758 \ubd80\ub4f1\ud638 \ubc29\ud5a5\uc744 \ubbf8\ub9cc/\uc774\ud558\ub85c \uc798\ubabb \ucc98\ub9ac\ud55c \ucf00\uc774\uc2a4\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uadfc\ud638 \uc548\uc758 \uc2dd\uc744 $2(x-p)$ \uaf34\ub85c \ubb36\uc5b4 \ud3c9\ud589\uc774\ub3d9\uc758 \uae30\uc900\uc810\uc744 \ucc3e\uc544\ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\uc2dd $\\frac{2}{\\sqrt{x+2}-\\sqrt{x}}$\ub97c \uac04\ub2e8\ud788 \ud55c \uac83\uc73c\ub85c \uc633\uc740 \uac83\uc740? (\ub2e8, $x > 0$)",
+      "answerOptions": [
+        {
+          "text": "$\\sqrt{x+2} + \\sqrt{x}$",
+          "isCorrect": true,
+          "rationale": "\ubd84\ubaa8\uc640 \ubd84\uc790\uc5d0 $(\\sqrt{x+2}+\\sqrt{x})$\ub97c \uacf1\ud558\uba74 \ubd84\ubaa8\ub294 $(x+2)-x=2$\uac00 \ub418\uc5b4 \ubd84\uc790\uc758 $2$\uc640 \uc57d\ubd84\ub418\ubbc0\ub85c $\\sqrt{x+2}+\\sqrt{x}$\uac00 \ub0a8\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\sqrt{x+2} - \\sqrt{x}$",
+          "isCorrect": false,
+          "rationale": "\uc720\ub9ac\ud654 \uacfc\uc815\uc5d0\uc11c \ucf24\ub808\uc2dd\uc744 \uacf1\ud558\uc9c0 \uc54a\uace0 \uc6d0\ub798 \ubd84\ubaa8 \ud615\ud0dc\ub97c \uadf8\ub300\ub85c \uc801\uc6a9\ud55c \uc798\ubabb\ub41c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$2(\\sqrt{x+2} + \\sqrt{x})$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8 \ud569\ucc28\uacf5\uc2dd\uc758 \uacb0\uacfc\uc778 $2$\ub97c \uc57d\ubd84\ud558\uc9c0 \uc54a\uace0 \uacf1\ud55c \uc0c1\ud0dc\ub85c \ub0a8\uaca8\ub454 \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\frac{\\sqrt{x+2} + \\sqrt{x}}{2}$",
+          "isCorrect": false,
+          "rationale": "\ubd84\ubaa8\uc758 \uacc4\uc0b0 \uacb0\uacfc $2$\ub97c \ubd84\ubaa8\uc5d0 \ud55c \ubc88 \ub354 \ub098\ub204\ub294 \uacc4\uc0b0 \uc2e4\uc218\ub97c \ud55c \uc624\ub2f5\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ubd84\ubaa8\uc758 \uadfc\ud638\ub97c \uc5c6\uc560\uae30 \uc704\ud574 \ud569\ucc28 \uacf5\uc2dd\uc744 \uc774\uc6a9\ud574 \ubd84\ubaa8\uc640 \ubd84\uc790\uc5d0 \uac19\uc740 \uac12\uc744 \uacf1\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\ubb34\ub9ac\ud568\uc218 $y=-\\sqrt{ax}$ ($a \\neq 0$)\uc758 \uadf8\ub798\ud504\uc640 \uc815\uc758\uc5ed \ubc0f \uce58\uc5ed\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$a < 0$\uc77c \ub54c, \uc815\uc758\uc5ed\uc740 $\\{x \\mid x \\le 0\\}$\uc774\ub2e4.",
+          "isCorrect": true,
+          "rationale": "\uadfc\ud638 \ub0b4\ubd80 $ax \\ge 0$\uc774\uc5b4\uc57c \ud558\ubbc0\ub85c $a < 0$\uc77c \ub54c $x \\le 0$\uc774 \uc815\uc758\uc5ed\uc774 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$y=\\sqrt{ax}$\uc758 \uadf8\ub798\ud504\ub97c $y$\ucd95\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc774\ub3d9\ud55c \uac83\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$y$\uc758 \ubd80\ud638\uac00 \ubc14\ub010 \ud615\ud0dc\uc774\ubbc0\ub85c $y$\ucd95\uc774 \uc544\ub2cc $x$\ucd95\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc774\ub3d9\ud55c \uadf8\ub798\ud504\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a > 0$\uc77c \ub54c, \uce58\uc5ed\uc740 $\\{y \\mid y \\ge 0\\}$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uadfc\ud638 \uc55e\uc5d0 \ub9c8\uc774\ub108\uc2a4 \ubd80\ud638\uac00 \ubd99\uc5b4 \uc788\uc73c\ubbc0\ub85c \uce58\uc5ed\uc740 $\\{y \\mid y \\le 0\\}$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$a$\uc758 \uac12\uc5d0 \uad00\uacc4\uc5c6\uc774 \ud56d\uc0c1 \uc810 $(0, 1)$\uc744 \uc9c0\ub09c\ub2e4.",
+          "isCorrect": false,
+          "rationale": "$x=0$\uc744 \ub300\uc785\ud558\uba74 $y=0$\uc774 \ub418\ubbc0\ub85c \uc774 \ud568\uc218\ub294 \ud56d\uc0c1 \uc6d0\uc810 $(0,0)$\uc744 \uc9c0\ub0a9\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uadfc\ud638 \uc548\uc758 \uc2dd $ax \\ge 0$ \uc870\uac74\uacfc \uadfc\ud638 \ubc14\uae65\uc758 \ub9c8\uc774\ub108\uc2a4 \ubd80\ud638\uac00 \uce58\uc5ed\uc5d0 \uc8fc\ub294 \uc601\ud5a5\uc744 \uc0b4\ud3b4\ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\uc6d0\uc810 $(0,0)$\uc744 \ucd9c\ubc1c\uc810(\uc2dc\uc791\uc810)\uc73c\ub85c \ud558\ub294 \ubb34\ub9ac\ud568\uc218 $y=\\sqrt{ax+b}$\uc758 \uadf8\ub798\ud504\uac00 \uc810 $(4, 5)$\ub97c \uc9c0\ub0a0 \ub54c, \uc0c1\uc218 $a, b$\uc5d0 \ub300\ud558\uc5ec $a+b$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "$6.25$",
+          "isCorrect": true,
+          "rationale": "\uc6d0\uc810 $(0,0)$\uc744 \uc9c0\ub098\ubbc0\ub85c $\\sqrt{b}=0 \\implies b=0$\uc785\ub2c8\ub2e4. \uc810 $(4, 5)$\ub97c \ub300\uc785\ud558\uba74 $5=\\sqrt{4a}=2\\sqrt{a} \\implies \\sqrt{a}=2.5 \\implies a=6.25$\uc774\ubbc0\ub85c $a+b=6.25$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$4$",
+          "isCorrect": false,
+          "rationale": "$5=\\sqrt{4a}$\uc5d0\uc11c \uc591\ubcc0\uc744 \uc81c\uacf1\ud558\uc9c0 \uc54a\uace0 \ub2e8\uc21c \ub367\uc148/\ube84\uc148 \uad00\uacc4\ub85c \ub300\uc785\ud588\uc744 \ub54c \ub098\uc624\ub294 \uc624\ub2f5\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$9$",
+          "isCorrect": false,
+          "rationale": "$5=\\sqrt{4a}$ \uacc4\uc0b0 \uc2dc $4a=25$\ub97c \uc2e4\uc218\ud558\uc5ec $a=9$\ub85c \uacc4\uc0b0\ud55c \uacbd\uc6b0\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$25$",
+          "isCorrect": false,
+          "rationale": "$5=\\sqrt{4a} \\implies 25=4a$ \uad6c\ud55c \ub4a4 $4$\ub85c \ub098\ub204\uc9c0 \uc54a\uace0 $a$\uac12\uc73c\ub85c \uc0b0\uc815\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uadf8\ub798\ud504\uac00 \uc6d0\uc810\uc744 \uc9c0\ub09c\ub2e4\ub294 \uc0ac\uc2e4\uc744 \uc774\uc6a9\ud574 \uba3c\uc800 $b$\uc758 \uac12\uc744 \uacb0\uc815\ud574 \ubcf4\uc138\uc694."
+    }
+  ]
+}
