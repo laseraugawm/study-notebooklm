@@ -46,6 +46,51 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: shorter 5745<6545"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-04T23:44:22+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "역량 키우기 표의 빈칸(y축, 원점, 직선 y=x 행)을 완성하는 활동",
+     "page": "51",
+     "add": "직선 y=mx+n(m!=0)을 y축, 원점, 직선 y=x에 대하여 대칭이동할 때 기울기와 그 변화를 표로 완성해 보자."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "표 2에서 평행이동(a, b) 대입 규칙(x -> x-a, y -> y-b)을 서술함",
+     "right": "평행이동은 이 단원(Ⅰ-3-02 대칭이동)의 교과서 원문에 없는 내용이므로 제외해야 함",
+     "page": "48-51"
+    },
+    {
+     "wrong": "스스로 익히기 3의 풀이와 계산 결과(a=-4)를 단정하여 서술함",
+     "right": "교과서 51쪽 스스로 익히기 3의 풀이·정답은 원문에 제시되어 있지 않으므로 계산 결과를 단정해서는 안 됨",
+     "page": "51"
+    },
+    {
+     "wrong": "스스로 익히기 4의 A, B 좌표와 P의 계산 결과(8/5, 8/5)를 단정하여 서술함",
+     "right": "교과서 51쪽 스스로 익히기 4는 그림만 제시되어 있고 점의 좌표나 정답은 원문에 없으므로 좌표와 결과를 단정해서는 안 됨",
+     "page": "51"
+    },
+    {
+     "wrong": "역량 키우기 표에서 y축, 원점, 직선 y=x 행의 완성값을 교과서 내용처럼 제시함",
+     "right": "교과서 51쪽 역량 키우기 표는 x축 행만 채워져 있고 나머지 행은 학생이 완성하는 빈칸이므로 완성값을 미리 채워 제시해서는 안 됨",
+     "page": "51"
+    }
+   ],
+   "unclear": [
+    "교과서 원문에 없는 스스로 익히기 3, 4의 정답 및 좌표를 임의로 계산하여 확정된 내용인 것처럼 서술한 점"
+   ],
+   "applied": "note",
+   "review_secs": 172,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
