@@ -303,3 +303,13 @@
 - **바로잡기** 'WRAP UP 문법 배열 정답을 'It was a diary that I wanted to buy the most'로 제시했으나 어순 배열 문제의 원문 어구 순서와 다르게 설명' → 배열 어구는 (wanted, a diary, to buy, that, I, the most)이며 정답은 It was a diary that I wanted to buy the most at the gift shop. / (that, fast, so, an hour earlier, I, arrived) → The train was so fast that I arrived an hour earlier than I had expected. (p.50)
 - **바로잡기** 'PROJECT 1 사례 2에서 '위성 이미지로 48시간 이내 지도 제작'만 서술하고 지도 제작의 목적(피해 평가·대피소·응급 의료 센터)을 누락' → This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers. (p.53)
 - **바로잡기** 'PROJECT 1 ACTIVITY STEP 2의 예시 주제·프로젝트 목표·지도 제목(Barrier-free Map)을 제시하지 않음' → 예: Which buildings are accessible to people with disabilities? / Project goal: To provide information about accessibility in public spaces for people with disabilities. / Map title: Barrier-free Map. (p.54)
+
+## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1)
+- **빠진 내용** Get Ready 1 냉면 듣기 빈칸의 구체적 내용 (전통적으로 추운 날씨에도 냉면을 즐김) — Traditionally, Koreans enjoy this dish, even in cold weather. (p.32)
+- **빠진 내용** Listening Tip의 구체적 내용 (화자 추론 시 화자가 하는 일을 묘사하는 단어에 집중) — To infer who the speaker is, listen for words describing what he or she does. (p.33)
+- **빠진 내용** Before Reading Topic Preview의 구체적인 광고 원문 문구 — Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices. (p.34)
+- **빠진 내용** Reading 문단 1의 'to name a few' 표현 — Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few. (p.35)
+- **빠진 내용** Reading 문단 1의 'literally at the tips of your fingers' 표현 — The speedy delivery of purchased items to your house is literally at the tips of your fingers. (p.35)
+- **빠진 내용** 2010년 아이티 지진 공동체 매핑의 구체적 역할 (피해 평가, 대피소 위치 파악, 응급 의료 센터 확인) — This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers. (p.53)
+- **빠진 내용** PROJECT 1 ACTIVITY STEP 2의 Barrier-free Map 프로젝트 목표 및 세부 요소 — To provide information about accessibility in public spaces for people with disabilities / accessible ramps, restrooms, elevators, entrances (p.54)
+- **바로잡기** '학습 목표 및 도입부 쪽수를 p.30 또는 p.31로 잘못 연계 (교과서 원문은 32쪽부터 시작)' → 단원 도입면은 30~31쪽이나 제시된 원문 및 개념정리의 본문 내용은 32쪽부터 시작됨 (p.32)
