@@ -58,6 +58,33 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: {'provider': 'gemini_junghhco1', 'answer': '', 'url': 'https://gemini.google.com"
    ]
+  },
+  {
+   "n": 2,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-05T03:38:49+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "원 x²+y²=r²에 접하고 기울기가 m인 직선의 방정식 유도 과정에서 '한 원에 대하여 기울기가 같은 접선은 2개이다'라는 설명",
+     "page": "37",
+     "add": "한 원에 대하여 기울기가 같은 접선은 2개이다."
+    },
+    {
+     "point": "점 P가 좌표축 위의 점인 경우 접선의 방정식 공식 유도에서 '따라서 이 경우에도 원의 접선의 방정식은 x₁x+y₁y=r²이다'라는 결론",
+     "page": "38",
+     "add": "따라서 이 경우에도 원의 접선의 방정식은 x₁x+y₁y=r²이다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 227,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
