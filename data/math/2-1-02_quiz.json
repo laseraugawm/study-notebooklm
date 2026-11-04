@@ -1,0 +1,291 @@
+{
+  "title": "\uc9d1\ud569 \uc5f0\uc0b0 \ud034\uc988",
+  "questions": [
+    {
+      "question": "\ub450 \uc9d1\ud569 $A, B$\uc5d0 \ub300\ud55c \uc124\uba85\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "\ub450 \uc9d1\ud569 $A$\uc640 $B$\uc5d0 \uacf5\ud1b5\uc778 \uc6d0\uc18c\uac00 \ud558\ub098\ub3c4 \uc5c6\uc744 \ub54c, $A$\uc640 $B$\ub294 \uc11c\ub85c\uc18c\ub77c\uace0 \ud55c\ub2e4.",
+          "isCorrect": true,
+          "rationale": "\uad50\uc9d1\ud569\uc774 \uacf5\uc9d1\ud569\uc778 \ub450 \uc9d1\ud569\uc758 \uad00\uacc4\ub97c \uc11c\ub85c\uc18c\ub77c\uace0 \uc815\uc758\ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cap B = \\{x \\mid x \\in A \\text{ \ub610\ub294 } x \\in B\\}$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc870\uac74\uc5d0 '\ub610\ub294'\uc774 \uc4f0\uc778 \uac83\uc740 \uad50\uc9d1\ud569\uc774 \uc544\ub2c8\ub77c \ud569\uc9d1\ud569\uc758 \uc815\uc758\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cup B = \\{x \\mid x \\in A \\text{ \uadf8\ub9ac\uace0 } x \\in B\\}$\uc774\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc870\uac74\uc5d0 '\uadf8\ub9ac\uace0'\uac00 \uc4f0\uc778 \uac83\uc740 \ud569\uc9d1\ud569\uc774 \uc544\ub2c8\ub77c \uad50\uc9d1\ud569\uc758 \uc815\uc758\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "\ub450 \uc9d1\ud569 $A, B$\uac00 \uc11c\ub85c\uc18c\uc774\uba74 $A$\uc640 $B$ \uc911 \uc801\uc5b4\ub3c4 \ud558\ub098\ub294 \uacf5\uc9d1\ud569\uc774\uc5b4\uc57c \ud55c\ub2e4.",
+          "isCorrect": false,
+          "rationale": "\uc11c\ub85c \ub2e4\ub978 \uc6d0\uc18c\ub4e4\ub85c \uc774\ub8e8\uc5b4\uc9c4 \ube44\uc5b4\uc788\uc9c0 \uc54a\uc740 \ub450 \uc9d1\ud569\ub3c4 \uacf5\ud1b5 \uc6d0\uc18c\uac00 \uc5c6\ub2e4\uba74 \uc11c\ub85c\uc18c\uac00 \ub420 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ud569\uc9d1\ud569\uacfc \uad50\uc9d1\ud569\uc744 \ub098\ud0c0\ub0b4\ub294 \uc870\uac74\uc81c\uc2dc\ubc95\uc758 \uc5f0\uacb0\uc5b4('\ub610\ub294', '\uadf8\ub9ac\uace0')\uc640 \uc11c\ub85c\uc18c\uc758 \uc815\uc758\ub97c \ub5a0\uc62c\ub824 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\uc9d1\ud569 $A = \\{2, 3, 7\\}$\uacfc \uc9d1\ud569 $B$\uac00 \uc11c\ub85c\uc18c\uc774\uace0 $A \\cup B = \\{1, 2, 3, 4, 5, 6, 7\\}$\uc77c \ub54c, \uc9d1\ud569 $B$\uc758 \ubaa8\ub4e0 \uc6d0\uc18c\uc758 \ud569\uc740?",
+      "answerOptions": [
+        {
+          "text": "16",
+          "isCorrect": true,
+          "rationale": "$A$\uc640 $B$\uac00 \uc11c\ub85c\uc18c\uc774\ubbc0\ub85c $B$\ub294 $A \\cup B$\uc758 \uc6d0\uc18c \uc911 $A$\uc758 \uc6d0\uc18c\ub97c \uc81c\uc678\ud55c $\\{1, 4, 5, 6\\}$\uc774 \ub418\uba70, \uadf8 \ud569\uc740 $1+4+5+6=16$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "12",
+          "isCorrect": false,
+          "rationale": "\uc6d0\uc18c \uc911 \uc77c\ubd80\ub97c \ub204\ub77d\ud558\uc5ec \uacc4\uc0b0\ud558\uba74 \uc774\ub7ec\ud55c \uc624\ub2f5\uc774 \ub098\uc62c \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "28",
+          "isCorrect": false,
+          "rationale": "$A \\cup B$\uc758 \ubaa8\ub4e0 \uc6d0\uc18c\uc758 \ud569\uc744 \uad6c\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "14",
+          "isCorrect": false,
+          "rationale": "\uc6d0\uc18c\uc758 \uac1c\uc218 \uacc4\uc0b0 \uacfc\uc815\uc5d0\uc11c \uc77c\ubd80 \uac12\uc744 \uc798\ubabb \ub354\ud55c \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ub450 \uc9d1\ud569\uc774 \uc11c\ub85c\uc18c\ub77c\ub294 \uac83\uc740 \uacf5\ud1b5\uc778 \uc6d0\uc18c\uac00 \uc5c6\uc74c\uc744 \uc758\ubbf8\ud558\ubbc0\ub85c, $A \\cup B$\uc5d0\uc11c $A$\uc758 \uc6d0\uc18c\ub97c \uc81c\uac70\ud558\uc5ec $B$\ub97c \uad6c\ud569\ub2c8\ub2e4."
+    },
+    {
+      "question": "\uc5b4\ub290 \ud559\uae09\uc5d0\uc11c \ud50c\ub7ab\ud3fc A\ub97c \uc774\uc6a9\ud558\ub294 \uac00\uad6c \uc218\ub294 14, \ud50c\ub7ab\ud3fc B\ub97c \uc774\uc6a9\ud558\ub294 \uac00\uad6c \uc218\ub294 8, \ud50c\ub7ab\ud3fc A \ub610\ub294 \ud50c\ub7ab\ud3fc B\ub97c \uc774\uc6a9\ud558\ub294 \uac00\uad6c \uc218\ub294 20\uc774\ub2e4. \ud50c\ub7ab\ud3fc A\uc640 \ud50c\ub7ab\ud3fc B\ub97c \ubaa8\ub450 \uc774\uc6a9\ud558\ub294 \uac00\uad6c \uc218\ub294?",
+      "answerOptions": [
+        {
+          "text": "2",
+          "isCorrect": true,
+          "rationale": "\uc720\ud55c\uc9d1\ud569 \uc6d0\uc18c\uc758 \uac1c\uc218 \uad00\uacc4\uc2dd $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$\uc5d0 \uc758\ud574 $20 = 14 + 8 - n(A \\cap B)$\uac00 \uc131\ub9bd\ud558\ubbc0\ub85c $n(A \\cap B) = 2$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "6",
+          "isCorrect": false,
+          "rationale": "$n(A) - n(B)$\ub97c \uacc4\uc0b0\ud558\ub294 \ub2e8\uc21c \uc2e4\uc218\uc758 \uacb0\uacfc\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "4",
+          "isCorrect": false,
+          "rationale": "\uc6d0\uc18c \uac1c\uc218\uc758 \ud569\ucc28 \uc5f0\uc0b0\uc5d0\uc11c \ub367\uc148/\ube84\uc148 \uae30\ud638\ub098 \uc774\ud56d\uc744 \uc798\ubabb \ucc98\ub9ac\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "12",
+          "isCorrect": false,
+          "rationale": "$n(A \\cup B) - n(B)$\ub97c \uad6c\ud558\uc5ec \uc9d1\ud569 $A$\ub9cc\uc758 \uc6d0\uc18c \uac1c\uc218\ub97c \uad6c\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ud569\uc9d1\ud569\uc758 \uc6d0\uc18c \uac1c\uc218 \uacf5\uc2dd\uc778 $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$\ub97c \ud65c\uc6a9\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\uc138 \uc9d1\ud569 $A, B, C$\uc5d0 \ub300\ud574 \uc9d1\ud569\uc758 \uc5f0\uc0b0 \ubc95\uce59 \uc911 \ubd84\ubc30\ubc95\uce59\uc774 \uc62c\ubc14\ub974\uac8c \uc801\uc6a9\ub41c \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)$",
+          "isCorrect": true,
+          "rationale": "\ud569\uc9d1\ud569\uc740 \uad50\uc9d1\ud569\uc5d0 \ub300\ud558\uc5ec \ubd84\ubc30\ub418\uc5b4 $(A \\cup B) \\cap (A \\cup C)$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cup (B \\cap C) = (A \\cup B) \\cup (A \\cup C)$",
+          "isCorrect": false,
+          "rationale": "\uad04\ud638 \ubc16\uc758 \uc5f0\uc0b0 \uae30\ud638\uc640 \uad04\ud638 \uc548\uc758 \uc5f0\uc0b0 \uae30\ud638\uac00 \uad50\ucc28\ub418\uc5b4 \ubc30\uce58\ub418\uc9c0 \uc54a\uc740 \uc798\ubabb\ub41c \uc5f0\uc0b0\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$(A \\cup B) \\cup C = A \\cup (B \\cup C)$",
+          "isCorrect": false,
+          "rationale": "\uc774 \ub4f1\uc2dd\uc740 \ubd84\ubc30\ubc95\uce59\uc774 \uc544\ub2cc \uacb0\ud569\ubc95\uce59\uc744 \ub098\ud0c0\ub0c5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cap (B \\cup C) = (A \\cap B) \\cap (A \\cap C)$",
+          "isCorrect": false,
+          "rationale": "\uad50\uc9d1\ud569\uc744 \ubd84\ubc30\ud560 \ub54c \uc5f0\uc0b0\uc790 \uc5f0\uacb0\uc774 \uc798\ubabb \uc801\uc6a9\ub41c \ud45c\ud604\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uc218\ud559\uc758 \uacf1\uc148 \ubd84\ubc30\uc640 \ube44\uc2b7\ud558\uac8c, \uad04\ud638 \ubc16\uc758 \uc5f0\uc0b0 \uae30\ud638\uac00 \uad04\ud638 \uc548\uc758 \uac01 \uc9d1\ud569\uc73c\ub85c \uc801\uc6a9\ub418\uace0 \uc911\uac04 \uc5f0\uc0b0 \uae30\ud638\uac00 \ubc14\ub010\ub2e4\ub294 \uc810\uc5d0 \uc8fc\uc758\ud558\uc138\uc694."
+    },
+    {
+      "question": "\ub450 \uc9d1\ud569 $A, B$\uc5d0 \ub300\ud558\uc5ec $A \\cup (A \\cap B)$\ub97c \uac04\ub2e8\ud788 \ub098\ud0c0\ub0b8 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$A$",
+          "isCorrect": true,
+          "rationale": "$A \\cap B$\ub294 $A$\uc758 \ubd80\ubd84\uc9d1\ud569\uc774\ubbc0\ub85c $A$\uc640 \ud569\uc9d1\ud569\uc744 \uad6c\ud558\uba74 \uc790\uae30 \uc790\uc2e0\uc778 $A$\uac00 \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$B$",
+          "isCorrect": false,
+          "rationale": "$A \\cap B$\uac00 $B$ \uc804\uccb4\ub97c \ud3ec\ud568\ud558\uc9c0 \uc54a\uc73c\ubbc0\ub85c \uc804\uccb4 \uacb0\uacfc\uac00 $B$\uac00 \ub420 \uc218\ub294 \uc5c6\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cap B$",
+          "isCorrect": false,
+          "rationale": "\ud3ec\ud568\uad00\uacc4\uc0c1 \ub354 \uc791\uc740 \uc9d1\ud569\uc73c\ub85c \uadc0\uacb0\ub420 \uc218 \uc5c6\uc73c\uba70, \ud569\uc9d1\ud569 \uc5f0\uc0b0\uc744 \uc218\ud589\ud558\uba74 \ub354 \ud070 \uc9d1\ud569\uc774 \ub0a8\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cup B$",
+          "isCorrect": false,
+          "rationale": "$B$ \uc804\uccb4 \uc6d0\uc18c\uac00 \ud3ec\ud568\ub418\ub294 \uac83\uc774 \uc544\ub2c8\ubbc0\ub85c $A \\cup B$\uc640 \uac19\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "$A \\cap B$\uac00 \uc9d1\ud569 $A$\uc758 \ubd80\ubd84\uc9d1\ud569\uc774\ub77c\ub294 \uac83\uc744 \ubca4 \ub2e4\uc774\uc5b4\uadf8\ub7a8\uc73c\ub85c \ub5a0\uc62c\ub824 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\uc804\uccb4\uc9d1\ud569 $U$\uc758 \ub450 \ubd80\ubd84\uc9d1\ud569 $A, B$\uc5d0 \ub300\ud558\uc5ec \ucc28\uc9d1\ud569 $A - B$\uc758 \uc870\uac74\uc81c\uc2dc\ubc95 \ud45c\ud604\uc73c\ub85c \uc633\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$\\{x \\mid x \\in A \\text{ \uadf8\ub9ac\uace0 } x \\notin B\\}$",
+          "isCorrect": true,
+          "rationale": "\ucc28\uc9d1\ud569 $A - B$\ub294 $A$\uc5d0 \uc18d\ud558\uc9c0\ub9cc $B$\uc5d0\ub294 \uc18d\ud558\uc9c0 \uc54a\ub294 \ubaa8\ub4e0 \uc6d0\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uc9d1\ud569\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\{x \\mid x \\in A \\text{ \ub610\ub294 } x \\notin B\\}$",
+          "isCorrect": false,
+          "rationale": "'\ub610\ub294'\uc744 \uc0ac\uc6a9\ud558\uba74 $A$\uc5d0 \uc18d\ud558\uc9c0 \uc54a\ub354\ub77c\ub3c4 $B$\uc5d0 \uc18d\ud558\uc9c0 \uc54a\ub294 \ubaa8\ub4e0 \uc6d0\uc18c(\uc989 $B^C$)\uae4c\uc9c0 \ud3ec\ud568\ud558\uac8c \ub429\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\{x \\mid x \\in U \\text{ \uadf8\ub9ac\uace0 } x \\notin A\\}$",
+          "isCorrect": false,
+          "rationale": "\uc774 \uc870\uac74\uc740 \ucc28\uc9d1\ud569 $A - B$\uac00 \uc544\ub2c8\ub77c \uc5ec\uc9d1\ud569 $A^C$\uc758 \uc815\uc758\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$\\{x \\mid x \\in B \\text{ \uadf8\ub9ac\uace0 } x \\notin A\\}$",
+          "isCorrect": false,
+          "rationale": "\uc774 \uc870\uac74\uc740 $A - B$\uac00 \uc544\ub2c8\ub77c $B - A$\uc758 \uc815\uc758\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ucc28\uc9d1\ud569 $A - B$\ub294 '$A$\uc5d0\ub294 \ud3ec\ud568\ub418\uba74\uc11c \ub3d9\uc2dc\uc5d0 $B$\uc5d0\ub294 \ud3ec\ud568\ub418\uc9c0 \uc54a\ub294 \uc6d0\uc18c'\ub4e4\uc758 \uc9d1\ud569\uc785\ub2c8\ub2e4."
+    },
+    {
+      "question": "\uc804\uccb4\uc9d1\ud569 $U$\uc758 \ub450 \ubd80\ubd84\uc9d1\ud569 $A, B$\uc5d0 \ub300\ud558\uc5ec \ucc28\uc9d1\ud569 $A - B$\uc640 \ud56d\uc0c1 \ub3d9\uc77c\ud55c \uc5f0\uc0b0\uc2dd\uc740?",
+      "answerOptions": [
+        {
+          "text": "$A \\cap B^C$",
+          "isCorrect": true,
+          "rationale": "\ucc28\uc9d1\ud569\uc758 \uc131\uc9c8\uc5d0 \ub530\ub77c $A - B = A \\cap B^C$\uac00 \uc131\ub9bd\ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A^C \\cap B$",
+          "isCorrect": false,
+          "rationale": "\uc774 \uc2dd\uc740 $B - A$\uc640 \uac19\uc740 \uc5f0\uc0b0\uc2dd\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cup B^C$",
+          "isCorrect": false,
+          "rationale": "\uad50\uc9d1\ud569\uc774 \uc544\ub2cc \ud569\uc9d1\ud569 \uae30\ud638\ub97c \uc0ac\uc6a9\ud558\uba74 $B$\uc5d0 \uc18d\ud558\uc9c0 \uc54a\ub294 \uc804\uccb4 \uc6d0\uc18c\uae4c\uc9c0 \ud3ec\ud568\ub418\ubbc0\ub85c \uc633\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "$(A \\cup B)^C$",
+          "isCorrect": false,
+          "rationale": "\uc774 \uc2dd\uc740 $A$\uc640 $B$ \uc5b4\ub290 \ucabd\uc5d0\ub3c4 \uc18d\ud558\uc9c0 \uc54a\ub294 \uc6d0\uc18c\ub4e4\uc758 \uc9d1\ud569\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\ucc28\uc9d1\ud569\uc740 \uc55e \uc9d1\ud569\uacfc \ub4a4 \uc9d1\ud569\uc758 '\uc5ec\uc9d1\ud569'\uc758 '\uad50\uc9d1\ud569'\uc73c\ub85c \ubc14\uafc0 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+    },
+    {
+      "question": "\uc804\uccb4\uc9d1\ud569 $U$\uc758 \ub450 \ubd80\ubd84\uc9d1\ud569 $A, B$\uc5d0 \ub300\ud55c \uc5ec\uc9d1\ud569\uacfc \ucc28\uc9d1\ud569\uc758 \uc131\uc9c8 \uc911 \uc633\uc9c0 \uc54a\uc740 \uac83\uc740?",
+      "answerOptions": [
+        {
+          "text": "$U^C = U$",
+          "isCorrect": true,
+          "rationale": "\uc804\uccb4\uc9d1\ud569 $U$\uc758 \uc5ec\uc9d1\ud569\uc740 \uc6d0\uc18c\uac00 \ud558\ub098\ub3c4 \uc5c6\ub294 \uacf5\uc9d1\ud569($\\emptyset$)\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4."
+        },
+        {
+          "text": "$(A^C)^C = A$",
+          "isCorrect": false,
+          "rationale": "\uc5ec\uc9d1\ud569\uc758 \uc5ec\uc9d1\ud569\uc740 \uc790\uae30 \uc790\uc2e0\uc73c\ub85c \ub3cc\uc544\uc624\ubbc0\ub85c \uc62c\ubc14\ub978 \uc131\uc9c8\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cup A^C = U$",
+          "isCorrect": false,
+          "rationale": "\uc5b4\ub5a4 \uc9d1\ud569\uacfc \uadf8 \uc5ec\uc9d1\ud569\uc758 \ud569\uc9d1\ud569\uc740 \uc804\uccb4\uc9d1\ud569\uc774 \ub418\ubbc0\ub85c \uc62c\ubc14\ub978 \uc131\uc9c8\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "$A \\cap A^C = \\emptyset$",
+          "isCorrect": false,
+          "rationale": "\uc5b4\ub5a4 \uc9d1\ud569\uacfc \uadf8 \uc5ec\uc9d1\ud569\uc758 \uacf5\ud1b5 \uc6d0\uc18c\ub294 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc73c\ubbc0\ub85c \uc62c\ubc14\ub978 \uc131\uc9c8\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "\uc804\uccb4\uc9d1\ud569 $U$\uc5d0 \uc18d\ud558\uc9c0 \uc54a\ub294 \uc6d0\uc18c\ub4e4\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uc9d1\ud569\uc774 \ubb34\uc5c7\uc77c\uc9c0 \uc0dd\uac01\ud574 \ubcf4\uc138\uc694."
+    },
+    {
+      "question": "\ub450 \uc9d1\ud569 $A = \\{2, 3, 6\\}$, $B = \\{1, 2, 4, 8\\}$\uc77c \ub54c, \ucc28\uc9d1\ud569\uc758 \uc6d0\uc18c\uc758 \uac1c\uc218 $n(A - B)$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "2",
+          "isCorrect": true,
+          "rationale": "$A - B = \\{3, 6\\}$\uc774\ubbc0\ub85c \uc6d0\uc18c\uc758 \uac1c\uc218\ub294 2\uc785\ub2c8\ub2e4. \ub610\ub294 $n(A) - n(A \\cap B) = 3 - 1 = 2$\ub85c \uad6c\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+        },
+        {
+          "text": "-1",
+          "isCorrect": false,
+          "rationale": "$n(A - B)$\ub97c \ub2e8\uc21c \uc218\uc758 \ube84\uc148\uc778 $n(A) - n(B) = 3 - 4 = -1$\ub85c \uc624\ud574\ud588\uc744 \ub54c \ubc1c\uc0dd\ud558\ub294 \ud754\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "3",
+          "isCorrect": false,
+          "rationale": "$n(A)$\uc758 \uac12\uc744 \uadf8\ub300\ub85c \ub2f5\uc73c\ub85c \ub0b8 \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "1",
+          "isCorrect": false,
+          "rationale": "\uad50\uc9d1\ud569 \uc6d0\uc18c\uc758 \uac1c\uc218\uc778 $n(A \\cap B) = 1$\uc744 \uad6c\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "$n(A - B)$\ub294 \uc9d1\ud569 $A$\uc758 \uc6d0\uc18c \uac1c\uc218\uc5d0\uc11c \ub450 \uc9d1\ud569\uc758 \uacf5\ud1b5 \uc6d0\uc18c \uac1c\uc218 $n(A \\cap B)$\ub97c \ube7c\uc11c \uad6c\ud569\ub2c8\ub2e4."
+    },
+    {
+      "question": "\uc790\uc5f0\uc218 $k$\uc5d0 \ub300\ud558\uc5ec $A_k = \\{x \\mid x\\text{\ub294 } k\\text{\uc758 \ubc30\uc218\uc778 100 \uc774\ud558\uc758 \uc790\uc5f0\uc218}\\}$\ub77c \ud560 \ub54c, $n(A_2 \\cap A_3)$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "16",
+          "isCorrect": true,
+          "rationale": "$A_2 \\cap A_3$\ub294 2\uc758 \ubc30\uc218\uc774\uba74\uc11c 3\uc758 \ubc30\uc218\uc778 \uc218, \uc989 6\uc758 \ubc30\uc218 \uc9d1\ud569 $A_6$\uc785\ub2c8\ub2e4. 100 \uc774\ud558\uc758 6\uc758 \ubc30\uc218\ub294 16\uac1c\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "50",
+          "isCorrect": false,
+          "rationale": "2\uc758 \ubc30\uc218\uc758 \uac1c\uc218\uc778 $n(A_2)$\ub9cc \uad6c\ud55c \uacbd\uc6b0\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "33",
+          "isCorrect": false,
+          "rationale": "3\uc758 \ubc30\uc218\uc758 \uac1c\uc218\uc778 $n(A_3)$\ub9cc \uad6c\ud55c \uacbd\uc6b0\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "67",
+          "isCorrect": false,
+          "rationale": "\uad50\uc9d1\ud569\uc774 \uc544\ub2cc \ud569\uc9d1\ud569 $n(A_2 \\cup A_3) = 50 + 33 - 16 = 67$\uc744 \uad6c\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "2\uc758 \ubc30\uc218\uc758 \uc9d1\ud569\uacfc 3\uc758 \ubc30\uc218\uc758 \uc9d1\ud569\uc758 \uad50\uc9d1\ud569\uc740 \uacf5\ubc30\uc218\uc758 \uc9d1\ud569, \uc989 \ucd5c\uc18c\uacf5\ubc30\uc218\uc758 \ubc30\uc218 \uc9d1\ud569\uc774 \ub429\ub2c8\ub2e4."
+    },
+    {
+      "question": "\uc804\uccb4\uc9d1\ud569 $U$\uc758 \ub450 \ubd80\ubd84\uc9d1\ud569 $A, B$\uc5d0 \ub300\ud558\uc5ec $n(U)=50$, $n(A)=7$, $n(B)=16$, $n(A \\cup B)=21$\uc77c \ub54c, $n(A^C \\cap B^C)$\uc758 \uac12\uc740?",
+      "answerOptions": [
+        {
+          "text": "29",
+          "isCorrect": true,
+          "rationale": "$A^C \\cap B^C = (A \\cup B)^C$\uc774\ubbc0\ub85c, $n(A^C \\cap B^C) = n(U) - n(A \\cup B) = 50 - 21 = 29$\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "27",
+          "isCorrect": false,
+          "rationale": "$n(U) - n(A) - n(B) = 50 - 7 - 16 = 27$\ub85c \uc798\ubabb \uacc4\uc0b0\ud55c \uc624\ub958\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "43",
+          "isCorrect": false,
+          "rationale": "$n(U) - n(A)$\ub97c \uacc4\uc0b0\ud558\uc5ec $n(A^C)$\ub97c \uad6c\ud55c \uc624\ub2f5\uc785\ub2c8\ub2e4."
+        },
+        {
+          "text": "34",
+          "isCorrect": false,
+          "rationale": "$n(U) - n(B)$\ub97c \uacc4\uc0b0\ud558\uc5ec $n(B^C)$\ub97c \uad6c\ud55c \uc624\ub2f5\uc785\ub2c8\ub2e4."
+        }
+      ],
+      "hint": "$A^C \\cap B^C$\ub294 \ub4dc\ubaa8\ub974\uac04 \ubc95\uce59\uc5d0 \uc758\ud574 $(A \\cup B)^C$\uc640 \uac19\uc74c\uc744 \uc774\uc6a9\ud574 \ubcf4\uc138\uc694."
+    }
+  ]
+}
