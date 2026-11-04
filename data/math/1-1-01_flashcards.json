@@ -1,0 +1,905 @@
+{
+  "title": "\ud3c9\uba74\uc88c\ud45c \ud50c\ub798\uc2dc\uce74\ub4dc",
+  "cards": [
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(x_1)$, $B(x_2)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c \uad6c\ud558\ub294 \uc77c\ubc18 \uacf5\uc2dd\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB = |x_2 - x_1|$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(x_1)$, $B(x_2)$\uc5d0\uc11c $x_1 \\le x_2$\uc77c \ub54c, \uc120\ubd84 $AB$\uc758 \uac70\ub9ac\ub294 \uc5b4\ub5bb\uac8c \ud45c\ud604\ub418\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB = x_2 - x_1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(x_1)$, $B(x_2)$\uc5d0\uc11c $x_1 > x_2$\uc77c \ub54c, \uc120\ubd84 $AB$\uc758 \uac70\ub9ac\ub294 \uc5b4\ub5bb\uac8c \ud45c\ud604\ub418\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB = x_1 - x_2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(-6)$, $B(-1)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$5$ ($AB = |-1 - (-6)| = 5$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(-9)$, $B(5)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$14$ ($AB = |5 - (-9)| = 14$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ucd5c\ucd08 \uc81c\uc548\uc790\ub85c\uc11c \ud3c9\uba74\uc88c\ud45c\uc758 \uae30\ucd08\ub97c \ub9c8\ub828\ud55c \ud504\ub791\uc2a4\uc758 \uc218\ud559\uc790\ub294 \ub204\uad6c\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub370\uce74\ub974\ud2b8 (Descartes, R., 1596~1650)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \uc6d0\uc810 $O(0, 0)$\uacfc \uc810 $A(x_1, y_1)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c \uad6c\ud558\ub294 \uacf5\uc2dd\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$OA = \\sqrt{x_1^2 + y_1^2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 $A(x_1, y_1)$, $B(x_2, y_2)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub97c \uad6c\ud558\ub294 \uacf5\uc2dd\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 \uc0ac\uc774\uc758 \uac70\ub9ac \uacf5\uc2dd\uc744 \uc720\ub3c4\ud560 \ub54c \ud575\uc2ec\uc801\uc73c\ub85c \uc774\uc6a9\ub418\ub294 \uc815\ub9ac\uc758 \uba85\uce6d\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud53c\ud0c0\uace0\ub77c\uc2a4 \uc815\ub9ac ($AB^2 = AC^2 + BC^2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $A(x_1, y_1)$\uc744 \uc9c0\ub098\uace0 $x$\ucd95\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120\uacfc \uc810 $B(x_2, y_2)$\ub97c \uc9c0\ub098\uace0 $y$\ucd95\uc5d0 \ud3c9\ud589\ud55c \uc9c1\uc120\uc758 \uad50\uc810 $C$\uc758 \uc88c\ud45c\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(x_2, y_1)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 $A(1, -2)$, $B(-3, 2)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$4\\sqrt{2}$ ($AB = \\sqrt{(-3-1)^2 + \\{2-(-2)\\}^2} = \\sqrt{32} = 4\\sqrt{2}$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 $A(-2, -2)$, $B(2, 1)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$5$ ($AB = \\sqrt{\\{2-(-2)\\}^2 + \\{1-(-2)\\}^2} = \\sqrt{16 + 9} = 5$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 $A(0, 0)$, $B(-2, 3)$ \uc0ac\uc774\uc758 \uac70\ub9ac\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\sqrt{13}$ ($AB = \\sqrt{(-2-0)^2 + (3-0)^2} = \\sqrt{4 + 9} = \\sqrt{13}$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(-1, 2)$, $B(-4, -2)$, $C(3, -1)$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\uc758 \uc138 \ubcc0\uc758 \uae38\uc774 $AB, BC, CA$\ub294 \uac01\uac01 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB = 5$, $BC = 5\\sqrt{2}$, $CA = 5$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(-1, 2)$, $B(-4, -2)$, $C(3, -1)$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\ub294 \uc5b4\ub5a4 \uc0bc\uac01\ud615\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\angle A = 90^\\circ$\uc778 \uc9c1\uac01\uc774\ub4f1\ubcc0\uc0bc\uac01\ud615 ($AB^2 + CA^2 = BC^2$ \uc774\uace0 $AB = CA$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(2, 3\\sqrt{3})$, $B(2, -\\sqrt{3})$, $C(-4, \\sqrt{3})$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\ub294 \uc5b4\ub5a4 \uc0bc\uac01\ud615\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc0bc\uac01\ud615 (\uc138 \ubcc0\uc758 \uae38\uc774\uac00 \ubaa8\ub450 $4\\sqrt{3}$\uc73c\ub85c \ub3d9\uc77c)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc0bc\uac01\ud615 $ABC$\uc758 \ubcc0 $BC$\uc758 \uc911\uc810\uc744 $M$\uc774\ub77c \ud560 \ub54c \uc131\ub9bd\ud558\ub294 \ud30c\ud478\uc2a4 \uc815\ub9ac(\uc911\uc120\uc815\ub9ac)\uc758 \uad00\uacc4\uc2dd\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB^2 + AC^2 = 2(AM^2 + BM^2)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74\uc5d0\uc11c \uc911\uc120\uc815\ub9ac\ub97c \uc99d\uba85\ud560 \ub54c, \ubcc0 $BC$\uc758 \uc911\uc810 $M$\uacfc \uc9c1\uc120 $BC$\ub97c \uac01\uac01 \ubb34\uc5c7\uc73c\ub85c \uc124\uc815\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $BC$\ub97c $x$\ucd95\uc73c\ub85c, \uc911\uc810 $M$\uc744 \uc6d0\uc810 $O(0, 0)$\uc73c\ub85c \uc124\uc815\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc120\uc815\ub9ac \uc99d\uba85 \uacfc\uc815\uc5d0\uc11c \uc810 $M(0, 0)$, \uc810 $B(-c, 0)$\uc774\ub77c \ud560 \ub54c, \uc810 $C$\uc758 \uc88c\ud45c\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$C(c, 0)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(a, b)$, $B(-c, 0)$, $C(c, 0)$\uc5d0 \ub300\ud574 $AB^2 + AC^2$\uc744 $a, b, c$\uc5d0 \uad00\ud55c \uc2dd\uc73c\ub85c \ub098\ud0c0\ub0b4\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2(a^2 + b^2 + c^2)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(a, b)$, $B(-c, 0)$, $M(0, 0)$\uc5d0 \ub300\ud574 $2(AM^2 + BM^2)$\uc744 $a, b, c$\uc5d0 \uad00\ud55c \uc2dd\uc73c\ub85c \ub098\ud0c0\ub0b4\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2(a^2 + b^2 + c^2)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc120\ubd84 $AB$ \uc704\uc758 \uc810 $P$\uc5d0 \ub300\ud558\uc5ec $AP : PB = m : n$ ($m>0, n>0$)\uc77c \ub54c, \uc810 $P$\uc758 \uae30\ud558\ud559\uc801 \uc815\uc758\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $P$\ub294 \uc120\ubd84 $AB$\ub97c $m : n$\uc73c\ub85c \ub0b4\ubd84\ud55c\ub2e4\uace0 \ud558\uba70, \uc810 $P$\ub97c \uc120\ubd84 $AB$\uc758 \ub0b4\ubd84\uc810\uc774\ub77c \ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc120\ubd84\uc758 \ub0b4\ubd84\uc5d0\uc11c \ub0b4\ubd84\ube44 $m$\uacfc $n$\uc774 \ucda9\uc871\ud574\uc57c \ud558\ub294 \uc870\uac74\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$m > 0$ \uc774\uace0 $n > 0$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(x_1)$, $B(x_2)$\ub97c \uc774\uc740 \uc120\ubd84 $AB$\ub97c $m : n$\uc73c\ub85c \ub0b4\ubd84\ud558\ub294 \uc810 $P$\uc758 \uc88c\ud45c $x$ \uacf5\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x = \\frac{mx_2 + nx_1}{m+n}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(x_1)$, $B(x_2)$\uc5d0\uc11c $x_1 < x_2$\uc77c \ub54c, \ub0b4\ubd84\uc810 $P(x)$\uc5d0 \ub300\ud574 \ube44\ub840\uc2dd\uc744 \uc138\uc6b0\ub294 \ubb38\ud56d\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(x - x_1) : (x_2 - x) = m : n$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(x_1)$, $B(x_2)$\uc758 \uc911\uc810 $M$\uc758 \uc88c\ud45c \uacf5\uc2dd\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x = \\frac{x_1 + x_2}{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc120\ubd84\uc758 \uc911\uc810 $M$\uc740 \uc120\ubd84 $AB$\ub97c \uba87 \ub300 \uba87\uc73c\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uacfc \ub3d9\uc77c\ud55c\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$1 : 1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(-2)$, $B(8)$\uc758 \uc911\uc810 $M$\uc758 \uc88c\ud45c\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$3$ ($x = \\frac{-2 + 8}{2} = 3$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(-9)$, $B(5)$\ub97c \uc774\uc740 \uc120\ubd84 $AB$\ub97c $3 : 4$\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-3$ ($x = \\frac{3 \\times 5 + 4 \\times (-9)}{3 + 4} = \\frac{15 - 36}{7} = -3$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(-9)$, $B(5)$\uc758 \uc911\uc810\uc758 \uc88c\ud45c\ub294 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-2$ ($x = \\frac{-9 + 5}{2} = -2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc9c1\uc120 \uc704\uc758 \ub450 \uc810 $A(-4)$, $B(6)$\uc744 \uc774\uc740 \uc120\ubd84 $AB$\ub97c $3 : 2$\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2$ ($x = \\frac{3 \\times 6 + 2 \\times (-4)}{3 + 2} = \\frac{18 - 8}{5} = 2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 $A(x_1, y_1)$, $B(x_2, y_2)$\ub97c \uc774\uc740 \uc120\ubd84 $AB$\ub97c $m : n$\uc73c\ub85c \ub0b4\ubd84\ud558\ub294 \uc810 $P$\uc758 \uc88c\ud45c \uacf5\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\left(\\frac{mx_2 + nx_1}{m+n}, \\frac{my_2 + ny_1}{m+n}\\right)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \uc138 \uc810 $A, P, B$\uc5d0\uc11c $x$\ucd95\uc5d0 \ub0b4\ub9b0 \uc218\uc120\uc758 \ubc1c\uc744 $A', P', B'$\uc774\ub77c \ud560 \ub54c, \uc120\ubd84\uc758 \uae38\uc774\uc758 \ube44 $AP : PB$\uc640 $A'P' : P'B'$\uc758 \uad00\uacc4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3c9\ud589\uc120 \uc0ac\uc774\uc758 \uc120\ubd84\uc758 \uae38\uc774\uc758 \ube44 \uc131\uc9c8\uc5d0 \uc758\ud574 $AP : PB = A'P' : P'B' = m : n$\uc73c\ub85c \uac19\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704\uc758 \ub450 \uc810 $A(x_1, y_1)$, $B(x_2, y_2)$\ub97c \uc774\uc740 \uc120\ubd84 $AB$\uc758 \uc911\uc810 $M$\uc758 \uc88c\ud45c \uacf5\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \uc810 $A(1, -1)$, $B(4, 5)$\ub97c \uc774\uc740 \uc120\ubd84 $AB$\ub97c $2 : 1$\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(3, 3)$ ($\\because x = \\frac{2 \\times 4 + 1 \\times 1}{2+1} = 3, y = \\frac{2 \\times 5 + 1 \\times (-1)}{2+1} = 3$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \uc810 $A(1, -4)$, $B(7, 8)$\uc744 \uc774\uc740 \uc120\ubd84 $AB$\ub97c $1 : 5$\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(2, -2)$ ($\\because x = \\frac{1 \\times 7 + 5 \\times 1}{1+5} = 2, y = \\frac{1 \\times 8 + 5 \\times (-4)}{1+5} = -2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \uc810 $A(1, -4)$, $B(7, 8)$\uc744 \uc774\uc740 \uc120\ubd84 $AB$\uc758 \uc911\uc810\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(4, 2)$ ($\\because x = \\frac{1 + 7}{2} = 4, y = \\frac{-4 + 8}{2} = 2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \uc810 $A(2, a)$, $B(-2, 3)$\uc5d0 \ub300\ud558\uc5ec \uc120\ubd84 $AB$\ub97c $1 : 3$\uc73c\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uc774 $x$\ucd95 \uc704\uc5d0 \uc788\uc744 \ub54c, $a$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$a = -1$ (\ub0b4\ubd84\uc810\uc758 $y$\uc88c\ud45c $\\frac{1 \\times 3 + 3 \\times a}{1+3} = 0 \\implies 3 + 3a = 0 \\implies a = -1$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc0bc\uac01\ud615\uc758 \ud55c \uaf2d\uc9d3\uc810\uacfc \uadf8 \ub300\ubcc0\uc758 \uc911\uc810\uc744 \uc774\uc740 \uc120\ubd84\uc744 \ubb34\uc5c7\uc774\ub77c \ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc120"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc0bc\uac01\ud615 $ABC$\uc758 \ubb34\uac8c\uc911\uc2ec $G$\ub294 \uaf2d\uc9d3\uc810 $A$\uc640 \ubcc0 $BC$\uc758 \uc911\uc810 $M$\uc744 \uc787\ub294 \uc911\uc120 $AM$\uc744 \uba87 \ub300 \uba87\uc73c\ub85c \ub0b4\ubd84\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$2 : 1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\uc758 \ubcc0 $BC$\uc758 \uc911\uc810 $M$\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\left(\\frac{x_2 + x_3}{2}, \\frac{y_2 + y_3}{2}\\right)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(x_1, y_1)$, $B(x_2, y_2)$, $C(x_3, y_3)$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\uc758 \ubb34\uac8c\uc911\uc2ec $G$\uc758 \uc88c\ud45c \uacf5\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\left(\\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3}\\right)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(0, 0)$, $B(-5, 2)$, $C(-1, 1)$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\uc758 \ubb34\uac8c\uc911\uc2ec $G$\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(-2, 1)$ ($\\because x = \\frac{0 - 5 - 1}{3} = -2, y = \\frac{0 + 2 + 1}{3} = 1$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \uc810 $A(-2, 2)$, $B(1, -7)$, $C(4, -1)$\uc744 \uaf2d\uc9d3\uc810\uc73c\ub85c \ud558\ub294 \uc0bc\uac01\ud615 $ABC$\uc758 \ubb34\uac8c\uc911\uc2ec $G$\uc758 \uc88c\ud45c\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(1, -2)$ ($\\because x = \\frac{-2 + 1 + 4}{3} = 1, y = \\frac{2 - 7 - 1}{3} = -2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc0bc\uac01\ud615 $ABC$\uc758 \uc138 \ubcc0 $AB, BC, CA$\ub97c \ub3d9\uc77c\ud558\uac8c $m : n$\uc73c\ub85c \ub0b4\ubd84\ud558\ub294 \uc810\uc744 \uac01\uac01 $D, E, F$\ub77c\uace0 \ud560 \ub54c, \uc0bc\uac01\ud615 $ABC$\uc640 \uc0bc\uac01\ud615 $DEF$\uc758 \ubb34\uac8c\uc911\uc2ec\uc758 \uad00\uacc4\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc0bc\uac01\ud615 $ABC$\uc758 \ubb34\uac8c\uc911\uc2ec\uacfc \uc0bc\uac01\ud615 $DEF$\uc758 \ubb34\uac8c\uc911\uc2ec\uc740 \uc11c\ub85c \uc77c\uce58\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2e4\uc0dd\ud65c \uc911 '\uc2dc\uc18c\uac00 \ud3c9\ud615\uc744 \uc774\ub8e8\ub294 \uc6d0\ub9ac'\uc640 \uc9c1\uc811\uc801\uc73c\ub85c \uc5f0\uad00\ub418\ub294 \uc218\ud559\uc801 \uac1c\ub150\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc120\ubd84\uc758 \ub0b4\ubd84 (\ub0b4\ubd84\uc810)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub0b4\ubd84\uc810\uc758 \uc88c\ud45c $x = \\frac{mx_2 + nx_1}{m+n}$\uc5d0\uc11c \ub0b4\ubd84\ube44 $m : n$\uc5d0 \uacf1\ud574\uc9c0\ub294 \uac01 \uc810\uc758 \uc88c\ud45c \uc704\uce58 \ud2b9\uc9d5\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub0b4\ubd84\ube44 $m$\uc5d0\ub294 \ub4a4\uc5d0 \uc704\uce58\ud55c \uc810\uc758 \uc88c\ud45c $x_2$\uac00 \uacf1\ud574\uc9c0\uace0, $n$\uc5d0\ub294 \uc55e\uc5d0 \uc704\uce58\ud55c \uc810\uc758 \uc88c\ud45c $x_1$\uc774 \uad50\ucc28\ud558\uc5ec \uacf1\ud574\uc9c4\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc88c\ud45c\ud3c9\uba74 \uc704 \uc810 $A(x_1, y_1)$\uacfc \uc810 $B(x_2, y_2)$ \uc0ac\uc774\uc758 \uac70\ub9ac\uc758 \uc81c\uacf1 $AB^2$\uc740 \uc5b4\ub5a4 \uc2dd\uc73c\ub85c \ub098\ud0c0\ub098\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$AB^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc911\uc120\uc815\ub9ac $AB^2 + AC^2 = 2(AM^2 + BM^2)$\uc5d0\uc11c \ubcc0 $BC$\uc758 \uc911\uc810\uc774 $M$\uc77c \ub54c, $BM$ \ub300\uc2e0 \uc4f8 \uc218 \uc788\ub294 \uc120\ubd84\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$MC$ ($BM = MC$ \uc774\ubbc0\ub85c $AB^2 + AC^2 = 2(AM^2 + MC^2)$ \ub3c4 \uc131\ub9bd)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5b4\ub5a4 \uc0bc\uac01\ud615\uc758 \uc138 \ubcc0\uc758 \uae38\uc774\uac00 $a, b, c$\uc774\uace0 $a^2 + b^2 = c^2$ \ubc0f $a = b$\ub97c \ub9cc\uc871\ud560 \ub54c, \uc774 \uc0bc\uac01\ud615\uc758 \uba85\uce6d\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ube57\ubcc0\uc758 \uae38\uc774\uac00 $c$\uc778 \uc9c1\uac01\uc774\ub4f1\ubcc0\uc0bc\uac01\ud615"
+          }
+        ]
+      }
+    }
+  ]
+}
