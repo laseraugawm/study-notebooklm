@@ -122,6 +122,63 @@
     "qwen: HTTP Error 409: Conflict",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-06T05:48:04+09:00",
+   "score": 8,
+   "missing": [],
+   "errors": [
+    {
+     "wrong": "딕셔너리 정의 및 atom 예시, 화학식 양 정의, 실습 3 코드의 출처를 p.161로 서술",
+     "right": "교과서 160쪽에 제시됨",
+     "page": "160"
+    },
+    {
+     "wrong": "SDGs 정의, 탐색적 데이터 분석 문제 해결 과정, 실습 4 단계 1을 p.162로 서술",
+     "right": "교과서 161쪽에 제시됨",
+     "page": "161"
+    },
+    {
+     "wrong": "df.info() 요약 정보 및 rename 컬럼명 변경을 p.164로 서술",
+     "right": "교과서 163쪽에 제시됨",
+     "page": "163"
+    },
+    {
+     "wrong": "df1 생성 및 '여기서 잠깐'(df1 재사용) 설명을 p.164로 서술",
+     "right": "교과서 163쪽에 제시됨",
+     "page": "163"
+    },
+    {
+     "wrong": "내림차순 정렬, 상위 5개국, 막대그래프 코드를 p.165로 서술",
+     "right": "교과서 164쪽에 제시됨",
+     "page": "164"
+    },
+    {
+     "wrong": "isin() 설명과 df2 생성 코드를 p.165로 서술",
+     "right": "교과서 164쪽에 제시됨",
+     "page": "164"
+    },
+    {
+     "wrong": "korea 데이터프레임 생성, 원형 그래프, 대한민국 비율 결과를 p.166으로 서술",
+     "right": "교과서 165쪽에 제시됨",
+     "page": "165"
+    },
+    {
+     "wrong": "단계 4 문제 해결하기 내용을 p.166으로 서술",
+     "right": "교과서 165쪽에 제시됨",
+     "page": "165"
+    }
+   ],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 228,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
