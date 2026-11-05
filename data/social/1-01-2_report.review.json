@@ -94,7 +94,31 @@
    "applied": "rewrite",
    "review_secs": 203,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-05T11:37:26+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "카렐 바작의 3세대 인권 세부 예시 중 '발전의 권리'가 개념정리 본문 (1)의 연대권 설명이나 별도 설명에서 제외되어 있음(표에는 있으나 본문 정리에서 유실됨).",
+     "page": "13쪽",
+     "add": "3세대 인권(연대권)에는 자결권, 평화의 권리 외에도 발전의 권리가 포함된다."
+    }
+   ],
+   "errors": [],
+   "unclear": [
+    "개념정리 2번 '시험에 자주 나오는 함정 포인트'의 4번 항목에서 15쪽 확인 문제의 소문항 내용(차티스트 운동, 누구나 누리는 인권)을 대단원 핵심 본문 개념인 것처럼 배치하여 시험범위 본문 내용과 형성평가 문항 내용 간 구분이 모호함"
+   ],
+   "applied": "note",
+   "review_secs": 145,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
- "done": false
+ "done": true
 }
