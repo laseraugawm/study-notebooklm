@@ -71,6 +71,33 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-05T17:36:38+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "세계화의 흐름 속에서 각 지역은 세계의 다른 지역과 관계를 맺는 범위를 넓히고 있으며, 지역 발전을 위해 자기 지역의 고유한 특성을 전 세계에 알리고 있다.",
+     "page": "97",
+     "add": "세계화의 흐름 속에서 각 지역은 세계의 다른 지역과 관계를 맺는 범위를 넓히고 있으며, 지역 발전을 위해 자기 지역의 고유한 특성을 전 세계에 알리고 있다."
+    },
+    {
+     "point": "국제 연합(UN)을 비롯한 각종 국제기구의 본부가 자리 잡거나 다양한 국제회의가 개최되어 국제 사회의 주요 문제에 대한 논의와 의사 결정이 이루어지는 곳이기도 하다.",
+     "page": "98",
+     "add": "세계도시는 국제 연합(UN)을 비롯한 각종 국제기구의 본부가 자리 잡거나 다양한 국제회의가 개최되어 국제 사회의 주요 문제에 대한 논의와 의사 결정이 이루어지는 곳이기도 하다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 97,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
