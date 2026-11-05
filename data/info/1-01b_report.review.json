@@ -116,7 +116,18 @@
    "applied": "rewrite",
    "review_secs": 45,
    "reviser": "gemini_junghhco1"
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-05T23:37:23+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 59
   }
  ],
- "done": false
+ "done": true
 }
