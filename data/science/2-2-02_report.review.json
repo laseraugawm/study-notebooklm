@@ -75,7 +75,18 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: ## 보완 노트 (외부 리뷰 1차 · deepseek)"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-05T19:46:18+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 102
   }
  ],
- "done": false
+ "done": true
 }
