@@ -1,0 +1,815 @@
+{
+  "title": "\ud569\uc131\ud568\uc218 \ud50c\ub798\uc2dc\uce74\ub4dc",
+  "cards": [
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \ud568\uc218 $f: X \\to Y$, $g: Y \\to Z$\uac00 \uc8fc\uc5b4\uc84c\uc744 \ub54c, \uc815\uc758\uc5ed $X$\uc5d0\uc11c \uacf5\uc5ed $Z$\ub85c \ub300\uc751\uc2dc\ud0a4\ub294 \ud569\uc131\ud568\uc218\uc758 \uae30\ud638 \ud45c\ud604\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$g \\circ f: X \\to Z$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud569\uc131\ud568\uc218 $(g \\circ f)(x)$\uc758 \ud568\uc22b\uac12\uc744 $f(x)$\uc640 $g(x)$\ub97c \uc774\uc6a9\ud558\uc5ec \ub098\ud0c0\ub0b8 \uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)(x) = g(f(x))$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \ud568\uc218 $f: X \\to Y$\uc640 $g: Y \\to Z$\uc5d0\uc11c \ud569\uc131\ud568\uc218 $g \\circ f$\uac00 \uc815\uc758\ub418\uae30 \uc704\ud55c \uce58\uc5ed\uacfc \uc815\uc758\uc5ed \uc0ac\uc774\uc758 \ud3ec\ud568 \uad00\uacc4 \uc870\uac74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f$\uc758 \uce58\uc5ed\uc774 \ud568\uc218 $g$\uc758 \uc815\uc758\uc5ed\uc758 \ubd80\ubd84\uc9d1\ud569\uc774\uc5b4\uc57c \ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc77c\ubc18\uc801\uc73c\ub85c \ub450 \ud568\uc218 $f, g$\uc5d0 \ub300\ud558\uc5ec \uad50\ud658\ubc95\uce59 $g \\circ f = f \\circ g$\ub294 \uc131\ub9bd\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc131\ub9bd\ud558\uc9c0 \uc54a\ub294\ub2e4 ($g \\circ f \\ne f \\circ g$)."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \ud568\uc218 $f, g, h$\uc5d0 \ub300\ud558\uc5ec \uacb0\ud569\ubc95\uce59 $f \\circ (g \\circ h) = (f \\circ g) \\circ h$\ub294 \uc131\ub9bd\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc131\ub9bd\ud55c\ub2e4. (\ub530\ub77c\uc11c \uad04\ud638 \uc5c6\uc774 $f \\circ g \\circ h$\ub85c \ub098\ud0c0\ub0b4\uae30\ub3c4 \ud55c\ub2e4.)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = 2x - 3$, $g(x) = x^2 + 5$\uc77c \ub54c, $(g \\circ f)(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)(x) = 4x^2 - 12x + 14$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = 2x - 3$, $g(x) = x^2 + 5$\uc77c \ub54c, $(f \\circ g)(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(f \\circ g)(x) = 2x^2 + 7$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = |2x - 5|$, $g(x) = x^2 - 3x$\uc77c \ub54c, $(g \\circ f)(2)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-2$ (\uc774\uc720: $f(2)=1$, $g(1)=-2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = |2x - 5|$, $g(x) = x^2 - 3x$\uc77c \ub54c, $(f \\circ g)(2)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$9$ (\uc774\uc720: $g(2)=-2$, $f(-2)=9$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = |2x - 5|$\uc77c \ub54c, $(f \\circ f)(3)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$3$ (\uc774\uc720: $f(3)=1$, $f(1)=3$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$g(x) = x^2 - 3x$\uc77c \ub54c, $(g \\circ g)(3)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$0$ (\uc774\uc720: $g(3)=0$, $g(0)=0$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = 3x + 1$, $g(x) = x^2 - 2x$\uc77c \ub54c, $(g \\circ f)(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)(x) = 9x^2 - 1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = 3x + 1$, $g(x) = x^2 - 2x$\uc77c \ub54c, $(f \\circ g)(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(f \\circ g)(x) = 3x^2 - 6x + 1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)(x) = 4x - 3$, $h(x) = x^2 + x$\uc77c \ub54c, $((h \\circ g) \\circ f)(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$16x^2 - 20x + 6$ (\uc774\uc720: \uacb0\ud569\ubc95\uce59\uc5d0 \uc758\ud574 $(h \\circ (g \\circ f))(x) = h(4x-3)$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ucc9c \uc6d0 \ud560\uc778 $f(x) = x - 1000$\uacfc \ud3ec\uc7a5 \ud560\uc778(\ubc18\uac12) $g(x) = \\frac{1}{2}x$\ub97c \ubaa8\ub450 \uc801\uc6a9\ud560 \ub54c, \ud3ec\uc7a5 \ud560\uc778\uc744 \uba3c\uc800 \uc801\uc6a9\ud558\ub294 \ud569\uc131\ud568\uc218 \uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(f \\circ g)(x) = \\frac{1}{2}x - 1000$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ucc9c \uc6d0 \ud560\uc778 $f(x) = x - 1000$\uacfc \ud3ec\uc7a5 \ud560\uc778(\ubc18\uac12) $g(x) = \\frac{1}{2}x$\ub97c \ubaa8\ub450 \uc801\uc6a9\ud560 \ub54c, \ucc9c \uc6d0 \ud560\uc778\uc744 \uba3c\uc800 \uc801\uc6a9\ud558\ub294 \ud569\uc131\ud568\uc218 \uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)(x) = \\frac{1}{2}x - 500$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uac00 $x > 2000$\uc6d0\uc778 \uc74c\ub8cc\uc5d0 \ub300\ud574 \ucc9c \uc6d0 \ud560\uc778 $f(x)$\uc640 \ud3ec\uc7a5 \ud560\uc778 $g(x)$\ub97c \ubaa8\ub450 \uc801\uc6a9\ud560 \ub54c, \uc5b4\ub290 \ud560\uc778\uc744 \uba3c\uc800 \uc801\uc6a9\ud558\ub294 \uac83\uc774 \uac00\uaca9 \uce21\uba74\uc5d0\uc11c \uc720\ub9ac\ud55c\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3ec\uc7a5 \ud560\uc778\uc744 \uba3c\uc800 \uc801\uc6a9\ud558\ub294 \uac83 ($(f \\circ g)(x) = \\frac{1}{2}x - 1000$\uc774 \ub354 \uc9c0\ubd88 \uae08\uc561\uc774 \uc801\uc74c)."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f: X \\to Y$\uc758 \uc5ed\ud568\uc218\uac00 \uc874\uc7ac\ud558\uae30 \uc704\ud55c \ud544\uc694\ucda9\ubd84\uc870\uac74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f$\uac00 **\uc77c\ub300\uc77c\ub300\uc751**\uc774\uc5b4\uc57c \ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f: X \\to Y$\uac00 \uc77c\ub300\uc77c\ub300\uc751\uc77c \ub54c, \uadf8 \uc5ed\ud568\uc218 $f^{-1}$\uc758 \uc815\uc758\uc5ed\uacfc \uacf5\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed\uc740 $Y$, \uacf5\uc5ed\uc740 $X$\uc774\ub2e4 ($f^{-1}: Y \\to X$)."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5ed\ud568\uc218\uc758 \uc815\uc758\uc5d0 \ub530\ub978 $y = f(x)$\uc640 \ub3d9\uce58\uc778 \uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x = f^{-1}(y)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed $X$\uc758 \uc784\uc758\uc758 \uc6d0\uc18c $x$\uc5d0 \ub300\ud574 \ud569\uc131\ud568\uc218 $(f^{-1} \\circ f)(x)$\uc758 \uacc4\uc0b0 \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x$ ($X$\uc5d0\uc11c\uc758 \ud56d\ub4f1\ud568\uc218)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uacf5\uc5ed $Y$\uc758 \uc784\uc758\uc758 \uc6d0\uc18c $y$\uc5d0 \ub300\ud574 \ud569\uc131\ud568\uc218 $(f \\circ f^{-1})(y)$\uc758 \uacc4\uc0b0 \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y$ ($Y$\uc5d0\uc11c\uc758 \ud56d\ub4f1\ud568\uc218)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5ed\ud568\uc218\uc758 \uc5ed\ud568\uc218\uc778 $(f^{-1})^{-1}(x)$\ub294 \ubb34\uc5c7\uacfc \uac19\uc740\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f(x) = 4x - 3$\uc5d0 \ub300\ud558\uc5ec $f(a) = 9$\uc77c \ub54c, \uc0c1\uc218 $a$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$a = 3$ (\uc774\uc720: $4a - 3 = 9 \\implies 4a = 12$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc77c\ub300\uc77c\ub300\uc751\uc778 \ud568\uc218 $y = f(x)$\uc758 \uc5ed\ud568\uc218\ub97c \uad6c\ud558\ub294 2\ub2e8\uacc4 \uc808\ucc28\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "1\ub2e8\uacc4: $y = f(x)$\ub97c $x$\uc5d0 \uad00\ud558\uc5ec \ud480\uc5b4\uc11c $x = f^{-1}(y)$\ub85c \ub098\ud0c0\ub0b8\ub2e4.\n2\ub2e8\uacc4: $x$\uc640 $y$\ub97c \uc11c\ub85c \ubc14\uafb8\uc5b4 $y = f^{-1}(x)$\ub85c \ub098\ud0c0\ub0b8\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y = 3x + 1$\uc758 \uc5ed\ud568\uc218\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = \\frac{1}{3}x - \\frac{1}{3}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y = -4x + 2$\uc758 \uc5ed\ud568\uc218\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = -\\frac{1}{4}x + \\frac{1}{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y = \\frac{1}{3}x - 6$\uc758 \uc5ed\ud568\uc218\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = 3x + 18$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(a, b)$\uac00 \ud568\uc218 $y = f(x)$\uc758 \uadf8\ub798\ud504 \uc704\uc758 \uc810\uc77c \ub54c, \uc5ed\ud568\uc218 $y = f^{-1}(x)$\uc758 \uadf8\ub798\ud504 \uc704\uc5d0 \ubc18\ub4dc\uc2dc \uc874\uc7ac\ud558\ub294 \uc810\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810 $(b, a)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y = f(x)$\uc758 \uadf8\ub798\ud504\uc640 \uadf8 \uc5ed\ud568\uc218 $y = f^{-1}(x)$\uc758 \uadf8\ub798\ud504\ub294 \uc5b4\ub5a4 \uc9c1\uc120\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $y = x$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y = 2x - 3$\uacfc \uadf8 \uc5ed\ud568\uc218 $y = \\frac{1}{2}x + \\frac{3}{2}$\uc758 \uadf8\ub798\ud504\uac00 \ub300\uce6d\uc744 \uc774\ub8e8\ub294 \uc911\uc2ec \uc9c1\uc120\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $y = x$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f(x) = 3x + 4$\uc77c \ub54c, $f^{-1}(-2)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-2$ (\uc774\uc720: $3x + 4 = -2 \\implies 3x = -6 \\implies x = -2$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = 3x + 4$, $g(x) = 2x - 3$\uc77c \ub54c, $(g^{-1} \\circ f)(3)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$8$ (\uc774\uc720: $f(3)=13$, $g^{-1}(13) \\implies 2x - 3 = 13 \\implies x = 8$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \ud568\uc218 $f, g$\uc758 \ud569\uc131\ud568\uc218 $(g \\circ f)$\uc758 \uc5ed\ud568\uc218 $(g \\circ f)^{-1}(x)$\ub97c $f^{-1}$\uacfc $g^{-1}$\ub85c \ub098\ud0c0\ub0b4\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)^{-1}(x) = (f^{-1} \\circ g^{-1})(x)$ (\uc21c\uc11c\uac00 \ub4a4\ubc14\ub01c)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = -x + 2$, $g(x) = 2x - 1$\uc77c \ub54c, $(g \\circ f)^{-1}(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(g \\circ f)^{-1}(x) = -\\frac{1}{2}x + \\frac{3}{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = -x + 2$, $g(x) = 2x - 1$\uc77c \ub54c, $(f^{-1} \\circ g^{-1})(x)$\ub97c \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(f^{-1} \\circ g^{-1})(x) = -\\frac{1}{2}x + \\frac{3}{2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5ed\ud568\uc218\uc758 \uc131\uc9c8\uc744 \uc774\uc6a9\ud558\uc5ec $(g \\circ (f \\circ g)^{-1} \\circ g)(x)$\ub97c \uac00\uc7a5 \uac04\ub2e8\ud55c \ud569\uc131\ud568\uc218 \ud615\ud0dc\ub85c \ub098\ud0c0\ub0b4\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$(f^{-1} \\circ g)(x)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$f(x) = 3x + 4$, $g(x) = 5x - 2$\uc77c \ub54c, $(g \\circ (f \\circ g)^{-1} \\circ g)(3)$\uc758 \uac12\uc744 \uad6c\ud558\uc2dc\uc624."
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$3$ (\uc774\uc720: $(f^{-1} \\circ g)(3) = f^{-1}(13)$, $3x + 4 = 13 \\implies x = 3$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f(x) = \\frac{1}{x-3}$\uc5d0\uc11c $f(6)$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{1}{3}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $f(x) = \\frac{1}{x-3}$\uc5d0\uc11c $f(-4)$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$-\\frac{1}{7}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $y = 3x - 2$\uc758 \uc5ed\ud568\uc218\uc758 $y$\uc808\ud3b8\uc740 \uc5bc\ub9c8\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{2}{3}$ (\uc5ed\ud568\uc218 \uc2dd\uc774 $y = \\frac{1}{3}x + \\frac{2}{3}$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $y = -\\frac{1}{2}x + 1$\uc758 \uc5ed\ud568\uc218 \uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y = -2x + 2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y = f(x)$\uc640 \uadf8 \uc5ed\ud568\uc218 $y = f^{-1}(x)$\uc758 \uadf8\ub798\ud504\uac00 \ub9cc\ub098\ub294 \uad50\uc810\uc740 \uc77c\ubc18\uc801\uc73c\ub85c \uc5b4\ub290 \uc9c1\uc120 \uc704\uc5d0 \uc874\uc7ac\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc9c1\uc120 $y = x$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5ed\ud568\uc218 \uad6c\ud558\uae30\uc5d0\uc11c $y = f(x)$\uc758 \uce58\uc5ed\uc740 \uc5ed\ud568\uc218 $y = f^{-1}(x)$\uc758 \ubb34\uc5c7\uc774 \ub418\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5ed\ud568\uc218 \uad6c\ud558\uae30\uc5d0\uc11c $y = f(x)$\uc758 \uc815\uc758\uc5ed\uc740 \uc5ed\ud568\uc218 $y = f^{-1}(x)$\uc758 \ubb34\uc5c7\uc774 \ub418\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uce58\uc5ed (\ub610\ub294 \uacf5\uc5ed)"
+          }
+        ]
+      }
+    }
+  ]
+}

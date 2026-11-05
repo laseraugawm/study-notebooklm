@@ -1,0 +1,887 @@
+{
+  "title": "\uc720\ub9ac\uc2dd \ud50c\ub798\uc2dc\uce74\ub4dc",
+  "cards": [
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd\uc758 \uc815\uc758\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \ub2e4\ud56d\uc2dd $A, B(B \\ne 0)$\uc5d0 \ub300\ud558\uc5ec $\\frac{A}{B}$ \uaf34\ub85c \ub098\ud0c0\ub0b4\uc5b4\uc9c0\ub294 \uc2dd\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub2e4\ud56d\uc2dd\uc740 \uc720\ub9ac\uc2dd\uc5d0 \ud3ec\ud568\ub418\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3ec\ud568\ub41c\ub2e4. $B$\uac00 \uc0c1\uc218\uc778 \uacbd\uc6b0 $\\frac{A}{B}$\ub294 \ub2e4\ud56d\uc2dd\uc774 \ub418\ubbc0\ub85c \ub2e4\ud56d\uc2dd\ub3c4 \uc720\ub9ac\uc2dd\uc758 \uc77c\uc885\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2dd $\\frac{x^2-4}{3}$\ub294 \ub2e4\ud56d\uc2dd\uc778\uac00, \ub2e4\ud56d\uc2dd\uc774 \uc544\ub2cc \uc720\ub9ac\uc2dd\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubd84\ubaa8\uac00 \uc0c1\uc218\uac00 \ub418\ubbc0\ub85c \ub2e4\ud56d\uc2dd(\ub3d9\uc2dc\uc5d0 \uc720\ub9ac\uc2dd)\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc2dd $\\frac{3}{x-1}$\uc740 \ub2e4\ud56d\uc2dd\uc778\uac00, \ub2e4\ud56d\uc2dd\uc774 \uc544\ub2cc \uc720\ub9ac\uc2dd\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubd84\ubaa8\uc5d0 \ubcc0\uc218 $x$\uac00 \ud3ec\ud568\ub418\uc5b4 \uc788\uc73c\ubbc0\ub85c \ub2e4\ud56d\uc2dd\uc774 \uc544\ub2cc \uc720\ub9ac\uc2dd\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \ub2e4\ud56d\uc2dd $A, B, C$\uc5d0 \ub300\ud558\uc5ec \uc720\ub9ac\uc2dd\uc758 \uacf1\uc148\uc5d0 \uad00\ud55c \uae30\ubcf8 \uc131\uc9c8\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{A}{B} = \\frac{A \\cdot C}{B \\cdot C}$ (\ub2e8, $B C \\ne 0$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc138 \ub2e4\ud56d\uc2dd $A, B, C$\uc5d0 \ub300\ud558\uc5ec \ubd84\ubaa8\uac00 \uac19\uc740 \uc720\ub9ac\uc2dd\uc758 \ub367\uc148 \uc131\uc9c8\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{A}{C} + \\frac{B}{C} = \\frac{A+B}{C}$ (\ub2e8, $C \\ne 0$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc774\uc9d1\ud2b8 \ubd84\uc218(Egyptian fraction)\uc758 \uc815\uc758\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc5b4\ub5a4 \ubd84\uc218\ub97c \ubd84\uc790\uac00 1\uc778 \ubd84\uc218(\ub2e8\uc704\ubd84\uc218)\ub4e4\uc758 \ud569\uc73c\ub85c \ub098\ud0c0\ub0b8 \uac83\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud558\ub098\uc758 \ubd84\uc218\ub97c \uc774\uc9d1\ud2b8 \ubd84\uc218\ub85c \ubcc0\ud615\ud560 \ub54c \uc774\uc6a9\ud558\ub294 $\\frac{1}{x}$\uc758 \ud56d\ub4f1\uc2dd\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{1}{x} = \\frac{1}{x+1} + \\frac{1}{x(x+1)}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd\uc758 \ub367\uc148\uacfc \ube84\uc148\uc744 \uacc4\uc0b0\ud560 \ub54c\uc758 \uae30\ubcf8 \uc6d0\uce59\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc218\uc5d0\uc11c\uc640 \ub9c8\ucc2c\uac00\uc9c0\ub85c \ubd84\ubaa8\ub97c \ud1b5\ubd84\ud558\uc5ec \ubd84\ubaa8\ub97c \uac19\uac8c \ud55c \ud6c4 \uacc4\uc0b0\ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd $\\frac{3}{x-4} + 2$\ub97c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{2x-5}{x-4}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd $\\frac{2}{x-1} - \\frac{4}{x^2-1}$\uc744 \uacc4\uc0b0\ud55c \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{2}{x+1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd $\\frac{6}{x-3} - \\frac{2x}{x-3}$\ub97c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "-2"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd $4 + \\frac{3}{x-1}$\uc744 \uacc4\uc0b0\ud55c \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{4x-1}{x-1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd $\\frac{x}{x+2} + \\frac{x-6}{x^2-4}$\uc744 \uacc4\uc0b0\ud55c \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{x-3}{x-2}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\uc2dd $\\frac{x-1}{x-3} - \\frac{x+5}{x^2-2x-3}$\ub97c \uacc4\uc0b0\ud55c \uacb0\uacfc\ub294?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\frac{x+2}{x+1}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218\uc758 \uc815\uc758\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y=f(x)$\uc5d0\uc11c $f(x)$\uac00 $x$\uc5d0 \ub300\ud55c \uc720\ub9ac\uc2dd\uc77c \ub54c \uc774 \ud568\uc218\ub97c \uc720\ub9ac\ud568\uc218\ub77c\uace0 \ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub2e4\ud56d\ud568\uc218\ub294 \uc720\ub9ac\ud568\uc218\uc5d0 \ud3ec\ud568\ub418\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud3ec\ud568\ub41c\ub2e4. $f(x)$\uac00 \ub2e4\ud56d\uc2dd\uc77c \ub54c \ub2e4\ud56d\ud568\uc218\ub77c\uace0 \ud558\uba70, \ub2e4\ud56d\uc2dd\ub3c4 \uc720\ub9ac\uc2dd\uc774\ubbc0\ub85c \ub2e4\ud56d\ud568\uc218\ub3c4 \uc720\ub9ac\ud568\uc218\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ud568\uc218 $y=\\frac{x+4}{3}$\ub294 \uc720\ub9ac\ud568\uc218\uc778\uac00, \ub2e4\ud56d\ud568\uc218\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub2e4\ud56d\ud568\uc218\uc774\uba74\uc11c \ub3d9\uc2dc\uc5d0 \uc720\ub9ac\ud568\uc218\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218\uc758 \uc815\uc758\uc5ed\uc774 \uc8fc\uc5b4\uc838 \uc788\uc9c0 \uc54a\uc744 \ub54c \uc815\uc758\uc5ed\uc744 \uc815\ud558\ub294 \uc77c\ubc18\uc801\uc778 \uc870\uac74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ubd84\ubaa8\ub97c 0\uc73c\ub85c \ud558\ub294 $x$\uc758 \uac12\uc744 \uc81c\uc678\ud55c \uc2e4\uc218 \uc804\uccb4\uc758 \uc9d1\ud569\uc744 \uc815\uc758\uc5ed\uc73c\ub85c \ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{3x}{x-2}$\uc758 \uc815\uc758\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\{x | x \\ne 2\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=-\\frac{2}{x+5}$\uc758 \uc815\uc758\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\{x | x \\ne -5\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{x+4}{3x-2}$\uc758 \uc815\uc758\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\{x | x \\ne \\frac{2}{3}\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{x-1}{x-4}$\uc758 \uc815\uc758\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$\\{x | x \\ne 4\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x}$ ($k \\ne 0$)\uc758 \uc815\uc758\uc5ed\uacfc \uce58\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed\uacfc \uce58\uc5ed \ubaa8\ub450 0\uc774 \uc544\ub2cc \uc2e4\uc218 \uc804\uccb4\uc758 \uc9d1\ud569\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x}$\uc5d0\uc11c $k>0$\uc77c \ub54c \uadf8\ub798\ud504\uac00 \uc704\uce58\ud558\ub294 \uc0ac\ubd84\uba74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc81c1\uc0ac\ubd84\uba74\uacfc \uc81c3\uc0ac\ubd84\uba74"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x}$\uc5d0\uc11c $k<0$\uc77c \ub54c \uadf8\ub798\ud504\uac00 \uc704\uce58\ud558\ub294 \uc0ac\ubd84\uba74\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc81c2\uc0ac\ubd84\uba74\uacfc \uc81c4\uc0ac\ubd84\uba74"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x}$ ($k \\ne 0$)\uc758 \uadf8\ub798\ud504\uc5d0\uc11c $k$\uc758 \uc808\ub313\uac12 $|k|$\uac00 \ucee4\uc9c8\uc218\ub85d \uadf8\ub798\ud504\ub294 \uc5b4\ub5bb\uac8c \ubcc0\ud558\ub294\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uc810\uc73c\ub85c\ubd80\ud130 \uba40\uc5b4\uc9c4\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x}$ ($k \\ne 0$)\uc758 \uadf8\ub798\ud504\ub294 \uc5b4\ub290 \uc810\uc5d0 \ub300\ud558\uc5ec \ub300\uce6d\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc6d0\uc810 $(0,0)$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc810\uadfc\uc120(asymptote)\uc758 \uc815\uc758\ub294 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uadf8\ub798\ud504\uac00 \uc5b4\ub5a4 \ud55c \uc9c1\uc120\uc5d0 \ud55c\uc5c6\uc774 \uac00\uae4c\uc6cc\uc9c8 \ub54c, \uc774 \uc9c1\uc120\uc744 \uadf8 \uadf8\ub798\ud504\uc758 \uc810\uadfc\uc120\uc774\ub77c\uace0 \ud55c\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x}$ ($k \\ne 0$) \uadf8\ub798\ud504\uc758 \uc810\uadfc\uc120\uc740 \ubb34\uc5c7\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x$\ucd95\uacfc $y$\ucd95"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x-p}+q$ ($k \\ne 0$)\uc758 \uadf8\ub798\ud504\ub294 $y=\\frac{k}{x}$\uc758 \uadf8\ub798\ud504\ub97c \uc5b4\ub5bb\uac8c \ud3c9\ud589\uc774\ub3d9\ud55c \uac83\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $p$\ub9cc\ud07c, $y$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $q$\ub9cc\ud07c \ud3c9\ud589\uc774\ub3d9\ud55c \uac83\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x-p}+q$ ($k \\ne 0$)\uc758 \uc815\uc758\uc5ed\uacfc \uce58\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed: $\\{x | x \\ne p\\text{\uc778 \uc2e4\uc218}\\}$, \uce58\uc5ed: $\\{y | y \\ne q\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{k}{x-p}+q$ ($k \\ne 0$)\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\ub450 \uc9c1\uc120 $x=p, y=q$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{3}{x+2}-3$\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x=-2, y=-3$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{3}{x+2}-3$\uc758 \uc815\uc758\uc5ed\uacfc \uce58\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed: $\\{x | x \\ne -2\\text{\uc778 \uc2e4\uc218}\\}$, \uce58\uc5ed: $\\{y | y \\ne -3\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=-\\frac{2}{x+4}-1$\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x=-4, y=-1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=-\\frac{2}{x+4}-1$\uc758 \uc815\uc758\uc5ed\uacfc \uce58\uc5ed\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc815\uc758\uc5ed: $\\{x | x \\ne -4\\text{\uc778 \uc2e4\uc218}\\}$, \uce58\uc5ed: $\\{y | y \\ne -1\\text{\uc778 \uc2e4\uc218}\\}$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{ax+b}{cx+d}$ ($ad-bc \\ne 0, c \\ne 0$)\uc758 \uadf8\ub798\ud504\ub97c \uadf8\ub9b4 \ub54c \uc77c\ubc18\uc801\uc73c\ub85c \ubcc0\ud615\ud558\ub294 \ud45c\uc900\ud615 \uaf34\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y=\\frac{k}{x-p}+q$ ($k \\ne 0$)"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{2x-1}{x+1}$\uc744 $y=\\frac{k}{x-p}+q$ \uaf34\ub85c \ubcc0\ud615\ud558\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y=-\\frac{3}{x+1}+2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{2x-1}{x+1}$\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x=-1, y=2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{2x-1}{x+1}$\uc758 \uadf8\ub798\ud504\ub294 $y=-\\frac{3}{x}$\uc758 \uadf8\ub798\ud504\ub97c \uc5b4\ub5bb\uac8c \ud3c9\ud589\uc774\ub3d9\ud55c \uac83\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $-1$\ub9cc\ud07c, $y$\ucd95\uc758 \ubc29\ud5a5\uc73c\ub85c $2$\ub9cc\ud07c \ud3c9\ud589\uc774\ub3d9\ud55c \uac83\uc774\ub2e4."
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{-2x+5}{x-2}$\ub97c $y=\\frac{k}{x-p}+q$ \uaf34\ub85c \ubcc0\ud615\ud558\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y=\\frac{1}{x-2}-2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{-2x+5}{x-2}$\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x=2, y=-2$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{-3x-8}{x+2}$\uc744 $y=\\frac{k}{x-p}+q$ \uaf34\ub85c \ubcc0\ud615\ud558\uba74?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$y=-\\frac{2}{x+2}-3$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{-3x-8}{x+2}$\uc758 \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$x=-2, y=-3$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{ax+b}{x+c}$\uc5d0\uc11c \uc810\uadfc\uc120\uc758 \ubc29\uc815\uc2dd\uc774 $x=1, y=2$\uc77c \ub54c \uc0c1\uc218 $a$\uc640 $c$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$a=2, c=-1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc720\ub9ac\ud568\uc218 $y=\\frac{ax+b}{x+c}$\uc758 \uc810\uadfc\uc120\uc774 $x=1, y=2$\uc774\uace0 \uadf8\ub798\ud504\uac00 \uc810 $(0,1)$\uc744 \uc9c0\ub0a0 \ub54c \uc0c1\uc218 $b$\uc758 \uac12\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "$b=-1$"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc2ec $x\\text{ m}$\uc5d0\uc11c \uad8c\uc7a5\ud558\ub294 \uc0b0\uc18c\ub7c9 \ubc31\ubd84\uc728 $f(x) = \\frac{1980}{x+99}\\%$ ($0 < x \\le 200$)\uc77c \ub54c, \uc218\uc2ec\uc774 $45\\text{ m}$\uc5d0\uc11c\uc758 \uad8c\uc7a5 \uc0b0\uc18c\ub7c9 \ubc31\ubd84\uc728\uc740?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "13.75%"
+          }
+        ]
+      }
+    },
+    {
+      "front": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "\uc218\uc2ec $x\\text{ m}$\uc5d0\uc11c \uad8c\uc7a5\ud558\ub294 \uc0b0\uc18c\ub7c9 \ubc31\ubd84\uc728 $f(x) = \\frac{1980}{x+99}\\%$ ($0 < x \\le 200$)\uc77c \ub54c, \uad8c\uc7a5 \uc0b0\uc18c\ub7c9 \ubc31\ubd84\uc728\uc774 10%\uc778 \uc218\uc2ec\uc740 \uba87 m\uc778\uac00?"
+          }
+        ]
+      },
+      "back": {
+        "flashcardContentBlock": [
+          {
+            "type": "text",
+            "content": "99 m"
+          }
+        ]
+      }
+    }
+  ]
+}
