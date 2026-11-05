@@ -7,7 +7,7 @@ X-WR-CALNAME:학습자료 생성 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:2026-10-30@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:학습자료 완료 138건
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:학습자료 완료 49건
@@ -188,7 +188,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:학습자료 완료 51건
@@ -264,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:학습자료 완료 43건
@@ -322,7 +322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:학습자료 완료 52건
@@ -381,7 +381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:학습자료 완료 52건
@@ -435,10 +435,10 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:학습자료 완료 22 · 예정 8건
+SUMMARY:학습자료 완료 24 · 예정 6건
 DESCRIPTION:✔ 통합사회 Ⅳ-02-1 평화가 소중한 이유는 무엇
  일까? — 비디오\n✔ 통합사회 Ⅳ-02-2 국제 사회의 모습
  과 세계 평화를 위한 행위 주체의 바람직한 역할은 무엇
@@ -448,136 +448,137 @@ DESCRIPTION:✔ 통합사회 Ⅳ-02-1 평화가 소중한 이유는 무엇
   방안은 무엇일까? — 비디오\n✔ 정보 Ⅲ-01 문제 분해와
   모델링 — 오디오\n✔ 정보 Ⅲ-02 알고리즘 — 오디오\n
  ✔ 정보 Ⅲ-03 프로그래밍의 이해 — 오디오\n✔ 정보 Ⅲ-
- 04 제어 구조의 응용 — 오디오\n✔ 수학 Ⅰ-2-01 원의방정
- 식 — 플래시카드\n✔ 수학 Ⅰ-2-02 원과직선 — 플래시카
- 드\n✔ 수학 Ⅰ-3-01 평행이동 — 플래시카드\n✔ 수학 Ⅰ-
- 3-02 대칭이동 — 플래시카드\n✔ 수학 Ⅱ-1-01 집합의뜻과
- 포함관계 — 플래시카드\n✔ 수학 Ⅱ-1-02 집합의연산 — 
- 플래시카드\n✔ 수학 Ⅱ-2-01 명제와조건 — 플래시카드\n
- ✔ 수학 Ⅱ-2-02 명제사이의관계 — 플래시카드\n✔ 수학 
- Ⅱ-2-03 명제의증명 — 플래시카드\n✔ 수학 Ⅲ-1-01 함수
- 의뜻과그래프 — 플래시카드\n✔ 수학 Ⅲ-1-02 합성함수
- 와역함수 — 플래시카드\n✔ 수학 Ⅲ-2-01 유리함수 — 플
- 래시카드\n✔ 수학 Ⅲ-2-02 무리함수 — 퀴즈\n✔ 수학 Ⅲ-
- 2-02 무리함수 — 플래시카드\n· 정보 Ⅲ-05 함수와 라이
- 브러리 — 오디오\n· 정보 Ⅲ-06 객체지향 프로그래밍 —
-  오디오\n· 정보 Ⅲ-07 창의 융합 프로그래밍 — 오디오\n
- · 통합사회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전해 왔
- 을까? — 오디오 보충 1\n· 정보 Ⅳ-01 인공지능과 지능 
- 에이전트 — 오디오\n· 정보 Ⅳ-02 기계학습의 개념 — 
- 오디오\n· 정보 Ⅳ-03 기계학습의 모델과 구현 — 오디오
- \n· 통합사회 Ⅰ-01-2 현대 사회에서 새롭게 등장한 인권
- 에는 무엇이 있을까? — 오디오 보충 1
+ 04 제어 구조의 응용 — 오디오\n✔ 정보 Ⅲ-05 함수와 라
+ 이브러리 — 오디오\n✔ 정보 Ⅲ-06 객체지향 프로그래밍
+  — 오디오\n✔ 수학 Ⅰ-2-01 원의방정식 — 플래시카드\n
+ ✔ 수학 Ⅰ-2-02 원과직선 — 플래시카드\n✔ 수학 Ⅰ-3-01 
+ 평행이동 — 플래시카드\n✔ 수학 Ⅰ-3-02 대칭이동 — 플
+ 래시카드\n✔ 수학 Ⅱ-1-01 집합의뜻과포함관계 — 플래
+ 시카드\n✔ 수학 Ⅱ-1-02 집합의연산 — 플래시카드\n✔ 
+ 수학 Ⅱ-2-01 명제와조건 — 플래시카드\n✔ 수학 Ⅱ-2-02 
+ 명제사이의관계 — 플래시카드\n✔ 수학 Ⅱ-2-03 명제의
+ 증명 — 플래시카드\n✔ 수학 Ⅲ-1-01 함수의뜻과그래프 
+ — 플래시카드\n✔ 수학 Ⅲ-1-02 합성함수와역함수 — 플
+ 래시카드\n✔ 수학 Ⅲ-2-01 유리함수 — 플래시카드\n✔ 
+ 수학 Ⅲ-2-02 무리함수 — 퀴즈\n✔ 수학 Ⅲ-2-02 무리함수 
+ — 플래시카드\n· 정보 Ⅲ-07 창의 융합 프로그래밍 — 
+ 오디오\n· 정보 Ⅳ-01 인공지능과 지능 에이전트 — 오디
+ 오\n· 정보 Ⅳ-02 기계학습의 개념 — 오디오\n· 통합사
+ 회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전해 왔을까? — 
+ 오디오 보충 1\n· 정보 Ⅳ-03 기계학습의 모델과 구현 — 
+ 오디오\n· 정보 Ⅴ-01 디지털 사회와 진로 — 오디오
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:학습자료 예정 16건
-DESCRIPTION:· 정보 Ⅴ-01 디지털 사회와 진로 — 오디오\n· 
- 정보 Ⅴ-02 정보 보호와 보안 — 오디오\n· 국어 1-(1) 사
- 회적 독서 활동에 참여하기 — 오디오\n· 통합사회 Ⅰ-02
- -1 인권 보장을 위한 헌법의 역할은 무엇일까? — 오디오
-  보충 1\n· 국어 1-(2) 주제 통합적 읽기와 논증하는 글 쓰
- 기 — 오디오\n· 국어 2-(1) 옛 노래의 향기 — 오디오\n· 
- 국어 2-(2) 옛이야기의 즐거움 — 오디오\n· 통합사회 Ⅰ-
- 02-2 시민 참여 방안에는 어떤 것들이 있을까? — 오디오 
- 보충 1\n· 국어 2-(3) 현대 시의 시선 — 오디오\n· 국어 2-
- (4) 현대 소설의 빛깔 — 오디오\n· 국어 3-(1) 함께 만족
- 하는 협상 — 오디오\n· 통합사회 Ⅰ-03-1 국내 인권 문제
- 의 양상과 해결 방안은 무엇일까? — 오디오 보충 1\n· 
- 통합사회 Ⅳ-03-3 우리나라가 세계 평화에 기여할 수 있
- 는 방안에는 무엇이 있을까? — 비디오\n· 통합사회 Ⅴ-0
- 1-1 세계의 인구는 어디에 분포하고 어떻게 변화할까? —
-  비디오\n· 통합사회 Ⅴ-01-2 인구 문제를 해결하려면 어
- 떤 노력을 해야 할까? — 비디오\n· 통합사회 Ⅰ-01-1 인
- 권은 어떤 과정을 거쳐 발전해 왔을까? — 비디오 보충 1
+DESCRIPTION:· 정보 Ⅴ-02 정보 보호와 보안 — 오디오\n· 통
+ 합사회 Ⅰ-01-2 현대 사회에서 새롭게 등장한 인권에는 
+ 무엇이 있을까? — 오디오 보충 1\n· 국어 1-(1) 사회적 독
+ 서 활동에 참여하기 — 오디오\n· 국어 1-(2) 주제 통합적
+  읽기와 논증하는 글 쓰기 — 오디오\n· 국어 2-(1) 옛 노
+ 래의 향기 — 오디오\n· 통합사회 Ⅰ-02-1 인권 보장을 위
+ 한 헌법의 역할은 무엇일까? — 오디오 보충 1\n· 국어 2-
+ (2) 옛이야기의 즐거움 — 오디오\n· 국어 2-(3) 현대 시의
+  시선 — 오디오\n· 국어 2-(4) 현대 소설의 빛깔 — 오디
+ 오\n· 통합사회 Ⅰ-02-2 시민 참여 방안에는 어떤 것들이 
+ 있을까? — 오디오 보충 1\n· 국어 3-(1) 함께 만족하는 협
+ 상 — 오디오\n· 국어 3-(2) 작문 관습을 고려한 글쓰기 
+ — 오디오\n· 통합사회 Ⅳ-03-3 우리나라가 세계 평화에 
+ 기여할 수 있는 방안에는 무엇이 있을까? — 비디오\n· 
+ 통합사회 Ⅴ-01-1 세계의 인구는 어디에 분포하고 어떻게
+  변화할까? — 비디오\n· 통합사회 Ⅴ-01-2 인구 문제를 
+ 해결하려면 어떤 노력을 해야 할까? — 비디오\n· 통합
+ 사회 Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전해 왔을까? —
+  비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:학습자료 예정 16건
-DESCRIPTION:· 국어 3-(2) 작문 관습을 고려한 글쓰기 — 오디
- 오\n· 국어 4-(1) 국어가 걸어온 길 — 오디오\n· 국어 4-(2
- ) 바르고 정확한 국어생활 — 오디오\n· 통합사회 Ⅰ-03-2
-  세계 인권 문제의 양상과 해결 방안은 무엇일까? — 오
- 디오 보충 1\n· 국어 4-(3) 매체와 함께하는 생활 — 오디
- 오\n· 국어 5-(1) 주체적이고 비판적인 매체 비평 — 오디
- 오\n· 국어 5-(2) 복합양식의 글 읽기와 쓰기 — 오디오\n
- · 통합사회 Ⅱ-01-1 정의의 의미와 정의가 요구되는 이유
- 는 무엇일까? — 오디오 보충 1\n· 영어 L1 Make Your World a B
- etter Place — 오디오\n· 영어 L2 From Tradition to Trend — 오디
- 오\n· 영어 L3 Beyond Barriers — 오디오\n· 통합사회 Ⅱ-01-2 
- 정의의 실질적 기준은 무엇일까? — 오디오 보충 1\n· 통
- 합사회 Ⅴ-02-1 세계의 에너지 자원은 어디에 분포하고\, 
- 어떻게 소비될까? — 비디오\n· 통합사회 Ⅴ-02-2 기후변
- 화에 대응하고 지속가능한 발전을 하려면 어떤 노력을 
- 해야 할까? — 비디오\n· 통합사회 Ⅴ-03-1 미래 사회의 
- 모습은 어떠할까? — 비디오\n· 통합사회 Ⅰ-01-2 현대 사
- 회에서 새롭게 등장한 인권에는 무엇이 있을까? — 비디
- 오 보충 1
+DESCRIPTION:· 국어 4-(1) 국어가 걸어온 길 — 오디오\n· 통
+ 합사회 Ⅰ-03-1 국내 인권 문제의 양상과 해결 방안은 무
+ 엇일까? — 오디오 보충 1\n· 국어 4-(2) 바르고 정확한 국
+ 어생활 — 오디오\n· 국어 4-(3) 매체와 함께하는 생활 —
+  오디오\n· 국어 5-(1) 주체적이고 비판적인 매체 비평 —
+  오디오\n· 통합사회 Ⅰ-03-2 세계 인권 문제의 양상과 해
+ 결 방안은 무엇일까? — 오디오 보충 1\n· 국어 5-(2) 복합
+ 양식의 글 읽기와 쓰기 — 오디오\n· 영어 L1 Make Your World
+  a Better Place — 오디오\n· 영어 L2 From Tradition to Trend — 
+ 오디오\n· 통합사회 Ⅱ-01-1 정의의 의미와 정의가 요구
+ 되는 이유는 무엇일까? — 오디오 보충 1\n· 영어 L3 Beyond
+  Barriers — 오디오\n· 영어 L4 The Essence of Being Human — 오
+ 디오\n· 통합사회 Ⅴ-02-1 세계의 에너지 자원은 어디에 
+ 분포하고\, 어떻게 소비될까? — 비디오\n· 통합사회 Ⅴ-
+ 02-2 기후변화에 대응하고 지속가능한 발전을 하려면 어
+ 떤 노력을 해야 할까? — 비디오\n· 통합사회 Ⅴ-03-1 미
+ 래 사회의 모습은 어떠할까? — 비디오\n· 통합사회 Ⅰ-0
+ 1-2 현대 사회에서 새롭게 등장한 인권에는 무엇이 있을
+ 까? — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:학습자료 예정 16건
-DESCRIPTION:· 영어 L4 The Essence of Being Human — 오디오\n· 수
- 학 Ⅰ-1-01 평면좌표 — 오디오\n· 수학 Ⅰ-1-02 직선의방
- 정식 — 오디오\n· 통합사회 Ⅱ-02-1 자유주의적 정의관
- 과 공동체주의적 정의관의 특징은 무엇일까? — 오디오 
- 보충 1\n· 수학 Ⅰ-2-01 원의방정식 — 오디오\n· 수학 Ⅰ-
- 2-02 원과직선 — 오디오\n· 수학 Ⅰ-3-01 평행이동 — 오
- 디오\n· 통합사회 Ⅱ-02-2 자유주의적 정의관과 공동체주
- 의적 정의관을 어떻게 적용해야 할까? — 오디오 보충 1\
- n· 수학 Ⅰ-3-02 대칭이동 — 오디오\n· 수학 Ⅱ-1-01 집합
- 의뜻과포함관계 — 오디오\n· 수학 Ⅱ-1-02 집합의연산 
- — 오디오\n· 통합사회 Ⅱ-03-1 사회 및 공간 불평등 현상
- 은 다양한 양상으로 나타난다 — 오디오 보충 1\n· 통합
- 사회 Ⅴ-03-2 세계시민으로서 나는 어떤 삶을 살 것인가? 
- — 비디오\n· 통합과학 Ⅰ-1-01 지질 시대의 환경과 생물
- 의 변화 — 비디오\n· 통합과학 Ⅰ-1-02 자연선택과 생물
- 의 진화 — 비디오\n· 통합사회 Ⅰ-02-1 인권 보장을 위한
-  헌법의 역할은 무엇일까? — 비디오 보충 1
+DESCRIPTION:· 수학 Ⅰ-1-01 평면좌표 — 오디오\n· 통합사회 
+ Ⅱ-01-2 정의의 실질적 기준은 무엇일까? — 오디오 보충 
+ 1\n· 수학 Ⅰ-1-02 직선의방정식 — 오디오\n· 수학 Ⅰ-2-01
+  원의방정식 — 오디오\n· 수학 Ⅰ-2-02 원과직선 — 오디
+ 오\n· 통합사회 Ⅱ-02-1 자유주의적 정의관과 공동체주의
+ 적 정의관의 특징은 무엇일까? — 오디오 보충 1\n· 수학
+  Ⅰ-3-01 평행이동 — 오디오\n· 수학 Ⅰ-3-02 대칭이동 — 
+ 오디오\n· 수학 Ⅱ-1-01 집합의뜻과포함관계 — 오디오\n
+ · 통합사회 Ⅱ-02-2 자유주의적 정의관과 공동체주의적 
+ 정의관을 어떻게 적용해야 할까? — 오디오 보충 1\n· 수
+ 학 Ⅱ-1-02 집합의연산 — 오디오\n· 수학 Ⅱ-2-01 명제와
+ 조건 — 오디오\n· 통합사회 Ⅴ-03-2 세계시민으로서 나
+ 는 어떤 삶을 살 것인가? — 비디오\n· 통합과학 Ⅰ-1-01 
+ 지질 시대의 환경과 생물의 변화 — 비디오\n· 통합과학
+  Ⅰ-1-02 자연선택과 생물의 진화 — 비디오\n· 통합사회 
+ Ⅰ-02-1 인권 보장을 위한 헌법의 역할은 무엇일까? — 비
+ 디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:학습자료 예정 16건
-DESCRIPTION:· 수학 Ⅱ-2-01 명제와조건 — 오디오\n· 수학 Ⅱ
- -2-02 명제사이의관계 — 오디오\n· 수학 Ⅱ-2-03 명제의증
- 명 — 오디오\n· 통합사회 Ⅱ-03-2 정의로운 사회를 만들
- 려면 어떤 제도와 시민의 노력이 필요할까? — 오디오 
- 보충 1\n· 수학 Ⅲ-1-01 함수의뜻과그래프 — 오디오\n· 
- 수학 Ⅲ-1-02 합성함수와역함수 — 오디오\n· 수학 Ⅲ-2-01
-  유리함수 — 오디오\n· 통합사회 Ⅲ-01-1 자본주의는 역
- 사적으로 어떻게 전개되었을까? — 오디오 보충 1\n· 수
- 학 Ⅲ-2-02 무리함수 — 오디오\n· 통합사회 Ⅲ-01-2 경제 
- 체제는 인간의 삶에 어떠한 영향을 미쳤을까? — 오디오
-  보충 1\n· 통합사회 Ⅲ-02-1 합리적 선택의 의미와 한계
- 는 무엇일까? — 오디오 보충 1\n· 통합사회 Ⅲ-02-2 지속
- 가능발전을 위한 경제 주체의 바람직한 역할과 책임은 
- 무엇일까? — 오디오 보충 1\n· 통합과학 Ⅰ-1-03 생물다
- 양성과 보전 방안 — 비디오\n· 통합과학 Ⅰ-2-01 산화·
- 환원 반응의 규칙성 — 비디오\n· 통합과학 Ⅰ-2-02 생활 
- 주변의 산화·환원 반응 — 비디오\n· 통합사회 Ⅰ-02-2 
- 시민 참여 방안에는 어떤 것들이 있을까? — 비디오 보
- 충 1
+DESCRIPTION:· 수학 Ⅱ-2-02 명제사이의관계 — 오디오\n· 통
+ 합사회 Ⅱ-03-1 사회 및 공간 불평등 현상은 다양한 양상
+ 으로 나타난다 — 오디오 보충 1\n· 수학 Ⅱ-2-03 명제의
+ 증명 — 오디오\n· 수학 Ⅲ-1-01 함수의뜻과그래프 — 오
+ 디오\n· 수학 Ⅲ-1-02 합성함수와역함수 — 오디오\n· 통
+ 합사회 Ⅱ-03-2 정의로운 사회를 만들려면 어떤 제도와 
+ 시민의 노력이 필요할까? — 오디오 보충 1\n· 수학 Ⅲ-2-
+ 01 유리함수 — 오디오\n· 수학 Ⅲ-2-02 무리함수 — 오디
+ 오\n· 통합사회 Ⅲ-01-1 자본주의는 역사적으로 어떻게 
+ 전개되었을까? — 오디오 보충 1\n· 통합사회 Ⅲ-01-2 경
+ 제 체제는 인간의 삶에 어떠한 영향을 미쳤을까? — 오
+ 디오 보충 1\n· 통합사회 Ⅲ-02-1 합리적 선택의 의미와 
+ 한계는 무엇일까? — 오디오 보충 1\n· 통합사회 Ⅲ-02-2 
+ 지속가능발전을 위한 경제 주체의 바람직한 역할과 책
+ 임은 무엇일까? — 오디오 보충 1\n· 통합과학 Ⅰ-1-03 생
+ 물다양성과 보전 방안 — 비디오\n· 통합과학 Ⅰ-2-01 산
+ 화·환원 반응의 규칙성 — 비디오\n· 통합과학 Ⅰ-2-02 
+ 생활 주변의 산화·환원 반응 — 비디오\n· 통합사회 Ⅰ-
+ 02-2 시민 참여 방안에는 어떤 것들이 있을까? — 비디오 
+ 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:학습자료 예정 16건
@@ -610,7 +611,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:학습자료 예정 16건
@@ -639,7 +640,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:학습자료 예정 16건
@@ -666,7 +667,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:학습자료 예정 14건
@@ -690,7 +691,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:학습자료 예정 4건
@@ -704,7 +705,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:학습자료 예정 4건
@@ -718,7 +719,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:학습자료 예정 4건
@@ -731,7 +732,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:학습자료 예정 4건
@@ -743,7 +744,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:학습자료 예정 4건
@@ -756,7 +757,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:학습자료 예정 4건
@@ -769,7 +770,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:학습자료 예정 4건
@@ -782,7 +783,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:학습자료 예정 4건
@@ -795,7 +796,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:학습자료 예정 4건
@@ -808,7 +809,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:학습자료 예정 4건
@@ -820,7 +821,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:학습자료 예정 4건
@@ -833,7 +834,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:학습자료 예정 4건
@@ -846,7 +847,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:학습자료 예정 4건
@@ -859,47 +860,61 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:학습자료 예정 4건
 DESCRIPTION:· 수학 Ⅰ-1-01 평면좌표 — 비디오\n· 수학 Ⅰ-1-
  02 직선의방정식 — 비디오\n· 수학 Ⅰ-2-01 원의방정식 
- — 비디오\n· 정보 Ⅰ-01a 유선·무선 네트워크의 특성과 
- 무선 기술 — 비디오 보충 1
+ — 비디오\n· 통합사회 Ⅳ-03-1 남북 분단 상황을 평화적
+ 으로 해결하려면 어떤 노력이 필요할까? — 비디오 보충
+  1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:학습자료 예정 4건
 DESCRIPTION:· 수학 Ⅰ-2-02 원과직선 — 비디오\n· 수학 Ⅰ-3-
  01 평행이동 — 비디오\n· 수학 Ⅰ-3-02 대칭이동 — 비디
- 오\n· 수학 Ⅱ-1-01 집합의뜻과포함관계 — 비디오
+ 오\n· 통합사회 Ⅳ-03-2 동아시아 역사 갈등 상황의 해결 
+ 방안은 무엇일까? — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:학습자료 예정 4건
-DESCRIPTION:· 수학 Ⅱ-1-02 집합의연산 — 비디오\n· 수학 Ⅱ
- -2-01 명제와조건 — 비디오\n· 수학 Ⅱ-2-02 명제사이의관
- 계 — 비디오\n· 수학 Ⅱ-2-03 명제의증명 — 비디오
+DESCRIPTION:· 수학 Ⅱ-1-01 집합의뜻과포함관계 — 비디오\n
+ · 수학 Ⅱ-1-02 집합의연산 — 비디오\n· 수학 Ⅱ-2-01 명
+ 제와조건 — 비디오\n· 정보 Ⅰ-01a 유선·무선 네트워크
+ 의 특성과 무선 기술 — 비디오 보충 1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30@study-notebooklm
-DTSTAMP:20261105T004002Z
+DTSTAMP:20261105T005001Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:학습자료 예정 4건
-DESCRIPTION:· 수학 Ⅲ-1-01 함수의뜻과그래프 — 비디오\n· 
- 수학 Ⅲ-1-02 합성함수와역함수 — 비디오\n· 수학 Ⅲ-2-01
-  유리함수 — 비디오\n· 수학 Ⅲ-2-02 무리함수 — 비디오
+DESCRIPTION:· 수학 Ⅱ-2-02 명제사이의관계 — 비디오\n· 수
+ 학 Ⅱ-2-03 명제의증명 — 비디오\n· 수학 Ⅲ-1-01 함수의
+ 뜻과그래프 — 비디오\n· 수학 Ⅲ-1-02 합성함수와역함수
+  — 비디오
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01@study-notebooklm
+DTSTAMP:20261105T005001Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:학습자료 예정 2건
+DESCRIPTION:· 수학 Ⅲ-2-01 유리함수 — 비디오\n· 수학 Ⅲ-2-
+ 02 무리함수 — 비디오
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
