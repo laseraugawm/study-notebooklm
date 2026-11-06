@@ -91,6 +91,49 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-06T13:43:39+09:00",
+   "score": 7,
+   "missing": [
+    {
+     "point": "역량 키우기 표의 빈칸(y축, 원점, 직선 y=x 행)을 완성하는 활동",
+     "page": "51",
+     "add": "직선 y=mx+n(m≠0)을 x축, y축, 원점, 직선 y=x에 대하여 대칭이동할 때 다음 표를 완성해 보자."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "표 2. 평행이동 vs 대칭이동 (도형의 방정식) 항목에서 교과서 원문에 없는 평행이동 대입 규칙(x → x - a, y → y - b)과 원의 중심 변화 등을 서술함",
+     "right": "교과서 원문에 없는 평행이동 내용은 제외해야 함",
+     "page": "48-51"
+    },
+    {
+     "wrong": "스스로 익히기 3의 풀이와 계산 결과(a=-4)를 단정하여 서술함",
+     "right": "교과서 원문에 정답과 풀이가 제시되어 있지 않으므로 계산 결과를 단정하여 서술하지 않아야 함",
+     "page": "51"
+    },
+    {
+     "wrong": "스스로 익히기 4의 A, B 좌표 및 P의 계산 결과(8/5, 8/5)를 단정하여 서술함",
+     "right": "교과서 원문에 점의 좌표와 정답이 없으므로 이를 단정하여 서술하지 않아야 함",
+     "page": "51"
+    },
+    {
+     "wrong": "역량 키우기 표에서 y축, 원점, 직선 y=x 행의 완성값을 미리 채워 교과서 내용처럼 제시함",
+     "right": "학생이 빈칸으로 채워야 하므로 완성값을 미리 채워 제시하지 않아야 함",
+     "page": "51"
+    }
+   ],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 316,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
