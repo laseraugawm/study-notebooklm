@@ -1,0 +1,44 @@
+{
+ "summary": "이 자료는 고등학교 영어 시험을 대비하여 **한국 배달 문화의 시대별 발전 과정**과 **핵심 영문법**을 압축적으로 정리한 강의 대본입니다. 조선 시대부터 현대까지 이어지는 **배달 서비스의 진화 흐름**을 시대별 키워드와 함께 짚어주며, 시험에 자주 출제되는 **'It is~that' 강조 구문**과 **'so~that' 결과 구문**의 정확한 쓰임을 상세히 설명합니다. 최종적으로 학생들이 **이야기와 문법을 유기적으로 연결**하여 서술형과 독해 문제를 완벽하게 정복할 수 있도록 돕는 실전 학습 가이드입니다.",
+ "keywords": [
+  "배달문화 역사",
+  "시대별 진화 과정",
+  "강조구문 어법",
+  "서수령 필수 어법",
+  "소대 구문 결과"
+ ],
+ "chapters": [
+  "도입: 한국 배달문화의 역사 흐름과 필수 어법 소개",
+  "시대별 배달의 진화 (조선시대 ~ 1992년 이후 택배)",
+  "It is/was ~ that 강조구문의 구조와 활용",
+  "so ~ that 결과 구문의 의미와 문맥 파악"
+ ],
+ "concepts": [
+  "시대별 배달의 진화: 조선시대 냉면 배달 및 전인, 1930년대 일제강점기 메신저와 상호 신뢰, 1960년대 도시화로 인한 수요 증가, 1992년 이후 디지털 기술과 물류 자동화를 통한 택배 성장",
+  "It is/was ~ that 강조구문: 강조하고 싶은 말(주어, 목적어, 부사구 등)을 It is/was와 that 사이에 위치시킴",
+  "so ~ that 결과 구문: '너무 ~해서 …하다'의 원인-결과 흐름을 나타냄"
+ ],
+ "missing": [
+  "Reading 세부 내용: 1768년 황윤석 일기(최초 배달 기록), 전인의 배달 대상(편지)과 요금 기준(일정, 거리), 해방~한국전쟁 시기 배달 체계 붕괴, 1980년대 출장 요리업자 배달, 미래 배달(드론, 자율주행차, 배달 로봇)",
+  "핵심 어휘: specialize, transportation, express, deliver, upheaval, urbanization, logistics, automation, rule of thumb 등",
+  "Reading Strategy: 문맥을 통한 단어 뜻 추측하기(Guessing the meanings of words)",
+  "Listening: 화자 추론하기(Inferring who the speaker is)",
+  "Writing: e-mail의 기본 구조(제목, 인사, 본문, 맺음말) 및 간단한 인사/맺음말 표현",
+  "Communication: 이유 말하기 표현(The reason is that ...) 및 반응 표지(Using reaction markers)",
+  "Reading about Culture: 인도의 다바왈라(Dabbawalas) 전통과 99.99% 성공률의 비결(색깔 코드 체계 등)",
+  "Project: Community Mapping(지역 문제 해결을 위한 협업 지도 만들기)"
+ ],
+ "errors": [
+  "so ~ that 구문의 예시를 'so unfailingly honest and accurate that'로 잘못 제시함 (개념정리의 실제 핵심 예문은 'Customers trusted the messengers so much that they often did not check the items.'임).",
+  "강조구문에서 that 대신 who/whom/which/when/where 등을 쓸 수 있다고 설명했으나, 고등학교 문법에서 강조구문(It is/was ~ that)의 that는 생략하거나 다른 관계사/부사로 대체하지 않는 것이 원칙임."
+ ],
+ "analyzer": "qwen_junghhco1",
+ "analyzer_fallbacks": [
+  "deepseek: HTTP Error 500: Internal Server Error"
+ ],
+ "kind": "audio",
+ "duration": 159,
+ "transcript": "고일 영어 2과 시험 직전 완벽 정리를 위한 족집계 핵심 요약입니다. 이번과의 핵심인 한국 배달문화의 흥미로운 역사 흐름과 서수령에 무조건 나오는 필수 어법 두 가지를 지금 바로 머릿속에 쏙 꽂아드릴게요. 첫째, 내용일지 문제로 단골 출제되는 시대별 배달의 진화입니다. 조선시대 선비가 냉면을 배달시켜 먹었다는 일기 기록과 지역을 꿰뚫턴 전문 배달꾼 전인. 다들 기억나시죠? 1930년대 일제 강점기엔 자전거를 탄 메신저들이 있었는데 상호 신뢰 즉 뮤추얼 트러스트가 워낙 깊어서 고객들이 물건을 확인조차 안 했어요. 이후 1960년대엔 도시와 즉 얼버나이제이션으로 수요가 껑충 뛰었고 1992년 이후엔 디지털 기술과 물료 자동화인 로지스틱스 오토메이션 덕분에 현대적인 택배가 폭발적으로 성장했습니다. 시험에서 시대별 키워드 매칭 절대 속으시면 안 됩니다. 둘째 특정 부분을 강조하는 it is, was that 강조구문입니다. 잇과 that 사이에 강조하고 싶은 말을 넣으면 되는데 그 사이에 부사구가 들어갈 수도 있고요. 또 시간을 나타내는 부사절이 통제로 들어갈 수도 있어요. 예를 들어 it was in in 1930 that bicycle messengers ruled the rose 같은 여기에 해당되는데 이건 바로 1930년대였다. 자전거 배달원들이 도로를 누빈 것은 이런 의미가 됩니다. 이때 that 대신에 강조되는 대상이 사람이면 후나 후물을 수도 있고 사물이면 위치 그리고 시간이나 장소일 땐 언제인지나 어디인지 같은 말로 바꿨을 수도 있어요. 교과서 본문에 나온 It was the development of digital technology that enabled이 문장 서수령 배열 문제로 나오기 딱 좋은 씨그더인 거 눈치 채셨나요? 강조하고 싶은 명사 덩어리를 바로 그 it was와 that 사이에 집어넣어 여러분을 헷갈리게 할 테니 묶어서 파악하는 연습 무조건 해 두셔야 해요. 마지막으로 너무 뭐뭐해서 뭐뭐하다라는 뜻에 So that 결과 구문입니다. 아까 1930년대 메신저들이 너무 정직하고 정확해서 영어로는 so unfilingly honest and accurate that 고객들이 확인도 안 했다는 부분이 있었잖아요. 이건 단수 남기보다 원인과 결과의 흐름을 묻는 빈칸 출론으로 나올 수 있으니 전체적인 문맥을 꼭 같이 파악하세요. 배달의 역사라는 흥미로운 스토리 위에이 두 가지 핵심 문법을 뼈대처럼 탄탄하게 연결하신다면 이번 시험 완벽하게 정복하실 수 있을 겁니다.",
+ "made_secs": 194,
+ "made_at": "2026-11-07T06:43:15+0900"
+}
