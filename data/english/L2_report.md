@@ -313,3 +313,11 @@
 - **빠진 내용** 2010년 아이티 지진 공동체 매핑의 구체적 역할 (피해 평가, 대피소 위치 파악, 응급 의료 센터 확인) — This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers. (p.53)
 - **빠진 내용** PROJECT 1 ACTIVITY STEP 2의 Barrier-free Map 프로젝트 목표 및 세부 요소 — To provide information about accessibility in public spaces for people with disabilities / accessible ramps, restrooms, elevators, entrances (p.54)
 - **바로잡기** '학습 목표 및 도입부 쪽수를 p.30 또는 p.31로 잘못 연계 (교과서 원문은 32쪽부터 시작)' → 단원 도입면은 30~31쪽이나 제시된 원문 및 개념정리의 본문 내용은 32쪽부터 시작됨 (p.32)
+
+## 보완 노트 (외부 리뷰 3차 · gemini_junghhco1)
+- **빠진 내용** Get Ready 1 냉면 듣기 빈칸의 구체적 내용(전통적으로 추운 날씨에도 냉면을 즐김) — Traditionally, Koreans enjoy this dish, even in cold weather. (p.32쪽)
+- **빠진 내용** Listening Tip의 구체적 내용(화자 추론 시 화자가 하는 일을 묘사하는 단어에 집중) — To infer who the speaker is, listen for words describing what he or she does. (p.33쪽)
+- **빠진 내용** Before Reading Topic Preview의 구체적인 광고 원문 문구 — Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices. (p.34쪽)
+- **빠진 내용** Reading 문단 1의 'to name a few' 표현 — Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few. (p.35쪽)
+- **빠진 내용** 2010년 아이티 지진 공동체 매핑의 구체적 역할(피해 평가, 대피소 위치 파악, 응급 의료 센터 확인) — This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers. (p.53쪽)
+- **빠진 내용** PROJECT 1 ACTIVITY STEP 2의 Barrier-free Map 프로젝트 목표 및 세부 요소 — Project goal: To provide information about accessibility in public spaces for people with disabilities / Useful elements: accessible ramps, restrooms, elevators, entrances (p.54쪽)

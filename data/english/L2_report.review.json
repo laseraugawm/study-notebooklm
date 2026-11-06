@@ -196,6 +196,53 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-06T11:39:04+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "Get Ready 1 냉면 듣기 빈칸의 구체적 내용(전통적으로 추운 날씨에도 냉면을 즐김)",
+     "page": "32쪽",
+     "add": "Traditionally, Koreans enjoy this dish, even in cold weather."
+    },
+    {
+     "point": "Listening Tip의 구체적 내용(화자 추론 시 화자가 하는 일을 묘사하는 단어에 집중)",
+     "page": "33쪽",
+     "add": "To infer who the speaker is, listen for words describing what he or she does."
+    },
+    {
+     "point": "Before Reading Topic Preview의 구체적인 광고 원문 문구",
+     "page": "34쪽",
+     "add": "Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices."
+    },
+    {
+     "point": "Reading 문단 1의 'to name a few' 표현",
+     "page": "35쪽",
+     "add": "Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few."
+    },
+    {
+     "point": "2010년 아이티 지진 공동체 매핑의 구체적 역할(피해 평가, 대피소 위치 파악, 응급 의료 센터 확인)",
+     "page": "53쪽",
+     "add": "This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers."
+    },
+    {
+     "point": "PROJECT 1 ACTIVITY STEP 2의 Barrier-free Map 프로젝트 목표 및 세부 요소",
+     "page": "54쪽",
+     "add": "Project goal: To provide information about accessibility in public spaces for people with disabilities / Useful elements: accessible ramps, restrooms, elevators, entrances"
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 242,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false

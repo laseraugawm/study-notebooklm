@@ -301,3 +301,10 @@
 ## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1)
 - **빠진 내용** Lesson 2 도입면(30~31쪽)의 학습 내용 (Topic 1 Various Ways of Life, Topic 2 Modernizing Tradition 등) — Lesson 2 From Tradition to Trend (TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition) (p.30-31)
 - **바로잡기** 'ReThink를 '혁신적인 앱'으로만 규정함' → ReThink는 교과서 원문에 따르면 'a virtual keyboard that uses artificial intelligence to detect potentially hurtful text messages before they are sent'임 (p.14)
+
+## 보완 노트 (외부 리뷰 3차 · gemini_junghhco1)
+- **빠진 내용** Lesson 2 도입면의 학습 내용 및 관련 정보 — Lesson 2 From Tradition to Trend (TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition) 및 관련 학습 요소가 포함되어 있다. (p.30-31)
+- **빠진 내용** 본문 각 문단의 Q1~Q6 가이드 질문 — 각 본문 내용과 관련된 Q1부터 Q6까지의 Guide Question 문항들이 제시되어 있다. (p.14-17)
+- **빠진 내용** Warka Tower의 빈칸 채우기 활동 세부 항목 — 적정 기술 지문 하단의 빈칸 채우기 활동(① specific needs, ② renewable, ③ fog)이 포함되어 있다. (p.27)
+- **바로잡기** 'ReThink를 단순히 '혁신적인 앱'으로만 규정함' → 교과서 원문에 따르면 ReThik는 'a virtual keyboard that uses artificial intelligence to detect potentially hurtful text messages before they are sent'이다. (p.14)
+- **바로잡기** '세 사람의 노력이 보여주는 힘을 '기술, 헌신, 개인의 주도성'으로만 단순화함' → 교과서는 'Their innovative efforts to solve social problems demonstrate the power of technology, commitment, and individual initiative.'라고 서술한다. (p.17)
