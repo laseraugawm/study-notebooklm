@@ -128,6 +128,33 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-06T09:43:27+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "새로운 매체가 만드는 영향과 매체 소통 문화 성찰의 필요성(새로운 매체는 새로운 문화와 언어를 창조하며, 발전된 소통 문화는 기술의 진화를 요구함. 변화를 올바른 방향으로 이끌기 위해 성찰이 중요함)",
+     "page": "157",
+     "add": "새로운 매체는 새로운 문화를 만들며, 새로운 언어를 창조한다. 소통 기술의 변화는 소통 문화의 발전으로 이어지며, 발전된 소통의 문화는 다시 기술의 진화를 요구한다. 현대 사회는 디지털 매체 환경으로 급속히 변화해 왔으며, 이 흐름은 앞으로도 계속될 것이다. 이러한 때에 매체 소통 문화를 이해하고 성찰하는 것은 그 변화를 올바른 방향으로 이끌어 나가기 위해 매우 중요하다."
+    },
+    {
+     "point": "과거 광고(1985년)에 나타난 현행 맞춤법과 다른 국어 표현 예시",
+     "page": "166",
+     "add": "1985년 공익 광고 문구에 쓰인 '있읍니다'는 현행 한글 맞춤법과 다른 과거의 표기이다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 168,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
