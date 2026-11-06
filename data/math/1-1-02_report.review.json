@@ -99,6 +99,38 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-06T15:37:07+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "점 A(x₁, y₁)을 지나고 x축에 평행하거나 x축과 일치하는 직선의 방정식",
+     "page": "18쪽",
+     "add": "점 A(x₁, y₁)을 지나고 x축에 평행하거나 x축과 일치하는 직선의 기울기는 0이므로 이 직선의 방정식은 y=y₁이다."
+    },
+    {
+     "point": "피타고라스 정리 언급",
+     "page": "22쪽",
+     "add": "삼각형 POQ는 직각삼각형이므로 피타고라스 정리에 의하여 OP²+OQ²=PQ²이다."
+    },
+    {
+     "point": "점과 직선 사이의 거리 유도 전제 조건",
+     "page": "24쪽",
+     "add": "a≠0, b≠0일 때, 점 P(x₁, y₁)에서 직선 l에 내린 수선의 발을 H(x₂, y₂)라고 하면 직선 PH와 직선 l의 기울기는 각각 (y₂−y₁)/(x₂−x₁), −a/b이고, 두 직선이 서로 수직이므로 (y₂−y₁)/(x₂−x₁)×(−a/b)=−1이다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 125,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
