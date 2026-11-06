@@ -85,6 +85,41 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 3,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-06T15:40:43+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "점 P가 좌표축 위의 점인 경우(x1=0 또는 y1=0)의 접선의 방정식 유도 과정에서 '따라서 이 경우에도 원의 접선의 방정식은 x₁x+y₁y=r²이다'라는 결론 문장",
+     "page": "38쪽",
+     "add": "따라서 이 경우에도 원의 접선의 방정식은 x₁x+y₁y=r²이다."
+    },
+    {
+     "point": "원 x²+y²=r²에 접하고 기울기가 m인 직선의 방정식 유도 부근의 '한 원에 대하여 기울기가 같은 접선은 2개이다'라는 날개 설명",
+     "page": "37쪽",
+     "add": "한 원에 대하여 기울기가 같은 접선은 2개이다."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "개념정리의 4번 역량 키우기에서 그림의 눈금을 근거로 두 원의 반지름을 각각 1과 2로 단정하여 서술함",
+     "right": "교과서 36쪽 그림에는 두 원의 중심 좌표가 각각 (0, 0)과 (3, 0)이고 직선의 방정식이 ax+by=3(단, a<0, b>0)으로 제시되어 있으며, 원형 경작지의 반지름은 그림의 눈금에서 읽도록 되어 있음",
+     "page": "36쪽"
+    }
+   ],
+   "unclear": [
+    "개념정리에서 스스로 익히기 문제들의 풀이 중 교과서 해설이 없어 직접 계산한 값이라고 주석을 달았으나, 학생용 개념정리로서 오해의 여지가 있을 수 있음"
+   ],
+   "applied": "note",
+   "review_secs": 146,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "qwen: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
