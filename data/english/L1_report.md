@@ -308,3 +308,8 @@
 - **빠진 내용** Warka Tower의 빈칸 채우기 활동 세부 항목 — 적정 기술 지문 하단의 빈칸 채우기 활동(① specific needs, ② renewable, ③ fog)이 포함되어 있다. (p.27)
 - **바로잡기** 'ReThink를 단순히 '혁신적인 앱'으로만 규정함' → 교과서 원문에 따르면 ReThik는 'a virtual keyboard that uses artificial intelligence to detect potentially hurtful text messages before they are sent'이다. (p.14)
 - **바로잡기** '세 사람의 노력이 보여주는 힘을 '기술, 헌신, 개인의 주도성'으로만 단순화함' → 교과서는 'Their innovative efforts to solve social problems demonstrate the power of technology, commitment, and individual initiative.'라고 서술한다. (p.17)
+
+## 보완 노트 (외부 리뷰 4차 · qwen)
+- **빠진 내용** Appropriate Technology 지문의 빈칸 채우기 활동 정답이 개념정리 본문에 명시적으로 정리되지 않음 — Fill in the blanks: meets the specific ① needs of a community, relies on ② renewable resources, gathers rainwater and traps ③ fog. (p.27)
+- **빠진 내용** Communication STEP 4 Present의 자기점검(Self-Check) 및 또래 평가 질문이 개념정리 본문에 누락됨 — Self-Check: I provided plans related to the volunteer position. / I used appropriate nonverbal expressions, including smiling. / I tried my best to make the video. Peer evaluation: Who spoke the most fluently? / Whose résumé is the most convincing? (p.26)
+- **빠진 내용** Lesson 2 도입면(30~31쪽)의 주요 학습 요소(Topics, Listening Tip, Reading Strategy, TASK, FUNCTION 등)가 개념정리 본문에 누락됨 — TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition, Listening Tip: Inferring who the speaker is, Reading Strategy: Guessing the meanings of words, TASK: Street Interview, FUNCTION: The reason is that the markets offer ... (p.30-31)

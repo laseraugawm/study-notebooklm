@@ -214,6 +214,40 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 4,
+   "reviewer": "qwen",
+   "at": "2026-11-07T19:44:12+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "Appropriate Technology 지문의 빈칸 채우기 활동 정답이 개념정리 본문에 명시적으로 정리되지 않음",
+     "page": "27",
+     "add": "Fill in the blanks: meets the specific ① needs of a community, relies on ② renewable resources, gathers rainwater and traps ③ fog."
+    },
+    {
+     "point": "Communication STEP 4 Present의 자기점검(Self-Check) 및 또래 평가 질문이 개념정리 본문에 누락됨",
+     "page": "26",
+     "add": "Self-Check: I provided plans related to the volunteer position. / I used appropriate nonverbal expressions, including smiling. / I tried my best to make the video. Peer evaluation: Who spoke the most fluently? / Whose résumé is the most convincing?"
+    },
+    {
+     "point": "Lesson 2 도입면(30~31쪽)의 주요 학습 요소(Topics, Listening Tip, Reading Strategy, TASK, FUNCTION 등)가 개념정리 본문에 누락됨",
+     "page": "30-31",
+     "add": "TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition, Listening Tip: Inferring who the speaker is, Reading Strategy: Guessing the meanings of words, TASK: Street Interview, FUNCTION: The reason is that the markets offer ..."
+    }
+   ],
+   "errors": [],
+   "unclear": [
+    "p.11 Get Ready 2의 듣기 빈칸 채우기에서 'make a ____ on society by ____'의 실제 교과서 정답 단어(difference, taking action 등)가 제시되지 않고 해설만 되어 있어 학생이 실제 정답을 확인하기 어려움."
+   ],
+   "applied": "note",
+   "review_secs": 200,
+   "rewrite_problems": [
+    "deepseek: HTTP Error 500: Internal Server Error",
+    "grok: HTTP Error 500: Internal Server Error",
+    "gemini_junghhco1: HTTP Error 500: Internal Server Error"
+   ]
   }
  ],
  "done": false
