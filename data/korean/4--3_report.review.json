@@ -155,7 +155,18 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 4,
+   "reviewer": "gemini_junghhco1",
+   "at": "2026-11-07T13:51:26+09:00",
+   "score": 10,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 36
   }
  ],
- "done": false
+ "done": true
 }
