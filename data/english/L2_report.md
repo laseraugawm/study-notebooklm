@@ -321,3 +321,12 @@
 - **빠진 내용** Reading 문단 1의 'to name a few' 표현 — Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few. (p.35쪽)
 - **빠진 내용** 2010년 아이티 지진 공동체 매핑의 구체적 역할(피해 평가, 대피소 위치 파악, 응급 의료 센터 확인) — This collaborative effort played a crucial role in assessing damage, locating shelter locations, and identifying emergency care centers. (p.53쪽)
 - **빠진 내용** PROJECT 1 ACTIVITY STEP 2의 Barrier-free Map 프로젝트 목표 및 세부 요소 — Project goal: To provide information about accessibility in public spaces for people with disabilities / Useful elements: accessible ramps, restrooms, elevators, entrances (p.54쪽)
+
+## 보완 노트 (외부 리뷰 4차 · deepseek)
+- **빠진 내용** Get Ready 1 냉면 듣기 빈칸의 구체적 내용(전통적으로 추운 날씨에도 즐김) — Traditionally, Koreans enjoy this dish, even in cold weather. (p.32)
+- **빠진 내용** Reading 문단 1의 'to name a few' 표현 — Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few. (p.35)
+- **빠진 내용** Word Tip의 enable/encourage/endanger(en- 동사) 구분 — Word Tip: enable, encourage, endanger. (p.38)
+- **바로잡기** '학습 목표에서 Topic 1·2를 'p.30'으로, Before You Begin 질문을 'p.31'로 표기' → 제시된 교과서 원문(32~55쪽)에는 해당 도입면이 없으며, Various Ways of Life와 Modernizing Tradition은 32~33쪽 Get Ready 1·2에 해당한다. (p.32~33)
+- **바로잡기** 'Listening Tip을 'Inferring who the speaker is(화자 추론하기)'로만 요약' → To infer who the speaker is, listen for words describing what he or she does. (p.33)
+- **바로잡기** 'Before Reading Topic Preview 광고 문구를 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술' → Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices. (p.34)
+- **바로잡기** 'Get Ready 2에서 Mr. Kim이 'K-pop 스타를 위한 한복 디자인'으로 알려졌다고 단정' → 듣기 선택지로 'designing hanbok for K-pop stars'가 제시되며, 한복에 현대적 요소를 더하고 한복이 역사와 현대 세계를 잇는다고 말한다. (p.33)

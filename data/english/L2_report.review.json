@@ -243,6 +243,62 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 4,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T02:36:22+09:00",
+   "score": 7,
+   "missing": [
+    {
+     "point": "Get Ready 1 냉면 듣기 빈칸의 구체적 내용(전통적으로 추운 날씨에도 즐김)",
+     "page": "32",
+     "add": "Traditionally, Koreans enjoy this dish, even in cold weather."
+    },
+    {
+     "point": "Reading 문단 1의 'to name a few' 표현",
+     "page": "35",
+     "add": "Delivery apps rank stores by various standards: review scores, popularity, price, delivery fee, and distance, to name a few."
+    },
+    {
+     "point": "Word Tip의 enable/encourage/endanger(en- 동사) 구분",
+     "page": "38",
+     "add": "Word Tip: enable, encourage, endanger."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "학습 목표에서 Topic 1·2를 'p.30'으로, Before You Begin 질문을 'p.31'로 표기",
+     "right": "제시된 교과서 원문(32~55쪽)에는 해당 도입면이 없으며, Various Ways of Life와 Modernizing Tradition은 32~33쪽 Get Ready 1·2에 해당한다.",
+     "page": "32~33"
+    },
+    {
+     "wrong": "Listening Tip을 'Inferring who the speaker is(화자 추론하기)'로만 요약",
+     "right": "To infer who the speaker is, listen for words describing what he or she does.",
+     "page": "33"
+    },
+    {
+     "wrong": "Before Reading Topic Preview 광고 문구를 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술",
+     "right": "Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices.",
+     "page": "34"
+    },
+    {
+     "wrong": "Get Ready 2에서 Mr. Kim이 'K-pop 스타를 위한 한복 디자인'으로 알려졌다고 단정",
+     "right": "듣기 선택지로 'designing hanbok for K-pop stars'가 제시되며, 한복에 현대적 요소를 더하고 한복이 역사와 현대 세계를 잇는다고 말한다.",
+     "page": "33"
+    }
+   ],
+   "unclear": [
+    "Get Ready 1 냉면 설명에서 '전통적으로 ____에도 즐김'의 빈칸을 '듣기로 채움'이라고만 하여 실제 내용(추운 날씨)이 드러나지 않음",
+    "Get Ready 2에서 Mr. Kim의 국제적 명성과 관련된 세 선택지 중 어느 것이 정답인지 명시하지 않아 학생이 혼동할 수 있음"
+   ],
+   "applied": "note",
+   "review_secs": 82,
+   "rewrite_problems": [
+    "qwen: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문, ## 보완 노트 (외부 리뷰 1차 · deepseek), ## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1), ## 보완 노트 (외부 리뷰 3차",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
  "done": false
