@@ -126,7 +126,39 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T03:04:11+09:00",
+   "score": 9,
+   "missing": [
+    {
+     "point": "감염병의 정의·전파 특성과 국가·문명 소멸 사례의 인과 서술",
+     "page": "134",
+     "add": "감염병은 세균이나 바이러스 같은 병원체가 사람의 몸에 침입하여 생기는 질병으로, 빠르게 전파되는 특성이 있다. 감염병이 퍼지면 수많은 사람들이 목숨을 잃기도 하고, 한 국가나 문명이 사라지기도 한다."
+    },
+    {
+     "point": "교통수단 발달에 따른 급속 전파와 치료 약 개발 전 감염 경로 차단의 중요성",
+     "page": "134",
+     "add": "교통수단의 발달로 사람들의 이동량이 증가하고 이동 속도가 빨라지면서 감염병은 과거보다 급속히 전파된다. 치료 약이 개발되기 전까지 감염병의 확산을 늦추기 위해 감염병을 빠르게 진단하고 추적하여 감염 경로를 차단하는 것이 중요하다."
+    },
+    {
+     "point": "감염병 진단 기술의 간단·신속성에 따른 확산 방지 역할",
+     "page": "134",
+     "add": "이러한 기술들은 간단하고 신속하게 감염병을 진단할 수 있어 감염병의 확산을 막는 데 큰 역할을 한다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 13,
+   "rewrite_problems": [
+    "qwen: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문, ## 보완 노트 (외부 리뷰 1차 · deepseek), ## 보완 노트 (외부 리뷰 2차 · deepseek), ## 보완 노트 (외부 리뷰 3차 · gemin",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
- "done": false
+ "done": true
 }

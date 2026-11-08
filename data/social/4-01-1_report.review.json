@@ -131,7 +131,32 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T02:57:58+09:00",
+   "score": 8,
+   "missing": [],
+   "errors": [
+    {
+     "wrong": "핵심 용어 사전에서 '한류'를 '외국 사람들이 폭넓게 누리는 우리나라의 문화'로 정의함",
+     "right": "교과서는 '한류로 대표되는 우리의 문화'라고 서술할 뿐 한류 자체를 정의하지 않음",
+     "page": "99"
+    }
+   ],
+   "unclear": [
+    "표 1에서 세계화의 '계기·방법'을 '교통·통신의 발달'로만 제시하여, 교통·통신의 발달을 계기로 상품·자본·기술은 물론 문화·가치 등이 국경을 넘어 이동하고 이에 따라 국가 간 상호 의존성이 커지고 세계가 통합되는 과정이 세계화라는 점이 드러나지 않음",
+    "표 1에서 지역화의 '계기·방법'을 '지역 고유의 특성을 전 세계에 알림'으로만 제시하여, 세계화의 흐름 속에서 각 지역이 세계의 다른 지역과 관계를 맺는 범위를 넓히고 지역 발전을 위해 고유한 특성을 전 세계에 알린다는 맥락이 드러나지 않음"
+   ],
+   "applied": "note",
+   "review_secs": 14,
+   "rewrite_problems": [
+    "qwen: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문, ## 보완 노트 (외부 리뷰 2차 · deepseek), ## 보완 노트 (외부 리뷰 3차 · gemini_junghhco1), ## 보완 노트 (외부 리뷰 4차",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
- "done": false
+ "done": true
 }
