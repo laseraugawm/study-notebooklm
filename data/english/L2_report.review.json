@@ -243,7 +243,18 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 4,
+   "reviewer": "deepseek",
+   "at": "2026-11-08T23:57:29+09:00",
+   "score": 9,
+   "missing": [],
+   "errors": [],
+   "unclear": [],
+   "applied": "none",
+   "review_secs": 87
   }
  ],
- "done": false
+ "done": true
 }
