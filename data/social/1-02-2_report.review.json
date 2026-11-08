@@ -182,7 +182,43 @@
     "qwen: HTTP Error 500: Internal Server Error",
     "grok: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T02:55:02+09:00",
+   "score": 7,
+   "missing": [
+    {
+     "point": "시민 참여의 방안 목록에 '공청회 참여'와 '청원'이 빠짐",
+     "page": "20",
+     "add": "시민 참여의 방안으로는 선거, 시위, 서명 운동, 공청회 참여, 청원, 캠페인 활동 등이 있다."
+    },
+    {
+     "point": "시민들이 헌법에 명시된 권리가 침해당했을 경우 국가에 그 구제를 요청할 수 있다는 내용이 빠짐",
+     "page": "21",
+     "add": "시민들은 헌법에 명시된 권리가 침해당하였을 경우 국가에 그 구제를 요청할 수 있다."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "어린이 출입 제한 공간(노키즈존) 규제 논의를 시민 참여의 실천 사례로 단정적으로 서술함",
+     "right": "교과서 21쪽 자료 1은 어린이 출입 제한 공간 지정을 금지하는 조례 제정에 관해 소상공인과 인권 및 언론 분야 이해 관계자들이 의견을 나눈 논의 자료로, 시민의 권익을 보호하기 위해 활용한 시민 참여 방안을 파악하는 학습 자료이다.",
+     "page": "21"
+    }
+   ],
+   "unclear": [
+    "어린이 출입 제한 공간 규제 논의를 '시민 참여의 실천 사례'로 제시하여, 자료 1이 시민 참여 방안 파악용 학습 자료라는 점이 드러나지 않음",
+    "자료 2(어린이 통학로 개선)에서 활용한 시민 참여 방안이 '캠페인 활동'임을 명시하지 않아 어떤 참여 방안에 해당하는지 모호함"
+   ],
+   "applied": "note",
+   "review_secs": 11,
+   "rewrite_problems": [
+    "qwen: browser_unavailable Qwen did not start answering (it may be showing a sign-in or",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
- "done": false
+ "done": true
 }
