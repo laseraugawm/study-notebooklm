@@ -330,3 +330,8 @@
 - **바로잡기** 'Listening Tip을 'Inferring who the speaker is(화자 추론하기)'로만 요약' → To infer who the speaker is, listen for words describing what he or she does. (p.33)
 - **바로잡기** 'Before Reading Topic Preview 광고 문구를 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술' → Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices. (p.34)
 - **바로잡기** 'Get Ready 2에서 Mr. Kim이 'K-pop 스타를 위한 한복 디자인'으로 알려졌다고 단정' → 듣기 선택지로 'designing hanbok for K-pop stars'가 제시되며, 한복에 현대적 요소를 더하고 한복이 역사와 현대 세계를 잇는다고 말한다. (p.33)
+
+## 보완 노트 (외부 리뷰 5차 · deepseek)
+- **빠진 내용** Get Ready 1 냉면 듣기 빈칸의 구체적 내용(전통적으로 추운 날씨에도 냉면을 즐김) — Traditionally, Koreans enjoy this dish, even in cold weather. (p.32)
+- **바로잡기** 'Get Ready 1 냉면 설명에서 '전통적으로 ____에도 즐김'의 빈칸을 듣기로 채운다고만 하고 내용을 제시하지 않음' → 전통적으로 한국인은 추운 날씨에도 이 음식을 즐긴다(even in cold weather). (p.32)
+- **바로잡기** 'Before Reading Topic Preview 광고의 실제 문구를 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술' → 광고 문구는 'Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices.'이다. (p.34)

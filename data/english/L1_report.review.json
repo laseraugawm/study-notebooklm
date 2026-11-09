@@ -248,7 +248,133 @@
     "grok: HTTP Error 500: Internal Server Error",
     "gemini_junghhco1: HTTP Error 500: Internal Server Error"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T14:40:33+09:00",
+   "score": 7,
+   "missing": [
+    {
+     "point": "본문 각 문단의 Q1~Q6 Guide Question 문항",
+     "page": "14-17쪽",
+     "add": "Q1 Why did Trisha decide to invent ReThink? / Q2 How did Kelvin build an FM radio station? / Q3 What resources did Kelvin create for his community? / Q4 What does Home Again provide? / Q5 According to John, what is the impact of furniture on families transitioning out of homelessness? / Q6 What do the three young people's efforts demonstrate?"
+    },
+    {
+     "point": "Strategy Build-Up: 지역 쉼터 봉사에서 John이 배운 것을 밑줄 치는 활동",
+     "page": "16쪽",
+     "add": "Strategy Build-Up: Underline what John learned from volunteering at a local shelter."
+    },
+    {
+     "point": "Reading Log 활동",
+     "page": "17쪽",
+     "add": "Reading Log: Answer the Guide Questions on your own. (Sample Answer p. 112)"
+    },
+    {
+     "point": "After Reading A의 빈칸 어휘 상자 항목",
+     "page": "18쪽",
+     "add": "Words in the box: furniture, education, cyberbullying, hurtful, radio station, homeless."
+    },
+    {
+     "point": "Get Ready 2 듣기 1번 빈칸 채우기 활동 및 On Your Own 활동",
+     "page": "11쪽",
+     "add": "Listen 1: Fill in the blanks based on the dialog. / On Your Own 활동이 제시되어 있다."
+    },
+    {
+     "point": "Before Reading STEP 1: 밑줄 친 단어의 의미를 문장에서 추측하기 활동",
+     "page": "12쪽",
+     "add": "STEP 1 Read the sentences and guess the meanings of the underlined words."
+    },
+    {
+     "point": "Reading Rate(1st/2nd 분·초 기록) 활동",
+     "page": "13쪽",
+     "add": "Reading Rate: 1st __ min. __ sec. / 2nd __ min. __ sec. 로 읽기 속도를 기록한다."
+    },
+    {
+     "point": "Grammar POINT 1 Challenge 활동(최근 사진으로 target structure 사용해 설명 쓰기)과 Photo & Description 예시",
+     "page": "21쪽",
+     "add": "Choose one of your recent photos and write a brief description of it by using the target structure. e.g. This is a photo of me volunteering at a local senior home. Giving out lunches, I chatted with a senior."
+    },
+    {
+     "point": "Writing STEP 3의 온라인 편집 도구로 수정하고 온라인 게시판에 게시하는 활동",
+     "page": "23쪽",
+     "add": "Edit your work by using an online editing tool. / Post your work to the online board."
+    },
+    {
+     "point": "Communication STEP 1의 영상 이력서 질문 2개와 스크립트 완성 후 역할극 활동",
+     "page": "24쪽",
+     "add": "QUESTIONS 1 What is the video about? 2 What is the girl's attitude? / Watch again and complete the script. Then act out the volunteer video résumé."
+    },
+    {
+     "point": "Speaking STEP 2 Pair Work의 'Plans for ...' 정보 상자 항목",
+     "page": "25쪽",
+     "add": "Plans for ...: this evening, the weekend, your birthday, winter vacation, the school sports day / watch a movie, go hiking, join a dance performance, read a book, participate in the running events, go on a picnic."
+    },
+    {
+     "point": "Communication STEP 4 Present의 자기점검 3문항과 또래 평가 질문",
+     "page": "26쪽",
+     "add": "Self-Check: I provided plans related to the volunteer position. / I used appropriate nonverbal expressions, including smiling. / I tried my best to make the video. 그리고 'Who spoke the most fluently in their video résumé for a volunteer job? / Whose résumé do you think is the most convincing?' 질문으로 평가한다."
+    },
+    {
+     "point": "Appropriate Technology 지문 빈칸 채우기 활동 정답",
+     "page": "27쪽",
+     "add": "Fill in the blanks: meets the specific ① needs of a community / relies on ② renewable resources / gathers rainwater and traps ③ fog."
+    },
+    {
+     "point": "WRAP UP Reading 요약 빈칸 상자 어구와 Grammar 배열 문제의 정답 문장",
+     "page": "28쪽",
+     "add": "Phrases: on their communities / transitioning out of homelessness / individual initiative / detects hurtful messages. Grammar: I visited the park where I used to play as a child. / Excited about the start of a big match, the audience cheers enthusiastically. / Hired by the company, she has to move to another city now."
+    },
+    {
+     "point": "Extra Resources의 Digital Portfolio 4개 활동 목록",
+     "page": "29쪽",
+     "add": "Digital Portfolio: 1 Writing a public campaign advertisement p. 23 / 2 Recording a volunteer video résumé p. 24 / 3 Making a video résumé for a volunteer job p. 26 / 4 Making a manual for an appropriate technology p. 27."
+    },
+    {
+     "point": "Culture Links의 온라인 링크(UNESCO Global Youth Community, UNDP 17 ways)",
+     "page": "29쪽",
+     "add": "Culture Links: Global Youth Community https://www.unesco.org/en/youth/global-youth-community / 17 ways young people are changing the world https://undp.medium.com/17-ways-youth-are-changing-the-world-505a489e91dc"
+    },
+    {
+     "point": "Lesson 2 도입면(30~31쪽)의 학습 내용",
+     "page": "30-31쪽",
+     "add": "LESSON 2 From Tradition to Trend: TOPIC 1 Various Ways of Life, TOPIC 2 Modernizing Tradition; Listening Tip Inferring who the speaker is; Reading Strategy Guessing the meanings of words; Writing an e-mail; TASK Street Interview; FUNCTION The reason is that the markets offer ...; Reading about Culture Dabbawalas: The Lunch Box Delivery Men in India; Writing Strategy Writing a simple greeting and closing; Speaking Tip Using reaction markers."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "ReThink를 '혁신적인 앱'으로 규정",
+     "right": "교과서는 ReThink를 'a virtual keyboard that uses artificial intelligence to detect potentially hurtful text messages before they are sent'라고 설명한다. '앱'이라는 표현은 교과서 본문에 없다.",
+     "page": "14쪽"
+    },
+    {
+     "wrong": "문단 8 결론에서 세 사람이 보여준 힘을 '기술(technology), 헌신(commitment), 개인의 주도성(individual initiative)'으로만 제시",
+     "right": "교과서는 'Their innovative efforts to solve social problems demonstrate the power of technology, commitment, and individual initiative.'라고 서술한다. 'innovative efforts to solve social problems'라는 한정이 포함되어야 한다.",
+     "page": "17쪽"
+    },
+    {
+     "wrong": "단원 구성표에서 Grammar in Context를 'POINT 1 관계부사 when/where, POINT 2 분사구문'으로만 제시",
+     "right": "교과서 p.20의 POINT 1 표제 문장은 'During the time when an Ebola outbreak affected Africa, it proved to be invaluable.'이고 p.21의 POINT 2는 'Needing donations to gather essential items, John reached out to his family.'이다. 관계부사 when/where와 분사구문이라는 문법 명칭은 교과서에 명시된 표현이 아니라 개념정리 작성자의 해설이다.",
+     "page": "20-21쪽"
+    },
+    {
+     "wrong": "Warka Tower가 '바닥의 항아리(pot)에 빗물을 모으고' 안개를 포집한다고 서술",
+     "right": "교과서는 'It gathers rainwater in a pot at its base. Additionally, the tower captures fog and changes it into water drops that collect on nets, and then the water drops fall into the pot.'라고 서술한다. 안개가 응결된 물방울은 그물에 맺힌 뒤 항아리로 떨어진다.",
+     "page": "27쪽"
+    }
+   ],
+   "unclear": [
+    "ReThink를 '앱'으로만 소개해 교과서의 '가상 키보드(virtual keyboard)' 규정이 드러나지 않아 학생이 앱의 정체를 오해할 수 있음",
+    "분사구문 표에서 '접속사·주어 생략'만 제시되어 수동 의미일 때 과거분사로 시작한다는 점(Shocked, Hired)이 표 안에서 명확히 드러나지 않음"
+   ],
+   "applied": "note",
+   "review_secs": 32,
+   "rewrite_problems": [
+    "qwen: upstream_error prompt longer than 60000 characters",
+    "grok: upstream_error prompt longer than 60000 characters",
+    "gemini: upstream_error prompt longer than 60000 characters"
+   ]
   }
  ],
- "done": false
+ "done": true
 }

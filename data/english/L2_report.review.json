@@ -299,7 +299,42 @@
     "grok: timeout timed out (after one retry; first error: timed out)",
     "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T14:40:53+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "Get Ready 1 냉면 듣기 빈칸의 구체적 내용(전통적으로 추운 날씨에도 냉면을 즐김)",
+     "page": "32",
+     "add": "Traditionally, Koreans enjoy this dish, even in cold weather."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "Get Ready 1 냉면 설명에서 '전통적으로 ____에도 즐김'의 빈칸을 듣기로 채운다고만 하고 내용을 제시하지 않음",
+     "right": "전통적으로 한국인은 추운 날씨에도 이 음식을 즐긴다(even in cold weather).",
+     "page": "32"
+    },
+    {
+     "wrong": "Before Reading Topic Preview 광고의 실제 문구를 제시하지 않고 '무엇에 관한 광고이며 누가 관심을 가질까?'만 서술",
+     "right": "광고 문구는 'Near or far, wherever you are, we deliver the food needed for various events such as group dinners and official gatherings at very special, affordable prices.'이다.",
+     "page": "34"
+    }
+   ],
+   "unclear": [
+    "Get Ready 2에서 Mr. Kim이 'K-pop 스타를 위한 한복 디자인'으로 국제적으로 알려진 인물이라고 단정함 — 이는 듣기 선택지로 제시된 내용이며, 확인된 내용은 한복에 현대적 요소를 더해 디자인하고 한복이 역사와 현대 세계를 잇는다고 말한다는 것임"
+   ],
+   "applied": "note",
+   "review_secs": 19,
+   "rewrite_problems": [
+    "qwen: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문, ## 보완 노트 (외부 리뷰 1차 · deepseek), ## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1), ## 보완 노트 (외부 리뷰 3차",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
- "done": false
+ "done": true
 }
