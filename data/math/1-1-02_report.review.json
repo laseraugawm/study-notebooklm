@@ -160,7 +160,39 @@
     "grok: timeout timed out (after one retry; first error: timed out)",
     "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T08:56:32+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "점 A(x₁, y₁)을 지나고 x축에 평행하거나 x축과 일치하는 직선의 방정식",
+     "page": "18",
+     "add": "점 A(x₁, y₁)을 지나고 x축에 평행하거나 x축과 일치하는 직선의 기울기는 0이므로 이 직선의 방정식은 y=y₁이다."
+    },
+    {
+     "point": "두 직선의 수직 조건 유도에서 삼각형 POQ가 직각삼각형임을 이용하는 피타고라스 정리 논거",
+     "page": "22",
+     "add": "삼각형 POQ는 직각삼각형이므로 피타고라스 정리에 의하여 OP²+OQ²=PQ²이다."
+    },
+    {
+     "point": "점과 직선 사이의 거리 유도 과정의 전제 조건 a≠0, b≠0",
+     "page": "24",
+     "add": "a≠0, b≠0일 때, 점 P(x₁, y₁)에서 직선 l에 내린 수선의 발을 H(x₂, y₂)라고 하면 직선 PH와 직선 l의 기울기는 각각 (y₂−y₁)/(x₂−x₁), −a/b이고, 두 직선이 서로 수직이므로 (y₂−y₁)/(x₂−x₁)×(−a/b)=−1이다."
+    }
+   ],
+   "errors": [],
+   "unclear": [],
+   "applied": "note",
+   "review_secs": 12,
+   "rewrite_problems": [
+    "qwen: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문, ## 보완 노트 (외부 리뷰 1차 · deepseek), ## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1), ## 보완 노트 (외부 리뷰 3차",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
- "done": false
+ "done": true
 }
