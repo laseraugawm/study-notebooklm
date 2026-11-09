@@ -151,7 +151,37 @@
     "grok: timeout timed out (after one retry; first error: timed out)",
     "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
    ]
+  },
+  {
+   "n": 5,
+   "reviewer": "deepseek",
+   "at": "2026-11-09T14:35:12+09:00",
+   "score": 8,
+   "missing": [
+    {
+     "point": "원 위의 점이 좌표축 위의 점인 경우에도 접선의 방정식이 x₁x+y₁y=r²임을 밝히는 결론",
+     "page": "38",
+     "add": "따라서 이 경우에도 원의 접선의 방정식은 x₁x+y₁y=r²이다."
+    }
+   ],
+   "errors": [
+    {
+     "wrong": "개념정리 4번에서 두 원형 경작지의 반지름을 각각 1과 2로 단정함",
+     "right": "교과서 36쪽은 두 원의 중심의 좌표가 각각 (0, 0)과 (3, 0)이고 직선의 방정식이 ax+by=3일 때 상수 a, b의 값을 구하라고 제시할 뿐 반지름을 본문에 명시하지 않는다.",
+     "page": "36"
+    }
+   ],
+   "unclear": [
+    "개념정리 6번 ②에서 점 P가 좌표축 위의 점인 경우를 다루면서 '이 경우에도 x₁x+y₁y=r²'이라고만 적어, 좌표축 위의 점에서도 공식이 성립함을 보이는 결론 과정이 생략되어 학생이 별도 공식인지 오해할 수 있음"
+   ],
+   "applied": "note",
+   "review_secs": 13,
+   "rewrite_problems": [
+    "qwen: ## 학습 목표, ## 핵심 개념, ## 비교·정리표, ## 시험 함정 포인트, ## 핵심 용어 사전, ## 자기점검 질문, ## 보완 노트 (외부 리뷰 1차 · deepseek), ## 보완 노트 (외부 리뷰 2차 · gemini_junghhco1), ## 보완 노트 (외부 리뷰 3차",
+    "grok: timeout timed out (after one retry; first error: timed out)",
+    "gemini: upstream_error attachment_failed: Gemini did not accept the file (a notice may n"
+   ]
   }
  ],
- "done": false
+ "done": true
 }
