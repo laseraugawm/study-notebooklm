@@ -7,7 +7,7 @@ X-WR-CALNAME:학습자료 생성 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:2026-10-30@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:학습자료 완료 138건
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:학습자료 완료 49건
@@ -188,7 +188,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:학습자료 완료 51건
@@ -264,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:학습자료 완료 43건
@@ -322,7 +322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:학습자료 완료 52건
@@ -381,7 +381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:학습자료 완료 52건
@@ -435,7 +435,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:학습자료 완료 29건
@@ -470,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:학습자료 완료 16건
@@ -495,7 +495,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:학습자료 완료 16건
@@ -518,7 +518,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:학습자료 완료 16건
@@ -542,7 +542,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:학습자료 완료 21건
@@ -581,62 +581,62 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-SUMMARY:학습자료 완료 6 · 예정 26건
+SUMMARY:학습자료 완료 9 · 예정 23건
 DESCRIPTION:✔ 통합사회 Ⅲ-01-1 자본주의는 역사적으로 어
  떻게 전개되었을까? — 오디오 보충 1\n✔ 통합사회 Ⅲ-02
  -1 합리적 선택의 의미와 한계는 무엇일까? — 오디오 보
- 충 1\n✔ 통합과학 Ⅱ-1-04 지구 환경 변화와 우리 생활 —
-  비디오\n✔ 통합과학 Ⅱ-2-01 지구의 에너지원\, 태양 에
- 너지 — 비디오\n✔ 통합과학 Ⅱ-2-02 전기 에너지 생산과
-  발전기 — 비디오\n✔ 정보 Ⅰ-02b 마이크로비트로 사물 
- 인터넷 실습과 문제 해결 — 오디오 보충 1\n· 통합사회 
- Ⅰ-01-1 인권은 어떤 과정을 거쳐 발전해 왔을까? — 오디
- 오 보충 2\n· 통합사회 Ⅰ-01-2 현대 사회에서 새롭게 등
- 장한 인권에는 무엇이 있을까? — 오디오 보충 2\n· 통합
- 사회 Ⅰ-02-1 인권 보장을 위한 헌법의 역할은 무엇일까? 
- — 오디오 보충 2\n· 통합사회 Ⅰ-02-2 시민 참여 방안에
- 는 어떤 것들이 있을까? — 오디오 보충 2\n· 통합사회 
- Ⅰ-03-1 국내 인권 문제의 양상과 해결 방안은 무엇일까? 
- — 오디오 보충 2\n· 통합사회 Ⅰ-03-2 세계 인권 문제의 
- 양상과 해결 방안은 무엇일까? — 오디오 보충 2\n· 통합
- 사회 Ⅱ-01-1 정의의 의미와 정의가 요구되는 이유는 무
- 엇일까? — 오디오 보충 2\n· 통합사회 Ⅱ-01-2 정의의 실
- 질적 기준은 무엇일까? — 오디오 보충 2\n· 통합사회 Ⅱ
- -02-1 자유주의적 정의관과 공동체주의적 정의관의 특징
- 은 무엇일까? — 오디오 보충 2\n· 통합사회 Ⅱ-03-2 정의
- 로운 사회를 만들려면 어떤 제도와 시민의 노력이 필요
- 할까? — 오디오 보충 2\n· 통합사회 Ⅲ-02-2 지속가능발
- 전을 위한 경제 주체의 바람직한 역할과 책임은 무엇일
- 까? — 오디오 보충 1\n· 통합사회 Ⅲ-03-1 자산 관리와 금
- 융 생활 설계\, 어떻게 해야 할까? — 오디오 보충 1\n· 
- 통합사회 Ⅲ-04-1 무역은 왜 발생할까? — 오디오 보충 1\n
- · 통합사회 Ⅲ-04-2 지속가능발전에 기여할 수 있는 국제
-  무역의 방안은 무엇일까? — 오디오 보충 1\n· 통합사회
-  Ⅳ-01-1 세계화는 다양한 양상으로 나타난다 — 오디오 
- 보충 1\n· 통합사회 Ⅳ-02-1 평화가 소중한 이유는 무엇일
- 까? — 오디오 보충 1\n· 통합사회 Ⅳ-02-2 국제 사회의 모
- 습과 세계 평화를 위한 행위 주체의 바람직한 역할은 무
- 엇일까? — 오디오 보충 1\n· 통합사회 Ⅳ-03-1 남북 분단 
- 상황을 평화적으로 해결하려면 어떤 노력이 필요할까? 
- — 오디오 보충 1\n· 통합사회 Ⅳ-03-2 동아시아 역사 갈
- 등 상황의 해결 방안은 무엇일까? — 오디오 보충 1\n· 
- 통합사회 Ⅳ-03-3 우리나라가 세계 평화에 기여할 수 있
- 는 방안에는 무엇이 있을까? — 오디오 보충 1\n· 통합사
- 회 Ⅴ-01-1 세계의 인구는 어디에 분포하고 어떻게 변화
- 할까? — 오디오 보충 1\n· 통합과학 Ⅱ-2-03 화력·핵발전
- 의 영향 — 비디오\n· 통합과학 Ⅱ-2-04 에너지 전환과 효
- 율적 이용 — 비디오\n· 통합과학 Ⅱ-2-05 신재생 에너지 
- 기술 활용 — 비디오\n· 통합사회 Ⅰ-01-1 인권은 어떤 과
- 정을 거쳐 발전해 왔을까? — 비디오 보충 2\n· 통합과학
-  Ⅲ-1-01 미래 사회 문제 해결과 과학 — 비디오
+ 충 1\n✔ 통합사회 Ⅲ-02-2 지속가능발전을 위한 경제 주
+ 체의 바람직한 역할과 책임은 무엇일까? — 오디오 보충
+  1\n✔ 통합사회 Ⅲ-03-1 자산 관리와 금융 생활 설계\, 어
+ 떻게 해야 할까? — 오디오 보충 1\n✔ 통합사회 Ⅲ-04-1 
+ 무역은 왜 발생할까? — 오디오 보충 1\n✔ 통합과학 Ⅱ-1
+ -04 지구 환경 변화와 우리 생활 — 비디오\n✔ 통합과학 
+ Ⅱ-2-01 지구의 에너지원\, 태양 에너지 — 비디오\n✔ 통
+ 합과학 Ⅱ-2-02 전기 에너지 생산과 발전기 — 비디오\n✔
+  정보 Ⅰ-02b 마이크로비트로 사물 인터넷 실습과 문제 
+ 해결 — 오디오 보충 1\n· 통합사회 Ⅰ-01-1 인권은 어떤 
+ 과정을 거쳐 발전해 왔을까? — 오디오 보충 2\n· 통합사
+ 회 Ⅰ-01-2 현대 사회에서 새롭게 등장한 인권에는 무엇
+ 이 있을까? — 오디오 보충 2\n· 통합사회 Ⅰ-02-1 인권 보
+ 장을 위한 헌법의 역할은 무엇일까? — 오디오 보충 2\n·
+  통합사회 Ⅰ-02-2 시민 참여 방안에는 어떤 것들이 있을
+ 까? — 오디오 보충 2\n· 통합사회 Ⅰ-03-1 국내 인권 문제
+ 의 양상과 해결 방안은 무엇일까? — 오디오 보충 2\n· 
+ 통합사회 Ⅰ-03-2 세계 인권 문제의 양상과 해결 방안은 
+ 무엇일까? — 오디오 보충 2\n· 통합사회 Ⅱ-01-1 정의의 
+ 의미와 정의가 요구되는 이유는 무엇일까? — 오디오 보
+ 충 2\n· 통합사회 Ⅱ-01-2 정의의 실질적 기준은 무엇일까
+ ? — 오디오 보충 2\n· 통합사회 Ⅱ-02-1 자유주의적 정의
+ 관과 공동체주의적 정의관의 특징은 무엇일까? — 오디
+ 오 보충 2\n· 통합사회 Ⅱ-03-2 정의로운 사회를 만들려면
+  어떤 제도와 시민의 노력이 필요할까? — 오디오 보충 2
+ \n· 통합사회 Ⅲ-04-2 지속가능발전에 기여할 수 있는 국
+ 제 무역의 방안은 무엇일까? — 오디오 보충 1\n· 통합사
+ 회 Ⅳ-01-1 세계화는 다양한 양상으로 나타난다 — 오디
+ 오 보충 1\n· 통합사회 Ⅳ-02-1 평화가 소중한 이유는 무
+ 엇일까? — 오디오 보충 1\n· 통합사회 Ⅳ-02-2 국제 사회
+ 의 모습과 세계 평화를 위한 행위 주체의 바람직한 역할
+ 은 무엇일까? — 오디오 보충 1\n· 통합사회 Ⅳ-03-1 남북 
+ 분단 상황을 평화적으로 해결하려면 어떤 노력이 필요
+ 할까? — 오디오 보충 1\n· 통합사회 Ⅳ-03-2 동아시아 역
+ 사 갈등 상황의 해결 방안은 무엇일까? — 오디오 보충 1
+ \n· 통합사회 Ⅳ-03-3 우리나라가 세계 평화에 기여할 수 
+ 있는 방안에는 무엇이 있을까? — 오디오 보충 1\n· 통합
+ 사회 Ⅴ-01-1 세계의 인구는 어디에 분포하고 어떻게 변
+ 화할까? — 오디오 보충 1\n· 통합과학 Ⅱ-2-03 화력·핵발
+ 전의 영향 — 비디오\n· 통합과학 Ⅱ-2-04 에너지 전환과 
+ 효율적 이용 — 비디오\n· 통합과학 Ⅱ-2-05 신재생 에너
+ 지 기술 활용 — 비디오\n· 통합사회 Ⅰ-01-1 인권은 어떤
+  과정을 거쳐 발전해 왔을까? — 비디오 보충 2\n· 통합
+ 과학 Ⅲ-1-01 미래 사회 문제 해결과 과학 — 비디오
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:학습자료 예정 32건
@@ -685,7 +685,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:학습자료 예정 32건
@@ -725,7 +725,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:학습자료 예정 25건
@@ -756,7 +756,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:학습자료 예정 8건
@@ -774,7 +774,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:학습자료 예정 8건
@@ -791,7 +791,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:학습자료 예정 8건
@@ -808,7 +808,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:학습자료 예정 8건
@@ -824,7 +824,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:학습자료 예정 8건
@@ -840,7 +840,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:학습자료 예정 8건
@@ -857,7 +857,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:학습자료 예정 8건
@@ -879,7 +879,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:학습자료 예정 8건
@@ -897,7 +897,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@study-notebooklm
-DTSTAMP:20261110T001001Z
+DTSTAMP:20261110T002001Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:학습자료 예정 2건
