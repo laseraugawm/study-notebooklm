@@ -7,7 +7,7 @@ X-WR-CALNAME:학습자료 생성 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:2026-10-30@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:학습자료 완료 138건
@@ -104,7 +104,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:학습자료 완료 49건
@@ -188,7 +188,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:학습자료 완료 51건
@@ -264,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:학습자료 완료 43건
@@ -322,7 +322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:학습자료 완료 52건
@@ -381,7 +381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:학습자료 완료 52건
@@ -435,7 +435,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:학습자료 완료 29건
@@ -470,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:학습자료 완료 16건
@@ -495,7 +495,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:학습자료 완료 16건
@@ -518,7 +518,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:학습자료 완료 16건
@@ -542,7 +542,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:학습자료 완료 21건
@@ -581,7 +581,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:학습자료 완료 12건
@@ -606,7 +606,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:학습자료 완료 16건
@@ -638,7 +638,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:학습자료 완료 14건
@@ -663,7 +663,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:학습자료 완료 12건
@@ -685,7 +685,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:학습자료 완료 8 · 예정 23건
@@ -735,7 +735,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:학습자료 예정 32건
@@ -785,7 +785,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:학습자료 예정 32건
@@ -803,64 +803,67 @@ DESCRIPTION:· 통합과학 Ⅱ-2-04 에너지 전환과 효율적 이용
  해결 — 오디오 보충 2\n· 정보 Ⅱ-01 디지털 데이터 압축
   — 오디오 보충 2\n· 정보 Ⅱ-02 디지털 데이터 암호화 
  — 오디오 보충 2\n· 정보 Ⅱ-03 빅데이터 개념과 분석 —
-  오디오 보충 2\n· 정보 Ⅲ-02 알고리즘 — 오디오 보충 1\
- n· 정보 Ⅲ-06 객체지향 프로그래밍 — 오디오 보충 1\n· 
- 정보 Ⅲ-07 창의 융합 프로그래밍 — 오디오 보충 1\n· 정
- 보 Ⅳ-01 인공지능과 지능 에이전트 — 오디오 보충 1\n· 
- 정보 Ⅴ-01 디지털 사회와 진로 — 오디오 보충 1\n· 국어
-  1-(1) 사회적 독서 활동에 참여하기 — 오디오 보충 1\n· 
- 국어 1-(2) 주제 통합적 읽기와 논증하는 글 쓰기 — 오디
- 오 보충 1\n· 국어 2-(2) 옛이야기의 즐거움 — 오디오 보
- 충 1\n· 국어 2-(3) 현대 시의 시선 — 오디오 보충 1\n· 국
- 어 2-(4) 현대 소설의 빛깔 — 오디오 보충 1\n· 국어 3-(1) 
- 함께 만족하는 협상 — 오디오 보충 1\n· 국어 3-(2) 작문 
- 관습을 고려한 글쓰기 — 오디오 보충 1\n· 정보 Ⅴ-01 디
- 지털 사회와 진로 — 비디오\n· 정보 Ⅴ-02 정보 보호와 
- 보안 — 비디오\n· 통합사회 Ⅰ-02-2 시민 참여 방안에는 
- 어떤 것들이 있을까? — 비디오 보충 1\n· 국어 1-(1) 사회
- 적 독서 활동에 참여하기 — 비디오\n· 국어 1-(2) 주제 
- 통합적 읽기와 논증하는 글 쓰기 — 비디오\n· 국어 2-(1)
-  옛 노래의 향기 — 비디오\n· 통합사회 Ⅰ-03-1 국내 인
- 권 문제의 양상과 해결 방안은 무엇일까? — 비디오 보
- 충 1\n· 국어 2-(2) 옛이야기의 즐거움 — 비디오
+  오디오 보충 2\n· 정보 Ⅲ-01 문제 분해와 모델링 — 오
+ 디오 보충 2\n· 정보 Ⅲ-02 알고리즘 — 오디오 보충 1\n· 
+ 정보 Ⅲ-03 프로그래밍의 이해 — 오디오 보충 2\n· 정보 
+ Ⅲ-05 함수와 라이브러리 — 오디오 보충 2\n· 정보 Ⅲ-06 
+ 객체지향 프로그래밍 — 오디오 보충 1\n· 정보 Ⅲ-07 창
+ 의 융합 프로그래밍 — 오디오 보충 1\n· 정보 Ⅳ-01 인공
+ 지능과 지능 에이전트 — 오디오 보충 1\n· 정보 Ⅴ-01 디
+ 지털 사회와 진로 — 오디오 보충 1\n· 국어 1-(1) 사회적 
+ 독서 활동에 참여하기 — 오디오 보충 1\n· 국어 1-(2) 주
+ 제 통합적 읽기와 논증하는 글 쓰기 — 오디오 보충 1\n·
+  국어 2-(2) 옛이야기의 즐거움 — 오디오 보충 1\n· 국어 
+ 2-(3) 현대 시의 시선 — 오디오 보충 1\n· 정보 Ⅴ-01 디지
+ 털 사회와 진로 — 비디오\n· 정보 Ⅴ-02 정보 보호와 보
+ 안 — 비디오\n· 통합사회 Ⅰ-02-2 시민 참여 방안에는 어
+ 떤 것들이 있을까? — 비디오 보충 1\n· 국어 1-(1) 사회적
+  독서 활동에 참여하기 — 비디오\n· 국어 1-(2) 주제 통
+ 합적 읽기와 논증하는 글 쓰기 — 비디오\n· 국어 2-(1) 
+ 옛 노래의 향기 — 비디오\n· 통합사회 Ⅰ-03-1 국내 인권
+  문제의 양상과 해결 방안은 무엇일까? — 비디오 보충 1
+ \n· 국어 2-(2) 옛이야기의 즐거움 — 비디오
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-SUMMARY:학습자료 예정 28건
-DESCRIPTION:· 국어 4-(1) 국어가 걸어온 길 — 오디오 보충 1\
- n· 국어 4-(2) 바르고 정확한 국어생활 — 오디오 보충 1\n
- · 국어 4-(3) 매체와 함께하는 생활 — 오디오 보충 1\n· 
- 영어 L1 Make Your World a Better Place — 오디오 보충 1\n· 영어
-  L2 From Tradition to Trend — 오디오 보충 1\n· 영어 L3 Beyond Ba
- rriers — 오디오 보충 1\n· 영어 L4 The Essence of Being Human —
-  오디오 보충 1\n· 수학 Ⅰ-1-01 평면좌표 — 오디오 보충 
- 1\n· 수학 Ⅰ-1-02 직선의방정식 — 오디오 보충 1\n· 수학
-  Ⅰ-2-01 원의방정식 — 오디오 보충 1\n· 수학 Ⅰ-2-02 원
- 과직선 — 오디오 보충 1\n· 수학 Ⅱ-1-01 집합의뜻과포함
- 관계 — 오디오 보충 1\n· 수학 Ⅱ-1-02 집합의연산 — 오
- 디오 보충 1\n· 수학 Ⅱ-2-01 명제와조건 — 오디오 보충 1
- \n· 수학 Ⅱ-2-02 명제사이의관계 — 오디오 보충 1\n· 수
- 학 Ⅱ-2-03 명제의증명 — 오디오 보충 1\n· 수학 Ⅲ-1-01 
- 함수의뜻과그래프 — 오디오 보충 1\n· 수학 Ⅲ-1-02 합성
- 함수와역함수 — 오디오 보충 1\n· 수학 Ⅲ-2-01 유리함수
-  — 오디오 보충 1\n· 수학 Ⅲ-2-02 무리함수 — 오디오 보
- 충 1\n· 국어 2-(3) 현대 시의 시선 — 비디오\n· 국어 2-(4)
-  현대 소설의 빛깔 — 비디오\n· 통합사회 Ⅰ-03-2 세계 
- 인권 문제의 양상과 해결 방안은 무엇일까? — 비디오 
- 보충 1\n· 국어 3-(1) 함께 만족하는 협상 — 비디오\n· 국
- 어 3-(2) 작문 관습을 고려한 글쓰기 — 비디오\n· 국어 4-
- (1) 국어가 걸어온 길 — 비디오\n· 통합사회 Ⅱ-01-2 정의
- 의 실질적 기준은 무엇일까? — 비디오 보충 1\n· 국어 4-
- (2) 바르고 정확한 국어생활 — 비디오
+SUMMARY:학습자료 예정 31건
+DESCRIPTION:· 국어 2-(4) 현대 소설의 빛깔 — 오디오 보충 1\
+ n· 국어 3-(1) 함께 만족하는 협상 — 오디오 보충 1\n· 국
+ 어 3-(2) 작문 관습을 고려한 글쓰기 — 오디오 보충 1\n· 
+ 국어 4-(1) 국어가 걸어온 길 — 오디오 보충 1\n· 국어 4-(
+ 2) 바르고 정확한 국어생활 — 오디오 보충 1\n· 국어 4-(3
+ ) 매체와 함께하는 생활 — 오디오 보충 1\n· 영어 L1 Make 
+ Your World a Better Place — 오디오 보충 1\n· 영어 L2 From Tradit
+ ion to Trend — 오디오 보충 1\n· 영어 L3 Beyond Barriers — 오
+ 디오 보충 1\n· 영어 L4 The Essence of Being Human — 오디오 보
+ 충 1\n· 수학 Ⅰ-1-01 평면좌표 — 오디오 보충 1\n· 수학 
+ Ⅰ-1-02 직선의방정식 — 오디오 보충 1\n· 수학 Ⅰ-2-01 원
+ 의방정식 — 오디오 보충 1\n· 수학 Ⅰ-2-02 원과직선 — 
+ 오디오 보충 1\n· 수학 Ⅱ-1-01 집합의뜻과포함관계 — 오
+ 디오 보충 1\n· 수학 Ⅱ-1-02 집합의연산 — 오디오 보충 1
+ \n· 수학 Ⅱ-2-01 명제와조건 — 오디오 보충 1\n· 수학 Ⅱ
+ -2-02 명제사이의관계 — 오디오 보충 1\n· 수학 Ⅱ-2-03 명
+ 제의증명 — 오디오 보충 1\n· 수학 Ⅲ-1-01 함수의뜻과그
+ 래프 — 오디오 보충 1\n· 수학 Ⅲ-1-02 합성함수와역함수
+  — 오디오 보충 1\n· 수학 Ⅲ-2-01 유리함수 — 오디오 보
+ 충 1\n· 수학 Ⅲ-2-02 무리함수 — 오디오 보충 1\n· 국어 2
+ -(3) 현대 시의 시선 — 비디오\n· 국어 2-(4) 현대 소설의 
+ 빛깔 — 비디오\n· 통합사회 Ⅰ-03-2 세계 인권 문제의 양
+ 상과 해결 방안은 무엇일까? — 비디오 보충 1\n· 국어 3-
+ (1) 함께 만족하는 협상 — 비디오\n· 국어 3-(2) 작문 관
+ 습을 고려한 글쓰기 — 비디오\n· 국어 4-(1) 국어가 걸어
+ 온 길 — 비디오\n· 통합사회 Ⅱ-01-2 정의의 실질적 기준
+ 은 무엇일까? — 비디오 보충 1\n· 국어 4-(2) 바르고 정확
+ 한 국어생활 — 비디오
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:학습자료 예정 8건
@@ -877,7 +880,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:학습자료 예정 8건
@@ -893,7 +896,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:학습자료 예정 8건
@@ -909,7 +912,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:학습자료 예정 8건
@@ -927,7 +930,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:학습자료 예정 8건
@@ -949,7 +952,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:학습자료 예정 8건
@@ -968,7 +971,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:학습자료 예정 8건
@@ -986,7 +989,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:학습자료 예정 8건
@@ -1004,7 +1007,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26@study-notebooklm
-DTSTAMP:20261114T034002Z
+DTSTAMP:20261114T035001Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:학습자료 예정 6건
